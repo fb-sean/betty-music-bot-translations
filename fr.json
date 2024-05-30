@@ -28,7 +28,7 @@
     "listenHere": "Écouter ici",
     "nowPlaying": "Joue en ce moment **{songName} - {artist}**",
     "playing": "En train de jouer {songName} - {artist}",
-    "requestedBy": "Demandé par  {requester}",
+    "requestedBy": "Demandé par {requester}",
     "nextSong": "La prochaine chanson est **{songName}**",
     "autoPlayInfo": "Commence à jouer des chansons recommandées. Pour obtenir de nouvelles recommandations, veuillez libérer la file d'attente.",
     "autoPlayFooter": "Cette chanson a été ajoutée automatiquement par la fonctionnalité de lecture automatique.",
@@ -164,7 +164,7 @@
     "filePlaySuccessfullyNow": "Lecture du fichier **{title}** en cours.",
     "trackPlaySuccessfully": "J'ai ajouté {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") à la file d'attente à la position **{position}**.",
     "trackPlaySuccessfullyNow": "Lecture de {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") en cours.",
-    "playlistPlaySuccessfully": "J'ai ajouté la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\")  à la file d'attente.",
+    "playlistPlaySuccessfully": "J'ai ajouté la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\") à la file d'attente.",
     "playlistPlaySuccessfullyNow": "Lecture de la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\") en cours."
   },
   "joinCommand": {
