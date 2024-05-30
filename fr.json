@@ -1,7 +1,7 @@
 {
   "global": {
     "premiumRequired": "Afin d'utiliser cette fonctionnalité, vous devez posséder Betty Premium pour ce serveur. Vous pouvez l'acheter sur https://betty.cx/premium à partir de 2,50$ !",
-    "premiumQueueLimitReached": "Vous avez atteint la limite de la file d'attente pour les utilisateurs gratuits. Vous pouvez ajouter jusqu'à 1500 chansons à la file d'attente. Vous pouvez acheter Betty premium sur https://betty.cx/premium à partir de 2,50$ pour augmenter la limite à 100 chansons.",
+    "premiumQueueLimitReached": "Vous avez atteint la limite de la file d'attente pour les utilisateurs gratuits. Vous pouvez ajouter jusqu'à 1500 chansons à la file d'attente. Vous pouvez acheter Betty premium sur https://betty.cx/premium à partir de 2,50$ pour augmenter la limite de 100 chansons.",
     "unknownCommand": "Oh non ! Je ne connais pas cette commande. Si cette erreur persiste, veuillez contacter le support.",
     "unknownButton": "Oh non ! Je ne connais pas ce bouton. Si cette erreur persiste, veuillez contacter le support.",
     "unknownSelectMenu": "Oh non ! Je ne connais pas ce menu de sélection. Si cette erreur persiste, veuillez contacter le support.",
@@ -46,7 +46,7 @@
     "lastPage": "Dernière Page",
     "selectLikeType": "Où souhaitez-vous ajouter la chanson à votre liste de favoris - Discord, Spotify ou Deezer ?",
     "serverBlacklisted": "Ce serveur est sur liste noire et ne peut pas utiliser Betty. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le support.",
-    "unlikedSong": "Vous avez déjà aimé la chanson **{title}** donc je l'ai supprimée.",
+    "unlikedSong": "Vous avez déjà aimé la chanson **{title}**, je l'ai donc supprimée.",
     "likedSong": "J'ai aimé la chanson **{title}**.",
     "boostPremium": "Améliorez votre serveur avec Premium !",
     "songAlreadyInQueue": "La chanson **{title}** est déjà dans la file d'attente et en raison des paramètres du serveur, je ne peux pas l'ajouter à nouveau.",
@@ -161,11 +161,11 @@
     "invalidFile": "Le fichier que vous avez téléchargé n'est pas un fichier audio valide. Assurez-vous qu'il s'agit d'un fichier MP3 valide et réessayez.",
     "playlistNowError": "Vous ne pouvez pas jouer une playlist directement lorsque vous avez déjà des chansons dans la file d'attente.",
     "filePlaySuccessfully": "J'ai ajouté le fichier avec le nom **{title}** à la file d'attente à la position **{position}**.",
-    "filePlaySuccessfullyNow": "Lecture du fichier **{title}** commencée.",
+    "filePlaySuccessfullyNow": "Lecture du fichier **{title}** en cours.",
     "trackPlaySuccessfully": "J'ai ajouté {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") à la file d'attente à la position **{position}**.",
-    "trackPlaySuccessfullyNow": "Lecture de {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") commencée.",
+    "trackPlaySuccessfullyNow": "Lecture de {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") en cours.",
     "playlistPlaySuccessfully": "J'ai ajouté la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\")  à la file d'attente.",
-    "playlistPlaySuccessfullyNow": "Lecture de la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\") commencée."
+    "playlistPlaySuccessfullyNow": "Lecture de la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\") en cours."
   },
   "joinCommand": {
     "commandData": {
@@ -374,7 +374,7 @@
     "commandData": {
       "description": "Obtenir des informations sur la chanson en cours de lecture."
     },
-    "nowPlaying": "En cours de lecture **{title} - {artist}**"
+    "nowPlaying": "En cours de lecture : **{title} - {artist}**"
   },
   "seekCommand": {
     "commandData": {
