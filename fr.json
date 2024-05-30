@@ -1,0 +1,592 @@
+{
+  "global": {
+    "premiumRequired": "Afin d'utiliser cette fonctionnalité, vous devez posséder Betty Premium pour ce serveur. Vous pouvez l'acheter sur https://betty.cx/premium à partir de 2,50$ !",
+    "premiumQueueLimitReached": "Vous avez atteint la limite de la file d'attente pour les utilisateurs gratuits. Vous pouvez ajouter jusqu'à 1500 chansons à la file d'attente. Vous pouvez acheter Betty premium sur https://betty.cx/premium à partir de 2,50$ pour augmenter la limite de 100 chansons.",
+    "unknownCommand": "Oh non ! Je ne connais pas cette commande. Si cette erreur persiste, veuillez contacter le support.",
+    "unknownButton": "Oh non ! Je ne connais pas ce bouton. Si cette erreur persiste, veuillez contacter le support.",
+    "unknownSelectMenu": "Oh non ! Je ne connais pas ce menu de sélection. Si cette erreur persiste, veuillez contacter le support.",
+    "unknownModal": "Oh non ! Je ne connais pas ce formulaire. Si cette erreur persiste, veuillez contacter le support.",
+    "unknownError": "Oh non ! Il y a eu un problème. Si cette erreur persiste, veuillez contacter le support.",
+    "serverOnly": "Cette fonctionnalité ne peut être utilisée que dans les serveurs.",
+    "needVoice": "Vous devez être dans un salon vocal pour utiliser cette fonctionnalité.",
+    "cannotJoin": "Je ne peux pas rejoindre ce salon vocal. Veuillez vous assurer que j'ai les permissions nécessaires et réessayez.",
+    "noPlayer": "Il n'y a pas de lecteur audio sur ce serveur. Utilisez {{command:join}} pour en créer un !",
+    "emptyQueue": "La file d'attente est vide. Utilisez {{command:play}} pour ajouter des chansons !",
+    "notSameVoiceChannel": "Vous devez être dans le même salon vocal que moi pour utiliser cette fonctionnalité.",
+    "notInSongRequestChannelUseAble": "Vous ne pouvez pas utiliser cette commande à l'intérieur du salon de demande de chanson.",
+    "botNoPermission": "Je n'ai pas les permissions nécessaires pour effectuer cette action. J'ai besoin de la permission {missingPerms} dans ce salon. Veuillez vous assurer que j'ai les permissions nécessaires et réessayez.",
+    "userNoPermission": "Vous n'avez pas les permissions nécessaires pour effectuer cette action. Vous avez besoin de la permission {missingPerms} dans ce salon.",
+    "djOnly": "Seuls les DJ peuvent utiliser cette fonctionnalité.",
+    "notAllowedToJoinBecauseOfGuildSettings": "Je ne suis pas autorisé à rejoindre ce salon vocal à cause des paramètres du serveur.",
+    "cooldownMessage": "Vous êtes en attente. Veuillez attendre {time} avant d'utiliser à nouveau cette fonctionnalité.",
+    "poweredBy": "Propulsé par Betty.cx",
+    "invite": "Inviter",
+    "support": "Support",
+    "website": "Site web",
+    "subscriptions": "Gérer les abonnements",
+    "premium": "Premium",
+    "listenHere": "Écouter ici",
+    "nowPlaying": "Joue en ce moment **{songName} - {artist}**",
+    "playing": "En train de jouer {songName} - {artist}",
+    "requestedBy": "Demandé par {requester}",
+    "nextSong": "La prochaine chanson est **{songName}**",
+    "autoPlayInfo": "Commence à jouer des chansons recommandées. Pour obtenir de nouvelles recommandations, veuillez libérer la file d'attente.",
+    "autoPlayFooter": "Cette chanson a été ajoutée automatiquement par la fonctionnalité de lecture automatique.",
+    "premiumThankYou": "Merci d'avoir acheté l'abonnement Premium pour Betty ! Vous pouvez désormais utiliser toutes les fonctionnalités Premium sur {{serverName}} !",
+    "premiumThankYouCustomBot": "Merci d'avoir acheté un robot personnalisé pour Betty ! Vous pouvez commencer directement avec la configuration sur le tableau de bord !",
+    "premiumPaymentFailed": "Un de vos abonnements à Betty a échoué en raison d'un problème de paiement. Veuillez vérifier vos méthodes de paiement. Par conséquent, votre statut Premium a été supprimé. Si la prochaine tentative de paiement réussit, votre abonnement Premium sera rétabli.",
+    "guildJoinDm": "### Salut !\nMerci d'avoir ajouté Betty à votre serveur ! Vous pouvez utiliser {{command:help}} pour savoir par où commencer.\n### Betty Premium\nBetty dispose également d'un abonnement Premium qui vous donne accès à certaines fonctionnalités intéressantes comme une file d'attente plus grande, la commande {{command:lyrics}} et plus encore. Vous pouvez obtenir plus d'informations sur l'abonnement Premium en visitant notre site web.",
+    "nothingFound": "Je n'ai rien trouvé pour cette requête.",
+    "noPlayerFound": "Je n'ai pas trouvé ou créé de lecteur audio pour ce serveur. Veuillez réessayer plus tard.",
+    "devOnly": "Ce robot est actuellement en mode de développement et seul le développeur peut utiliser le robot. Veuillez rejoindre le serveur de support pour plus d'informations.",
+    "noSpotifyConnection": "Vous n'avez pas de compte Spotify connecté à Betty. Utilisez la commande {{command:spotify login}} pour connecter votre compte.",
+    "firstPage": "Première Page",
+    "previousPage": "Page Précédente",
+    "nextPage": "Page Suivante",
+    "lastPage": "Dernière Page",
+    "selectLikeType": "Où souhaitez-vous ajouter la chanson à votre liste de favoris - Discord, Spotify ou Deezer ?",
+    "serverBlacklisted": "Ce serveur est sur liste noire et ne peut pas utiliser Betty. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le support.",
+    "unlikedSong": "Vous avez déjà aimé la chanson **{title}**, je l'ai donc supprimée.",
+    "likedSong": "J'ai aimé la chanson **{title}**.",
+    "boostPremium": "Améliorez votre serveur avec Premium !",
+    "songAlreadyInQueue": "La chanson **{title}** est déjà dans la file d'attente et en raison des paramètres du serveur, je ne peux pas l'ajouter à nouveau.",
+    "responseEmptyAfterFilter": "Les résultats sont vides suite à l'application du filtre \"empêcher les chansons dupliquées\". Veuillez réessayer avec une autre requête.",
+    "serverNotWhitelisted": "Ce serveur n'est pas sur la liste blanche et ne peut pas utiliser ce robot personnalisé de Betty. Si vous êtes le propriétaire du robot personnalisé, veuillez utiliser le tableau de bord pour ajouter le serveur à la liste blanche.",
+    "autoPlayAlreadyEnabled": "La fonctionnalité de lecture automatique est déjà activée. Pour la désactiver, veuillez visiter le tableau de bord.",
+    "autoPlayEnabled": "La fonctionnalité de lecture automatique a été activée. Pour la désactiver, veuillez visiter le tableau de bord.",
+    "notMySong": "**Ce n'est pas votre chanson ?**\nSi le robot n'a pas trouvé exactement la chanson que vous voulez jouer, essayez ces méthodes :\n1. Essayez d'ajouter la chanson par le lien de la chanson. (Ex. de Spotify)\n2. Essayez d'ajouter la chanson par titre - artiste. (Ex. Believer - Imagine Dragons)\n3. Essayez de trouver la chanson avec la commande {{command:search}}.",
+    "queueLimitReached": "Vous avez atteint la limite de file d'attente définie de **{limit}** pour ce serveur. Veuillez attendre que certaines chansons soient jouées ou retirées de la file d'attente avant d'en ajouter de nouvelles.",
+    "queueUserLimitReached": "Vous avez atteint la limite de file d'attente définie de **{limit}** pour vous. Veuillez attendre que certaines chansons soient jouées ou retirées de la file d'attente avant d'en ajouter de nouvelles.",
+    "empty": "Vide",
+    "noLavalink": "Aucun serveur audio de Betty n'est actuellement disponible. Veuillez réessayer plus tard. Si cette erreur persiste, veuillez contacter le support.",
+    "restartInfo": "Le robot a été redémarré en raison d'une mise à jour. Betty reconnecte maintenant tous les lecteurs audio existants. Veuillez patienter quelques secondes jusqu'à ce que le robot soit prêt à nouveau.",
+    "spotifyWarning": "Étant donné que Betty n'est pas encore vérifié par Spotify, l'intégration de Spotify de Betty échoue presque toujours car ils nous demandent d'ajouter chaque utilisateur par e-mail et nom complet dans le tableau de bord du développeur. Ceci n'est pas possible pour nous en raison de raisons de confidentialité. Nous travaillons sur une solution pour résoudre ce problème."
+  },
+  "nonPremiumTips": {
+    "tip1": "Saviez-vous que vous pouvez obtenir une meilleure qualité audio avec Betty Premium ? <https://betty.cx/premium>",
+    "tip2": "Saviez-vous que vous pouvez connecter votre compte Spotify à Betty pour importer facilement des playlists ?",
+    "tip3": "Saviez-vous que vous pouvez libérer automatiquement la file d'attente si un membre quitte le salon vocal avec Betty Premium ? <https://betty.cx/premium>",
+    "tip4": "Saviez-vous que vous pouvez obtenir une autre Betty avec Premium pour votre serveur ? <https://betty.cx/premium>",
+    "tip5": "Saviez-vous que vous pouvez éviter les chansons dupliquées dans la file d'attente avec Betty Premium ? <https://betty.cx/premium>",
+    "tip6": "Saviez-vous que vous pouvez obtenir des recommandations basées sur votre historique d'écoute avec {{command:recommend}} ?",
+    "tip7": "Saviez-vous que Betty dispose d'un tableau de bord où vous pouvez configurer le robot pour votre serveur ? <https://betty.cx/dash>",
+    "tip8": "Saviez-vous que vous pouvez activer une fonctionnalité appelée DJ temporaire ? Cela permet au créateur du lecteur audio d'accéder aux commandes DJ sans le rôle de DJ. Configurez-le ici : <https://betty.cx/dash> !"
+  },
+  "timeUnits": {
+    "multiple": {
+      "days": "jours",
+      "hours": "heures",
+      "minutes": "minutes",
+      "seconds": "secondes"
+    },
+    "single": {
+      "days": "jour",
+      "hours": "heure",
+      "minutes": "minute",
+      "seconds": "seconde"
+    }
+  },
+  "buttonLabels": {
+    "support": "Rejoindre le serveur de support",
+    "customBotDashboard": "Tableau de bord du robot personnalisé",
+    "loop": "Boucle",
+    "remove": "Supprimer",
+    "shuffle": "Mélanger la file d'attente",
+    "savequeueasplaylist": "Enregistrer la file d'attente comme playlist",
+    "savehistoryasplaylist": "Enregistrer l'historique comme playlist",
+    "playhistory": "Jouer l'historique",
+    "clearhistory": "Vider l'historique",
+    "enableautoplay": "Obtenez une file d'attente sans fin, activez la lecture automatique.",
+    "thatsnotmysong": "Ce n'est pas la chanson que j'ai demandée ?",
+    "playlist": {
+      "manageplaylistsongs": "Gérer / Voir les chansons",
+      "renameplaylist": "Renommer",
+      "toggleprivateplaylist": "Activer / Désactiver Privé",
+      "playplaylist": "Jouer la playlist",
+      "deleteplaylist": "Supprimer la playlist",
+      "transfareplaylist": "Transférer la playlist",
+      "importspotifyplaylist": "Importer des chansons de Spotify",
+      "playlistremovesong": "Sélectionnez les chansons que vous souhaitez supprimer.",
+      "addsongtoplaylist": "Ajouter une chanson à la playlist",
+      "backtoplaylist": "Retour à la playlist",
+      "shareplaylist": "Partager la playlist"
+    },
+    "joinchannel": "Rejoindre votre salon vocal actuel"
+  },
+  "destoryReasons": {
+    "inactive": "Le lecteur audio a été détruit car il était inactif pendant trop longtemps. Utilisez {{command:play}} pour démarrer une nouvelle session !",
+    "errored": "Le lecteur audio a été détruit en raison d'une erreur. Si ce n'est pas la première fois au cours des 2 dernières heures, veuillez contacter le support. Utilisez {{command:play}} pour démarrer une nouvelle session !",
+    "queueEndWarning": "Plus de chansons à jouer. Utilisez {{command:play}} pour en ajouter plus ! Si aucune nouvelle chanson n'est ajoutée, le lecteur audio sera détruit dans 2 minutes.",
+    "queueEnd": "Plus de chansons à jouer, le lecteur audio a été détruit. Utilisez {{command:play}} pour démarrer une nouvelle session !",
+    "kickedFromVoiceChannel": "Le lecteur audio a été détruit car j'ai été expulsé du salon vocal. Utilisez {{command:play}} pour démarrer une nouvelle session !",
+    "emptyVoiceChannelWarning": "Je suis seule dans le salon vocal, le lecteur audio sera détruit dans 2 minutes si personne ne rejoint à nouveau.",
+    "emptyVoiceChannel": "Le lecteur audio a été détruit car le salon vocal est vide. Utilisez {{command:play}} pour démarrer une nouvelle session !"
+  },
+  "songRequestChannel": {
+    "footer": "Demandé par {username} | Propulsé par Betty.cx",
+    "noSongs": "Il n'y a pas de chansons dans la file d'attente. Ajoutez-en avec {{command:play}} ou en @mentionnant le robot et en tapant le nom ou l'URL dans ce salon.",
+    "noSongsPlaying": "Il n'y a pas de chansons en cours de lecture.",
+    "nextSongs": "Prochaines {number} chansons",
+    "nextSong": "Prochaine chanson",
+    "channelName": "demande-de-chansons",
+    "loadingMessage": "Création du salon de demande de chansons...",
+    "emptyQuery": "Veuillez fournir une requête valide. Gardez en tête que vous devez me mentionner sinon je ne peux pas voir votre message.",
+    "topic": {
+      "rewind": "Retour en arrière de 10 secondes",
+      "pauseResume": "Pause / Reprise de la lecture",
+      "stop": "Arrêter",
+      "forward": "Avancer de 10 secondes",
+      "skip": "Sauter la chanson en cours",
+      "volumeDown": "Volume -10%",
+      "volumeUp": "Volume +10%",
+      "grabSong": "Récupérer la chanson en cours",
+      "loopPlayback": "Jouer en boucle",
+      "shuffle": "Mélanger la file d'attente"
+    }
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "Obtenez le lien vers le serveur de support."
+    },
+    "response": "Vous pouvez rejoindre le serveur de support ici : {url}"
+  },
+  "playCommand": {
+    "commandData": {
+      "description": "Jouer une chanson ou l'ajouter à la file d'attente par lien ou par nom.",
+      "queryOption": "Votre requête pour rechercher une chanson ou un lien vers une chanson.",
+      "nowOption": "Sélectionnez si vous voulez jouer la chanson directement ou l'ajouter à la file d'attente.",
+      "platformOption": "Sélectionnez la plateforme où vous voulez effectuer la recherche.",
+      "fileOption": "Utilisez cette option pour télécharger un fichier à jouer. Le fichier doit être un fichier audio valide."
+    },
+    "invalidFile": "Le fichier que vous avez téléchargé n'est pas un fichier audio valide. Assurez-vous qu'il s'agit d'un fichier MP3 valide et réessayez.",
+    "playlistNowError": "Vous ne pouvez pas jouer une playlist directement lorsque vous avez déjà des chansons dans la file d'attente.",
+    "filePlaySuccessfully": "J'ai ajouté le fichier avec le nom **{title}** à la file d'attente à la position **{position}**.",
+    "filePlaySuccessfullyNow": "Lecture du fichier **{title}** en cours.",
+    "trackPlaySuccessfully": "J'ai ajouté {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") à la file d'attente à la position **{position}**.",
+    "trackPlaySuccessfullyNow": "Lecture de {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") en cours.",
+    "playlistPlaySuccessfully": "J'ai ajouté la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\") à la file d'attente.",
+    "playlistPlaySuccessfullyNow": "Lecture de la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\") en cours."
+  },
+  "joinCommand": {
+    "commandData": {
+      "description": "Rejoindre le salon vocal où vous êtes."
+    },
+    "success": "J'ai rejoint <#{channel}> avec succès.",
+    "alreadyConnected": "Je suis déjà connecté à un salon vocal."
+  },
+  "disconnectCommand": {
+    "commandData": {
+      "description": "Se déconnecter du salon vocal."
+    },
+    "success": "Je me suis déconnecté du salon vocal avec succès.",
+    "notConnected": "Je ne suis pas connecté à un salon vocal."
+  },
+  "stopCommand": {
+    "commandData": {
+      "description": "Arrêter le lecteur audio et vider la file d'attente."
+    },
+    "success": "Le lecteur audio a été arrêté et la file d'attente a été vidée.",
+    "removedVote": "Votre vote pour arrêter le lecteur audio a été retiré.",
+    "addedVote": "Votre vote pour arrêter le lecteur audio a été ajouté ({votes}/{requiredVotes})."
+  },
+  "switchCommand": {
+    "commandData": {
+      "description": "Changer de salon vocal."
+    },
+    "success": "Changement réussi de <#{oldChannel}> à <#{newChannel}>.",
+    "notConnected": "Je ne suis pas connecté à un salon vocal."
+  },
+  "searchCommand": {
+    "commandData": {
+      "description": "Rechercher une chanson et la sélectionner pour la jouer ou l'ajouter à la file d'attente.",
+      "queryOption": "Votre requête pour rechercher une chanson.",
+      "nowOption": "Sélectionnez si vous voulez jouer la chanson directement ou l'ajouter à la file d'attente.",
+      "platformOption": "Sélectionnez la plateforme où vous souhaitez effectuer la recherche."
+    },
+    "results": "Voici les résultats de recherche pour **{query}**.\n\n*Veuillez utiliser le menu déroulant ci-dessous pour sélectionner les chansons à jouer immédiatement ou à ajouter à votre file d'attente.*",
+    "selectPlaceholder": "Choisissez les chansons à jouer immédiatement ou à ajouter à votre file d'attente.",
+    "emptyQueueWithErrored": "J'ai commencé à jouer {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") et j'ai ajouté **{added}** autres chansons à la file d'attente, mais je n'ai pas pu ajouter **{errored}** chansons.",
+    "emptyQueue": "J'ai commencé à jouer {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") et j'ai ajouté **{added}** autres chansons à la file d'attente.",
+    "successWithErrored": "J'ai ajouté **{added}** chansons à la file d'attente, mais je n'ai pas pu ajouter **{errored}** chansons.",
+    "success": "J'ai ajouté **{added}** chansons à la file d'attente."
+  },
+  "skipCommand": {
+    "commandData": {
+      "description": "Sauter la chanson actuelle ou plusieurs chansons.",
+      "skipToOption": "Le nombre de chansons à sauter. (Le vote pour sauter ne prend pas en charge cela!)"
+    },
+    "noSongPlaying": "Il n'y a pas de chanson en cours de lecture. Je ne peux donc rien sauter.",
+    "skippedMultipleSongs": "**{count}** chansons ont été sautées avec succès.",
+    "skippedCurrentSong": "**[{title}]({url})** a été sauté avec succès.",
+    "removedVote": "Votre vote pour sauter la chanson actuelle a été retiré.",
+    "addedVote": "Votre vote pour sauter la chanson actuelle a été ajouté ({votes}/{requiredVotes}).",
+    "skippingMoreSongsThanQueue": "Vous ne pouvez pas sauter plus de chansons qu'il n'y en a dans la file d'attente."
+  },
+  "spotifyCommand": {
+    "commandData": {
+      "description": "Gérer la connexion de votre compte Spotify à Betty.",
+      "loginOption": "Se connecter à votre compte Spotify.",
+      "logoutOption": "Se déconnecter de votre compte Spotify."
+    },
+    "loginLink": "[Cliquez ici pour connecter votre compte Spotify à Betty.]({url} \"Ouvre la page de connexion Spotify pour OAuth avec Betty\")",
+    "openLinkButton": "Ouvrir",
+    "logoutSuccess": "Déconnexion de votre compte Spotify réussie.",
+    "loginSuccess": "Connexion à votre compte Spotify réussie.",
+    "noSpotifyTrack": "Je n'ai pas trouvé de chanson pour cette requête sur Spotify.",
+    "failedLike": "Échec lors de l'ajout de la chanson à vos favoris sur Spotify. Si cette erreur persiste, veuillez contacter le support.",
+    "likedSong": "J'ai ajouté la chanson **{title}** à vos favoris sur Spotify.",
+    "failedRemoveLike": "Échec lors de la suppression de la chanson de vos favoris sur Spotify. Si cette erreur persiste, veuillez contacter le support.",
+    "alreadyLiked": "Vous avez déjà ajouté la chanson **{title}** à vos favoris sur Spotify, je l'ai donc supprimée."
+  },
+  "fixCommand": {
+    "commandData": {
+      "description": "Réparer le lecteur audio s'il ne fonctionne pas correctement."
+    },
+    "success": "La région du lecteur audio a été mise à jour avec succès vers **Rotterdam**, qui est la plus proche de Betty."
+  },
+  "pauseCommand": {
+    "commandData": {
+      "description": "Mettre en pause la lecture en cours."
+    },
+    "alreadyPaused": "La lecture est déjà en pause. Veuillez utiliser la commande {{command:resume}} pour reprendre la lecture.",
+    "paused": "La lecture a été mise en pause."
+  },
+  "resumeCommand": {
+    "commandData": {
+      "description": "Reprendre la lecture en cours."
+    },
+    "alreadyResumed": "La lecture n'est pas en pause. Veuillez utiliser la commande {{command:pause}} pour mettre en pause la lecture.",
+    "resumed": "La lecture a été reprise."
+  },
+  "shuffleCommand": {
+    "commandData": {
+      "description": "Mélanger la file d'attente."
+    },
+    "shuffled": "La file d'attente a été mélangée. Vous pouvez utiliser {{command:unshuffle}} pour restaurer la file d'attente.",
+    "notEnoughTracks": "Il n'y a pas assez de chansons dans la file d'attente pour la mélanger. Utilisez {{command:play}} pour ajouter plus de chansons."
+  },
+  "unshuffleCommand": {
+    "commandData": {
+      "description": "Restaurer l'ordre d'origine de la file d'attente."
+    },
+    "unshuffled": "La file d'attente a été restaurée à son ordre d'origine.",
+    "notShuffled": "La file d'attente n'est pas mélangée."
+  },
+  "clearQueueCommand": {
+    "commandData": {
+      "description": "Vider la file d'attente."
+    },
+    "notEnoughTracks": "Il n'y a pas assez de chansons dans la file d'attente pour la vider. Utilisez {{command:play}} pour ajouter plus de chansons.",
+    "cleared": "La file d'attente a été vidée. Vous pouvez utiliser {{command:unshuffle}} pour restaurer la file d'attente."
+  },
+  "previousCommand": {
+    "commandData": {
+      "description": "Jouer l'une des chansons précédentes.",
+      "nowOption": "Sélectionnez si vous voulez jouer la chanson directement ou l'ajouter à la file d'attente."
+    },
+    "noPreviousSong": "Il n'y a pas de chansons précédentes à jouer.",
+    "trackNotFound": "Je n'ai pas trouvé la chanson que vous avez demandée parmi les chansons précédentes."
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "Supprimer une chanson de la file d'attente.",
+      "trackOption": "La chanson que vous souhaitez supprimer de la file d'attente."
+    },
+    "removed": "**{title}** a été supprimé de la file d'attente.",
+    "notInQueue": "La chanson que vous avez demandée n'est pas dans la file d'attente.",
+    "queueEmpty": "La file d'attente est vide. Rien à supprimer."
+  },
+  "volumeCommand": {
+    "commandData": {
+      "description": "Modifier le volume du lecteur audio.",
+      "volumeOption": "Le volume que vous souhaitez définir."
+    },
+    "invalidVolume": "Veuillez fournir un volume valide entre **0** et **{max}**."
+  },
+  "bassboostCommand": {
+    "commandData": {
+      "description": "Activer ou désactiver le filtre d'accentuation des basses.",
+      "levelOption": "Le niveau du filtre d'accentuation des basses.",
+      "offLevel": "Désactivé",
+      "highLevel": "Élevé",
+      "mediumLevel": "Moyen",
+      "lowLevel": "Faible"
+    },
+    "levelChanged": "Le niveau du filtre d'accentuation des basses a été modifié à **{level}**.",
+    "cleared": "Le filtre d'accentuation des basses a été désactivé."
+  },
+  "lowpassCommand": {
+    "commandData": {
+      "description": "Activer ou désactiver le filtre passe-bas."
+    },
+    "disabled": "Le filtre passe-bas a été désactivé.",
+    "enabled": "Le filtre passe-bas a été activé."
+  },
+  "nightcoreCommand": {
+    "commandData": {
+      "description": "Activer ou désactiver le filtre nightcore."
+    },
+    "disabled": "Le filtre nightcore a été désactivé.",
+    "enabled": "Le filtre nightcore a été activé."
+  },
+  "vaporwaveCommand": {
+    "commandData": {
+      "description": "Activer ou désactiver le filtre vaporwave."
+    },
+    "disabled": "Le filtre vaporwave a été désactivé.",
+    "enabled": "Le filtre vaporwave a été activé."
+  },
+  "karaokeCommand": {
+    "commandData": {
+      "description": "Activer ou désactiver le filtre karaoké."
+    },
+    "disabled": "Le filtre karaoké a été désactivé.",
+    "enabled": "Le filtre karaoké a été activé."
+  },
+  "rotationCommand": {
+    "commandData": {
+      "description": "Activer ou désactiver le filtre de rotation."
+    },
+    "disabled": "Le filtre de rotation a été désactivé.",
+    "enabled": "Le filtre de rotation a été activé."
+  },
+  "tremoloCommand": {
+    "commandData": {
+      "description": "Activer ou désactiver le filtre trémolo."
+    },
+    "disabled": "Le filtre trémolo a été désactivé.",
+    "enabled": "Le filtre trémolo a été activé."
+  },
+  "vibratoCommand": {
+    "commandData": {
+      "description": "Activer ou désactiver le filtre vibrato."
+    },
+    "disabled": "Le filtre vibrato a été désactivé.",
+    "enabled": "Le filtre vibrato a été activé."
+  },
+  "replayCommand": {
+    "commandData": {
+      "description": "Rejouer la chanson actuelle."
+    },
+    "replayed": "Relecture de **{title}**."
+  },
+  "nowPlayingCommand": {
+    "commandData": {
+      "description": "Obtenir des informations sur la chanson en cours de lecture."
+    },
+    "nowPlaying": "En cours de lecture : **{title} - {artist}**"
+  },
+  "seekCommand": {
+    "commandData": {
+      "description": "Rechercher un moment spécifique dans la chanson actuelle.",
+      "timeOption": "La durée qwe vous voulez rechercher."
+    },
+    "invalidTime": "Veuillez fournir une durée valide.",
+    "timeTooLong": "La durée que vous avez indiquée est supérieure à la durée de la chanson.",
+    "seeked": "Recherche à **{time}**."
+  },
+  "rewindCommand": {
+    "commandData": {
+      "description": "Revenir en arrière dans la chanson actuelle d'une durée spécifique.",
+      "timeOption": "Le moment où vous voulez revenir en arrière."
+    },
+    "invalidTime": "Veuillez fournir une durée valide.",
+    "timeTooShort": "La durée que vous avez indiquée est plus courte que le moment actuel de la chanson.",
+    "rewinded": "Retour à **{time}**."
+  },
+  "loopCommand": {
+    "commandData": {
+      "queueDescription": "Boucler toute la file d'attente.",
+      "songDescription": "Boucler la chanson actuelle.",
+      "noneDescription": "Désactiver la lecture en boucle."
+    },
+    "alreadyDisabled": "La lecture en boucle est déjà désactivée.",
+    "disabledLoop": "Lecture en boucle désactivée.",
+    "loopSwitchedFromSong": "Passage de la lecture en boucle de la chanson en cours à la lecture en boucle de toute la file d'attente.",
+    "loopQueue": "Bouclage de toute la file d'attente.",
+    "loopSwitchedFromQueue": "Passage de la lecture en boucle de toute la file d'attente à la lecture en boucle de la chanson actuelle.",
+    "loopSong": "Bouclage de la chanson actuelle."
+  },
+  "moveCommand": {
+    "commandData": {
+      "description": "Déplacer une chanson dans la file d'attente.",
+      "trackOption": "La chanson que vous voulez déplacer.",
+      "positionOption": "La position à laquelle vous voulez déplacer la chanson."
+    },
+    "queueEmpty": "La file d'attente est vide. Rien à déplacer.",
+    "trackNotFound": "La chanson que vous avez demandée n'est pas dans la file d'attente.",
+    "invalidPosition": "Veuillez fournir une position valide.",
+    "success": "**{title}** a été déplacé à la position **{position}**."
+  },
+  "queueCommand": {
+    "commandData": {
+      "description": "Obtenir des informations sur la file d'attente actuelle."
+    },
+    "emptyQueue": "La file d'attente est vide.",
+    "queue": "File d'attente",
+    "nowPlaying": "En cours de lecture",
+    "nextSongs": "Prochaines chansons",
+    "footer": "Page {page} sur {pages} | Chansons dans la file d'attente : {tracks} | Durée : {length}",
+    "cacheError": "Ce message de file d'attente est trop ancien et le cache a été effacé. Veuillez utiliser à nouveau la commande {{command:queue}}."
+  },
+  "playlistCommand": {
+    "commandData": {
+      "descriptionManageOption": "Gérez vos playlists.",
+      "descriptionPlayOption": "Jouer une playlist.",
+      "descriptionSearchOption": "Rechercher une playlist.",
+      "descriptionCreateOption": "Créer une playlist.",
+      "queryOption": "La requête pour rechercher une playlist. (Identifiant ou Nom)",
+      "nameOption": "Le nom de la playlist."
+    },
+    "embed": {
+      "creator": "**Créé par** : {user}",
+      "songs": "**Chansons** : {count}/{max}",
+      "created": "**Créé le** : {date}",
+      "duration": "**Durée totale de la playlist** : {duration}"
+    },
+    "songsEmbed": {
+      "title": "Chansons de la playlist : **{name}**",
+      "footer": "Page {page} sur {pages} | Chansons dans la playlist : {tracks}"
+    },
+    "nameTooLong": "Le nom de la playlist est trop long. Veuillez fournir un nom d'une longueur maximale de 50 caractères.",
+    "invalidName": "Veuillez fournir un nom valide pour la playlist.",
+    "tooManyPlaylists": "Vous avez atteint le nombre maximal de playlists que vous pouvez avoir. Veuillez supprimer une playlist pour en créer une nouvelle.",
+    "playlistExists": "Une playlist avec le nom **{name}** existe déjà.",
+    "toxicContent": "Le nom de la playlist contient un contenu inapproprié. Veuillez fournir un autre nom.",
+    "playlistNotFound": "Je n'ai pas trouvé de playlist avec la requête **{query}**.",
+    "noPlaylistsFound": "Aucune playlist trouvée.",
+    "deletedPlaylist": "La playlist **{name}** a été supprimée.",
+    "selectUserToTransfere": "Veuillez sélectionner l'utilisateur à qui vous voulez transférer la playlist.",
+    "userPlaylistLimit": "L'utilisateur que vous avez sélectionné a atteint la limite de playlists.",
+    "noSpotifyPlaylists": "Vous n'avez aucune playlist Spotify.",
+    "selectPlaylistToImport": "Veuillez sélectionner la playlist que vous voulez importer.",
+    "cannotImportSpotifyPlaylist": "Je ne peux pas importer cette playlist Spotify car elle est vide.",
+    "songAlreadyExists": "La chanson **{title}** est déjà dans cette playlist.",
+    "cacheError": "Ce message de playlist est trop ancien et le cache a été effacé. Veuillez utiliser à nouveau la commande {{command:playlist manage}}.",
+    "notEnoughTracksInQueue": "Il n'y a pas assez de chansons dans la file d'attente pour créer une playlist. Utilisez {{command:play}} pour ajouter plus de chansons."
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "Obtenez des informations sur Betty Premium."
+    },
+    "response": "Vous êtes intéressé par Betty Premium ? Vous pouvez obtenir plus d'informations à ce sujet sur notre site web : <https://betty.cx/premium>"
+  },
+  "profileCommand": {
+    "commandData": {
+      "description": "Obtenez des informations sur votre profil chez Betty."
+    },
+    "noProfile": "Vous n'avez encore aucune donnée enregistrée.",
+    "currently": "Écoute actuellement",
+    "lastUpdate": "Dernière mise à jour",
+    "commandsUsed": "Commandes utilisées",
+    "songsPlayed": "Chansons jouées",
+    "totalPlaytime": "Temps total de lecture",
+    "note": "Remarque : La durée de lecture est calculée à partir de la durée des chansons que vous avez jouées.",
+    "notData": "Il n'y a pas de données à afficher.",
+    "top5Commands": "Top 5 des commandes utilisées",
+    "top5Tracks": "Top 5 des chansons les plus jouées",
+    "embedTitle": "Votre profil Betty",
+    "embedTitleOther": "Profil de {user}",
+    "noSpotifyAccount": "Spotify non connecté",
+    "noSpotifyActivity": "Pas d'écoute sur Spotify"
+  },
+  "inviteCommand": {
+    "commandData": {
+      "description": "Obtenez le lien d'invitation pour Betty."
+    },
+    "response": "Vous pouvez inviter Betty sur votre serveur avec ce lien : [invitation]({url})"
+  },
+  "creditsCommand": {
+    "commandData": {
+      "description": "Voir les crédits de Betty."
+    },
+    "response": "**Créé par**: {créateur}\n**Remerciements spéciaux à**: {spécial}"
+  },
+  "historyCommand": {
+    "commandData": {
+      "description": "Obtenez des informations sur vos dernières chansons écoutées."
+    },
+    "noProfile": "Vous n'avez pas encore de données enregistrées.",
+    "noHistory": "Il n'y a aucun historique à afficher. Jouez quelques chansons avec {{commande:play}} pour en avoir un.",
+    "history": "historique",
+    "footer": "Page {page} sur {pages} | Chansons dans l'historique : {tracks}",
+    "clearedHistory": "J'ai effacé **{tracks}** chansons de votre historique."
+  },
+  "lyricsCommand": {
+    "commandData": {
+      "description": "Obtenez les paroles de la chanson actuelle ou de n'importe quelle chanson.",
+      "songOption": "La chanson dont vous souhaitez obtenir les paroles."
+    },
+    "queueEmpty": "La file d'attente est vide. Rien à obtenir les paroles.",
+    "noSongGiven": "Vous devez jouer une chanson ou fournir un nom de chanson pour obtenir les paroles.",
+    "noLyrics": "Je n'ai trouvé aucune paroles pour **{title}** par **{artist}**.",
+    "lyrics": "Paroles pour **{title}** par **{artist}**",
+    "fullLyrics": "Paroles complètes"
+  },
+  "recommendCommand": {
+    "commandData": {
+      "description": "Obtenez des chansons recommandées en fonction de votre historique d'écoute."
+    },
+    "noRecommendations": "Je n'ai trouvé aucune recommandation pour vous. Essayez d'écouter plus de chansons.",
+    "noProfile": "Vous n'avez pas encore de données enregistrées. Veuillez jouer quelques chansons avec {{commande:play}} pour obtenir des recommandations.",
+    "recommendSongSuccessfullyNow": "J'ai commencé à jouer la chanson recommandée {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\").",
+    "recommendSongsSuccessfully": "J'ai ajouté la chanson recommandée {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") à la file d'attente à la position **{position}**."
+  },
+  "seeProfileContextCommand": {
+    "commandData": {
+      "name": "Voir le profil"
+    }
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "Besoin d'aide ? Utilisez cette commande pour initier votre point de départ."
+    },
+    "headline": "Configurer le robot",
+    "configurationText": "Pour configurer le robot, vous devez visiter le [tableau de bord](https://betty.cx/dash/server/{serverId}/{botId}).",
+    "headlineUse": "Utiliser le robot",
+    "useText": "Il existe plusieurs façons de jouer de la musique :",
+    "useText1": "1. Vous pouvez utiliser {{commande:play}} en tant que commande multifonction. Cela vous permet de jouer des playlists, des chansons ou de rechercher.",
+    "useText2": "2. Vous pouvez utiliser le salon de demande de chanson. Mentionnez simplement @le robot et tapez le nom de la chanson ou le lien dans le salon.",
+    "useText3": "3. Vous pouvez utiliser la commande {{commande:search}} pour rechercher une chanson et la sélectionner pour la jouer ou l'ajouter à la file d'attente.",
+    "useText4": "4. Utilisez le menu contextuel **Ajouter à la file d'attente** pour ajouter une chanson à la file d'attente.",
+    "headlinePremium": "Vous voulez avoir plus de fonctionnalités ?",
+    "premiumText": "Vous pouvez obtenir plus de fonctionnalités en achetant Betty Premium. Vous pouvez obtenir plus d'informations à ce sujet sur notre site web : [Betty Premium](https://betty.cx/premium)",
+    "footer": "Créé par Sean Sattler | sattler.dev"
+  },
+  "configurationCommand": {
+    "commandData": {
+      "description": "Configurer le robot pour votre serveur."
+    },
+    "response": "Pour configurer le robot, vous devez visiter le [tableau de bord](https://betty.cx/dash/server/{serverId}/{botId})."
+  },
+  "valueMyMusicCommand": {
+    "commandData": {
+      "description": "Évaluez votre goût musical.",
+      "roastOption": "Sélectionnez si vous voulez que Betty vous clash ou non."
+    },
+    "noProfile": "Vous n'avez pas encore de données enregistrées. Veuillez jouer quelques chansons avec {{commande:play}} pour obtenir une évaluation de votre goût musical.",
+    "noHistory": "Vous n'avez pas 10 chansons ou plus dans votre historique pour évaluer votre goût musical. Veuillez jouer quelques chansons avec {{commande:play}} pour obtenir une évaluation de votre goût musical.",
+    "error": "Une erreur s'est produite lors du calcul de l'évaluation de votre goût musical. Veuillez réessayer ultérieurement.",
+    "poweredBy": "Propulsé par Google Gemini Pro"
+  },
+  "addDJContextCommand": {
+    "commandData": {
+      "name": "Ajouter DJ"
+    },
+    "removedDJ": "J'ai supprimé **{user}** en tant qu'utilisateur DJ.",
+    "maxDJsForNonPremium": "Vous avez atteint le nombre maximum d'utilisateurs DJ pour les utilisateurs gratuits. Vous pouvez acheter Betty Premium sur https://betty.cx/premium pour augmenter la limite à 25 utilisateurs DJ.",
+    "maxDJs": "Vous avez atteint le nombre maximum d'utilisateurs DJ.",
+    "addedDJ": "J'ai ajouté **{user}** en tant qu'utilisateur DJ.",
+    "savedHistoryAsPlaylist": "J'ai sauvegardé l'historique sous forme de playlist avec le nom **{name}**."
+  },
+  "skipSongContextCommand": {
+    "commandData": {
+      "name": "Sauter la chanson"
+    }
+  },
+  "addToQueueContextCommand": {
+    "commandData": {
+      "name": "Ajouter à la file d'attente"
+    }
+  }
+}
