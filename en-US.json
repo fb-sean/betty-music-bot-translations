@@ -1,0 +1,592 @@
+{
+  "global": {
+    "premiumRequired": "In order to use this feature you need to own Betty premium for this server. You can buy it here https://betty.cx/premium starting at $ 2.50!",
+    "premiumQueueLimitReached": "You reached the queue limit for free users. You can add up to 1500 songs to the queue. You can buy Betty premium at https://betty.cx/premium starting at $ 2.50 to increase the limit to 100 songs.",
+    "unknownCommand": "Oh no! I don't know that command. If this error persists, please contact the support.",
+    "unknownButton": "Oh no! I don't know that button. If this error persists, please contact the support.",
+    "unknownSelectMenu": "Oh no! I don't know that select menu. If this error persists, please contact the support.",
+    "unknownModal": "Oh no! I don't know that modal. If this error persists, please contact the support.",
+    "unknownError": "Oh no! Something went wrong. If this error persists, please contact the support.",
+    "serverOnly": "This feature can only be used in servers.",
+    "needVoice": "You need to be in a voice channel to use this feature.",
+    "cannotJoin": "I can't join that voice channel. Please make sure I have the correct permissions and try again.",
+    "noPlayer": "There is no player in this server. Use {{command:join}} to create one!",
+    "emptyQueue": "The queue is empty. Use {{command:play}} to add some songs!",
+    "notSameVoiceChannel": "You need to be in the same voice channel as me to use this feature.",
+    "notInSongRequestChannelUseAble": "You cannot use this command inside of the song request channel.",
+    "botNoPermission": "I don't have the necessary permissions to perform this action. I need the {missingPerms} permission in this channel. Please ensure I have the correct permissions and try again.",
+    "userNoPermission": "You don't have the necessary permissions to perform this action. You need the {missingPerms} permission in this channel.",
+    "djOnly": "Only DJs can use this feature.",
+    "notAllowedToJoinBecauseOfGuildSettings": "I'm not allowed to join that voice channel because of the server settings.",
+    "cooldownMessage": "You are on cooldown. Please wait {time} before using this feature again.",
+    "poweredBy": "Powered by Betty.cx",
+    "invite": "Invite",
+    "support": "Support",
+    "website": "Website",
+    "subscriptions": "Manage Subscriptions",
+    "premium": "Premium",
+    "listenHere": "Listen here",
+    "nowPlaying": "Now Playing **{songName} - {artist}**",
+    "playing": "Playing {songName} - {artist}",
+    "requestedBy": "Requested by {requester}",
+    "nextSong": "Next Song is **{songName}**",
+    "autoPlayInfo": "Starting to play recommended songs. To get new recommendations please clear the queue.",
+    "autoPlayFooter": "This song was automatically added by the autoplay feature.",
+    "premiumThankYou": "Thank you for purchasing premium for Betty! You can now use all premium features on {{serverName}}!",
+    "premiumThankYouCustomBot": "Thank you for purchasing custom bot for Betty! You can directly start with the setup on the dashboard!",
+    "premiumPaymentFailed": "One of your subscriptions at Betty failed due to a payment issue. Please check your payment methods. As a result, your premium status has been removed. If the next payment attempt is successful, your premium will be reinstated.",
+    "guildJoinDm": "### Hi!\nThank you for adding Betty to your server! You can use {{command:help}} to see where to start.\n### Betty Premium\nBetty also have a premium system which gives you access to some cool features like a bigger queue, the nice {{command:lyrics}} command and more. You can get more information about prime by visiting our website.",
+    "nothingFound": "I couldn't find anything for that query.",
+    "noPlayerFound": "I couldn't find or create a player for this server. Please try again later.",
+    "devOnly": "This bot is currently in development mode and only the developer can use the bot. Please join the support server for more information.",
+    "noSpotifyConnection": "You don't have a Spotify account connected to Betty. Use the {{command:spotify login}} command to connect your account.",
+    "firstPage": "First Page",
+    "previousPage": "Previous Page",
+    "nextPage": "Next Page",
+    "lastPage": "Last Page",
+    "selectLikeType": "Where would you like to add the song to your favorites list - Discord, Spotify, or Deezer?",
+    "serverBlacklisted": "This server is blacklisted and can't use Betty. If you think this is a mistake, please contact the support.",
+    "unlikedSong": "You already liked the track **{title}** so I removed it.",
+    "likedSong": "Liked the track **{title}**.",
+    "boostPremium": "Boost your server with premium!",
+    "songAlreadyInQueue": "The song **{title}** is already in the queue and because of server settings I can't add it again.",
+    "responseEmptyAfterFilter": "The results are empty after the prevent duplicated songs filter. Please try again with a different query.",
+    "serverNotWhitelisted": "This server is not whitelisted and can't use this custom bot of Betty. If you are the owner of the custom bot, please use the dashboard to whitelist the server.",
+    "autoPlayAlreadyEnabled": "The autoplay feature is already enabled. To disable it please visit the dashboard.",
+    "autoPlayEnabled": "The autoplay feature got enabled. To disable it again please visit the dashboard.",
+    "notMySong": "**This isn't your song?**\nIf the bot didn't found exactly the song you want to play try these ways:\n1. Try adding the song by the song link. (Ex. from Spotify)\n2. Try adding the song by title - artist. (Ex. Believer - Imagine Dragons)\n3. Try finding the song with the {{command:search}} command.",
+    "queueLimitReached": "You reached the set queue limit of **{limit}** for this server. Please wait until some songs got played or removed from the queue before you add new ones.",
+    "queueUserLimitReached": "You reached the set queue limit of **{limit}** for you. Please wait until some songs got played or removed from the queue before you add new ones.",
+    "empty": "Empty",
+    "noLavalink": "No audio server of Betty is currently available. Please try again later. If this error persists, please contact the support.",
+    "restartInfo": "The bot got restarted because of an update. Betty now reconnects all existing players. Please wait a few seconds until the bot is ready again.",
+    "spotifyWarning": "Since Betty is yet not verified by Spotify, Betty's Spotify integration nearly always fail because they require us to add every user by email and full name in the developer dashboard. This is not possible for us because of privacy reasons. We are working on a solution to get this fixed."
+  },
+  "nonPremiumTips": {
+    "tip1": "Did you know you can get better audio quality with betty premium? <https://betty.cx/premium>",
+    "tip2": "Did you know you can connect your Spotify account to Betty to import playlists easy?",
+    "tip3": "Did you know you can automatic clean up the queue if a member leaves the voice channel with Betty premium? <https://betty.cx/premium>",
+    "tip4": "Did you know you can get another Betty with premium for your server? <https://betty.cx/premium>",
+    "tip5": "Did you know you can prevent duplicated songs in the queue with Betty premium? <https://betty.cx/premium>",
+    "tip6": "Did you know you can get recommendations based on your listening history with {{command:recommend}}?",
+    "tip7": "Did you know Betty have a dashboard where you can configure the bot for your server? <https://betty.cx/dash>",
+    "tip8": "Did you know you can enable a feature called Temporary DJ? This lets the player creator access DJ commands without the DJ role. Set it up here: <https://betty.cx/dash>!"
+  },
+  "timeUnits": {
+    "multiple": {
+      "days": "days",
+      "hours": "hours",
+      "minutes": "minutes",
+      "seconds": "seconds"
+    },
+    "single": {
+      "days": "day",
+      "hours": "hour",
+      "minutes": "minute",
+      "seconds": "second"
+    }
+  },
+  "buttonLabels": {
+    "support": "Join the support server",
+    "customBotDashboard": "Custom Bot Dashboard",
+    "loop": "Loop",
+    "remove": "Remove",
+    "shuffle": "Shuffle queue",
+    "savequeueasplaylist": "Save queue as playlist",
+    "savehistoryasplaylist": "Save history as playlist",
+    "playhistory": "Play history",
+    "clearhistory": "Clear history",
+    "enableautoplay": "Get endless queue, enable autoplay.",
+    "thatsnotmysong": "That's not the song I requested?",
+    "playlist": {
+      "manageplaylistsongs": "Manage / View Songs",
+      "renameplaylist": "Rename",
+      "toggleprivateplaylist": "Toggle Private",
+      "playplaylist": "Play Playlist",
+      "deleteplaylist": "Delete Playlist",
+      "transfareplaylist": "Transfare Playlist",
+      "importspotifyplaylist": "Import songs from Spotify",
+      "playlistremovesong": "Select the songs you want to remove.",
+      "addsongtoplaylist": "Add a song to the playlist",
+      "backtoplaylist": "Back to playlist",
+      "shareplaylist": "Share Playlist"
+    },
+    "joinchannel": "Join your current voice channel"
+  },
+  "destoryReasons": {
+    "inactive": "The player got destroyed because it was inactive for too long. Use {{command:play}} to start a new session!",
+    "errored": "The player got destroyed because of an error. If that not the first time in the last 2h please contact the support. Use {{command:play}} to start a new session!",
+    "queueEndWarning": "No more songs to play. Use {{command:play}} to add more! If no new tracks are added, the player will destroy in 2 minutes.",
+    "queueEnd": "No more tracks to play, the player got destroyed. Use {{command:play}} to start a new session!",
+    "kickedFromVoiceChannel": "The player got destroyed because I got kicked from the voice channel. Use {{command:play}} to start a new session!",
+    "emptyVoiceChannelWarning": "I'm alone in the voice channel, the player will get destroyed in 2 minutes if no one joins again.",
+    "emptyVoiceChannel": "The player got destroyed because the voice channel got empty. Use {{command:play}} to start a new session!"
+  },
+  "songRequestChannel": {
+    "footer": "Requested by {username} | Powered by Betty.cx",
+    "noSongs": "There are no songs in the queue. Add some with {{command:play}} or by @pinging the bot and typing the name or the url in this channel.",
+    "noSongsPlaying": "There are no songs playing.",
+    "nextSongs": "Next {number} Songs",
+    "nextSong": "Next Song",
+    "channelName": "song-request",
+    "loadingMessage": "Building the song request channel...",
+    "emptyQuery": "Please provide a valid query. Keep in mind that you need to mention me else I can't see your message.",
+    "topic": {
+      "rewind": "Rewind 10 seconds",
+      "pauseResume": "Pause/Resume playback",
+      "stop": "Stop",
+      "forward": "Forward 10 seconds",
+      "skip": "Skip the current song",
+      "volumeDown": "Volume -10%",
+      "volumeUp": "Volume +10%",
+      "grabSong": "Grab the current song",
+      "loopPlayback": "Loop the playback",
+      "shuffle": "Shuffle the queue"
+    }
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "Get the link to the support server."
+    },
+    "response": "You can join the support server here: {url}"
+  },
+  "playCommand": {
+    "commandData": {
+      "description": "Play a song or add it to the queue by link or name.",
+      "queryOption": "Your query to search for a song or a link to a song.",
+      "nowOption": "Select if you want to play the song directly or add it to the queue.",
+      "platformOption": "Select the platform where you want to search from.",
+      "fileOption": "Use this option to upload a file to play. The file must be a valid audio file."
+    },
+    "invalidFile": "The file you uploaded is not a valid audio file. Please make sure its a valid mp3 file and try again.",
+    "playlistNowError": "You cannot play a playlist directly when you already have songs in the queue.",
+    "filePlaySuccessfully": "Added file with the name **{title}** to the queue at position **{position}**.",
+    "filePlaySuccessfullyNow": "Started playing the file **{title}**.",
+    "trackPlaySuccessfully": "Added {emoji}[**{title}**]({url} \"Opens the song in your browser.\") to the queue at position **{position}**.",
+    "trackPlaySuccessfullyNow": "Started playing {emoji}[**{title}**]({url} \"Opens the song in your browser.\").",
+    "playlistPlaySuccessfully": "Added the playlist [**{title}**]({url} \"Opens the playlist in your browser.\") to the queue.",
+    "playlistPlaySuccessfullyNow": "Started playing the playlist [**{title}**]({url} \"Opens the playlist in your browser.\")."
+  },
+  "joinCommand": {
+    "commandData": {
+      "description": "Join the voice channel you are in."
+    },
+    "success": "Joined <#{channel}> successfully.",
+    "alreadyConnected": "I'm already connected to a voice channel."
+  },
+  "disconnectCommand": {
+    "commandData": {
+      "description": "Disconnect from the voice channel."
+    },
+    "success": "Successfully disconnected from the voice channel.",
+    "notConnected": "I'm not connected to a voice channel."
+  },
+  "stopCommand": {
+    "commandData": {
+      "description": "Stop the player and clear the queue."
+    },
+    "success": "Stopped the player and cleared the queue.",
+    "removedVote": "Removed your vote to stop the player.",
+    "addedVote": "Added your vote to stop the player ({votes}/{requiredVotes})."
+  },
+  "switchCommand": {
+    "commandData": {
+      "description": "Switch the voice channel."
+    },
+    "success": "Successfully switched from <#{oldChannel}> to <#{newChannel}>.",
+    "notConnected": "I'm not connected to a voice channel."
+  },
+  "searchCommand": {
+    "commandData": {
+      "description": "Search for a song and select it to play or add it to the queue.",
+      "queryOption": "Your query to search for a song.",
+      "nowOption": "Select if you want to play the song(s) directly or add it to the queue.",
+      "platformOption": "Select the platform where you want to search from."
+    },
+    "results": "Here are the search results for **{query}**.\n\n*Please use the drop-down menu below to select songs for playback or to add them to your queue.*",
+    "selectPlaceholder": "Choose songs to either play immediately or add to your queue.",
+    "emptyQueueWithErrored": "Started playing {emoji}[**{title}**]({url} \"Opens the song in your browser.\") and added **{added}** more songs to the queue but couldn't add **{errored}** songs.",
+    "emptyQueue": "Started playing {emoji}[**{title}**]({url} \"Opens the song in your browser.\") and added **{added}** more songs to the queue.",
+    "successWithErrored": "Added **{added}** songs to the queue but couldn't add **{errored}** songs.",
+    "success": "Added **{added}** songs to the queue."
+  },
+  "skipCommand": {
+    "commandData": {
+      "description": "Skip the current or more song(s).",
+      "skipToOption": "The number of songs to skip. (Vote skip does not support this!)"
+    },
+    "noSongPlaying": "There is no song playing. So I can't skip anything.",
+    "skippedMultipleSongs": "Successfully skipped **{count}** songs.",
+    "skippedCurrentSong": "Successfully skipped **[{title}]({url})**.",
+    "removedVote": "Removed your vote to skip the current song.",
+    "addedVote": "Added your vote to skip the current song ({votes}/{requiredVotes}).",
+    "skippingMoreSongsThanQueue": "You cannot skip more songs than there are in the queue."
+  },
+  "spotifyCommand": {
+    "commandData": {
+      "description": "Manage your spotify account connection to Betty.",
+      "loginOption": "Login to your Spotify account.",
+      "logoutOption": "Logout from your Spotify account."
+    },
+    "loginLink": "[Click here to connect your Spotify account to Betty.]({url} \"Opens the spotify login page to OAuth with Betty\")",
+    "openLinkButton": "Open",
+    "logoutSuccess": "Successfully disconnected your Spotify account.",
+    "loginSuccess": "Successfully connected your Spotify account.",
+    "noSpotifyTrack": "I couldn't find a track for that query on Spotify.",
+    "failedLike": "Failed to like the track on Spotify. If this error persists, please contact the support.",
+    "likedSong": "Liked the track **{title}** on Spotify.",
+    "failedRemoveLike": "Failed to remove the like from the track on Spotify. If this error persists, please contact the support.",
+    "alreadyLiked": "You already liked the track **{title}** on Spotify so I removed it."
+  },
+  "fixCommand": {
+    "commandData": {
+      "description": "Fix the player if it's not working correctly."
+    },
+    "success": "The voice server region got successfully updated to **Rotterdam** which is the nearest to Betty."
+  },
+  "pauseCommand": {
+    "commandData": {
+      "description": "Pause the current playback."
+    },
+    "alreadyPaused": "The playback is already paused. Please use the {{command:resume}} command to resume the playback.",
+    "paused": "Paused the playback."
+  },
+  "resumeCommand": {
+    "commandData": {
+      "description": "Resume the current playback."
+    },
+    "alreadyResumed": "The playback is not paused. Please use the {{command:pause}} command to pause the playback first.",
+    "resumed": "Resumed the playback."
+  },
+  "shuffleCommand": {
+    "commandData": {
+      "description": "Shuffle the queue."
+    },
+    "shuffled": "Shuffled the queue. You can use {{command:unshuffle}} to restore the queue.",
+    "notEnoughTracks": "There are not enough tracks in the queue to shuffle. Use {{command:play}} to add more songs."
+  },
+  "unshuffleCommand": {
+    "commandData": {
+      "description": "Unshuffle the queue."
+    },
+    "unshuffled": "Restored the queue to its original order.",
+    "notShuffled": "The queue is not shuffled."
+  },
+  "clearQueueCommand": {
+    "commandData": {
+      "description": "Clear the queue."
+    },
+    "notEnoughTracks": "There are not enough tracks in the queue to clear. Use {{command:play}} to add more songs.",
+    "cleared": "Cleared the queue. You can use {{command:unshuffle}} to restore the queue."
+  },
+  "previousCommand": {
+    "commandData": {
+      "description": "Play one of the previous songs.",
+      "nowOption": "Select if you want to play the song directly or add it to the queue."
+    },
+    "noPreviousSong": "There are no previous songs to play.",
+    "trackNotFound": "I couldn't find the track you requested in the previous songs."
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "Remove a song from the queue.",
+      "trackOption": "The song you want to remove from the queue."
+    },
+    "removed": "Removed **{title}** from the queue.",
+    "notInQueue": "The song you requested is not in the queue.",
+    "queueEmpty": "The queue is empty. Nothing to remove."
+  },
+  "volumeCommand": {
+    "commandData": {
+      "description": "Change the volume of the player.",
+      "volumeOption": "The volume you want to set."
+    },
+    "invalidVolume": "Please provide a valid volume between **0** and **{max}**."
+  },
+  "bassboostCommand": {
+    "commandData": {
+      "description": "Enable or disable the bass boost filter.",
+      "levelOption": "The level of the bass boost filter.",
+      "offLevel": "Off",
+      "highLevel": "High",
+      "mediumLevel": "Medium",
+      "lowLevel": "Low"
+    },
+    "levelChanged": "Changed the bass boost filter level to **{level}**.",
+    "cleared": "Cleared the bass boost filter."
+  },
+  "lowpassCommand": {
+    "commandData": {
+      "description": "Enable or disable the low pass filter."
+    },
+    "disabled": "Disabled the low pass filter.",
+    "enabled": "Enabled the low pass filter."
+  },
+  "nightcoreCommand": {
+    "commandData": {
+      "description": "Enable or disable the nightcore filter."
+    },
+    "disabled": "Disabled the nightcore filter.",
+    "enabled": "Enabled the nightcore filter."
+  },
+  "vaporwaveCommand": {
+    "commandData": {
+      "description": "Enable or disable the vaporwave filter."
+    },
+    "disabled": "Disabled the vaporwave filter.",
+    "enabled": "Enabled the vaporwave filter."
+  },
+  "karaokeCommand": {
+    "commandData": {
+      "description": "Enable or disable the karaoke filter."
+    },
+    "disabled": "Disabled the karaoke filter.",
+    "enabled": "Enabled the karaoke filter."
+  },
+  "rotationCommand": {
+    "commandData": {
+      "description": "Enable or disable the rotation filter."
+    },
+    "disabled": "Disabled the rotation filter.",
+    "enabled": "Enabled the rotation filter."
+  },
+  "tremoloCommand": {
+    "commandData": {
+      "description": "Enable or disable the tremolo filter."
+    },
+    "disabled": "Disabled the tremolo filter.",
+    "enabled": "Enabled the tremolo filter."
+  },
+  "vibratoCommand": {
+    "commandData": {
+      "description": "Enable or disable the vibrato filter."
+    },
+    "disabled": "Disabled the vibrato filter.",
+    "enabled": "Enabled the vibrato filter."
+  },
+  "replayCommand": {
+    "commandData": {
+      "description": "Play the current song again."
+    },
+    "replayed": "Replaying **{title}**."
+  },
+  "nowPlayingCommand": {
+    "commandData": {
+      "description": "Get information about the current song."
+    },
+    "nowPlaying": "Now Playing **{title} - {artist}**"
+  },
+  "seekCommand": {
+    "commandData": {
+      "description": "Seek to a specific position in the current song.",
+      "timeOption": "The time you want to seek."
+    },
+    "invalidTime": "Please provide a valid time.",
+    "timeTooLong": "The time you provided is longer than the duration of the song.",
+    "seeked": "Seeked to **{time}**."
+  },
+  "rewindCommand": {
+    "commandData": {
+      "description": "Rewind the current song by a specific amount of time.",
+      "timeOption": "The time you want to rewind."
+    },
+    "invalidTime": "Please provide a valid time.",
+    "timeTooShort": "The time you provided is shorter than the current position of the song.",
+    "rewinded": "Rewinded to **{time}**."
+  },
+  "loopCommand": {
+    "commandData": {
+      "queueDescription": "Loop the entire queue.",
+      "songDescription": "Loop the current song.",
+      "noneDescription": "Disable the loop."
+    },
+    "alreadyDisabled": "The loop is already disabled.",
+    "disabledLoop": "Disabled loop.",
+    "loopSwitchedFromSong": "Switched from looping the current song to looping the entire queue.",
+    "loopQueue": "Looping the entire queue.",
+    "loopSwitchedFromQueue": "Switched from looping the entire queue to looping the current song.",
+    "loopSong": "Looping the current song."
+  },
+  "moveCommand": {
+    "commandData": {
+      "description": "Loop the entire queue.",
+      "trackOption": "The song you want to move.",
+      "positionOption": "The position you want to move the song to."
+    },
+    "queueEmpty": "The queue is empty. Nothing to move.",
+    "trackNotFound": "The song you requested is not in the queue.",
+    "invalidPosition": "Please provide a valid position.",
+    "success": "Moved **{title}** to position **{position}**."
+  },
+  "queueCommand": {
+    "commandData": {
+      "description": "Get information about the current queue."
+    },
+    "emptyQueue": "The queue is empty.",
+    "queue": "Queue",
+    "nowPlaying": "Now Playing",
+    "nextSongs": "Next Songs",
+    "footer": "Page {page} of {pages} | Tracks in queue: {tracks} | Length: {length}",
+    "cacheError": "This queue message is too old and the cache got cleared. Please use the {{command:queue}} command again."
+  },
+  "playlistCommand": {
+    "commandData": {
+      "descriptionManageOption": "Manage your playlists.",
+      "descriptionPlayOption": "Play a playlist.",
+      "descriptionSearchOption": "Search for a playlist.",
+      "descriptionCreateOption": "Create a playlist.",
+      "queryOption": "The query to search for a playlist. (Id or Name)",
+      "nameOption": "The name of the playlist."
+    },
+    "embed": {
+      "creator": "**Created by**: {user}",
+      "songs": "**Songs**: {count}/{max}",
+      "created": "**Created at**: {date}",
+      "duration": "**Total playlist duration**: {duration}"
+    },
+    "songsEmbed": {
+      "title": "Songs in the playlist: **{name}**",
+      "footer": "Page {page} of {pages} | Songs in playlist: {tracks}"
+    },
+    "nameTooLong": "The name of the playlist is too long. Please provide a name with a maximum of 50 characters.",
+    "invalidName": "Please provide a valid name for the playlist.",
+    "tooManyPlaylists": "You have reached the maximum number of playlists you can have. Please delete a playlist to create a new one.",
+    "playlistExists": "A playlist with the name **{name}** already exists.",
+    "toxicContent": "The name of the playlist contains toxic content. Please provide a different name.",
+    "playlistNotFound": "I couldn't find a playlist with the query **{query}**.",
+    "noPlaylistsFound": "No playlists found.",
+    "deletedPlaylist": "Deleted the playlist **{name}**.",
+    "selectUserToTransfere": "Please select the user you want to transfare the playlist to.",
+    "userPlaylistLimit": "The user you selected reached the playlist limit.",
+    "noSpotifyPlaylists": "You don't have any Spotify playlists.",
+    "selectPlaylistToImport": "Please select the playlist you want to import.",
+    "cannotImportSpotifyPlaylist": "I cannot import this spotify playlist because its empty.",
+    "songAlreadyExists": "The song **{title}** is already in this playlist.",
+    "cacheError": "This playlist message is too old and the cache got cleared. Please use the {{command:playlist manage}} command again.",
+    "notEnoughTracksInQueue": "There are not enough tracks in the queue to create a playlist. Use {{command:play}} to add more songs."
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "Get information about Betty premium."
+    },
+    "response": "You are interested in Betty premium? You can get more information about it on our website: <https://betty.cx/premium>"
+  },
+  "profileCommand": {
+    "commandData": {
+      "description": "Get information about your profile at Betty."
+    },
+    "noProfile": "You don't have any data tracked yet.",
+    "currently": "Currently Listening to",
+    "lastUpdate": "Last Update",
+    "commandsUsed": "Commands used",
+    "songsPlayed": "Songs played",
+    "totalPlaytime": "Total playtime",
+    "note": "Note: The Playtime get calculated by the track duration from tracks that you played.",
+    "notData": "There is no data to show.",
+    "top5Commands": "Top 5 Used Commands",
+    "top5Tracks": "Top 5 Played Songs",
+    "embedTitle": "Your Betty Profile",
+    "embedTitleOther": "Profile of {user}",
+    "noSpotifyAccount": "Spotify not connected",
+    "noSpotifyActivity": "Not listening to anything on Spotify"
+  },
+  "inviteCommand": {
+    "commandData": {
+      "description": "Get the invite link for Betty."
+    },
+    "response": "You can invite Betty to your server with this link: [invite]({url})"
+  },
+  "creditsCommand": {
+    "commandData": {
+      "description": "See the credits of Betty."
+    },
+    "response": "**Created by**: {creator}\n**Special thanks to**: {special}"
+  },
+  "historyCommand": {
+    "commandData": {
+      "description": "Get information about your last played songs."
+    },
+    "noProfile": "You don't have any data tracked yet.",
+    "noHistory": "There is no history to show. Play some songs with {{command:play}} to one.",
+    "history": "history",
+    "footer": "Page {page} of {pages} | Tracks in history: {tracks}",
+    "clearedHistory": "Cleared **{tracks}** songs of your history."
+  },
+  "lyricsCommand": {
+    "commandData": {
+      "description": "Get the lyrics of the current or any song.",
+      "songOption": "The song you want to get the lyrics for."
+    },
+    "queueEmpty": "The queue is empty. Nothing to get the lyrics from.",
+    "noSongGiven": "You need to play a song or provide a song name to get the lyrics.",
+    "noLyrics": "I couldn't find any lyrics for **{title}** by **{artist}**.",
+    "lyrics": "Lyrics for **{title}** by **{artist}**",
+    "fullLyrics": "Full Lyrics"
+  },
+  "recommendCommand": {
+    "commandData": {
+      "description": "Get recommended songs based on your listening history."
+    },
+    "noRecommendations": "I couldn't find any recommendations for you. Try to listen to more songs.",
+    "noProfile": "You don't have any data tracked yet. Please play some songs with {{command:play}} to get recommendations.",
+    "recommendSongSuccessfullyNow": "Started playing the recommended song {emoji}[**{title}**]({url} \"Opens the song in your browser.\").",
+    "recommendSongsSuccessfully": "Added recommended song {emoji}[**{title}**]({url} \"Opens the song in your browser.\") to the queue at position **{position}**."
+  },
+  "seeProfileContextCommand": {
+    "commandData": {
+      "name": "See Profile"
+    }
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "Need help? Use this command to initiate your starting point."
+    },
+    "headline": "Configure the Bot",
+    "configurationText": "To configure the bot you need to visit the [dashboard](https://betty.cx/dash/server/{serverId}/{botId}).",
+    "headlineUse": "Use the Bot",
+    "useText": "There are multiple ways to play music:",
+    "useText1": "1. You can use {{command:play}} as multifunction command. It makes it possible to play playlists, tracks or search.",
+    "useText2": "2. You can use the song request channel. Just @mention the bot and type the song name or the link in the channel.",
+    "useText3": "3. You can use the {{command:search}} command to search for a song and select it to play or add it to the queue.",
+    "useText4": "4. Use the **Add to Queue** context menu to add a song to the queue.",
+    "headlinePremium": "Want to have more features?",
+    "premiumText": "You can get more features by purchasing Betty premium. You can get more information about it on our website: [Betty Premium](https://betty.cx/premium)",
+    "footer": "Made by Sean Sattler | sattler.dev"
+  },
+  "configurationCommand": {
+    "commandData": {
+      "description": "Configure the bot for your server."
+    },
+    "response": "To configure the bot you need to visit the [dashboard](https://betty.cx/dash/server/{serverId}/{botId})."
+  },
+  "valueMyMusicCommand": {
+    "commandData": {
+      "description": "Value your music taste.",
+      "roastOption": "Select if you want that Betty roast you or not."
+    },
+    "noProfile": "You don't have any data tracked yet. Please play some songs with {{command:play}} to get a value of your music taste.",
+    "noHistory": "You don't have 10 songs or more in your history to value your music taste. Please play some songs with {{command:play}} to get a value of your music taste.",
+    "error": "An error occurred while calculating the value of your music taste. Please try again later.",
+    "poweredBy": "Powered by Google Gemini Pro"
+  },
+  "addDJContextCommand": {
+    "commandData": {
+      "name": "Add DJ"
+    },
+    "removedDJ": "Removed **{user}** as a DJ user.",
+    "maxDJsForNonPremium": "You reached the maximum number of DJ users for free users. You can buy Betty premium at https://betty.cx/premium to increase the limit to 25 DJ users.",
+    "maxDJs": "You reached the maximum number of DJ users.",
+    "addedDJ": "Added **{user}** as a DJ user.",
+    "savedHistoryAsPlaylist": "Saved the history as a playlist with the name **{name}**."
+  },
+  "skipSongContextCommand": {
+    "commandData": {
+      "name": "Skip Song"
+    }
+  },
+  "addToQueueContextCommand": {
+    "commandData": {
+      "name": "Add to Queue"
+    }
+  }
+}
