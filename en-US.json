@@ -150,6 +150,12 @@
     },
     "response": "You can join the support server here: {url}"
   },
+  "translateCommand": {
+    "commandData": {
+      "description": "Want to help us translate Betty into your language? Use this command to get more information."
+    },
+    "response": "You want to help us translate Betty into your language? You can do this at our translation github repo: [Betty Translation Repo](https://github.com/fb-sean/betty-music-bot-translations \"Opens the Betty translation repo on GitHub\")"
+  },
   "playCommand": {
     "commandData": {
       "description": "Play a song or add it to the queue by link or name.",
