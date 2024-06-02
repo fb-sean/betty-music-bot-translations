@@ -162,7 +162,7 @@
       "queryOption": "Votre requête pour rechercher une chanson ou un lien vers une chanson.",
       "nowOption": "Sélectionnez si vous voulez jouer la chanson directement ou l'ajouter à la file d'attente.",
       "platformOption": "Sélectionnez la plateforme où vous voulez effectuer la recherche.",
-      "fileOption": "Utilisez cette option pour télécharger un fichier à jouer. Le fichier doit être un fichier audio valide."
+      "fileOption": "Utilisez cette option pour téléverser un fichier audio valide."
     },
     "invalidFile": "Le fichier que vous avez téléchargé n'est pas un fichier audio valide. Assurez-vous qu'il s'agit d'un fichier MP3 valide et réessayez.",
     "playlistNowError": "Vous ne pouvez pas jouer une playlist directement lorsque vous avez déjà des chansons dans la file d'attente.",
