@@ -152,7 +152,7 @@
   },
   "translateCommand": {
     "commandData": {
-      "description": "Vous voulez nous aider à traduire Betty dans votre langue ? Utilisez cette commande pour obtenir plus d'informations."
+      "description": "Aidez à traduire Betty. Utilisez cette commande pour plus d'infos."
     },
     "response": "Vous voulez nous aider à traduire Betty dans votre langue ? Vous pouvez le faire sur notre dépôt GitHub de traduction : [Dépôt de traduction de Betty](https://github.com/fb-sean/betty-music-bot-translations \" Ouvre le dépôt de traduction de Betty sur GitHub \")"
   },
