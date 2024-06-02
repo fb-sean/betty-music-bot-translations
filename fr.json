@@ -26,11 +26,11 @@
     "subscriptions": "Gérer les abonnements",
     "premium": "Premium",
     "listenHere": "Écouter ici",
-    "nowPlaying": "Joue en ce moment **{songName} - {artist}**",
+    "nowPlaying": "Je joue en ce moment **{songName} - {artist}**",
     "playing": "En train de jouer {songName} - {artist}",
     "requestedBy": "Demandé par {requester}",
     "nextSong": "La prochaine chanson est **{songName}**",
-    "autoPlayInfo": "Commence à jouer des chansons recommandées. Pour obtenir de nouvelles recommandations, veuillez libérer la file d'attente.",
+    "autoPlayInfo": "Je commence à jouer des chansons recommandées. Pour obtenir de nouvelles recommandations, veuillez libérer la file d'attente.",
     "autoPlayFooter": "Cette chanson a été ajoutée automatiquement par la fonctionnalité de lecture automatique.",
     "premiumThankYou": "Merci d'avoir acheté l'abonnement Premium pour Betty ! Vous pouvez désormais utiliser toutes les fonctionnalités Premium sur {{serverName}} !",
     "premiumThankYouCustomBot": "Merci d'avoir acheté un robot personnalisé pour Betty ! Vous pouvez commencer directement avec la configuration sur le tableau de bord !",
@@ -577,7 +577,7 @@
   },
   "addDJContextCommand": {
     "commandData": {
-      "name": "Ajouter DJ"
+      "name": "Ajouter un DJ"
     },
     "removedDJ": "J'ai supprimé **{user}** en tant qu'utilisateur DJ.",
     "maxDJsForNonPremium": "Vous avez atteint le nombre maximum d'utilisateurs DJ pour les utilisateurs gratuits. Vous pouvez acheter Betty Premium sur https://betty.cx/premium pour augmenter la limite à 25 utilisateurs DJ.",
