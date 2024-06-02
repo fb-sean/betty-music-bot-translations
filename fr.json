@@ -67,7 +67,7 @@
     "tip2": "Saviez-vous que vous pouvez connecter votre compte Spotify à Betty pour importer facilement des playlists ?",
     "tip3": "Saviez-vous que vous pouvez libérer automatiquement la file d'attente si un membre quitte le salon vocal avec Betty Premium ? <https://betty.cx/premium>",
     "tip4": "Saviez-vous que vous pouvez obtenir une autre Betty avec Premium pour votre serveur ? <https://betty.cx/premium>",
-    "tip5": "Saviez-vous que vous pouvez éviter les chansons dupliquées dans la file d'attente avec Betty Premium ? <https://betty.cx/premium>",
+    "tip5": "Saviez-vous que vous pouvez éviter les chansons en doublon dans la file d'attente avec Betty Premium ? <https://betty.cx/premium>",
     "tip6": "Saviez-vous que vous pouvez obtenir des recommandations basées sur votre historique d'écoute avec {{command:recommend}} ?",
     "tip7": "Saviez-vous que Betty dispose d'un tableau de bord où vous pouvez configurer le robot pour votre serveur ? <https://betty.cx/dash>",
     "tip8": "Saviez-vous que vous pouvez activer une fonctionnalité appelée DJ temporaire ? Cela permet au créateur du lecteur audio d'accéder aux commandes DJ sans le rôle de DJ. Configurez-le ici : <https://betty.cx/dash> !"
