@@ -26,11 +26,11 @@
     "subscriptions": "Gérer les abonnements",
     "premium": "Premium",
     "listenHere": "Écouter ici",
-    "nowPlaying": "Joue en ce moment **{songName} - {artist}**",
+    "nowPlaying": "Je joue en ce moment **{songName} - {artist}**",
     "playing": "En train de jouer {songName} - {artist}",
     "requestedBy": "Demandé par {requester}",
     "nextSong": "La prochaine chanson est **{songName}**",
-    "autoPlayInfo": "Commence à jouer des chansons recommandées. Pour obtenir de nouvelles recommandations, veuillez libérer la file d'attente.",
+    "autoPlayInfo": "Je commence à jouer des chansons recommandées. Pour obtenir de nouvelles recommandations, veuillez libérer la file d'attente.",
     "autoPlayFooter": "Cette chanson a été ajoutée automatiquement par la fonctionnalité de lecture automatique.",
     "premiumThankYou": "Merci d'avoir acheté l'abonnement Premium pour Betty ! Vous pouvez désormais utiliser toutes les fonctionnalités Premium sur {{serverName}} !",
     "premiumThankYouCustomBot": "Merci d'avoir acheté un robot personnalisé pour Betty ! Vous pouvez commencer directement avec la configuration sur le tableau de bord !",
@@ -67,7 +67,7 @@
     "tip2": "Saviez-vous que vous pouvez connecter votre compte Spotify à Betty pour importer facilement des playlists ?",
     "tip3": "Saviez-vous que vous pouvez libérer automatiquement la file d'attente si un membre quitte le salon vocal avec Betty Premium ? <https://betty.cx/premium>",
     "tip4": "Saviez-vous que vous pouvez obtenir une autre Betty avec Premium pour votre serveur ? <https://betty.cx/premium>",
-    "tip5": "Saviez-vous que vous pouvez éviter les chansons dupliquées dans la file d'attente avec Betty Premium ? <https://betty.cx/premium>",
+    "tip5": "Saviez-vous que vous pouvez éviter les chansons en doublon dans la file d'attente avec Betty Premium ? <https://betty.cx/premium>",
     "tip6": "Saviez-vous que vous pouvez obtenir des recommandations basées sur votre historique d'écoute avec {{command:recommend}} ?",
     "tip7": "Saviez-vous que Betty dispose d'un tableau de bord où vous pouvez configurer le robot pour votre serveur ? <https://betty.cx/dash>",
     "tip8": "Saviez-vous que vous pouvez activer une fonctionnalité appelée DJ temporaire ? Cela permet au créateur du lecteur audio d'accéder aux commandes DJ sans le rôle de DJ. Configurez-le ici : <https://betty.cx/dash> !"
@@ -114,13 +114,13 @@
     "joinchannel": "Rejoindre votre salon vocal actuel"
   },
   "destoryReasons": {
-    "inactive": "Le lecteur audio a été détruit car il était inactif pendant trop longtemps. Utilisez {{command:play}} pour démarrer une nouvelle session !",
-    "errored": "Le lecteur audio a été détruit en raison d'une erreur. Si ce n'est pas la première fois au cours des 2 dernières heures, veuillez contacter le support. Utilisez {{command:play}} pour démarrer une nouvelle session !",
-    "queueEndWarning": "Plus de chansons à jouer. Utilisez {{command:play}} pour en ajouter plus ! Si aucune nouvelle chanson n'est ajoutée, le lecteur audio sera détruit dans 2 minutes.",
-    "queueEnd": "Plus de chansons à jouer, le lecteur audio a été détruit. Utilisez {{command:play}} pour démarrer une nouvelle session !",
-    "kickedFromVoiceChannel": "Le lecteur audio a été détruit car j'ai été expulsé du salon vocal. Utilisez {{command:play}} pour démarrer une nouvelle session !",
-    "emptyVoiceChannelWarning": "Je suis seule dans le salon vocal, le lecteur audio sera détruit dans 2 minutes si personne ne rejoint à nouveau.",
-    "emptyVoiceChannel": "Le lecteur audio a été détruit car le salon vocal est vide. Utilisez {{command:play}} pour démarrer une nouvelle session !"
+    "inactive": "Le lecteur audio a été supprimé car il est resté inactif trop longtemps. Utilisez {{command:play}} pour démarrer une nouvelle session !",
+    "errored": "Le lecteur audio a été supprimé en raison d'une erreur. Si ce n'est pas la première fois au cours des 2 dernières heures, veuillez contacter le support. Utilisez {{command:play}} pour démarrer une nouvelle session !",
+    "queueEndWarning": "Plus de chansons à jouer. Utilisez {{command:play}} pour en ajouter plus ! Si aucune nouvelle chanson n'est ajoutée, le lecteur audio sera supprimé dans 2 minutes.",
+    "queueEnd": "Plus de chansons à jouer, le lecteur audio a été supprimé. Utilisez {{command:play}} pour démarrer une nouvelle session !",
+    "kickedFromVoiceChannel": "Le lecteur audio a été supprimé car j'ai été expulsé du salon vocal. Utilisez {{command:play}} pour démarrer une nouvelle session !",
+    "emptyVoiceChannelWarning": "Je suis seule dans le salon vocal, le lecteur audio sera supprimé dans 2 minutes si personne ne rejoint à nouveau.",
+    "emptyVoiceChannel": "Le lecteur audio a été supprimé car le salon vocal est vide. Utilisez {{command:play}} pour démarrer une nouvelle session !"
   },
   "songRequestChannel": {
     "footer": "Demandé par {username} | Propulsé par Betty.cx",
@@ -164,7 +164,7 @@
       "platformOption": "Sélectionnez la plateforme où vous voulez effectuer la recherche.",
       "fileOption": "Utilisez cette option pour téléverser un fichier audio valide."
     },
-    "invalidFile": "Le fichier que vous avez téléchargé n'est pas un fichier audio valide. Assurez-vous qu'il s'agit d'un fichier MP3 valide et réessayez.",
+    "invalidFile": "Le fichier que vous avez téléversé n'est pas un fichier audio valide. Assurez-vous qu'il s'agit d'un fichier MP3 valide et réessayez.",
     "playlistNowError": "Vous ne pouvez pas jouer une playlist directement lorsque vous avez déjà des chansons dans la file d'attente.",
     "filePlaySuccessfully": "J'ai ajouté le fichier avec le nom **{title}** à la file d'attente à la position **{position}**.",
     "filePlaySuccessfullyNow": "Lecture du fichier **{title}** en cours.",
@@ -252,17 +252,17 @@
   },
   "pauseCommand": {
     "commandData": {
-      "description": "Mettre en pause la lecture en cours."
+      "description": "Mettre en pause la chanson en cours."
     },
-    "alreadyPaused": "La lecture est déjà en pause. Veuillez utiliser la commande {{command:resume}} pour reprendre la lecture.",
-    "paused": "La lecture a été mise en pause."
+    "alreadyPaused": "La chanson est déjà en pause. Veuillez utiliser la commande {{command:resume}} pour reprendre la chanson.",
+    "paused": "La chanson a été mise en pause."
   },
   "resumeCommand": {
     "commandData": {
-      "description": "Reprendre la lecture en cours."
+      "description": "Reprendre la chanson en cours."
     },
-    "alreadyResumed": "La lecture n'est pas en pause. Veuillez utiliser la commande {{command:pause}} pour mettre en pause la lecture.",
-    "resumed": "La lecture a été reprise."
+    "alreadyResumed": "La chanson n'est pas en pause. Veuillez utiliser la commande {{command:pause}} pour mettre en pause la chanson.",
+    "resumed": "La chanson a été reprise."
   },
   "shuffleCommand": {
     "commandData": {
@@ -385,7 +385,7 @@
   "seekCommand": {
     "commandData": {
       "description": "Rechercher un moment spécifique dans la chanson actuelle.",
-      "timeOption": "La durée qwe vous voulez rechercher."
+      "timeOption": "La durée que vous voulez rechercher."
     },
     "invalidTime": "Veuillez fournir une durée valide.",
     "timeTooLong": "La durée que vous avez indiquée est supérieure à la durée de la chanson.",
@@ -577,7 +577,7 @@
   },
   "addDJContextCommand": {
     "commandData": {
-      "name": "Ajouter DJ"
+      "name": "Ajouter un DJ"
     },
     "removedDJ": "J'ai supprimé **{user}** en tant qu'utilisateur DJ.",
     "maxDJsForNonPremium": "Vous avez atteint le nombre maximum d'utilisateurs DJ pour les utilisateurs gratuits. Vous pouvez acheter Betty Premium sur https://betty.cx/premium pour augmenter la limite à 25 utilisateurs DJ.",
