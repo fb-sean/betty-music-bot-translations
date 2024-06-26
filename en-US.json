@@ -98,6 +98,7 @@
     "clearhistory": "Clear history",
     "enableautoplay": "Get endless queue, enable autoplay.",
     "thatsnotmysong": "That's not the song I requested?",
+    "playerlogs": "See the player logs",
     "playlist": {
       "manageplaylistsongs": "Manage / View Songs",
       "renameplaylist": "Rename",
@@ -469,7 +470,9 @@
     "cannotImportSpotifyPlaylist": "I cannot import this spotify playlist because its empty.",
     "songAlreadyExists": "The song **{title}** is already in this playlist.",
     "cacheError": "This playlist message is too old and the cache got cleared. Please use the {{command:playlist manage}} command again.",
-    "notEnoughTracksInQueue": "There are not enough tracks in the queue to create a playlist. Use {{command:play}} to add more songs."
+    "notEnoughTracksInQueue": "There are not enough tracks in the queue to create a playlist. Use {{command:play}} to add more songs.",
+    "private": "Private",
+    "public": "Public"
   },
   "premiumCommand": {
     "commandData": {
