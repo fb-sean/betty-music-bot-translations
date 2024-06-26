@@ -98,6 +98,7 @@
     "clearhistory": "Vider l'historique",
     "enableautoplay": "Obtenez une file d'attente sans fin, activez la lecture automatique.",
     "thatsnotmysong": "Ce n'est pas la chanson que j'ai demandée ?",
+    "playerlogs": "Voir les journaux du lecteur audio",
     "playlist": {
       "manageplaylistsongs": "Gérer / Voir les chansons",
       "renameplaylist": "Renommer",
@@ -469,7 +470,9 @@
     "cannotImportSpotifyPlaylist": "Je ne peux pas importer cette playlist Spotify car elle est vide.",
     "songAlreadyExists": "La chanson **{title}** est déjà dans cette playlist.",
     "cacheError": "Ce message de playlist est trop ancien et le cache a été effacé. Veuillez utiliser à nouveau la commande {{command:playlist manage}}.",
-    "notEnoughTracksInQueue": "Il n'y a pas assez de chansons dans la file d'attente pour créer une playlist. Utilisez {{command:play}} pour ajouter plus de chansons."
+    "notEnoughTracksInQueue": "Il n'y a pas assez de chansons dans la file d'attente pour créer une playlist. Utilisez {{command:play}} pour ajouter plus de chansons.",
+    "private": "Privé",
+    "public": "Public"
   },
   "premiumCommand": {
     "commandData": {
