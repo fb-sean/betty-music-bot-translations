@@ -70,7 +70,8 @@
     "tip5": "Saviez-vous que vous pouvez éviter les chansons en doublon dans la file d'attente avec Betty Premium ? <https://betty.cx/premium>",
     "tip6": "Saviez-vous que vous pouvez obtenir des recommandations basées sur votre historique d'écoute avec {{command:recommend}} ?",
     "tip7": "Saviez-vous que Betty dispose d'un tableau de bord où vous pouvez configurer le robot pour votre serveur ? <https://betty.cx/dash>",
-    "tip8": "Saviez-vous que vous pouvez activer une fonctionnalité appelée DJ temporaire ? Cela permet au créateur du lecteur audio d'accéder aux commandes DJ sans le rôle de DJ. Configurez-le ici : <https://betty.cx/dash> !"
+    "tip8": "Saviez-vous que vous pouvez activer une fonctionnalité appelée DJ temporaire ? Cela permet au créateur du lecteur audio d'accéder aux commandes DJ sans le rôle de DJ. Configurez-le ici : <https://betty.cx/dash> !",
+    "tip9": "Saviez-vous que vous pouvez avoir une interface légère pour Betty sur les canaux vocaux temporaires ? Vous pouvez l'activer dans le tableau de bord."
   },
   "timeUnits": {
     "multiple": {
@@ -99,6 +100,7 @@
     "enableautoplay": "Obtenez une file d'attente sans fin, activez la lecture automatique.",
     "thatsnotmysong": "Ce n'est pas la chanson que j'ai demandée ?",
     "playerlogs": "Voir les journaux du lecteur audio",
+    "addsong": "Ajouter une chanson",
     "playlist": {
       "manageplaylistsongs": "Gérer / Voir les chansons",
       "renameplaylist": "Renommer",
@@ -143,7 +145,9 @@
       "grabSong": "Récupérer la chanson en cours",
       "loopPlayback": "Jouer en boucle",
       "shuffle": "Mélanger la file d'attente"
-    }
+    },
+    "lightInterfaceTitle": "{botname} Interface lumineuse",
+    "lightInterfaceFooter": "{botname} n'interagit pas avec les messages envoyés dans ce canal. Vous pouvez uniquement utiliser les boutons pour contrôler le lecteur."
   },
   "supportCommand": {
     "commandData": {
@@ -596,6 +600,21 @@
   "addToQueueContextCommand": {
     "commandData": {
       "name": "Ajouter à la file d'attente"
+    }
+  },
+  "addSongButton": {
+    "modal": {
+      "playlistTitle": "Ajouter une chanson à la playlist",
+      "title": "Ajouter une chanson",
+      "queryLabel": "Nom de la chanson",
+      "queryPlaceholder": "Entrez la chanson à ajouter ou le lien de la liste de lecture"
+    }
+  },
+  "renamePlaylistButton": {
+    "modal": {
+      "title": "Renommer la playlist",
+      "nameLabel": "Nouveau nom",
+      "namePlaceholder": "Entrez le nouveau nom de la playlist"
     }
   }
 }
