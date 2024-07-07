@@ -146,7 +146,7 @@
       "loopPlayback": "Jouer en boucle",
       "shuffle": "Mélanger la file d'attente"
     },
-    "lightInterfaceTitle": "{botname} Interface légère",
+    "lightInterfaceTitle": "Interface légère de {botname}",
     "lightInterfaceFooter": "{botname} n'interagit pas avec les messages envoyés dans ce canal. Vous pouvez uniquement utiliser les boutons pour contrôler le lecteur audio."
   },
   "supportCommand": {
