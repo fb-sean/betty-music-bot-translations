@@ -146,8 +146,8 @@
       "loopPlayback": "Jouer en boucle",
       "shuffle": "Mélanger la file d'attente"
     },
-    "lightInterfaceTitle": "{botname} Interface lumineuse",
-    "lightInterfaceFooter": "{botname} n'interagit pas avec les messages envoyés dans ce canal. Vous pouvez uniquement utiliser les boutons pour contrôler le lecteur."
+    "lightInterfaceTitle": "{botname} Interface légère",
+    "lightInterfaceFooter": "{botname} n'interagit pas avec les messages envoyés dans ce canal. Vous pouvez uniquement utiliser les boutons pour contrôler le lecteur audio."
   },
   "supportCommand": {
     "commandData": {
@@ -607,7 +607,7 @@
       "playlistTitle": "Ajouter une chanson à la playlist",
       "title": "Ajouter une chanson",
       "queryLabel": "Nom de la chanson",
-      "queryPlaceholder": "Entrez la chanson à ajouter ou le lien de la liste de lecture"
+      "queryPlaceholder": "Entrez la chanson à ajouter ou le lien de la playlist"
     }
   },
   "renamePlaylistButton": {
