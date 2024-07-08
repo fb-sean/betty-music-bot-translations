@@ -60,7 +60,10 @@
     "empty": "Empty",
     "noLavalink": "No audio server of Betty is currently available. Please try again later. If this error persists, please contact the support.",
     "restartInfo": "The bot got restarted because of an update. Betty now reconnects all existing players. Please wait a few seconds until the bot is ready again.",
-    "spotifyWarning": "Since Betty is yet not verified by Spotify, Betty's Spotify integration nearly always fail because they require us to add every user by email and full name in the developer dashboard. This is not possible for us because of privacy reasons. We are working on a solution to get this fixed."
+    "spotifyWarning": "Since Betty is yet not verified by Spotify, Betty's Spotify integration nearly always fail because they require us to add every user by email and full name in the developer dashboard. This is not possible for us because of privacy reasons. We are working on a solution to get this fixed.",
+    "notAllowedInRadioMode": "This feature is not allowed while the bot is in radio mode.",
+    "nowPlayingRadio": "The bot switched into radio mode. Playing **{radio}** of the hoster **{hoster}**.",
+    "currentlyPlayingRadio": "Currently playing **{radio}** of the hoster **{hoster}**."
   },
   "nonPremiumTips": {
     "tip1": "Did you know you can get better audio quality with betty premium? <https://betty.cx/premium>",
@@ -101,6 +104,8 @@
     "thatsnotmysong": "That's not the song I requested?",
     "playerlogs": "See the player logs",
     "addsong": "Add a song",
+    "stopRadio": "Stop the radio",
+    "searchOnSpotify": "Search on Spotify",
     "playlist": {
       "manageplaylistsongs": "Manage / View Songs",
       "renameplaylist": "Rename",
@@ -581,6 +586,17 @@
     "noHistory": "You don't have 10 songs or more in your history to value your music taste. Please play some songs with {{command:play}} to get a value of your music taste.",
     "error": "An error occurred while calculating the value of your music taste. Please try again later.",
     "poweredBy": "Powered by Google Gemini Pro"
+  },
+  "radioCommand": {
+    "commandData": {
+      "description": "Set Betty in radio mode and play a online radio.",
+      "streamOption": "Select the radio stream to play from."
+    },
+    "invalidRadio": "Please select a valid radio stream.",
+    "fetchError": "An error occurred while fetching the radio stream. Please try again later.",
+    "startingRadioFromExistingPlayer": "Stopping current playback and switching into radio mode. Playing **{radio}** of the hoster **{hoster}**.",
+    "startingRadio": "Starting radio mode. Playing **{radio}** of the hoster **{hoster}**.",
+    "stoppedRadio": "Stopped the radio mode and switched back to the queue mode."
   },
   "addDJContextCommand": {
     "commandData": {
