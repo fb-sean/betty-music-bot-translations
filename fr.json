@@ -60,7 +60,10 @@
     "empty": "Vide",
     "noLavalink": "Aucun serveur audio de Betty n'est actuellement disponible. Veuillez réessayer plus tard. Si cette erreur persiste, veuillez contacter le support.",
     "restartInfo": "Le robot a été redémarré en raison d'une mise à jour. Betty reconnecte maintenant tous les lecteurs audio existants. Veuillez patienter quelques secondes jusqu'à ce que le robot soit prêt à nouveau.",
-    "spotifyWarning": "Étant donné que Betty n'est pas encore vérifié par Spotify, l'intégration de Spotify de Betty échoue presque toujours car ils nous demandent d'ajouter chaque utilisateur par e-mail et nom complet dans le tableau de bord du développeur. Ceci n'est pas possible pour nous en raison de raisons de confidentialité. Nous travaillons sur une solution pour résoudre ce problème."
+    "spotifyWarning": "Étant donné que Betty n'est pas encore vérifié par Spotify, l'intégration de Spotify de Betty échoue presque toujours car ils nous demandent d'ajouter chaque utilisateur par e-mail et nom complet dans le tableau de bord du développeur. Ceci n'est pas possible pour nous en raison de raisons de confidentialité. Nous travaillons sur une solution pour résoudre ce problème.",
+    "notAllowedInRadioMode": "This feature is not allowed while the bot is in radio mode.",
+    "nowPlayingRadio": "The bot switched into radio mode. Playing **{radio}** of the hoster **{hoster}**.",
+    "currentlyPlayingRadio": "Currently playing **{radio}** of the hoster **{hoster}**."
   },
   "nonPremiumTips": {
     "tip1": "Saviez-vous que vous pouvez obtenir une meilleure qualité audio avec Betty Premium ? <https://betty.cx/premium>",
@@ -101,6 +104,8 @@
     "thatsnotmysong": "Ce n'est pas la chanson que j'ai demandée ?",
     "playerlogs": "Voir les journaux du lecteur audio",
     "addsong": "Ajouter une chanson",
+    "stopRadio": "Stop the radio",
+    "searchOnSpotify": "Search on Spotify",
     "playlist": {
       "manageplaylistsongs": "Gérer / Voir les chansons",
       "renameplaylist": "Renommer",
@@ -581,6 +586,17 @@
     "noHistory": "Vous n'avez pas 10 chansons ou plus dans votre historique pour évaluer votre goût musical. Veuillez jouer quelques chansons avec {{commande:play}} pour obtenir une évaluation de votre goût musical.",
     "error": "Une erreur s'est produite lors du calcul de l'évaluation de votre goût musical. Veuillez réessayer ultérieurement.",
     "poweredBy": "Propulsé par Google Gemini Pro"
+  },
+  "radioCommand": {
+    "commandData": {
+      "description": "Set Betty in radio mode and play a online radio.",
+      "streamOption": "Select the radio stream to play from."
+    },
+    "invalidRadio": "Please select a valid radio stream.",
+    "fetchError": "An error occurred while fetching the radio stream. Please try again later.",
+    "startingRadioFromExistingPlayer": "Stopping current playback and switching into radio mode. Playing **{radio}** of the hoster **{hoster}**.",
+    "startingRadio": "Starting radio mode. Playing **{radio}** of the hoster **{hoster}**.",
+    "stoppedRadio": "Stopped the radio mode and switched back to the queue mode."
   },
   "addDJContextCommand": {
     "commandData": {
