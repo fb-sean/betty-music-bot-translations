@@ -597,7 +597,8 @@
     "startingRadioFromExistingPlayer": "Stopping current playback and switching into radio mode. Playing **{radio}** of the hoster **{hoster}**.",
     "startingRadio": "Starting radio mode. Playing **{radio}** of the hoster **{hoster}**.",
     "stoppedRadio": "Stopped the radio mode and switched back to the queue mode.",
-    "noRadiosFound": "No radio streams found."
+    "noRadiosFound": "No radio streams found.",
+    "radioModeDisabled": "Le mode radio est désactivé. Veuillez l'activer dans le tableau de bord pour utiliser cette fonction."
   },
   "addDJContextCommand": {
     "commandData": {
