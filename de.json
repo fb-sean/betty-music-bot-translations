@@ -1,0 +1,638 @@
+{
+  "global": {
+    "premiumRequired": "Um diese Funktion nutzen zu können, musst du Betty Premium für diesen Server besitzen. Du kannst es hier kaufen https://betty.cx/premium ab $2,50!",
+    "premiumQueueLimitReached": "Du hast das Wartelimit für kostenlose Nutzer erreicht. Du kannst bis zu 1500 Lieder zur Warteschlange hinzufügen. Du kannst Betty Premium für $2,50 hier kaufen: https://betty.cx/premium, um das Limit auf 100 Lieder zu erhöhen.",
+    "unknownCommand": "Oh nein! Ich kenne diesen Befehl nicht. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
+    "unknownButton": "Oh nein! Ich kenne diesen Button nicht. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
+    "unknownSelectMenu": "Oh nein! Ich kenne dieses Auswahlmenü nicht. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
+    "unknownModal": "Oh nein! Ich kenne dieses Modal nicht. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
+    "unknownError": "Oh nein! Etwas ist schiefgelaufen. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
+    "serverOnly": "Diese Funktion kann nur in Servern verwendet werden.",
+    "needVoice": "Du musst in einem Sprachkanal sein, um diese Funktion zu nutzen.",
+    "cannotJoin": "Ich kann diesem Sprachkanal nicht beitreten. Bitte stelle sicher, dass ich die richtigen Berechtigungen habe und versuche es erneut.",
+    "noPlayer": "Es gibt keinen Player auf diesem Server. Verwende {{command:join}}, um einen zu erstellen!",
+    "emptyQueue": "Die Warteschlange ist leer. Verwende {{command:play}}, um Lieder hinzuzufügen!",
+    "notSameVoiceChannel": "Du musst im gleichen Sprachkanal wie ich sein, um diese Funktion zu nutzen.",
+    "notInSongRequestChannelUseAble": "Du kannst diesen Befehl nicht im Song-Anfrage-Kanal verwenden.",
+    "botNoPermission": "Ich habe nicht die notwendigen Berechtigungen, um diese Aktion auszuführen. Ich benötige die {missingPerms} Berechtigung in diesem Kanal. Bitte stelle sicher, dass ich die richtigen Berechtigungen habe und versuche es erneut.",
+    "userNoPermission": "Du hast nicht die notwendigen Berechtigungen, um diese Aktion auszuführen. Du benötigst die {missingPerms} Berechtigung in diesem Kanal.",
+    "djOnly": "Nur DJs können diese Funktion nutzen.",
+    "notAllowedToJoinBecauseOfGuildSettings": "Ich darf diesem Sprachkanal aufgrund der Servereinstellungen nicht beitreten.",
+    "cooldownMessage": "Du bist auf Abklingzeit. Bitte warte {time}, bevor du diese Funktion erneut verwendest.",
+    "poweredBy": "Bereitgestellt von Betty.cx",
+    "invite": "Einladen",
+    "support": "Support",
+    "website": "Webseite",
+    "subscriptions": "Abonnements verwalten",
+    "premium": "Premium",
+    "listenHere": "Hier anhören",
+    "nowPlaying": "Jetzt spielt **{songName} - {artist}**",
+    "playing": "Spielt {songName} - {artist}",
+    "requestedBy": "Angefragt von {requester}",
+    "nextSong": "Das nächste Lied ist **{songName}**",
+    "autoPlayInfo": "Beginne, empfohlene Lieder zu spielen. Um neue Empfehlungen zu erhalten, lösche bitte die Warteschlange.",
+    "autoPlayFooter": "Dieses Lied wurde automatisch von der Autoplay-Funktion hinzugefügt.",
+    "premiumThankYou": "Danke, dass du Betty Premium gekauft hast! Du kannst jetzt alle Premium-Funktionen auf {{serverName}} nutzen!",
+    "premiumThankYouCustomBot": "Danke, dass du einen benutzerdefinierten Bot für Betty gekauft hast! Du kannst direkt mit der Einrichtung im Dashboard beginnen!",
+    "premiumPaymentFailed": "Eine deiner Abonnements bei Betty ist aufgrund eines Zahlungsproblems fehlgeschlagen. Bitte überprüfe deine Zahlungsmethoden. Als Folge wurde dein Premium-Status entfernt. Wenn der nächste Zahlungsversuch erfolgreich ist, wird dein Premium wiederhergestellt.",
+    "guildJoinDm": "### Hallo!\n\nDanke, dass du Betty zu deinem Server hinzugefügt hast! 🎉\n\nDann fangen wir mal an:\n\n- **Betty anpassen:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Musik abspielen:** {{Befehl:abspielen}}\n\nWillst du mehr von Betty? Schau dir [Betty's Premium](https://betty.cx) für zusätzliche Funktionen an!\n\nViel Spaß!",
+    "nothingFound": "Ich konnte nichts für diese Anfrage finden.",
+    "noPlayerFound": "Ich konnte keinen Player für diesen Server finden oder erstellen. Bitte versuche es später erneut.",
+    "devOnly": "Dieser Bot befindet sich derzeit im Entwicklungsmodus und nur der Entwickler kann den Bot verwenden. Bitte trete dem Support-Server bei, um weitere Informationen zu erhalten.",
+    "noSpotifyConnection": "Du hast kein Spotify-Konto mit Betty verbunden. Verwende den Befehl {{command:spotify login}}, um dein Konto zu verbinden.",
+    "firstPage": "Erste Seite",
+    "previousPage": "Vorherige Seite",
+    "nextPage": "Nächste Seite",
+    "lastPage": "Letzte Seite",
+    "selectLikeType": "Wo möchtest du das Lied zu deiner Favoritenliste hinzufügen - Discord, Spotify oder Deezer?",
+    "serverBlacklisted": "Dieser Server ist auf der schwarzen Liste und kann Betty nicht verwenden. Wenn du denkst, dass dies ein Fehler ist, kontaktiere bitte den Support.",
+    "unlikedSong": "Du hast den Track **{title}** bereits geliked, also habe ich ihn entfernt.",
+    "likedSong": "Den Track **{title}** geliked.",
+    "boostPremium": "Boost your server with premium!",
+    "songAlreadyInQueue": "Der Song **{title}** ist bereits in der Warteschlange und aufgrund der Servereinstellungen kann ich ihn nicht erneut hinzufügen.",
+    "responseEmptyAfterFilter": "Die Ergebnisse sind nach dem Vermeiden von doppelten Songs leer. Bitte versuche es mit einer anderen Anfrage erneut.",
+    "serverNotWhitelisted": "Dieser Server ist nicht auf der Whitelist und kann diesen benutzerdefinierten Bot von Betty nicht verwenden. Wenn du der Eigentümer des benutzerdefinierten Bots bist, verwende das Dashboard, um den Server auf die Whitelist zu setzen.",
+    "autoPlayAlreadyEnabled": "Die Autoplay-Funktion ist bereits aktiviert. Um sie zu deaktivieren, besuche bitte das Dashboard.",
+    "autoPlayEnabled": "Die Autoplay-Funktion wurde aktiviert. Um sie wieder zu deaktivieren, besuche bitte das Dashboard.",
+    "notMySong": "**Das ist nicht dein Lied?**\nWenn der Bot nicht genau das Lied gefunden hat, das du spielen möchtest, versuche diese Möglichkeiten:\n1. Versuche, das Lied mit dem Songlink hinzuzufügen. (z.B. von Spotify)\n2. Versuche, das Lied nach Titel - Künstler hinzuzufügen. (z.B. Believer - Imagine Dragons)\n3. Versuche, das Lied mit dem Befehl {{command:search}} zu finden.",
+    "queueLimitReached": "Du hast das festgelegte Warteschlangenlimit von **{limit}** für diesen Server erreicht. Bitte warte, bis einige Lieder gespielt oder aus der Warteschlange entfernt wurden, bevor du neue hinzufügst.",
+    "queueUserLimitReached": "Du hast das festgelegte Warteschlangenlimit von **{limit}** für dich erreicht. Bitte warte, bis einige Lieder gespielt oder aus der Warteschlange entfernt wurden, bevor du neue hinzufügst.",
+    "empty": "Leer",
+    "noLavalink": "Kein Audioserver von Betty ist derzeit verfügbar. Bitte versuche es später erneut. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
+    "restartInfo": "Der Bot wurde aufgrund eines Updates neu gestartet. Betty verbindet nun alle bestehenden Player wieder. Bitte warte ein paar Sekunden, bis der Bot wieder bereit ist.",
+    "spotifyWarning": "Da Betty noch nicht von Spotify verifiziert wurde, schlägt Bettys Spotify-Integration fast immer fehl, weil sie uns dazu verpflichten, jeden Benutzer per E-Mail und vollem Namen im Entwickler-Dashboard hinzuzufügen. Das ist aus Datenschutzgründen für uns nicht möglich. Wir arbeiten an einer Lösung, um dieses Problem zu beheben.",
+    "notAllowedInRadioMode": "Diese Funktion ist im Radiomodus nicht erlaubt.",
+    "nowPlayingRadio": "Der Bot ist in den Radiomodus gewechselt. Spielt **{radio}** von **{hoster}**.",
+    "currentlyPlayingRadio": "Derzeit spielt **{radio}** von **{hoster}**."
+  },
+  "nonPremiumTips": {
+    "tip1": "Wusstest du, dass du mit Betty Premium eine bessere Audioqualität erhalten kannst? <https://betty.cx/premium>",
+    "tip2": "Wusstest du, dass du dein Spotify-Konto mit Betty verbinden kannst, um Playlists einfach zu importieren?",
+    "tip3": "Wusstest du, dass du die Warteschlange automatisch aufräumen kannst, wenn ein Mitglied den Sprachkanal mit Betty Premium verlässt? <https://betty.cx/premium>",
+    "tip4": "Wusstest du, dass du eine weitere Betty mit Premium für deinen Server erhalten kannst? <https://betty.cx/premium>",
+    "tip5": "Wusstest du, dass du doppelte Lieder in der Warteschlange mit Betty Premium verhindern kannst? <https://betty.cx/premium>",
+    "tip6": "Wusstest du, dass du Empfehlungen basierend auf deinem Hörverlauf mit {{command:recommend}} erhalten kannst?",
+    "tip7": "Wusstest du, dass Betty ein Dashboard hat, auf dem du den Bot für deinen Server konfigurieren kannst? <https://betty.cx/dash>",
+    "tip8": "Wusstest du, dass du eine Funktion namens Temporärer DJ aktivieren kannst? Dies ermöglicht es dem Player-Ersteller, DJ-Befehle ohne die DJ-Rolle zu verwenden. Richte es hier ein: <https://betty.cx/dash>!",
+    "tip9": "Wusstest du, dass du eine leichte Benutzeroberfläche für Betty in temporären Sprachkanälen haben kannst? Du kannst sie im Dashboard aktivieren."
+  },
+  "timeUnits": {
+    "multiple": {
+      "days": "Tage",
+      "hours": "Stunden",
+      "minutes": "Minuten",
+      "seconds": "Sekunden"
+    },
+    "single": {
+      "days": "Tag",
+      "hours": "Stunde",
+      "minutes": "Minute",
+      "seconds": "Sekunde"
+    }
+  },
+  "buttonLabels": {
+    "support": "Support-Server beitreten",
+    "customBotDashboard": "Custom Bot Dashboard",
+    "loop": "Schleife",
+    "remove": "Entfernen",
+    "shuffle": "Warteschlange mischen",
+    "savequeueasplaylist": "Warteschlange als Playlist speichern",
+    "savehistoryasplaylist": "Verlauf als Playlist speichern",
+    "playhistory": "Verlauf abspielen",
+    "clearhistory": "Verlauf löschen",
+    "enableautoplay": "Endlose Warteschlange, Autoplay aktivieren.",
+    "thatsnotmysong": "Das ist nicht das Lied, das ich angefordert habe?",
+    "playerlogs": "Player-Protokolle anzeigen",
+    "addsong": "Ein Lied hinzufügen",
+    "stopRadio": "Radio stoppen",
+    "searchOnSpotify": "Auf Spotify suchen",
+    "playlist": {
+      "manageplaylistsongs": "Lieder verwalten / anzeigen",
+      "renameplaylist": "Umbenennen",
+      "toggleprivateplaylist": "Privat umschalten",
+      "playplaylist": "Playlist abspielen",
+      "deleteplaylist": "Playlist löschen",
+      "transfareplaylist": "Playlist übertragen",
+      "importspotifyplaylist": "Lieder von Spotify importieren",
+      "playlistremovesong": "Wähle die Lieder aus, die du entfernen möchtest.",
+      "addsongtoplaylist": "Ein Lied zur Playlist hinzufügen",
+      "backtoplaylist": "Zurück zur Playlist",
+      "shareplaylist": "Playlist teilen"
+    },
+    "joinchannel": "Deinem aktuellen Sprachkanal beitreten"
+  },
+  "destoryReasons": {
+    "inactive": "Der Player wurde zerstört, weil er zu lange inaktiv war. Verwende {{command:play}}, um eine neue Sitzung zu starten!",
+    "errored": "Der Player wurde aufgrund eines Fehlers zerstört. Wenn dies nicht das erste Mal in den letzten 2 Stunden ist, kontaktiere bitte den Support. Verwende {{command:play}}, um eine neue Sitzung zu starten!",
+    "queueEndWarning": "Keine weiteren Lieder zum Abspielen. Verwende {{command:play}}, um mehr hinzuzufügen! Wenn keine neuen Titel hinzugefügt werden, wird der Player in 2 Minuten zerstört.",
+    "queueEnd": "Keine weiteren Titel zum Abspielen, der Player wurde zerstört. Verwende {{command:play}}, um eine neue Sitzung zu starten!",
+    "kickedFromVoiceChannel": "Der Player wurde zerstört, weil ich aus dem Sprachkanal gekickt wurde. Verwende {{command:play}}, um eine neue Sitzung zu starten!",
+    "emptyVoiceChannelWarning": "Ich bin alleine im Sprachkanal, der Player wird in 2 Minuten zerstört, wenn niemand wieder beitritt.",
+    "emptyVoiceChannel": "Der Player wurde zerstört, weil der Sprachkanal leer wurde. Verwende {{command:play}}, um eine neue Sitzung zu starten!"
+  },
+  "songRequestChannel": {
+    "footer": "Angefordert von {username} | Bereitgestellt von Betty.cx",
+    "noSongs": "Es gibt keine Lieder in der Warteschlange. Füge welche mit {{command:play}} hinzu oder pinge den Bot und tippe den Namen oder die URL in diesen Kanal.",
+    "noSongsPlaying": "Es spielen keine Lieder.",
+    "nextSongs": "Nächste {number} Lieder",
+    "nextSong": "Nächstes Lied",
+    "channelName": "song-request",
+    "loadingMessage": "Der Song-Anfrage-Kanal wird aufgebaut...",
+    "emptyQuery": "Bitte gib eine gültige Anfrage ein. Denke daran, dass du mich erwähnen musst, sonst kann ich deine Nachricht nicht sehen.",
+    "topic": {
+      "rewind": "10 Sekunden zurückspulen",
+      "pauseResume": "Wiedergabe pausieren/fortsetzen",
+      "stop": "Stoppen",
+      "forward": "10 Sekunden vorspulen",
+      "skip": "Das aktuelle Lied überspringen",
+      "volumeDown": "Lautstärke -10%",
+      "volumeUp": "Lautstärke +10%",
+      "grabSong": "Das aktuelle Lied greifen",
+      "loopPlayback": "Wiedergabe wiederholen",
+      "shuffle": "Warteschlange mischen"
+    },
+    "lightInterfaceTitle": "{botname} Light Interface",
+    "lightInterfaceFooter": "Betty wird keine Nachrichten in diesem Kanal interagieren. Du kannst nur die Buttons verwenden, um den Player zu steuern."
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "Den Link zum Support-Server erhalten."
+    },
+    "response": "Du kannst dem Support-Server hier beitreten: {url}"
+  },
+  "translateCommand": {
+    "commandData": {
+      "description": "Möchtest du uns helfen, Betty in deine Sprache zu übersetzen? Verwende diesen Befehl, um mehr Informationen zu erhalten."
+    },
+    "response": "Möchtest du uns helfen, Betty in deine Sprache zu übersetzen? Du kannst dies in unserem Übersetzungs-Github-Repo tun: [Betty Translation Repo](https://github.com/fb-sean/betty-music-bot-translations \"Öffnet das Betty-Übersetzungs-Repo auf GitHub\")"
+  },
+  "playCommand": {
+    "commandData": {
+      "description": "Ein Lied abspielen oder zur Warteschlange hinzufügen per Link oder Name.",
+      "queryOption": "Deine Anfrage, um nach einem Lied zu suchen oder einen Link zu einem Lied.",
+      "nowOption": "Wähle, ob du das Lied direkt abspielen oder zur Warteschlange hinzufügen möchtest.",
+      "platformOption": "Wähle die Plattform, von der du suchen möchtest.",
+      "fileOption": "Verwende diese Option, um eine Datei zum Abspielen hochzuladen. Die Datei muss eine gültige Audiodatei sein."
+    },
+    "invalidFile": "Die hochgeladene Datei ist keine gültige Audiodatei. Bitte stelle sicher, dass es sich um eine gültige MP3-Datei handelt und versuche es erneut.",
+    "playlistNowError": "Du kannst eine Playlist nicht direkt abspielen, wenn bereits Lieder in der Warteschlange sind.",
+    "filePlaySuccessfully": "Datei mit dem Namen **{title}** zur Warteschlange an Position **{position}** hinzugefügt.",
+    "filePlaySuccessfullyNow": "Begonnen, die Datei **{title}** abzuspielen.",
+    "trackPlaySuccessfully": "Hinzugefügt {emoji}[**{title}**]({url} \"Öffnet das Lied in deinem Browser.\") zur Warteschlange an Position **{position}**.",
+    "trackPlaySuccessfullyNow": "Begonnen, {emoji}[**{title}**]({url} \"Öffnet das Lied in deinem Browser.\") abzuspielen.",
+    "playlistPlaySuccessfully": "Die Playlist [**{title}**]({url} \"Öffnet die Playlist in deinem Browser.\") zur Warteschlange hinzugefügt.",
+    "playlistPlaySuccessfullyNow": "Begonnen, die Playlist [**{title}**]({url} \"Öffnet die Playlist in deinem Browser.\") abzuspielen."
+  },
+  "joinCommand": {
+    "commandData": {
+      "description": "Dem Sprachkanal beitreten, in dem du dich befindest."
+    },
+    "success": "Erfolgreich <#{channel}> beigetreten.",
+    "alreadyConnected": "Ich bin bereits mit einem Sprachkanal verbunden."
+  },
+  "disconnectCommand": {
+    "commandData": {
+      "description": "Vom Sprachkanal trennen."
+    },
+    "success": "Erfolgreich vom Sprachkanal getrennt.",
+    "notConnected": "Ich bin nicht mit einem Sprachkanal verbunden."
+  },
+  "stopCommand": {
+    "commandData": {
+      "description": "Den Player stoppen und die Warteschlange löschen."
+    },
+    "success": "Den Player gestoppt und die Warteschlange gelöscht.",
+    "removedVote": "Deine Stimme zum Stoppen des Players wurde entfernt.",
+    "addedVote": "Deine Stimme zum Stoppen des Players wurde hinzugefügt ({votes}/{requiredVotes})."
+  },
+  "switchCommand": {
+    "commandData": {
+      "description": "Den Sprachkanal wechseln."
+    },
+    "success": "Erfolgreich von <#{oldChannel}> zu <#{newChannel}> gewechselt.",
+    "notConnected": "Ich bin nicht mit einem Sprachkanal verbunden."
+  },
+  "searchCommand": {
+    "commandData": {
+      "description": "Nach einem Lied suchen und es abspielen oder zur Warteschlange hinzufügen.",
+      "queryOption": "Deine Anfrage, um nach einem Lied zu suchen.",
+      "nowOption": "Wähle, ob du das Lied direkt abspielen oder zur Warteschlange hinzufügen möchtest.",
+      "platformOption": "Wähle die Plattform, von der du suchen möchtest."
+    },
+    "results": "Hier sind die Suchergebnisse für **{query}**.\n\n*Bitte verwende das Dropdown-Menü unten, um Lieder für die Wiedergabe auszuwählen oder sie deiner Warteschlange hinzuzufügen.*",
+    "selectPlaceholder": "Wähle Lieder aus, um sie entweder sofort abzuspielen oder zur Warteschlange hinzuzufügen.",
+    "emptyQueueWithErrored": "{emoji}[**{title}**]({url} \"Öffnet das Lied in deinem Browser.\") abgespielt und **{added}** weitere Lieder zur Warteschlange hinzugefügt, aber konnte **{errored}** Lieder nicht hinzufügen.",
+    "emptyQueue": "{emoji}[**{title}**]({url} \"Öffnet das Lied in deinem Browser.\") abgespielt und **{added}** weitere Lieder zur Warteschlange hinzugefügt.",
+    "successWithErrored": "**{added}** Lieder zur Warteschlange hinzugefügt, aber konnte **{errored}** Lieder nicht hinzufügen.",
+    "success": "**{added}** Lieder zur Warteschlange hinzugefügt."
+  },
+  "skipCommand": {
+    "commandData": {
+      "description": "Das aktuelle oder mehrere Lieder überspringen.",
+      "skipToOption": "Die Anzahl der zu überspringenden Lieder. (Vote Skip unterstützt dies nicht!)"
+    },
+    "noSongPlaying": "Es wird kein Lied abgespielt. Ich kann also nichts überspringen.",
+    "skippedMultipleSongs": "**{count}** Lieder erfolgreich übersprungen.",
+    "skippedCurrentSong": "Erfolgreich **[{title}]({url})** übersprungen.",
+    "removedVote": "Deine Stimme zum Überspringen des aktuellen Lieds wurde entfernt.",
+    "addedVote": "Deine Stimme zum Überspringen des aktuellen Lieds wurde hinzugefügt ({votes}/{requiredVotes}).",
+    "skippingMoreSongsThanQueue": "Du kannst nicht mehr Lieder überspringen, als in der Warteschlange sind."
+  },
+  "spotifyCommand": {
+    "commandData": {
+      "description": "Dein Spotify-Konto mit Betty verwalten.",
+      "loginOption": "In dein Spotify-Konto einloggen.",
+      "logoutOption": "Aus deinem Spotify-Konto ausloggen."
+    },
+    "loginLink": "[Klicke hier, um dein Spotify-Konto mit Betty zu verbinden.]({url} \"Öffnet die Spotify-Login-Seite zur OAuth mit Betty\")",
+    "openLinkButton": "Öffnen",
+    "logoutSuccess": "Dein Spotify-Konto erfolgreich getrennt.",
+    "loginSuccess": "Dein Spotify-Konto erfolgreich verbunden.",
+    "noSpotifyTrack": "Ich konnte keinen Track für diese Anfrage auf Spotify finden.",
+    "failedLike": "Fehler beim Liken des Tracks auf Spotify. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
+    "likedSong": "Den Track **{title}** auf Spotify geliked.",
+    "failedRemoveLike": "Fehler beim Entfernen des Likes vom Track auf Spotify. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
+    "alreadyLiked": "Du hast den Track **{title}** auf Spotify bereits geliked, daher habe ich ihn entfernt."
+  },
+  "fixCommand": {
+    "commandData": {
+      "description": "Den Player reparieren, wenn er nicht richtig funktioniert."
+    },
+    "success": "Die Sprachserver-Region wurde erfolgreich auf **Rotterdam** aktualisiert, die am nächsten zu Betty liegt."
+  },
+  "pauseCommand": {
+    "commandData": {
+      "description": "Die aktuelle Wiedergabe pausieren."
+    },
+    "alreadyPaused": "Die Wiedergabe ist bereits pausiert. Bitte verwende den Befehl {{command:resume}}, um die Wiedergabe fortzusetzen.",
+    "paused": "Die Wiedergabe pausiert."
+  },
+  "resumeCommand": {
+    "commandData": {
+      "description": "Die aktuelle Wiedergabe fortsetzen."
+    },
+    "alreadyResumed": "Die Wiedergabe ist nicht pausiert. Bitte verwende den Befehl {{command:pause}}, um die Wiedergabe zuerst zu pausieren.",
+    "resumed": "Die Wiedergabe fortgesetzt."
+  },
+  "shuffleCommand": {
+    "commandData": {
+      "description": "Die Warteschlange mischen."
+    },
+    "shuffled": "Die Warteschlange gemischt. Du kannst {{command:unshuffle}} verwenden, um die Warteschlange wiederherzustellen.",
+    "notEnoughTracks": "Es sind nicht genug Lieder in der Warteschlange, um sie zu mischen. Verwende {{command:play}}, um weitere Lieder hinzuzufügen."
+  },
+  "unshuffleCommand": {
+    "commandData": {
+      "description": "Die Warteschlange zurücksetzen."
+    },
+    "unshuffled": "Die Warteschlange in ihre ursprüngliche Reihenfolge zurückgesetzt.",
+    "notShuffled": "Die Warteschlange ist nicht gemischt."
+  },
+  "clearQueueCommand": {
+    "commandData": {
+      "description": "Die Warteschlange löschen."
+    },
+    "notEnoughTracks": "Es sind nicht genug Lieder in der Warteschlange, um sie zu löschen. Verwende {{command:play}}, um weitere Lieder hinzuzufügen.",
+    "cleared": "Die Warteschlange gelöscht. Du kannst {{command:unshuffle}} verwenden, um die Warteschlange wiederherzustellen."
+  },
+  "previousCommand": {
+    "commandData": {
+      "description": "Eines der vorherigen Lieder abspielen.",
+      "nowOption": "Wähle, ob du das Lied direkt abspielen oder zur Warteschlange hinzufügen möchtest."
+    },
+    "noPreviousSong": "Es gibt keine vorherigen Lieder zum Abspielen.",
+    "trackNotFound": "Ich konnte das von dir angeforderte Lied in den vorherigen Liedern nicht finden."
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "Ein Lied aus der Warteschlange entfernen.",
+      "trackOption": "Das Lied, das du aus der Warteschlange entfernen möchtest."
+    },
+    "removed": "**{title}** aus der Warteschlange entfernt.",
+    "notInQueue": "Das von dir angeforderte Lied ist nicht in der Warteschlange.",
+    "queueEmpty": "Die Warteschlange ist leer. Nichts zu entfernen."
+  },
+  "volumeCommand": {
+    "commandData": {
+      "description": "Die Lautstärke des Players ändern.",
+      "volumeOption": "Die Lautstärke, die du einstellen möchtest."
+    },
+    "invalidVolume": "Bitte gib eine gültige Lautstärke zwischen **0** und **{max}** an."
+  },
+  "bassboostCommand": {
+    "commandData": {
+      "description": "Den Bass-Boost-Filter aktivieren oder deaktivieren.",
+      "levelOption": "Das Niveau des Bass-Boost-Filters.",
+      "offLevel": "Aus",
+      "highLevel": "Hoch",
+      "mediumLevel": "Mittel",
+      "lowLevel": "Niedrig"
+    },
+    "levelChanged": "Das Niveau des Bass-Boost-Filters auf **{level}** geändert.",
+    "cleared": "Den Bass-Boost-Filter gelöscht."
+  },
+  "lowpassCommand": {
+    "commandData": {
+      "description": "Den Lowpass-Filter aktivieren oder deaktivieren."
+    },
+    "disabled": "Den Lowpass-Filter deaktiviert.",
+    "enabled": "Den Lowpass-Filter aktiviert."
+  },
+  "nightcoreCommand": {
+    "commandData": {
+      "description": "Den Nightcore-Filter aktivieren oder deaktivieren."
+    },
+    "disabled": "Den Nightcore-Filter deaktiviert.",
+    "enabled": "Den Nightcore-Filter aktiviert."
+  },
+  "vaporwaveCommand": {
+    "commandData": {
+      "description": "Den Vaporwave-Filter aktivieren oder deaktivieren."
+    },
+    "disabled": "Den Vaporwave-Filter deaktiviert.",
+    "enabled": "Den Vaporwave-Filter aktiviert."
+  },
+  "karaokeCommand": {
+    "commandData": {
+      "description": "Den Karaoke-Filter aktivieren oder deaktivieren."
+    },
+    "disabled": "Den Karaoke-Filter deaktiviert.",
+    "enabled": "Den Karaoke-Filter aktiviert."
+  },
+  "rotationCommand": {
+    "commandData": {
+      "description": "Den Rotation-Filter aktivieren oder deaktivieren."
+    },
+    "disabled": "Den Rotation-Filter deaktiviert.",
+    "enabled": "Den Rotation-Filter aktiviert."
+  },
+  "tremoloCommand": {
+    "commandData": {
+      "description": "Den Tremolo-Filter aktivieren oder deaktivieren."
+    },
+    "disabled": "Den Tremolo-Filter deaktiviert.",
+    "enabled": "Den Tremolo-Filter aktiviert."
+  },
+  "vibratoCommand": {
+    "commandData": {
+      "description": "Den Vibrato-Filter aktivieren oder deaktivieren."
+    },
+    "disabled": "Den Vibrato-Filter deaktiviert.",
+    "enabled": "Den Vibrato-Filter aktiviert."
+  },
+  "replayCommand": {
+    "commandData": {
+      "description": "Das aktuelle Lied erneut abspielen."
+    },
+    "replayed": "**{title}** erneut abgespielt."
+  },
+  "nowPlayingCommand": {
+    "commandData": {
+      "description": "Informationen über das aktuelle Lied erhalten."
+    },
+    "nowPlaying": "Jetzt spielt **{title} - {artist}**"
+  },
+  "seekCommand": {
+    "commandData": {
+      "description": "Zu einer bestimmten Position im aktuellen Lied springen.",
+      "timeOption": "Die Zeit, zu der du springen möchtest."
+    },
+    "invalidTime": "Bitte gib eine gültige Zeit an.",
+    "timeTooLong": "Die angegebene Zeit ist länger als die Dauer des Liedes.",
+    "seeked": "Zu **{time}** gesprungen."
+  },
+  "rewindCommand": {
+    "commandData": {
+      "description": "Das aktuelle Lied um eine bestimmte Zeit zurückspulen.",
+      "timeOption": "Die Zeit, um die du zurückspulen möchtest."
+    },
+    "invalidTime": "Bitte gib eine gültige Zeit an.",
+    "timeTooShort": "Die angegebene Zeit ist kürzer als die aktuelle Position des Liedes.",
+    "rewinded": "Zurückgespult auf **{time}**."
+  },
+  "loopCommand": {
+    "commandData": {
+      "queueDescription": "Die gesamte Warteschlange wiederholen.",
+      "songDescription": "Das aktuelle Lied wiederholen.",
+      "noneDescription": "Die Wiederholung deaktivieren."
+    },
+    "alreadyDisabled": "Die Wiederholung ist bereits deaktiviert.",
+    "disabledLoop": "Die Wiederholung deaktiviert.",
+    "loopSwitchedFromSong": "Von der Wiederholung des aktuellen Liedes zur Wiederholung der gesamten Warteschlange gewechselt.",
+    "loopQueue": "Die gesamte Warteschlange wiederholen.",
+    "loopSwitchedFromQueue": "Von der Wiederholung der gesamten Warteschlange zur Wiederholung des aktuellen Liedes gewechselt.",
+    "loopSong": "Das aktuelle Lied wiederholen."
+  },
+  "moveCommand": {
+    "commandData": {
+      "description": "Die gesamte Warteschlange wiederholen.",
+      "trackOption": "Das Lied, das du verschieben möchtest.",
+      "positionOption": "Die Position, zu der du das Lied verschieben möchtest."
+    },
+    "queueEmpty": "Die Warteschlange ist leer. Nichts zu verschieben.",
+    "trackNotFound": "Das von dir angeforderte Lied ist nicht in der Warteschlange.",
+    "invalidPosition": "Bitte gib eine gültige Position an.",
+    "success": "**{title}** an Position **{position}** verschoben."
+  },
+  "queueCommand": {
+    "commandData": {
+      "description": "Informationen über die aktuelle Warteschlange erhalten."
+    },
+    "emptyQueue": "Die Warteschlange ist leer.",
+    "queue": "Warteschlange",
+    "nowPlaying": "Jetzt spielt",
+    "nextSongs": "Nächste Lieder",
+    "footer": "Seite {page} von {pages} | Lieder in der Warteschlange: {tracks} | Länge: {length}",
+    "cacheError": "Diese Warteschlangen-Nachricht ist zu alt und der Cache wurde geleert. Bitte verwende den Befehl {{command:queue}} erneut."
+  },
+  "playlistCommand": {
+    "commandData": {
+      "descriptionManageOption": "Deine Playlists verwalten.",
+      "descriptionPlayOption": "Eine Playlist abspielen.",
+      "descriptionSearchOption": "Nach einer Playlist suchen.",
+      "descriptionCreateOption": "Eine Playlist erstellen.",
+      "queryOption": "Die Anfrage, um nach einer Playlist zu suchen. (ID oder Name)",
+      "nameOption": "Der Name der Playlist."
+    },
+    "embed": {
+      "creator": "**Erstellt von**: {user}",
+      "songs": "**Lieder**: {count}/{max}",
+      "created": "**Erstellt am**: {date}",
+      "duration": "**Gesamtdauer der Playlist**: {duration}"
+    },
+    "songsEmbed": {
+      "title": "Lieder in der Playlist: **{name}**",
+      "footer": "Seite {page} von {pages} | Lieder in der Playlist: {tracks}"
+    },
+    "nameTooLong": "Der Name der Playlist ist zu lang. Bitte gib einen Namen mit maximal 50 Zeichen an.",
+    "invalidName": "Bitte gib einen gültigen Namen für die Playlist an.",
+    "tooManyPlaylists": "Du hast die maximale Anzahl an Playlists erreicht, die du haben kannst. Bitte lösche eine Playlist, um eine neue zu erstellen.",
+    "playlistExists": "Eine Playlist mit dem Namen **{name}** existiert bereits.",
+    "toxicContent": "Der Name der Playlist enthält toxische Inhalte. Bitte gib einen anderen Namen an.",
+    "playlistNotFound": "Ich konnte keine Playlist mit der Anfrage **{query}** finden.",
+    "noPlaylistsFound": "Keine Playlists gefunden.",
+    "deletedPlaylist": "Die Playlist **{name}** gelöscht.",
+    "selectUserToTransfere": "Bitte wähle den Benutzer aus, an den du die Playlist übertragen möchtest.",
+    "userPlaylistLimit": "Der von dir ausgewählte Benutzer hat das Playlist-Limit erreicht.",
+    "noSpotifyPlaylists": "Du hast keine Spotify-Playlists.",
+    "selectPlaylistToImport": "Bitte wähle die Playlist aus, die du importieren möchtest.",
+    "cannotImportSpotifyPlaylist": "Ich kann diese Spotify-Playlist nicht importieren, da sie leer ist.",
+    "songAlreadyExists": "Das Lied **{title}** ist bereits in dieser Playlist.",
+    "cacheError": "Diese Playlist-Nachricht ist zu alt und der Cache wurde geleert. Bitte verwende den Befehl {{command:playlist manage}} erneut.",
+    "notEnoughTracksInQueue": "Es sind nicht genug Lieder in der Warteschlange, um eine Playlist zu erstellen. Verwende {{command:play}}, um weitere Lieder hinzuzufügen.",
+    "private": "Privat",
+    "public": "Öffentlich"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "Informationen über Betty Premium erhalten."
+    },
+    "response": "Du bist an Betty Premium interessiert? Weitere Informationen dazu findest du auf unserer Website: <https://betty.cx/premium>"
+  },
+  "profileCommand": {
+    "commandData": {
+      "description": "Informationen über dein Profil bei Betty erhalten."
+    },
+    "noProfile": "Es wurden noch keine Daten von dir erfasst.",
+    "currently": "Derzeit hörst du",
+    "lastUpdate": "Letztes Update",
+    "commandsUsed": "Verwendete Befehle",
+    "songsPlayed": "Gespielte Lieder",
+    "totalPlaytime": "Gesamte Wiedergabezeit",
+    "note": "Hinweis: Die Wiedergabezeit wird durch die Track-Dauer von gespielten Tracks berechnet.",
+    "notData": "Es gibt keine Daten anzuzeigen.",
+    "top5Commands": "Top 5 Verwendete Befehle",
+    "top5Tracks": "Top 5 Gespielte Lieder",
+    "embedTitle": "Dein Betty-Profil",
+    "embedTitleOther": "Profil von {user}",
+    "noSpotifyAccount": "Spotify nicht verbunden",
+    "noSpotifyActivity": "Hört gerade nichts auf Spotify"
+  },
+  "inviteCommand": {
+    "commandData": {
+      "description": "Den Einladungslink für Betty erhalten."
+    },
+    "response": "Du kannst Betty mit diesem Link zu deinem Server einladen: [invite]({url})"
+  },
+  "creditsCommand": {
+    "commandData": {
+      "description": "Die Credits von Betty anzeigen."
+    },
+    "response": "**Erstellt von**: {creator}\n**Besonderer Dank an**: {special}"
+  },
+  "historyCommand": {
+    "commandData": {
+      "description": "Informationen über deine zuletzt gespielten Lieder erhalten."
+    },
+    "noProfile": "Es wurden noch keine Daten von dir erfasst.",
+    "noHistory": "Es gibt keinen Verlauf anzuzeigen. Spiele einige Lieder mit {{command:play}}, um einen Verlauf zu erhalten.",
+    "history": "Verlauf",
+    "footer": "Seite {page} von {pages} | Tracks im Verlauf: {tracks}",
+    "clearedHistory": "**{tracks}** Lieder aus deinem Verlauf gelöscht."
+  },
+  "lyricsCommand": {
+    "commandData": {
+      "description": "Die Songtexte des aktuellen oder eines beliebigen Liedes erhalten.",
+      "songOption": "Das Lied, für das du die Songtexte erhalten möchtest."
+    },
+    "queueEmpty": "Die Warteschlange ist leer. Nichts, woraus man die Songtexte erhalten kann.",
+    "noSongGiven": "Du musst ein Lied abspielen oder einen Liednamen angeben, um die Songtexte zu erhalten.",
+    "noLyrics": "Ich konnte keine Songtexte für **{title}** von **{artist}** finden.",
+    "lyrics": "Songtexte für **{title}** von **{artist}**",
+    "fullLyrics": "Vollständige Songtexte"
+  },
+  "recommendCommand": {
+    "commandData": {
+      "description": "Empfohlene Lieder basierend auf deinem Hörverlauf erhalten."
+    },
+    "noRecommendations": "Ich konnte keine Empfehlungen für dich finden. Versuche, mehr Lieder zu hören.",
+    "noProfile": "Es wurden noch keine Daten von dir erfasst. Bitte spiele einige Lieder mit {{command:play}}, um Empfehlungen zu erhalten.",
+    "recommendSongSuccessfullyNow": "Das empfohlene Lied {emoji}[**{title}**]({url} \"Öffnet das Lied in deinem Browser.\") abgespielt.",
+    "recommendSongsSuccessfully": "Das empfohlene Lied {emoji}[**{title}**]({url} \"Öffnet das Lied in deinem Browser.\") zur Warteschlange an Position **{position}** hinzugefügt."
+  },
+  "seeProfileContextCommand": {
+    "commandData": {
+      "name": "Profil anzeigen"
+    }
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "Brauchst du Hilfe? Verwende diesen Befehl, um deinen Ausgangspunkt zu initiieren."
+    },
+    "headline": "Den Bot konfigurieren",
+    "configurationText": "Um den Bot zu konfigurieren, musst du das [Dashboard](https://betty.cx/dash/server/{serverId}/{botId}) besuchen.",
+    "headlineUse": "Den Bot verwenden",
+    "useText": "Es gibt mehrere Möglichkeiten, Musik zu spielen:",
+    "useText1": "1. Du kannst {{command:play}} als Multifunktionsbefehl verwenden. Es ermöglicht das Abspielen von Playlists, Tracks oder die Suche.",
+    "useText2": "2. Du kannst den Song-Anfrage-Kanal verwenden. Erwähne einfach den Bot und tippe den Songnamen oder den Link in den Kanal.",
+    "useText3": "3. Du kannst den Befehl {{command:search}} verwenden, um nach einem Lied zu suchen und es abzuspielen oder zur Warteschlange hinzuzufügen.",
+    "useText4": "4. Verwende das Kontextmenü **Zur Warteschlange hinzufügen**, um ein Lied zur Warteschlange hinzuzufügen.",
+    "headlinePremium": "Möchtest du mehr Funktionen haben?",
+    "premiumText": "Du kannst weitere Funktionen erhalten, indem du Betty Premium kaufst. Weitere Informationen dazu findest du auf unserer Website: [Betty Premium](https://betty.cx/premium)",
+    "footer": "Erstellt von Sean Sattler | sattler.dev"
+  },
+  "configurationCommand": {
+    "commandData": {
+      "description": "Den Bot für deinen Server konfigurieren."
+    },
+    "response": "Um den Bot zu konfigurieren, musst du das [Dashboard](https://betty.cx/dash/server/{serverId}/{botId}) besuchen."
+  },
+  "valueMyMusicCommand": {
+    "commandData": {
+      "description": "Deinen Musikgeschmack bewerten.",
+      "roastOption": "Wähle, ob Betty dich roastet oder nicht."
+    },
+    "noProfile": "Es wurden noch keine Daten von dir erfasst. Bitte spiele einige Lieder mit {{command:play}}, um eine Bewertung deines Musikgeschmacks zu erhalten.",
+    "noHistory": "Du hast weniger als 10 Lieder in deinem Verlauf, um deinen Musikgeschmack zu bewerten. Bitte spiele einige Lieder mit {{command:play}}, um eine Bewertung deines Musikgeschmacks zu erhalten.",
+    "error": "Ein Fehler ist beim Berechnen der Bewertung deines Musikgeschmacks aufgetreten. Bitte versuche es später erneut.",
+    "poweredBy": "Bereitgestellt von Google Gemini Pro"
+  },
+  "radioCommand": {
+    "commandData": {
+      "description": "Betty in den Radiomodus versetzen und ein Online-Radio abspielen.",
+      "streamOption": "Wähle den Radio-Stream aus, den du abspielen möchtest."
+    },
+    "invalidRadio": "Bitte wähle einen gültigen Radio-Stream aus.",
+    "fetchError": "Ein Fehler ist beim Abrufen des Radio-Streams aufgetreten. Bitte versuche es später erneut.",
+    "startingRadioFromExistingPlayer": "Die aktuelle Wiedergabe wird gestoppt und in den Radiomodus gewechselt. Spielt **{radio}** von **{hoster}**.",
+    "startingRadio": "Radiomodus starten. Spielt **{radio}** von **{hoster}**.",
+    "stoppedRadio": "Den Radiomodus gestoppt und zurück in den Warteschlangenmodus gewechselt.",
+    "noRadiosFound": "Keine Radio-Streams gefunden.",
+    "radioModeDisabled": "Der Radiomodus ist für diesen Server deaktiviert. Du kannst ihn im Bot-Dashboard aktivieren."
+  },
+  "addDJContextCommand": {
+    "commandData": {
+      "name": "DJ hinzufügen"
+    },
+    "removedDJ": "**{user}** als DJ-Benutzer entfernt.",
+    "maxDJsForNonPremium": "Du hast die maximale Anzahl an DJ-Benutzern für kostenlose Nutzer erreicht. Du kannst Betty Premium für $2,50 hier kaufen: https://betty.cx/premium, um das Limit auf 25 DJ-Benutzer zu erhöhen.",
+    "maxDJs": "Du hast die maximale Anzahl an DJ-Benutzern erreicht.",
+    "addedDJ": "**{user}** als DJ-Benutzer hinzugefügt.",
+    "savedHistoryAsPlaylist": "Den Verlauf als Playlist mit dem Namen **{name}** gespeichert."
+  },
+  "skipSongContextCommand": {
+    "commandData": {
+      "name": "Lied überspringen"
+    }
+  },
+  "addToQueueContextCommand": {
+    "commandData": {
+      "name": "Zur Warteschlange hinzufügen"
+    }
+  },
+  "addSongButton": {
+    "modal": {
+      "playlistTitle": "Lied zur Playlist hinzufügen",
+      "title": "Ein Lied hinzufügen",
+      "queryLabel": "Das hinzuzufügende Lied",
+      "queryPlaceholder": "Gib das hinzuzufügende Lied oder den Playlist-Link ein"
+    }
+  },
+  "renamePlaylistButton": {
+    "modal": {
+      "title": "Playlist umbenennen",
+      "nameLabel": "Der neue Name",
+      "namePlaceholder": "Gib den neuen Namen ein"
+    }
+  }
+}
