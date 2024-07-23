@@ -35,7 +35,7 @@
     "premiumThankYou": "Thank you for purchasing premium for Betty! You can now use all premium features on {{serverName}}!",
     "premiumThankYouCustomBot": "Thank you for purchasing custom bot for Betty! You can directly start with the setup on the dashboard!",
     "premiumPaymentFailed": "One of your subscriptions at Betty failed due to a payment issue. Please check your payment methods. As a result, your premium status has been removed. If the next payment attempt is successful, your premium will be reinstated.",
-    "guildJoinDm": "### Hi!\nThank you for adding Betty to your server! You can use {{command:help}} to see where to start.\n### Betty Premium\nBetty also have a premium system which gives you access to some cool features like a bigger queue, the nice {{command:lyrics}} command and more. You can get more information about prime by visiting our website.",
+    "guildJoinDm": "### Hi!\n\nThank you for adding Betty to your server! 🎉\n\nLet's get you started:\n\n- **Customize Betty:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Play Music:** {{command:play}}\n\nWant more from Betty? Check out [Betty's Premium](https://betty.cx) for extra features!\n\nEnjoy!",
     "nothingFound": "I couldn't find anything for that query.",
     "noPlayerFound": "I couldn't find or create a player for this server. Please try again later.",
     "devOnly": "This bot is currently in development mode and only the developer can use the bot. Please join the support server for more information.",
