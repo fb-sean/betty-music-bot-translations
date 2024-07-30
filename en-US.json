@@ -117,7 +117,8 @@
       "playlistremovesong": "Select the songs you want to remove.",
       "addsongtoplaylist": "Add a song to the playlist",
       "backtoplaylist": "Back to playlist",
-      "shareplaylist": "Share Playlist"
+      "shareplaylist": "Share playlist",
+      "saveplaylist": "Save playlist"
     },
     "joinchannel": "Join your current voice channel"
   },
@@ -464,6 +465,8 @@
       "title": "Songs in the playlist: **{name}**",
       "footer": "Page {page} of {pages} | Songs in playlist: {tracks}"
     },
+    "playlistSaved": "Saved the playlist in your library.",
+    "playlistUnsaved": "Removed the playlist from your library.",
     "nameTooLong": "The name of the playlist is too long. Please provide a name with a maximum of 50 characters.",
     "invalidName": "Please provide a valid name for the playlist.",
     "tooManyPlaylists": "You have reached the maximum number of playlists you can have. Please delete a playlist to create a new one.",

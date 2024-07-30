@@ -117,7 +117,8 @@
       "playlistremovesong": "Kaldırmak istediğiniz şarkıları seçin.",
       "addsongtoplaylist": "Çalma listesine şarkı ekle",
       "backtoplaylist": "Çalma listesine geri dön",
-      "shareplaylist": "Çalma Listesini Paylaş"
+      "shareplaylist": "Çalma Listesini Paylaş",
+      "saveplaylist": "Çalma listesi açıklaması"
     },
     "joinchannel": "Mevcut ses kanalına katıl"
   },
@@ -162,7 +163,7 @@
   },
   "translateCommand": {
     "commandData": {
-      "description": "Betty'i dilinize çevirmemize yardım etmek mi istiyorsunuz? Daha fazla bilgi almak için bu komutu kullanın."
+      "description": "Betty'i dilinize çevirmek ister misiniz? Daha fazla bilgi için bu komutu kullanın."
     },
     "response": "Betty'i dilinize çevirmemize yardım etmek mi istiyorsunuz? Bunu çeviri github depomuzda yapabilirsiniz: [Betty Translation Repo](https://github.com/fb-sean/betty-music-bot-translations \"Betty çeviri deposunu GitHub'da açar\")"
   },
@@ -464,6 +465,8 @@
       "title": "Çalma listesindeki şarkılar: **{name}**",
       "footer": "Sayfa {page} / {pages} | Çalma listesindeki şarkılar: {tracks}"
     },
+    "playlistSaved": "Çalma listesi kitaplığınıza kaydedildi.",
+    "playlistUnsaved": "Çalma listesi kitaplığınızdan kaldırıldı.",
     "nameTooLong": "Çalma listesinin adı çok uzun. Lütfen en fazla 50 karakter uzunluğunda bir ad sağlayın.",
     "invalidName": "Lütfen geçerli bir çalma listesi adı sağlayın.",
     "tooManyPlaylists": "Sahip olabileceğiniz maksimum çalma listesi sayısına ulaştınız. Yeni bir çalma listesi oluşturmak için lütfen bir çalma listesini silin.",

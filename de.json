@@ -117,7 +117,8 @@
       "playlistremovesong": "Wähle die Lieder aus, die du entfernen möchtest.",
       "addsongtoplaylist": "Ein Lied zur Playlist hinzufügen",
       "backtoplaylist": "Zurück zur Playlist",
-      "shareplaylist": "Playlist teilen"
+      "shareplaylist": "Playlist teilen",
+      "saveplaylist": "Playlist speichern"
     },
     "joinchannel": "Deinem aktuellen Sprachkanal beitreten"
   },
@@ -162,7 +163,7 @@
   },
   "translateCommand": {
     "commandData": {
-      "description": "Möchtest du uns helfen, Betty in deine Sprache zu übersetzen? Verwende diesen Befehl, um mehr Informationen zu erhalten."
+      "description": "Möchtest du Betty in deiner Sprache zur Verfügung stellen? Dann nutze diesen Befehl."
     },
     "response": "Möchtest du uns helfen, Betty in deine Sprache zu übersetzen? Du kannst dies in unserem Übersetzungs-Github-Repo tun: [Betty Translation Repo](https://github.com/fb-sean/betty-music-bot-translations \"Öffnet das Betty-Übersetzungs-Repo auf GitHub\")"
   },
@@ -172,7 +173,7 @@
       "queryOption": "Deine Anfrage, um nach einem Lied zu suchen oder einen Link zu einem Lied.",
       "nowOption": "Wähle, ob du das Lied direkt abspielen oder zur Warteschlange hinzufügen möchtest.",
       "platformOption": "Wähle die Plattform, von der du suchen möchtest.",
-      "fileOption": "Verwende diese Option, um eine Datei zum Abspielen hochzuladen. Die Datei muss eine gültige Audiodatei sein."
+      "fileOption": "Laden Sie eine gültige Audiodatei zum Abspielen hoch."
     },
     "invalidFile": "Die hochgeladene Datei ist keine gültige Audiodatei. Bitte stelle sicher, dass es sich um eine gültige MP3-Datei handelt und versuche es erneut.",
     "playlistNowError": "Du kannst eine Playlist nicht direkt abspielen, wenn bereits Lieder in der Warteschlange sind.",
@@ -464,6 +465,8 @@
       "title": "Lieder in der Playlist: **{name}**",
       "footer": "Seite {page} von {pages} | Lieder in der Playlist: {tracks}"
     },
+    "playlistSaved": "Die Playlist wurde in Ihrer Bibliothek gespeichert.",
+    "playlistUnsaved": "Die Playlist wurde aus Ihrer Bibliothek entfernt.",
     "nameTooLong": "Der Name der Playlist ist zu lang. Bitte gib einen Namen mit maximal 50 Zeichen an.",
     "invalidName": "Bitte gib einen gültigen Namen für die Playlist an.",
     "tooManyPlaylists": "Du hast die maximale Anzahl an Playlists erreicht, die du haben kannst. Bitte lösche eine Playlist, um eine neue zu erstellen.",

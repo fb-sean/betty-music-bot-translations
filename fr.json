@@ -117,7 +117,8 @@
       "playlistremovesong": "Sélectionnez les chansons que vous souhaitez supprimer.",
       "addsongtoplaylist": "Ajouter une chanson à la playlist",
       "backtoplaylist": "Retour à la playlist",
-      "shareplaylist": "Partager la playlist"
+      "shareplaylist": "Partager   la playlist",
+      "saveplaylist": "Lecture de la playlist"
     },
     "joinchannel": "Rejoindre votre salon vocal actuel"
   },
@@ -464,6 +465,8 @@
       "title": "Chansons de la playlist : **{name}**",
       "footer": "Page {page} sur {pages} | Chansons dans la playlist : {tracks}"
     },
+    "playlistSaved": "Enregistré la liste de lecture dans votre bibliothèque.",
+    "playlistUnsaved": "Suppression de la playlist de votre bibliothèque.",
     "nameTooLong": "Le nom de la playlist est trop long. Veuillez fournir un nom d'une longueur maximale de 50 caractères.",
     "invalidName": "Veuillez fournir un nom valide pour la playlist.",
     "tooManyPlaylists": "Vous avez atteint le nombre maximal de playlists que vous pouvez avoir. Veuillez supprimer une playlist pour en créer une nouvelle.",
