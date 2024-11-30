@@ -32,7 +32,7 @@
     "nextSong": "Das nächste Lied ist **{songName}**",
     "autoPlayInfo": "Beginne, empfohlene Lieder zu spielen. Um neue Empfehlungen zu erhalten, lösche bitte die Warteschlange.",
     "autoPlayFooter": "Dieses Lied wurde automatisch von der Autoplay-Funktion hinzugefügt.",
-    "premiumThankYou": "Danke, dass du Betty Premium gekauft hast! Du kannst jetzt alle Premium-Funktionen auf {{serverName}} nutzen!",
+    "premiumThankYou": "Danke, dass du Betty Premium gekauft hast! Du kannst jetzt alle Premium-Funktionen auf {serverName} nutzen!",
     "premiumThankYouCustomBot": "Danke, dass du einen benutzerdefinierten Bot für Betty gekauft hast! Du kannst direkt mit der Einrichtung im Dashboard beginnen!",
     "premiumPaymentFailed": "Eine deiner Abonnements bei Betty ist aufgrund eines Zahlungsproblems fehlgeschlagen. Bitte überprüfe deine Zahlungsmethoden. Als Folge wurde dein Premium-Status entfernt. Wenn der nächste Zahlungsversuch erfolgreich ist, wird dein Premium wiederhergestellt.",
     "guildJoinDm": "### Hallo!\n\nDanke, dass du Betty zu deinem Server hinzugefügt hast! 🎉\n\nDann fangen wir mal an:\n\n- **Betty anpassen:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Musik abspielen:** {{Befehl:abspielen}}\n\nWillst du mehr von Betty? Schau dir [Betty's Premium](https://betty.cx) für zusätzliche Funktionen an!\n\nViel Spaß!",
@@ -63,7 +63,8 @@
     "spotifyWarning": "Da Betty noch nicht von Spotify verifiziert wurde, schlägt Bettys Spotify-Integration fast immer fehl, weil sie uns dazu verpflichten, jeden Benutzer per E-Mail und vollem Namen im Entwickler-Dashboard hinzuzufügen. Das ist aus Datenschutzgründen für uns nicht möglich. Wir arbeiten an einer Lösung, um dieses Problem zu beheben.",
     "notAllowedInRadioMode": "Diese Funktion ist im Radiomodus nicht erlaubt.",
     "nowPlayingRadio": "Der Bot ist in den Radiomodus gewechselt. Spielt **{radio}** von **{hoster}**.",
-    "currentlyPlayingRadio": "Derzeit spielt **{radio}** von **{hoster}**."
+    "currentlyPlayingRadio": "Derzeit spielt **{radio}** von **{hoster}**.",
+    "noTidalConnection": "Sie haben kein Tidal-Konto, das mit Betty verbunden ist. Verwenden Sie den Befehl {{command:tidal login}}, um Ihr Konto zu verbinden."
   },
   "nonPremiumTips": {
     "tip1": "Wusstest du, dass du mit Betty Premium eine bessere Audioqualität erhalten kannst? <https://betty.cx/premium>",
@@ -444,7 +445,7 @@
     "nowPlaying": "Jetzt spielt",
     "nextSongs": "Nächste Lieder",
     "footer": "Seite {page} von {pages} | Lieder in der Warteschlange: {tracks} | Länge: {length}",
-    "cacheError": "Diese Warteschlangen-Nachricht ist zu alt und der Cache wurde geleert. Bitte verwende den Befehl {{command:queue}} erneut."
+    "cacheError": "Diese Warteschlangen-Nachricht ist zu alt und der cache wurde geleert. Bitte verwende den Befehl {{command:queue}} erneut."
   },
   "playlistCommand": {
     "commandData": {
@@ -481,7 +482,10 @@
     "selectPlaylistToImport": "Bitte wähle die Playlist aus, die du importieren möchtest.",
     "cannotImportSpotifyPlaylist": "Ich kann diese Spotify-Playlist nicht importieren, da sie leer ist.",
     "songAlreadyExists": "Das Lied **{title}** ist bereits in dieser Playlist.",
-    "cacheError": "Diese Playlist-Nachricht ist zu alt und der Cache wurde geleert. Bitte verwende den Befehl {{command:playlist manage}} erneut.",
+    "songNotExists": "Der Song **{title}** ist nicht in dieser Playlist enthalten.",
+    "songAddedToPlaylist": "Der Song **{title}** wurde zu **{playlist}** hinzugefügt.",
+    "songRemoveFromPlaylist": "Der Song **{title}** wurde aus der **{playlist}** entfernt.",
+    "cacheError": "Diese Playlist-Nachricht ist zu alt und der cache wurde geleert. Bitte verwende den Befehl {{command:playlist manage}} erneut.",
     "notEnoughTracksInQueue": "Es sind nicht genug Lieder in der Warteschlange, um eine Playlist zu erstellen. Verwende {{command:play}}, um weitere Lieder hinzuzufügen.",
     "private": "Privat",
     "public": "Öffentlich"
@@ -637,5 +641,16 @@
       "nameLabel": "Der neue Name",
       "namePlaceholder": "Gib den neuen Namen ein"
     }
+  },
+  "tidalCommand": {
+    "commandData": {
+      "description": "Verwalte die Verbindung zwischen deinem Tidal-Konto und Betty.",
+      "loginOption": "Melden Sie sich bei Ihrem Tidal-Konto an.",
+      "logoutOption": "Melden Sie sich von Ihrem Tidal-Konto ab."
+    },
+    "loginLink": "[Klicken Sie hier, um Ihr Tidal-Konto mit Betty zu verbinden]({url} \"Öffnet die Tidal-Anmeldeseite für OAuth mit Betty\")",
+    "openLinkButton": "Öffnen Sie",
+    "logoutSuccess": "Du hast die Verbindung zu deinem Tidal-Konto erfolgreich getrennt.",
+    "loginSuccess": "Du hast dein Tidal-Konto erfolgreich verbunden."
   }
 }

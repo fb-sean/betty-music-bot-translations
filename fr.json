@@ -32,10 +32,10 @@
     "nextSong": "La prochaine chanson est **{songName}**",
     "autoPlayInfo": "Je commence à jouer des chansons recommandées. Pour obtenir de nouvelles recommandations, veuillez libérer la file d'attente.",
     "autoPlayFooter": "Cette chanson a été ajoutée automatiquement par la fonctionnalité de lecture automatique.",
-    "premiumThankYou": "Merci d'avoir acheté l'abonnement Premium pour Betty ! Vous pouvez désormais utiliser toutes les fonctionnalités Premium sur {{serverName}} !",
+    "premiumThankYou": "Merci d'avoir acheté l'abonnement Premium pour Betty ! Vous pouvez désormais utiliser toutes les fonctionnalités Premium sur {serverName} !",
     "premiumThankYouCustomBot": "Merci d'avoir acheté un robot personnalisé pour Betty ! Vous pouvez commencer directement avec la configuration sur le tableau de bord !",
     "premiumPaymentFailed": "Un de vos abonnements à Betty a échoué en raison d'un problème de paiement. Veuillez vérifier vos méthodes de paiement. Par conséquent, votre statut Premium a été supprimé. Si la prochaine tentative de paiement réussit, votre abonnement Premium sera rétabli.",
-    "guildJoinDm": "### Hi !\n\nMerci d'avoir ajouté Betty à votre serveur ! 🎉\n\nCommençons par le début :\n\n- **Personnaliser Betty:** [Tableau de bord](https://betty.cx/dash/{server}/{bot})\n- Jouer de la musique:** {{commande:play}}\n\nVous voulez plus de Betty ? Consultez [Betty's Premium](https://betty.cx) pour des fonctionnalités supplémentaires !\n\nBonne lecture !",
+    "guildJoinDm": "### Salut !\n\nMerci d'avoir ajouté Betty à votre serveur ! 🎉\n\nCommençons par le début :\n\n- **Personnaliser Betty:** [Tableau de bord](https://betty.cx/dash/{server}/{bot})\n- Jouer de la musique:** {{commande:play}}\n\nVous voulez plus de Betty ? Consultez [Betty Premium](https://betty.cx) pour des fonctionnalités supplémentaires !\n\nAmusez-vous bien !",
     "nothingFound": "Je n'ai rien trouvé pour cette requête.",
     "noPlayerFound": "Je n'ai pas trouvé ou créé de lecteur audio pour ce serveur. Veuillez réessayer plus tard.",
     "devOnly": "Ce robot est actuellement en mode de développement et seul le développeur peut utiliser le robot. Veuillez rejoindre le serveur de support pour plus d'informations.",
@@ -63,7 +63,8 @@
     "spotifyWarning": "Étant donné que Betty n'est pas encore vérifié par Spotify, l'intégration de Spotify de Betty échoue presque toujours car ils nous demandent d'ajouter chaque utilisateur par e-mail et nom complet dans le tableau de bord du développeur. Ceci n'est pas possible pour nous en raison de raisons de confidentialité. Nous travaillons sur une solution pour résoudre ce problème.",
     "notAllowedInRadioMode": "Cette fonctionnalité n'est pas autorisée tant que le robot est en mode radio .",
     "nowPlayingRadio": "Le robot est passé en mode radio. Lecture de la station radio **{radio}** de l'hébergeur **{hoster}**.",
-    "currentlyPlayingRadio": "Lecture de la station radio **{radio}** de l'hébergeur **{hoster}**."
+    "currentlyPlayingRadio": "Lecture de la station radio **{radio}** de l'hébergeur **{hoster}**.",
+    "noTidalConnection": "Vous n'avez pas de compte Tidal connecté à Betty. Utilisez la commande {{commande:tidal login}} pour connecter votre compte."
   },
   "nonPremiumTips": {
     "tip1": "Saviez-vous que vous pouvez obtenir une meilleure qualité audio avec Betty Premium ? <https://betty.cx/premium>",
@@ -117,7 +118,7 @@
       "playlistremovesong": "Sélectionnez les chansons que vous souhaitez supprimer.",
       "addsongtoplaylist": "Ajouter une chanson à la playlist",
       "backtoplaylist": "Retour à la playlist",
-      "shareplaylist": "Partager   la playlist",
+      "shareplaylist": "Partager la playlist",
       "saveplaylist": "Lecture de la playlist"
     },
     "joinchannel": "Rejoindre votre salon vocal actuel"
@@ -465,8 +466,8 @@
       "title": "Chansons de la playlist : **{name}**",
       "footer": "Page {page} sur {pages} | Chansons dans la playlist : {tracks}"
     },
-    "playlistSaved": "Enregistré la liste de lecture dans votre bibliothèque.",
-    "playlistUnsaved": "Suppression de la playlist de votre bibliothèque.",
+    "playlistSaved": "Playlist enregistrée dans votre bibliothèque.",
+    "playlistUnsaved": "Playlist supprimée de votre bibliothèque.",
     "nameTooLong": "Le nom de la playlist est trop long. Veuillez fournir un nom d'une longueur maximale de 50 caractères.",
     "invalidName": "Veuillez fournir un nom valide pour la playlist.",
     "tooManyPlaylists": "Vous avez atteint le nombre maximal de playlists que vous pouvez avoir. Veuillez supprimer une playlist pour en créer une nouvelle.",
@@ -481,6 +482,9 @@
     "selectPlaylistToImport": "Veuillez sélectionner la playlist que vous voulez importer.",
     "cannotImportSpotifyPlaylist": "Je ne peux pas importer cette playlist Spotify car elle est vide.",
     "songAlreadyExists": "La chanson **{title}** est déjà dans cette playlist.",
+    "songNotExists": "La chanson **{title}** ne figure pas dans cette liste de lecture.",
+    "songAddedToPlaylist": "Ajout de la chanson **{title}** à **{playlist}**.",
+    "songRemoveFromPlaylist": "Suppression de la chanson **{title}** de **{playlist}**.",
     "cacheError": "Ce message de playlist est trop ancien et le cache a été effacé. Veuillez utiliser à nouveau la commande {{command:playlist manage}}.",
     "notEnoughTracksInQueue": "Il n'y a pas assez de chansons dans la file d'attente pour créer une playlist. Utilisez {{command:play}} pour ajouter plus de chansons.",
     "private": "Privé",
@@ -637,5 +641,16 @@
       "nameLabel": "Nouveau nom",
       "namePlaceholder": "Entrez le nouveau nom de la playlist"
     }
+  },
+  "tidalCommand": {
+    "commandData": {
+      "description": "Gérez la connexion de votre compte Tidal à Betty.",
+      "loginOption": "Connectez-vous à votre compte Tidal.",
+      "logoutOption": "Déconnectez-vous de votre compte Tidal."
+    },
+    "loginLink": "[Cliquez ici pour connecter votre compte Tidal à Betty]({url} \"Ouvre la page de connexion Tidal pour OAuth avec Betty\")",
+    "openLinkButton": "Ouvrir",
+    "logoutSuccess": "Déconnexion réussie de votre compte Tidal.",
+    "loginSuccess": "Connexion réussie à votre compte Tidal."
   }
 }

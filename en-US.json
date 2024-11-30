@@ -32,7 +32,7 @@
     "nextSong": "Next Song is **{songName}**",
     "autoPlayInfo": "Starting to play recommended songs. To get new recommendations please clear the queue.",
     "autoPlayFooter": "This song was automatically added by the autoplay feature.",
-    "premiumThankYou": "Thank you for purchasing premium for Betty! You can now use all premium features on {{serverName}}!",
+    "premiumThankYou": "Thank you for purchasing premium for Betty! You can now use all premium features on {serverName}!",
     "premiumThankYouCustomBot": "Thank you for purchasing custom bot for Betty! You can directly start with the setup on the dashboard!",
     "premiumPaymentFailed": "One of your subscriptions at Betty failed due to a payment issue. Please check your payment methods. As a result, your premium status has been removed. If the next payment attempt is successful, your premium will be reinstated.",
     "guildJoinDm": "### Hi!\n\nThank you for adding Betty to your server! 🎉\n\nLet's get you started:\n\n- **Customize Betty:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Play Music:** {{command:play}}\n\nWant more from Betty? Check out [Betty's Premium](https://betty.cx) for extra features!\n\nEnjoy!",
@@ -40,6 +40,7 @@
     "noPlayerFound": "I couldn't find or create a player for this server. Please try again later.",
     "devOnly": "This bot is currently in development mode and only the developer can use the bot. Please join the support server for more information.",
     "noSpotifyConnection": "You don't have a Spotify account connected to Betty. Use the {{command:spotify login}} command to connect your account.",
+    "noTidalConnection": "You don't have a Tidal account connected to Betty. Use the {{command:tidal login}} command to connect your account.",
     "firstPage": "First Page",
     "previousPage": "Previous Page",
     "nextPage": "Next Page",
@@ -254,6 +255,17 @@
     "likedSong": "Liked the track **{title}** on Spotify.",
     "failedRemoveLike": "Failed to remove the like from the track on Spotify. If this error persists, please contact the support.",
     "alreadyLiked": "You already liked the track **{title}** on Spotify so I removed it."
+  },
+  "tidalCommand": {
+    "commandData": {
+      "description": "Manage your Tidal account connection to Betty.",
+      "loginOption": "Login to your Tidal account.",
+      "logoutOption": "Logout from your Tidal account."
+    },
+    "loginLink": "[Click here to connect your Tidal account to Betty.]({url} \"Opens the Tidal login page to OAuth with Betty\")",
+    "openLinkButton": "Open",
+    "logoutSuccess": "Successfully disconnected your Tidal account.",
+    "loginSuccess": "Successfully connected your Tidal account."
   },
   "fixCommand": {
     "commandData": {
@@ -481,6 +493,9 @@
     "selectPlaylistToImport": "Please select the playlist you want to import.",
     "cannotImportSpotifyPlaylist": "I cannot import this spotify playlist because its empty.",
     "songAlreadyExists": "The song **{title}** is already in this playlist.",
+    "songNotExists": "The song **{title}** is not in this playlist.",
+    "songAddedToPlaylist": "Added the song **{title}** to **{playlist}**.",
+    "songRemoveFromPlaylist": "Removed the song **{title}** from **{playlist}**.",
     "cacheError": "This playlist message is too old and the cache got cleared. Please use the {{command:playlist manage}} command again.",
     "notEnoughTracksInQueue": "There are not enough tracks in the queue to create a playlist. Use {{command:play}} to add more songs.",
     "private": "Private",

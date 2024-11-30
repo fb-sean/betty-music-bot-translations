@@ -32,7 +32,7 @@
     "nextSong": "Sıradaki Şarkı **{songName}**",
     "autoPlayInfo": "Önerilen şarkıları çalmaya başlıyor. Yeni öneriler almak için lütfen sırayı temizleyin.",
     "autoPlayFooter": "Bu şarkı otomatik oynatma özelliği tarafından otomatik olarak eklendi.",
-    "premiumThankYou": "Betty için premium satın aldığınız için teşekkür ederiz! Artık {{serverName}} üzerinde tüm premium özellikleri kullanabilirsiniz!",
+    "premiumThankYou": "Betty için premium satın aldığınız için teşekkür ederiz! Artık {serverName} üzerinde tüm premium özellikleri kullanabilirsiniz!",
     "premiumThankYouCustomBot": "Betty için özel bot satın aldığınız için teşekkür ederiz! Panoda kurulum ile hemen başlayabilirsiniz!",
     "premiumPaymentFailed": "Betty'deki aboneliklerinizden biri ödeme sorunu nedeniyle başarısız oldu. Lütfen ödeme yöntemlerinizi kontrol edin. Sonuç olarak, premium statünüz kaldırıldı. Bir sonraki ödeme denemesi başarılı olursa, premium statünüz geri yüklenecektir.",
     "guildJoinDm": "### Merhaba!\n\nBetty'i sunucunuza eklediğiniz için teşekkür ederiz! 🎉\n\nHadi başlayalım:\n\n- **Customize Betty:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Müzik Çal:** {{command:play}}\n\nBetty'den daha fazlasını mı istiyorsunuz? Ekstra özellikler için [Betty's Premium](https://betty.cx)'a göz atın!\n\nİyi eğlenceler!",
@@ -63,7 +63,8 @@
     "spotifyWarning": "Betty henüz Spotify tarafından doğrulanmadığı için, Betty'nin Spotify entegrasyonu neredeyse her zaman başarısız olur çünkü her kullanıcıyı geliştirici panosunda e-posta ve tam ad ile eklememizi gerektirirler. Gizlilik nedenleriyle bu bizim için mümkün değildir. Bunu düzeltmek için bir çözüm üzerinde çalışıyoruz.",
     "notAllowedInRadioMode": "Bu özellik bot radyo modundayken izin verilmez.",
     "nowPlayingRadio": "Bot radyo moduna geçti. Çalıyor **{radio}** tarafından **{hoster}**.",
-    "currentlyPlayingRadio": "Şu anda çalıyor **{radio}** tarafından **{hoster}**."
+    "currentlyPlayingRadio": "Şu anda çalıyor **{radio}** tarafından **{hoster}**.",
+    "noTidalConnection": "Betty'ye bağlı bir Tidal hesabınız yok. Hesabınızı bağlamak için {{command:tidal login}} komutunu kullanın."
   },
   "nonPremiumTips": {
     "tip1": "Betty premium ile daha iyi ses kalitesi alabileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
@@ -481,6 +482,9 @@
     "selectPlaylistToImport": "İçe aktarmak istediğiniz çalma listesini seçin.",
     "cannotImportSpotifyPlaylist": "Bu Spotify çalma listesini içe aktaramam çünkü boş.",
     "songAlreadyExists": "**{title}** şarkısı bu çalma listesinde zaten var.",
+    "songNotExists": "Şarkı **{title}** bu çalma listesinde yok.",
+    "songAddedToPlaylist": "Şarkı **{title}**'ı **{playlist}**'e ekledi.",
+    "songRemoveFromPlaylist": "Şarkı **{title}**'ı **{playlist}**'ten kaldırdı.",
     "cacheError": "Bu çalma listesi mesajı çok eski ve önbellek temizlendi. Lütfen {{command:playlist manage}} komutunu tekrar kullanın.",
     "notEnoughTracksInQueue": "Çalma listesi oluşturmak için sırada yeterli parça yok. Daha fazla şarkı eklemek için {{command:play}} kullanın.",
     "private": "Özel",
@@ -637,5 +641,16 @@
       "nameLabel": "Yeni isim",
       "namePlaceholder": "Yeni adı girin"
     }
+  },
+  "tidalCommand": {
+    "commandData": {
+      "description": "Tidal hesabınızın Betty ile bağlantısını yönetin.",
+      "loginOption": "Tidal hesabınıza giriş yapın.",
+      "logoutOption": "Tidal hesabınızdan çıkış yapın."
+    },
+    "loginLink": "[Tidal hesabınızı Betty'ye bağlamak için buraya tıklayın]({url} \"Betty ile OAuth için Tidal giriş sayfasını açar\")",
+    "openLinkButton": "Açık",
+    "logoutSuccess": "Tidal hesabınızın bağlantısı başarıyla kesildi.",
+    "loginSuccess": "Tidal hesabınıza başarıyla bağlandınız."
   }
 }
