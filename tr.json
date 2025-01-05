@@ -75,7 +75,8 @@
     "tip6": "Dinleme geçmişinize dayalı öneriler alabileceğinizi biliyor muydunuz? {{command:recommend}} komutunu kullanarak?",
     "tip7": "Betty'nin botu sunucunuz için yapılandırabileceğiniz bir paneli olduğunu biliyor muydunuz? <https://betty.cx/dash>",
     "tip8": "Geçici DJ adlı bir özelliği etkinleştirebileceğinizi biliyor muydunuz? Bu, player'ı oluşturan kişinin DJ rolü olmadan DJ komutlarına erişmesini sağlar. Buradan ayarlayabilirsiniz: <https://betty.cx/dash>!",
-    "tip9": "Geçici ses kanallarında Betty için hafif bir arayüze sahip olabileceğinizi biliyor muydunuz? Panelde etkinleştirebilirsiniz."
+    "tip9": "Geçici ses kanallarında Betty için hafif bir arayüze sahip olabileceğinizi biliyor muydunuz? Panelde etkinleştirebilirsiniz.",
+    "tip10": "Seste kesilme veya gecikme mi duyuyorsunuz? Premium satın alın ve yüksek kaliteli ses sunucularına erişin."
   },
   "timeUnits": {
     "multiple": {
@@ -183,7 +184,8 @@
     "trackPlaySuccessfully": "Sıraya {emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") konumunda **{position}** eklendi.",
     "trackPlaySuccessfullyNow": "Çalmaya başladı {emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\").",
     "playlistPlaySuccessfully": "Çalma listesi sıraya eklendi [**{title}**]({url} \"Çalma listesini tarayıcınızda açar.\").",
-    "playlistPlaySuccessfullyNow": "Çalma listesi çalmaya başladı [**{title}**]({url} \"Çalma listesini tarayıcınızda açar.\")."
+    "playlistPlaySuccessfullyNow": "Çalma listesi çalmaya başladı [**{title}**]({url} \"Çalma listesini tarayıcınızda açar.\").",
+    "trackPlaySuccessfullyNonPremium": "Kuyruğa **{position}** konumunda {emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") eklendi. Şarkınızın çalmasını beklerken, Betty için oy vermek ister misiniz? Bu, botu büyütmemize ve geliştirmemize yardımcı olacaktır. [Betty'ye Oy Ver](https://top.gg/bot/884800931819048980/vote)"
   },
   "joinCommand": {
     "commandData": {
@@ -319,7 +321,8 @@
       "description": "Player'ın ses seviyesini değiştirin.",
       "volumeOption": "Ayarlamak istediğiniz ses seviyesi."
     },
-    "invalidVolume": "Lütfen **0** ile **{max}** arasında geçerli bir ses seviyesi sağlayın."
+    "invalidVolume": "Lütfen **0** ile **{max}** arasında geçerli bir ses seviyesi sağlayın.",
+    "changedVolume": "Hacim **{volume}%** olarak değiştirildi."
   },
   "bassboostCommand": {
     "commandData": {

@@ -75,7 +75,8 @@
     "tip6": "Did you know you can get recommendations based on your listening history with {{command:recommend}}?",
     "tip7": "Did you know Betty have a dashboard where you can configure the bot for your server? <https://betty.cx/dash>",
     "tip8": "Did you know you can enable a feature called Temporary DJ? This lets the player creator access DJ commands without the DJ role. Set it up here: <https://betty.cx/dash>!",
-    "tip9": "Did you know you can have a light interface for Betty at temporary  voice channels? You can enable it on the dashboard."
+    "tip9": "Did you know you can have a light interface for Betty at temporary voice channels? You can enable it on the dashboard.",
+    "tip10": "You hear shuttering or lagging in the audio? Buy premium and get access to high-quality audio servers."
   },
   "timeUnits": {
     "multiple": {
@@ -181,6 +182,7 @@
     "filePlaySuccessfully": "Added file with the name **{title}** to the queue at position **{position}**.",
     "filePlaySuccessfullyNow": "Started playing the file **{title}**.",
     "trackPlaySuccessfully": "Added {emoji}[**{title}**]({url} \"Opens the song in your browser.\") to the queue at position **{position}**.",
+    "trackPlaySuccessfullyNonPremium": "Added {emoji}[**{title}**]({url} \"Opens the song in your browser.\") to the queue at position **{position}**. While waiting for your song to play, do you want to vote for Betty? This will help us to grow and improve the bot. [Vote for Betty](https://top.gg/bot/884800931819048980/vote)",
     "trackPlaySuccessfullyNow": "Started playing {emoji}[**{title}**]({url} \"Opens the song in your browser.\").",
     "playlistPlaySuccessfully": "Added the playlist [**{title}**]({url} \"Opens the playlist in your browser.\") to the queue.",
     "playlistPlaySuccessfullyNow": "Started playing the playlist [**{title}**]({url} \"Opens the playlist in your browser.\")."
@@ -330,7 +332,8 @@
       "description": "Change the volume of the player.",
       "volumeOption": "The volume you want to set."
     },
-    "invalidVolume": "Please provide a valid volume between **0** and **{max}**."
+    "invalidVolume": "Please provide a valid volume between **0** and **{max}**.",
+    "changedVolume": "Changed the volume to **{volume}%**."
   },
   "bassboostCommand": {
     "commandData": {

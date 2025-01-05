@@ -75,7 +75,8 @@
     "tip6": "Wusstest du, dass du Empfehlungen basierend auf deinem Hörverlauf mit {{command:recommend}} erhalten kannst?",
     "tip7": "Wusstest du, dass Betty ein Dashboard hat, auf dem du den Bot für deinen Server konfigurieren kannst? <https://betty.cx/dash>",
     "tip8": "Wusstest du, dass du eine Funktion namens Temporärer DJ aktivieren kannst? Dies ermöglicht es dem Player-Ersteller, DJ-Befehle ohne die DJ-Rolle zu verwenden. Richte es hier ein: <https://betty.cx/dash>!",
-    "tip9": "Wusstest du, dass du eine leichte Benutzeroberfläche für Betty in temporären Sprachkanälen haben kannst? Du kannst sie im Dashboard aktivieren."
+    "tip9": "Wusstest du, dass du eine leichte Benutzeroberfläche für Betty in temporären Sprachkanälen haben kannst? Du kannst sie im Dashboard aktivieren.",
+    "tip10": "Sie hören ein Ruckeln oder eine Verzögerung im Ton? Kaufen Sie Premium und erhalten Sie Zugang zu hochwertigen Audioservern."
   },
   "timeUnits": {
     "multiple": {
@@ -183,7 +184,8 @@
     "trackPlaySuccessfully": "Hinzugefügt {emoji}[**{title}**]({url} \"Öffnet das Lied in deinem Browser.\") zur Warteschlange an Position **{position}**.",
     "trackPlaySuccessfullyNow": "Begonnen, {emoji}[**{title}**]({url} \"Öffnet das Lied in deinem Browser.\") abzuspielen.",
     "playlistPlaySuccessfully": "Die Playlist [**{title}**]({url} \"Öffnet die Playlist in deinem Browser.\") zur Warteschlange hinzugefügt.",
-    "playlistPlaySuccessfullyNow": "Begonnen, die Playlist [**{title}**]({url} \"Öffnet die Playlist in deinem Browser.\") abzuspielen."
+    "playlistPlaySuccessfullyNow": "Begonnen, die Playlist [**{title}**]({url} \"Öffnet die Playlist in deinem Browser.\") abzuspielen.",
+    "trackPlaySuccessfullyNonPremium": "{emoji}[**{title}**]({url} \"Öffnet den Song in deinem Browser.\") an Position **{position}** in die Warteschlange aufgenommen. Während du darauf wartest, dass dein Lied gespielt wird, möchtest du für Betty stimmen? Das wird uns helfen, den Bot weiterzuentwickeln und zu verbessern. [Stimme für Betty](https://top.gg/bot/884800931819048980/vote)"
   },
   "joinCommand": {
     "commandData": {
@@ -319,7 +321,8 @@
       "description": "Die Lautstärke des Players ändern.",
       "volumeOption": "Die Lautstärke, die du einstellen möchtest."
     },
-    "invalidVolume": "Bitte gib eine gültige Lautstärke zwischen **0** und **{max}** an."
+    "invalidVolume": "Bitte gib eine gültige Lautstärke zwischen **0** und **{max}** an.",
+    "changedVolume": "Das Volumen wurde auf **{Volumen}%** geändert."
   },
   "bassboostCommand": {
     "commandData": {

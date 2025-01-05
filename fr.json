@@ -75,7 +75,8 @@
     "tip6": "Saviez-vous que vous pouvez obtenir des recommandations basées sur votre historique d'écoute avec {{command:recommend}} ?",
     "tip7": "Saviez-vous que Betty dispose d'un tableau de bord où vous pouvez configurer le robot pour votre serveur ? <https://betty.cx/dash>",
     "tip8": "Saviez-vous que vous pouvez activer une fonctionnalité appelée DJ temporaire ? Cela permet au créateur du lecteur audio d'accéder aux commandes DJ sans le rôle de DJ. Configurez-le ici : <https://betty.cx/dash> !",
-    "tip9": "Saviez-vous que vous pouvez avoir une interface légère pour Betty sur les canaux vocaux temporaires ? Vous pouvez l'activer dans le tableau de bord."
+    "tip9": "Saviez-vous que vous pouvez avoir une interface légère pour Betty sur les canaux vocaux temporaires ? Vous pouvez l'activer dans le tableau de bord.",
+    "tip10": "Vous entendez des bruits d'obturation ou de décalage dans l'audio ? Achetez une licence premium et accédez à des serveurs audio de haute qualité."
   },
   "timeUnits": {
     "multiple": {
@@ -183,7 +184,8 @@
     "trackPlaySuccessfully": "J'ai ajouté {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") à la file d'attente à la position **{position}**.",
     "trackPlaySuccessfullyNow": "Lecture de {emoji}[**{title}**]({url} \"Ouvre la chanson dans votre navigateur.\") en cours.",
     "playlistPlaySuccessfully": "J'ai ajouté la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\") à la file d'attente.",
-    "playlistPlaySuccessfullyNow": "Lecture de la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\") en cours."
+    "playlistPlaySuccessfullyNow": "Lecture de la playlist [**{title}**]({url} \"Ouvre la playlist dans votre navigateur.\") en cours.",
+    "trackPlaySuccessfullyNonPremium": "Ajouté {emoji}[**{titre}**]({url} \"Ouvre la chanson dans votre navigateur.\") à la file d'attente à la position **{position}**. En attendant que votre chanson soit jouée, voulez-vous voter pour Betty ? Cela nous aidera à développer et à améliorer le robot. [Votez pour Betty](https://top.gg/bot/884800931819048980/vote)"
   },
   "joinCommand": {
     "commandData": {
@@ -319,7 +321,8 @@
       "description": "Modifier le volume du lecteur audio.",
       "volumeOption": "Le volume que vous souhaitez définir."
     },
-    "invalidVolume": "Veuillez fournir un volume valide entre **0** et **{max}**."
+    "invalidVolume": "Veuillez fournir un volume valide entre **0** et **{max}**.",
+    "changedVolume": "Modification du volume en **{volume}%**."
   },
   "bassboostCommand": {
     "commandData": {
