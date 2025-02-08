@@ -1,7 +1,7 @@
 {
   "global": {
-    "premiumRequired": "Um diese Funktion nutzen zu können, musst du Betty Premium für diesen Server besitzen. Du kannst es hier kaufen https://betty.cx/premium ab $2,50!",
-    "premiumQueueLimitReached": "Du hast das Wartelimit für kostenlose Nutzer erreicht. Du kannst bis zu 1500 Lieder zur Warteschlange hinzufügen. Du kannst Betty Premium für $2,50 hier kaufen: https://betty.cx/premium, um das Limit auf 100 Lieder zu erhöhen.",
+    "premiumRequired": "Um diese Funktion nutzen zu können, musst du {botName} Premium für diesen Server besitzen. Du kannst es hier kaufen https://betty.cx/premium ab $2,50!",
+    "premiumQueueLimitReached": "Du hast das Wartelimit für kostenlose Nutzer erreicht. Du kannst bis zu 1500 Lieder zur Warteschlange hinzufügen. Du kannst {botName} Premium für $2,50 hier kaufen: https://betty.cx/premium, um das Limit auf 100 Lieder zu erhöhen.",
     "unknownCommand": "Oh nein! Ich kenne diesen Befehl nicht. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
     "unknownButton": "Oh nein! Ich kenne diesen Button nicht. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
     "unknownSelectMenu": "Oh nein! Ich kenne dieses Auswahlmenü nicht. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
@@ -32,50 +32,50 @@
     "nextSong": "Das nächste Lied ist **{songName}**",
     "autoPlayInfo": "Beginne, empfohlene Lieder zu spielen. Um neue Empfehlungen zu erhalten, lösche bitte die Warteschlange.",
     "autoPlayFooter": "Dieses Lied wurde automatisch von der Autoplay-Funktion hinzugefügt.",
-    "premiumThankYou": "Danke, dass du Betty Premium gekauft hast! Du kannst jetzt alle Premium-Funktionen auf {serverName} nutzen!",
-    "premiumThankYouCustomBot": "Danke, dass du einen benutzerdefinierten Bot für Betty gekauft hast! Du kannst direkt mit der Einrichtung im Dashboard beginnen!",
-    "premiumPaymentFailed": "Eine deiner Abonnements bei Betty ist aufgrund eines Zahlungsproblems fehlgeschlagen. Bitte überprüfe deine Zahlungsmethoden. Als Folge wurde dein Premium-Status entfernt. Wenn der nächste Zahlungsversuch erfolgreich ist, wird dein Premium wiederhergestellt.",
-    "guildJoinDm": "### Hallo!\n\nDanke, dass du Betty zu deinem Server hinzugefügt hast! 🎉\n\nDann fangen wir mal an:\n\n- **Betty anpassen:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Musik abspielen:** {{Befehl:abspielen}}\n\nWillst du mehr von Betty? Schau dir [Betty's Premium](https://betty.cx) für zusätzliche Funktionen an!\n\nViel Spaß!",
+    "premiumThankYou": "Danke, dass du {botName} Premium gekauft hast! Du kannst jetzt alle Premium-Funktionen auf {serverName} nutzen!",
+    "premiumThankYouCustomBot": "Danke, dass du einen benutzerdefinierten Bot für {botName} gekauft hast! Du kannst direkt mit der Einrichtung im Dashboard beginnen!",
+    "premiumPaymentFailed": "Eine deiner Abonnements bei {botName} ist aufgrund eines Zahlungsproblems fehlgeschlagen. Bitte überprüfe deine Zahlungsmethoden. Als Folge wurde dein Premium-Status entfernt. Wenn der nächste Zahlungsversuch erfolgreich ist, wird dein Premium wiederhergestellt.",
+    "guildJoinDm": "### Hallo!\n\nDanke, dass du {botName} zu deinem Server hinzugefügt hast! 🎉\n\nDann fangen wir mal an:\n\n- **{botName} anpassen:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Musik abspielen:** {{Befehl:abspielen}}\n\nWillst du mehr von {botName}? Schau dir [{botName}'s Premium](https://betty.cx) für zusätzliche Funktionen an!\n\nViel Spaß!",
     "nothingFound": "Ich konnte nichts für diese Anfrage finden.",
     "noPlayerFound": "Ich konnte keinen Player für diesen Server finden oder erstellen. Bitte versuche es später erneut.",
     "devOnly": "Dieser Bot befindet sich derzeit im Entwicklungsmodus und nur der Entwickler kann den Bot verwenden. Bitte trete dem Support-Server bei, um weitere Informationen zu erhalten.",
-    "noSpotifyConnection": "Du hast kein Spotify-Konto mit Betty verbunden. Verwende den Befehl {{command:spotify login}}, um dein Konto zu verbinden.",
+    "noSpotifyConnection": "Du hast kein Spotify-Konto mit {botName} verbunden. Verwende den Befehl {{command:spotify login}}, um dein Konto zu verbinden.",
     "firstPage": "Erste Seite",
     "previousPage": "Vorherige Seite",
     "nextPage": "Nächste Seite",
     "lastPage": "Letzte Seite",
     "selectLikeType": "Wo möchtest du das Lied zu deiner Favoritenliste hinzufügen - Discord, Spotify oder Deezer?",
-    "serverBlacklisted": "Dieser Server ist auf der schwarzen Liste und kann Betty nicht verwenden. Wenn du denkst, dass dies ein Fehler ist, kontaktiere bitte den Support.",
+    "serverBlacklisted": "Dieser Server ist auf der schwarzen Liste und kann {botName} nicht verwenden. Wenn du denkst, dass dies ein Fehler ist, kontaktiere bitte den Support.",
     "unlikedSong": "Du hast den Track **{title}** bereits geliked, also habe ich ihn entfernt.",
     "likedSong": "Den Track **{title}** geliked.",
     "boostPremium": "Boost your server with premium!",
     "songAlreadyInQueue": "Der Song **{title}** ist bereits in der Warteschlange und aufgrund der Servereinstellungen kann ich ihn nicht erneut hinzufügen.",
     "responseEmptyAfterFilter": "Die Ergebnisse sind nach dem Vermeiden von doppelten Songs leer. Bitte versuche es mit einer anderen Anfrage erneut.",
-    "serverNotWhitelisted": "Dieser Server ist nicht auf der Whitelist und kann diesen benutzerdefinierten Bot von Betty nicht verwenden. Wenn du der Eigentümer des benutzerdefinierten Bots bist, verwende das Dashboard, um den Server auf die Whitelist zu setzen.",
+    "serverNotWhitelisted": "Dieser Server ist nicht auf der Whitelist und kann diesen benutzerdefinierten Bot von {botName} nicht verwenden. Wenn du der Eigentümer des benutzerdefinierten Bots bist, verwende das Dashboard, um den Server auf die Whitelist zu setzen.",
     "autoPlayAlreadyEnabled": "Die Autoplay-Funktion ist bereits aktiviert. Um sie zu deaktivieren, besuche bitte das Dashboard.",
     "autoPlayEnabled": "Die Autoplay-Funktion wurde aktiviert. Um sie wieder zu deaktivieren, besuche bitte das Dashboard.",
     "notMySong": "**Das ist nicht dein Lied?**\nWenn der Bot nicht genau das Lied gefunden hat, das du spielen möchtest, versuche diese Möglichkeiten:\n1. Versuche, das Lied mit dem Songlink hinzuzufügen. (z.B. von Spotify)\n2. Versuche, das Lied nach Titel - Künstler hinzuzufügen. (z.B. Believer - Imagine Dragons)\n3. Versuche, das Lied mit dem Befehl {{command:search}} zu finden.",
     "queueLimitReached": "Du hast das festgelegte Warteschlangenlimit von **{limit}** für diesen Server erreicht. Bitte warte, bis einige Lieder gespielt oder aus der Warteschlange entfernt wurden, bevor du neue hinzufügst.",
     "queueUserLimitReached": "Du hast das festgelegte Warteschlangenlimit von **{limit}** für dich erreicht. Bitte warte, bis einige Lieder gespielt oder aus der Warteschlange entfernt wurden, bevor du neue hinzufügst.",
     "empty": "Leer",
-    "noLavalink": "Kein Audioserver von Betty ist derzeit verfügbar. Bitte versuche es später erneut. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
-    "restartInfo": "Der Bot wurde aufgrund eines Updates neu gestartet. Betty verbindet nun alle bestehenden Player wieder. Bitte warte ein paar Sekunden, bis der Bot wieder bereit ist.",
-    "spotifyWarning": "Da Betty noch nicht von Spotify verifiziert wurde, schlägt Bettys Spotify-Integration fast immer fehl, weil sie uns dazu verpflichten, jeden Benutzer per E-Mail und vollem Namen im Entwickler-Dashboard hinzuzufügen. Das ist aus Datenschutzgründen für uns nicht möglich. Wir arbeiten an einer Lösung, um dieses Problem zu beheben.",
+    "noLavalink": "Kein Audioserver von {botName} ist derzeit verfügbar. Bitte versuche es später erneut. Wenn dieser Fehler weiterhin besteht, kontaktiere bitte den Support.",
+    "restartInfo": "Der Bot wurde aufgrund eines Updates neu gestartet. {botName} verbindet nun alle bestehenden Player wieder. Bitte warte ein paar Sekunden, bis der Bot wieder bereit ist.",
+    "spotifyWarning": "Da {botName} noch nicht von Spotify verifiziert wurde, schlägt Bettys Spotify-Integration fast immer fehl, weil sie uns dazu verpflichten, jeden Benutzer per E-Mail und vollem Namen im Entwickler-Dashboard hinzuzufügen. Das ist aus Datenschutzgründen für uns nicht möglich. Wir arbeiten an einer Lösung, um dieses Problem zu beheben.",
     "notAllowedInRadioMode": "Diese Funktion ist im Radiomodus nicht erlaubt.",
     "nowPlayingRadio": "Der Bot ist in den Radiomodus gewechselt. Spielt **{radio}** von **{hoster}**.",
     "currentlyPlayingRadio": "Derzeit spielt **{radio}** von **{hoster}**.",
-    "noTidalConnection": "Sie haben kein Tidal-Konto, das mit Betty verbunden ist. Verwenden Sie den Befehl {{command:tidal login}}, um Ihr Konto zu verbinden."
+    "noTidalConnection": "Sie haben kein Tidal-Konto, das mit {botName} verbunden ist. Verwenden Sie den Befehl {{command:tidal login}}, um Ihr Konto zu verbinden."
   },
   "nonPremiumTips": {
-    "tip1": "Wusstest du, dass du mit Betty Premium eine bessere Audioqualität erhalten kannst? <https://betty.cx/premium>",
-    "tip2": "Wusstest du, dass du dein Spotify-Konto mit Betty verbinden kannst, um Playlists einfach zu importieren?",
-    "tip3": "Wusstest du, dass du die Warteschlange automatisch aufräumen kannst, wenn ein Mitglied den Sprachkanal mit Betty Premium verlässt? <https://betty.cx/premium>",
-    "tip4": "Wusstest du, dass du eine weitere Betty mit Premium für deinen Server erhalten kannst? <https://betty.cx/premium>",
-    "tip5": "Wusstest du, dass du doppelte Lieder in der Warteschlange mit Betty Premium verhindern kannst? <https://betty.cx/premium>",
+    "tip1": "Wusstest du, dass du mit {botName} Premium eine bessere Audioqualität erhalten kannst? <https://betty.cx/premium>",
+    "tip2": "Wusstest du, dass du dein Spotify-Konto mit {botName} verbinden kannst, um Playlists einfach zu importieren?",
+    "tip3": "Wusstest du, dass du die Warteschlange automatisch aufräumen kannst, wenn ein Mitglied den Sprachkanal mit {botName} Premium verlässt? <https://betty.cx/premium>",
+    "tip4": "Wusstest du, dass du eine weitere {botName} mit Premium für deinen Server erhalten kannst? <https://betty.cx/premium>",
+    "tip5": "Wusstest du, dass du doppelte Lieder in der Warteschlange mit {botName} Premium verhindern kannst? <https://betty.cx/premium>",
     "tip6": "Wusstest du, dass du Empfehlungen basierend auf deinem Hörverlauf mit {{command:recommend}} erhalten kannst?",
-    "tip7": "Wusstest du, dass Betty ein Dashboard hat, auf dem du den Bot für deinen Server konfigurieren kannst? <https://betty.cx/dash>",
+    "tip7": "Wusstest du, dass {botName} ein Dashboard hat, auf dem du den Bot für deinen Server konfigurieren kannst? <https://betty.cx/dash>",
     "tip8": "Wusstest du, dass du eine Funktion namens Temporärer DJ aktivieren kannst? Dies ermöglicht es dem Player-Ersteller, DJ-Befehle ohne die DJ-Rolle zu verwenden. Richte es hier ein: <https://betty.cx/dash>!",
-    "tip9": "Wusstest du, dass du eine leichte Benutzeroberfläche für Betty in temporären Sprachkanälen haben kannst? Du kannst sie im Dashboard aktivieren.",
+    "tip9": "Wusstest du, dass du eine leichte Benutzeroberfläche für {botName} in temporären Sprachkanälen haben kannst? Du kannst sie im Dashboard aktivieren.",
     "tip10": "Sie hören ein Ruckeln oder eine Verzögerung im Ton? Kaufen Sie Premium und erhalten Sie Zugang zu hochwertigen Audioservern."
   },
   "timeUnits": {
@@ -155,7 +155,7 @@
       "shuffle": "Warteschlange mischen"
     },
     "lightInterfaceTitle": "{botname} Light Interface",
-    "lightInterfaceFooter": "Betty wird keine Nachrichten in diesem Kanal interagieren. Du kannst nur die Buttons verwenden, um den Player zu steuern."
+    "lightInterfaceFooter": "{botName} wird keine Nachrichten in diesem Kanal interagieren. Du kannst nur die Buttons verwenden, um den Player zu steuern."
   },
   "supportCommand": {
     "commandData": {
@@ -165,9 +165,9 @@
   },
   "translateCommand": {
     "commandData": {
-      "description": "Möchtest du Betty in deiner Sprache zur Verfügung stellen? Dann nutze diesen Befehl."
+      "description": "Möchtest du {botName} in deiner Sprache zur Verfügung stellen? Dann nutze diesen Befehl."
     },
-    "response": "Möchtest du uns helfen, Betty in deine Sprache zu übersetzen? Du kannst dies in unserem Übersetzungs-Github-Repo tun: [Betty Translation Repo](https://github.com/fb-sean/betty-music-bot-translations \"Öffnet das Betty-Übersetzungs-Repo auf GitHub\")"
+    "response": "Möchtest du uns helfen, {botName} in deine Sprache zu übersetzen? Du kannst dies in unserem Übersetzungs-Github-Repo tun: [{botName} Translation Repo](https://github.com/fb-sean/betty-music-bot-translations \"Öffnet das {botName}-Übersetzungs-Repo auf GitHub\")"
   },
   "playCommand": {
     "commandData": {
@@ -185,7 +185,7 @@
     "trackPlaySuccessfullyNow": "Begonnen, {emoji}[**{title}**]({url} \"Öffnet das Lied in deinem Browser.\") abzuspielen.",
     "playlistPlaySuccessfully": "Die Playlist [**{title}**]({url} \"Öffnet die Playlist in deinem Browser.\") zur Warteschlange hinzugefügt.",
     "playlistPlaySuccessfullyNow": "Begonnen, die Playlist [**{title}**]({url} \"Öffnet die Playlist in deinem Browser.\") abzuspielen.",
-    "trackPlaySuccessfullyNonPremium": "{emoji}[**{title}**]({url} \"Öffnet den Song in deinem Browser.\") an Position **{position}** in die Warteschlange aufgenommen. Während du darauf wartest, dass dein Lied gespielt wird, möchtest du für Betty stimmen? Das wird uns helfen, den Bot weiterzuentwickeln und zu verbessern. [Stimme für Betty](https://top.gg/bot/884800931819048980/vote)"
+    "trackPlaySuccessfullyNonPremium": "{emoji}[**{title}**]({url} \"Öffnet den Song in deinem Browser.\") an Position **{position}** in die Warteschlange aufgenommen. Während du darauf wartest, dass dein Lied gespielt wird, möchtest du für {botName} stimmen? Das wird uns helfen, den Bot weiterzuentwickeln und zu verbessern. [Stimme für {botName}](https://top.gg/bot/884800931819048980/vote)"
   },
   "joinCommand": {
     "commandData": {
@@ -244,11 +244,11 @@
   },
   "spotifyCommand": {
     "commandData": {
-      "description": "Dein Spotify-Konto mit Betty verwalten.",
+      "description": "Dein Spotify-Konto mit {botName} verwalten.",
       "loginOption": "In dein Spotify-Konto einloggen.",
       "logoutOption": "Aus deinem Spotify-Konto ausloggen."
     },
-    "loginLink": "[Klicke hier, um dein Spotify-Konto mit Betty zu verbinden.]({url} \"Öffnet die Spotify-Login-Seite zur OAuth mit Betty\")",
+    "loginLink": "[Klicke hier, um dein Spotify-Konto mit {botName} zu verbinden.]({url} \"Öffnet die Spotify-Login-Seite zur OAuth mit {botName}\")",
     "openLinkButton": "Öffnen",
     "logoutSuccess": "Dein Spotify-Konto erfolgreich getrennt.",
     "loginSuccess": "Dein Spotify-Konto erfolgreich verbunden.",
@@ -262,7 +262,7 @@
     "commandData": {
       "description": "Den Player reparieren, wenn er nicht richtig funktioniert."
     },
-    "success": "Die Sprachserver-Region wurde erfolgreich auf **Rotterdam** aktualisiert, die am nächsten zu Betty liegt."
+    "success": "Die Sprachserver-Region wurde erfolgreich auf **Rotterdam** aktualisiert, die am nächsten zu {botName} liegt."
   },
   "pauseCommand": {
     "commandData": {
@@ -495,13 +495,13 @@
   },
   "premiumCommand": {
     "commandData": {
-      "description": "Informationen über Betty Premium erhalten."
+      "description": "Informationen über {botName} Premium erhalten."
     },
-    "response": "Du bist an Betty Premium interessiert? Weitere Informationen dazu findest du auf unserer Website: <https://betty.cx/premium>"
+    "response": "Du bist an {botName} Premium interessiert? Weitere Informationen dazu findest du auf unserer Website: <https://betty.cx/premium>"
   },
   "profileCommand": {
     "commandData": {
-      "description": "Informationen über dein Profil bei Betty erhalten."
+      "description": "Informationen über dein Profil bei {botName} erhalten."
     },
     "noProfile": "Es wurden noch keine Daten von dir erfasst.",
     "currently": "Derzeit hörst du",
@@ -513,20 +513,20 @@
     "notData": "Es gibt keine Daten anzuzeigen.",
     "top5Commands": "Top 5 Verwendete Befehle",
     "top5Tracks": "Top 5 Gespielte Lieder",
-    "embedTitle": "Dein Betty-Profil",
+    "embedTitle": "Dein {botName}-Profil",
     "embedTitleOther": "Profil von {user}",
     "noSpotifyAccount": "Spotify nicht verbunden",
     "noSpotifyActivity": "Hört gerade nichts auf Spotify"
   },
   "inviteCommand": {
     "commandData": {
-      "description": "Den Einladungslink für Betty erhalten."
+      "description": "Den Einladungslink für {botName} erhalten."
     },
-    "response": "Du kannst Betty mit diesem Link zu deinem Server einladen: [invite]({url})"
+    "response": "Alle Einladungslinks finden Sie unten!"
   },
   "creditsCommand": {
     "commandData": {
-      "description": "Die Credits von Betty anzeigen."
+      "description": "Die Credits von {botName} anzeigen."
     },
     "response": "**Erstellt von**: {creator}\n**Besonderer Dank an**: {special}"
   },
@@ -578,7 +578,7 @@
     "useText3": "3. Du kannst den Befehl {{command:search}} verwenden, um nach einem Lied zu suchen und es abzuspielen oder zur Warteschlange hinzuzufügen.",
     "useText4": "4. Verwende das Kontextmenü **Zur Warteschlange hinzufügen**, um ein Lied zur Warteschlange hinzuzufügen.",
     "headlinePremium": "Möchtest du mehr Funktionen haben?",
-    "premiumText": "Du kannst weitere Funktionen erhalten, indem du Betty Premium kaufst. Weitere Informationen dazu findest du auf unserer Website: [Betty Premium](https://betty.cx/premium)",
+    "premiumText": "Du kannst weitere Funktionen erhalten, indem du {botName} Premium kaufst. Weitere Informationen dazu findest du auf unserer Website: [{botName} Premium](https://betty.cx/premium)",
     "footer": "Erstellt von Sean Sattler | sattler.dev"
   },
   "configurationCommand": {
@@ -590,7 +590,7 @@
   "valueMyMusicCommand": {
     "commandData": {
       "description": "Deinen Musikgeschmack bewerten.",
-      "roastOption": "Wähle, ob Betty dich roastet oder nicht."
+      "roastOption": "Wähle, ob {botName} dich roastet oder nicht."
     },
     "noProfile": "Es wurden noch keine Daten von dir erfasst. Bitte spiele einige Lieder mit {{command:play}}, um eine Bewertung deines Musikgeschmacks zu erhalten.",
     "noHistory": "Du hast weniger als 10 Lieder in deinem Verlauf, um deinen Musikgeschmack zu bewerten. Bitte spiele einige Lieder mit {{command:play}}, um eine Bewertung deines Musikgeschmacks zu erhalten.",
@@ -599,7 +599,7 @@
   },
   "radioCommand": {
     "commandData": {
-      "description": "Betty in den Radiomodus versetzen und ein Online-Radio abspielen.",
+      "description": "{botName} in den Radiomodus versetzen und ein Online-Radio abspielen.",
       "streamOption": "Wähle den Radio-Stream aus, den du abspielen möchtest."
     },
     "invalidRadio": "Bitte wähle einen gültigen Radio-Stream aus.",
@@ -615,7 +615,7 @@
       "name": "DJ hinzufügen"
     },
     "removedDJ": "**{user}** als DJ-Benutzer entfernt.",
-    "maxDJsForNonPremium": "Du hast die maximale Anzahl an DJ-Benutzern für kostenlose Nutzer erreicht. Du kannst Betty Premium für $2,50 hier kaufen: https://betty.cx/premium, um das Limit auf 25 DJ-Benutzer zu erhöhen.",
+    "maxDJsForNonPremium": "Du hast die maximale Anzahl an DJ-Benutzern für kostenlose Nutzer erreicht. Du kannst {botName} Premium für $2,50 hier kaufen: https://betty.cx/premium, um das Limit auf 25 DJ-Benutzer zu erhöhen.",
     "maxDJs": "Du hast die maximale Anzahl an DJ-Benutzern erreicht.",
     "addedDJ": "**{user}** als DJ-Benutzer hinzugefügt.",
     "savedHistoryAsPlaylist": "Den Verlauf als Playlist mit dem Namen **{name}** gespeichert."
@@ -647,13 +647,18 @@
   },
   "tidalCommand": {
     "commandData": {
-      "description": "Verwalte die Verbindung zwischen deinem Tidal-Konto und Betty.",
+      "description": "Verwalte die Verbindung zwischen deinem Tidal-Konto und {botName}.",
       "loginOption": "Melden Sie sich bei Ihrem Tidal-Konto an.",
       "logoutOption": "Melden Sie sich von Ihrem Tidal-Konto ab."
     },
-    "loginLink": "[Klicken Sie hier, um Ihr Tidal-Konto mit Betty zu verbinden]({url} \"Öffnet die Tidal-Anmeldeseite für OAuth mit Betty\")",
+    "loginLink": "[Klicken Sie hier, um Ihr Tidal-Konto mit {botName} zu verbinden]({url} \"Öffnet die Tidal-Anmeldeseite für OAuth mit {botName}\")",
     "openLinkButton": "Öffnen Sie",
     "logoutSuccess": "Du hast die Verbindung zu deinem Tidal-Konto erfolgreich getrennt.",
     "loginSuccess": "Du hast dein Tidal-Konto erfolgreich verbunden."
+  },
+  "debugCommand": {
+    "commandData": {
+      "description": "Sehen Sie einige Debug-Informationen über den Bot. Kann für den Support nützlich sein."
+    }
   }
 }

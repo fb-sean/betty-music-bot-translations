@@ -1,7 +1,7 @@
 {
   "global": {
-    "premiumRequired": "In order to use this feature you need to own Betty premium for this server. You can buy it here https://betty.cx/premium starting at $ 2.50!",
-    "premiumQueueLimitReached": "You reached the queue limit for free users. You can add up to 1500 songs to the queue. You can buy Betty premium at https://betty.cx/premium starting at $ 2.50 to increase the limit to 100 songs.",
+    "premiumRequired": "In order to use this feature you need to own {botName} premium for this server. You can buy it here https://betty.cx/premium starting at $ 2.50!",
+    "premiumQueueLimitReached": "You reached the queue limit for free users. You can add up to 1500 songs to the queue. You can buy {botName} premium at https://betty.cx/premium starting at $ 2.50 to increase the limit to 100 songs.",
     "unknownCommand": "Oh no! I don't know that command. If this error persists, please contact the support.",
     "unknownButton": "Oh no! I don't know that button. If this error persists, please contact the support.",
     "unknownSelectMenu": "Oh no! I don't know that select menu. If this error persists, please contact the support.",
@@ -32,50 +32,50 @@
     "nextSong": "Next Song is **{songName}**",
     "autoPlayInfo": "Starting to play recommended songs. To get new recommendations please clear the queue.",
     "autoPlayFooter": "This song was automatically added by the autoplay feature.",
-    "premiumThankYou": "Thank you for purchasing premium for Betty! You can now use all premium features on {serverName}!",
-    "premiumThankYouCustomBot": "Thank you for purchasing custom bot for Betty! You can directly start with the setup on the dashboard!",
-    "premiumPaymentFailed": "One of your subscriptions at Betty failed due to a payment issue. Please check your payment methods. As a result, your premium status has been removed. If the next payment attempt is successful, your premium will be reinstated.",
-    "guildJoinDm": "### Hi!\n\nThank you for adding Betty to your server! 🎉\n\nLet's get you started:\n\n- **Customize Betty:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Play Music:** {{command:play}}\n\nWant more from Betty? Check out [Betty's Premium](https://betty.cx) for extra features!\n\nEnjoy!",
+    "premiumThankYou": "Thank you for purchasing premium for {botName}! You can now use all premium features on {serverName}!",
+    "premiumThankYouCustomBot": "Thank you for purchasing custom bot for {botName}! You can directly start with the setup on the dashboard!",
+    "premiumPaymentFailed": "One of your subscriptions at {botName} failed due to a payment issue. Please check your payment methods. As a result, your premium status has been removed. If the next payment attempt is successful, your premium will be reinstated.",
+    "guildJoinDm": "### Hi!\n\nThank you for adding {botName} to your server! 🎉\n\nLet's get you started:\n\n- **Customize {botName}:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Play Music:** {{command:play}}\n\nWant more from {botName}? Check out [{botName}'s Premium](https://betty.cx) for extra features!\n\nEnjoy!",
     "nothingFound": "I couldn't find anything for that query.",
     "noPlayerFound": "I couldn't find or create a player for this server. Please try again later.",
     "devOnly": "This bot is currently in development mode and only the developer can use the bot. Please join the support server for more information.",
-    "noSpotifyConnection": "You don't have a Spotify account connected to Betty. Use the {{command:spotify login}} command to connect your account.",
-    "noTidalConnection": "You don't have a Tidal account connected to Betty. Use the {{command:tidal login}} command to connect your account.",
+    "noSpotifyConnection": "You don't have a Spotify account connected to {botName}. Use the {{command:spotify login}} command to connect your account.",
+    "noTidalConnection": "You don't have a Tidal account connected to {botName}. Use the {{command:tidal login}} command to connect your account.",
     "firstPage": "First Page",
     "previousPage": "Previous Page",
     "nextPage": "Next Page",
     "lastPage": "Last Page",
     "selectLikeType": "Where would you like to add the song to your favorites list - Discord, Spotify, or Deezer?",
-    "serverBlacklisted": "This server is blacklisted and can't use Betty. If you think this is a mistake, please contact the support.",
+    "serverBlacklisted": "This server is blacklisted and can't use {botName}. If you think this is a mistake, please contact the support.",
     "unlikedSong": "You already liked the track **{title}** so I removed it.",
     "likedSong": "Liked the track **{title}**.",
     "boostPremium": "Boost your server with premium!",
     "songAlreadyInQueue": "The song **{title}** is already in the queue and because of server settings I can't add it again.",
     "responseEmptyAfterFilter": "The results are empty after the prevent duplicated songs filter. Please try again with a different query.",
-    "serverNotWhitelisted": "This server is not whitelisted and can't use this custom bot of Betty. If you are the owner of the custom bot, please use the dashboard to whitelist the server.",
+    "serverNotWhitelisted": "This server is not whitelisted and can't use this custom bot of {botName}. If you are the owner of the custom bot, please use the dashboard to whitelist the server.",
     "autoPlayAlreadyEnabled": "The autoplay feature is already enabled. To disable it please visit the dashboard.",
     "autoPlayEnabled": "The autoplay feature got enabled. To disable it again please visit the dashboard.",
     "notMySong": "**This isn't your song?**\nIf the bot didn't found exactly the song you want to play try these ways:\n1. Try adding the song by the song link. (Ex. from Spotify)\n2. Try adding the song by title - artist. (Ex. Believer - Imagine Dragons)\n3. Try finding the song with the {{command:search}} command.",
     "queueLimitReached": "You reached the set queue limit of **{limit}** for this server. Please wait until some songs got played or removed from the queue before you add new ones.",
     "queueUserLimitReached": "You reached the set queue limit of **{limit}** for you. Please wait until some songs got played or removed from the queue before you add new ones.",
     "empty": "Empty",
-    "noLavalink": "No audio server of Betty is currently available. Please try again later. If this error persists, please contact the support.",
-    "restartInfo": "The bot got restarted because of an update. Betty now reconnects all existing players. Please wait a few seconds until the bot is ready again.",
-    "spotifyWarning": "Since Betty is yet not verified by Spotify, Betty's Spotify integration nearly always fail because they require us to add every user by email and full name in the developer dashboard. This is not possible for us because of privacy reasons. We are working on a solution to get this fixed.",
+    "noLavalink": "No audio server of {botName} is currently available. Please try again later. If this error persists, please contact the support.",
+    "restartInfo": "The bot got restarted because of an update. {botName} now reconnects all existing players. Please wait a few seconds until the bot is ready again.",
+    "spotifyWarning": "Since {botName} is yet not verified by Spotify, {botName}'s Spotify integration nearly always fail because they require us to add every user by email and full name in the developer dashboard. This is not possible for us because of privacy reasons. We are working on a solution to get this fixed.",
     "notAllowedInRadioMode": "This feature is not allowed while the bot is in radio mode.",
     "nowPlayingRadio": "The bot switched into radio mode. Playing **{radio}** of the hoster **{hoster}**.",
     "currentlyPlayingRadio": "Currently playing **{radio}** of the hoster **{hoster}**."
   },
   "nonPremiumTips": {
     "tip1": "Did you know you can get better audio quality with betty premium? <https://betty.cx/premium>",
-    "tip2": "Did you know you can connect your Spotify account to Betty to import playlists easy?",
-    "tip3": "Did you know you can automatic clean up the queue if a member leaves the voice channel with Betty premium? <https://betty.cx/premium>",
-    "tip4": "Did you know you can get another Betty with premium for your server? <https://betty.cx/premium>",
-    "tip5": "Did you know you can prevent duplicated songs in the queue with Betty premium? <https://betty.cx/premium>",
+    "tip2": "Did you know you can connect your Spotify account to {botName} to import playlists easy?",
+    "tip3": "Did you know you can automatic clean up the queue if a member leaves the voice channel with {botName} premium? <https://betty.cx/premium>",
+    "tip4": "Did you know you can get another {botName} with premium for your server? <https://betty.cx/premium>",
+    "tip5": "Did you know you can prevent duplicated songs in the queue with {botName} premium? <https://betty.cx/premium>",
     "tip6": "Did you know you can get recommendations based on your listening history with {{command:recommend}}?",
-    "tip7": "Did you know Betty have a dashboard where you can configure the bot for your server? <https://betty.cx/dash>",
+    "tip7": "Did you know {botName} have a dashboard where you can configure the bot for your server? <https://betty.cx/dash>",
     "tip8": "Did you know you can enable a feature called Temporary DJ? This lets the player creator access DJ commands without the DJ role. Set it up here: <https://betty.cx/dash>!",
-    "tip9": "Did you know you can have a light interface for Betty at temporary voice channels? You can enable it on the dashboard.",
+    "tip9": "Did you know you can have a light interface for {botName} at temporary voice channels? You can enable it on the dashboard.",
     "tip10": "You hear shuttering or lagging in the audio? Buy premium and get access to high-quality audio servers."
   },
   "timeUnits": {
@@ -155,7 +155,7 @@
       "shuffle": "Shuffle the queue"
     },
     "lightInterfaceTitle": "{botname} Light Interface",
-    "lightInterfaceFooter": "Betty won't interact with any messages sent in this channel. You can only use the buttons to control the player."
+    "lightInterfaceFooter": "{botName} won't interact with any messages sent in this channel. You can only use the buttons to control the player."
   },
   "supportCommand": {
     "commandData": {
@@ -165,9 +165,9 @@
   },
   "translateCommand": {
     "commandData": {
-      "description": "Want to help us translate Betty into your language? Use this command to get more information."
+      "description": "Want to help us translate {botName} into your language?"
     },
-    "response": "You want to help us translate Betty into your language? You can do this at our translation github repo: [Betty Translation Repo](https://github.com/fb-sean/betty-music-bot-translations \"Opens the Betty translation repo on GitHub\")"
+    "response": "You want to help us translate {botName} into your language? You can do this at our translation github repo: [{botName} Translation Repo](https://github.com/fb-sean/betty-music-bot-translations \"Opens the {botName} translation repo on GitHub\")"
   },
   "playCommand": {
     "commandData": {
@@ -182,7 +182,7 @@
     "filePlaySuccessfully": "Added file with the name **{title}** to the queue at position **{position}**.",
     "filePlaySuccessfullyNow": "Started playing the file **{title}**.",
     "trackPlaySuccessfully": "Added {emoji}[**{title}**]({url} \"Opens the song in your browser.\") to the queue at position **{position}**.",
-    "trackPlaySuccessfullyNonPremium": "Added {emoji}[**{title}**]({url} \"Opens the song in your browser.\") to the queue at position **{position}**. While waiting for your song to play, do you want to vote for Betty? This will help us to grow and improve the bot. [Vote for Betty](https://top.gg/bot/884800931819048980/vote)",
+    "trackPlaySuccessfullyNonPremium": "Added {emoji}[**{title}**]({url} \"Opens the song in your browser.\") to the queue at position **{position}**. While waiting for your song to play, do you want to vote for {botName}? This will help us to grow and improve the bot. [Vote for {botName}](https://top.gg/bot/884800931819048980/vote)",
     "trackPlaySuccessfullyNow": "Started playing {emoji}[**{title}**]({url} \"Opens the song in your browser.\").",
     "playlistPlaySuccessfully": "Added the playlist [**{title}**]({url} \"Opens the playlist in your browser.\") to the queue.",
     "playlistPlaySuccessfullyNow": "Started playing the playlist [**{title}**]({url} \"Opens the playlist in your browser.\")."
@@ -244,11 +244,11 @@
   },
   "spotifyCommand": {
     "commandData": {
-      "description": "Manage your spotify account connection to Betty.",
+      "description": "Manage your spotify account connection to {botName}.",
       "loginOption": "Login to your Spotify account.",
       "logoutOption": "Logout from your Spotify account."
     },
-    "loginLink": "[Click here to connect your Spotify account to Betty.]({url} \"Opens the spotify login page to OAuth with Betty\")",
+    "loginLink": "[Click here to connect your Spotify account to {botName}.]({url} \"Opens the spotify login page to OAuth with {botName}\")",
     "openLinkButton": "Open",
     "logoutSuccess": "Successfully disconnected your Spotify account.",
     "loginSuccess": "Successfully connected your Spotify account.",
@@ -260,11 +260,11 @@
   },
   "tidalCommand": {
     "commandData": {
-      "description": "Manage your Tidal account connection to Betty.",
+      "description": "Manage your Tidal account connection to {botName}.",
       "loginOption": "Login to your Tidal account.",
       "logoutOption": "Logout from your Tidal account."
     },
-    "loginLink": "[Click here to connect your Tidal account to Betty.]({url} \"Opens the Tidal login page to OAuth with Betty\")",
+    "loginLink": "[Click here to connect your Tidal account to {botName}.]({url} \"Opens the Tidal login page to OAuth with {botName}\")",
     "openLinkButton": "Open",
     "logoutSuccess": "Successfully disconnected your Tidal account.",
     "loginSuccess": "Successfully connected your Tidal account."
@@ -273,7 +273,7 @@
     "commandData": {
       "description": "Fix the player if it's not working correctly."
     },
-    "success": "The voice server region got successfully updated to **Rotterdam** which is the nearest to Betty."
+    "success": "The voice server region got successfully updated to **Rotterdam** which is the nearest to {botName}."
   },
   "pauseCommand": {
     "commandData": {
@@ -506,13 +506,13 @@
   },
   "premiumCommand": {
     "commandData": {
-      "description": "Get information about Betty premium."
+      "description": "Get information about {botName} premium."
     },
-    "response": "You are interested in Betty premium? You can get more information about it on our website: <https://betty.cx/premium>"
+    "response": "You are interested in {botName} premium? You can get more information about it on our website: <https://betty.cx/premium>"
   },
   "profileCommand": {
     "commandData": {
-      "description": "Get information about your profile at Betty."
+      "description": "Get information about your profile at {botName}."
     },
     "noProfile": "You don't have any data tracked yet.",
     "currently": "Currently Listening to",
@@ -524,20 +524,20 @@
     "notData": "There is no data to show.",
     "top5Commands": "Top 5 Used Commands",
     "top5Tracks": "Top 5 Played Songs",
-    "embedTitle": "Your Betty Profile",
+    "embedTitle": "Your {botName} Profile",
     "embedTitleOther": "Profile of {user}",
     "noSpotifyAccount": "Spotify not connected",
     "noSpotifyActivity": "Not listening to anything on Spotify"
   },
   "inviteCommand": {
     "commandData": {
-      "description": "Get the invite link for Betty."
+      "description": "Get the invite link for {botName}."
     },
-    "response": "You can invite Betty to your server with this link: [invite]({url})"
+    "response": "You can find all invite links below!"
   },
   "creditsCommand": {
     "commandData": {
-      "description": "See the credits of Betty."
+      "description": "See the credits of {botName}."
     },
     "response": "**Created by**: {creator}\n**Special thanks to**: {special}"
   },
@@ -589,7 +589,7 @@
     "useText3": "3. You can use the {{command:search}} command to search for a song and select it to play or add it to the queue.",
     "useText4": "4. Use the **Add to Queue** context menu to add a song to the queue.",
     "headlinePremium": "Want to have more features?",
-    "premiumText": "You can get more features by purchasing Betty premium. You can get more information about it on our website: [Betty Premium](https://betty.cx/premium)",
+    "premiumText": "You can get more features by purchasing {botName} premium. You can get more information about it on our website: [{botName} Premium](https://betty.cx/premium)",
     "footer": "Made by Sean Sattler | sattler.dev"
   },
   "configurationCommand": {
@@ -601,7 +601,7 @@
   "valueMyMusicCommand": {
     "commandData": {
       "description": "Value your music taste.",
-      "roastOption": "Select if you want that Betty roast you or not."
+      "roastOption": "Select if you want that {botName} roast you or not."
     },
     "noProfile": "You don't have any data tracked yet. Please play some songs with {{command:play}} to get a value of your music taste.",
     "noHistory": "You don't have 10 songs or more in your history to value your music taste. Please play some songs with {{command:play}} to get a value of your music taste.",
@@ -610,7 +610,7 @@
   },
   "radioCommand": {
     "commandData": {
-      "description": "Set Betty in radio mode and play a online radio.",
+      "description": "Set {botName} in radio mode and play a online radio.",
       "streamOption": "Select the radio stream to play from."
     },
     "invalidRadio": "Please select a valid radio stream.",
@@ -621,12 +621,17 @@
     "noRadiosFound": "No radio streams found.",
     "radioModeDisabled": "The radio mode is disabled for this server. You can enable it at the bot dashboard."
   },
+  "debugCommand": {
+    "commandData": {
+      "description": "See some debug information about the bot. Can be useful for the support."
+    }
+  },
   "addDJContextCommand": {
     "commandData": {
       "name": "Add DJ"
     },
     "removedDJ": "Removed **{user}** as a DJ user.",
-    "maxDJsForNonPremium": "You reached the maximum number of DJ users for free users. You can buy Betty premium at https://betty.cx/premium to increase the limit to 25 DJ users.",
+    "maxDJsForNonPremium": "You reached the maximum number of DJ users for free users. You can buy {botName} premium at https://betty.cx/premium to increase the limit to 25 DJ users.",
     "maxDJs": "You reached the maximum number of DJ users.",
     "addedDJ": "Added **{user}** as a DJ user.",
     "savedHistoryAsPlaylist": "Saved the history as a playlist with the name **{name}**."
