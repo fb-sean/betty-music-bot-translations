@@ -175,7 +175,7 @@
       "queryOption": "Ihre Anfrage zur Suche nach einem Lied oder einem Link zu einem Lied.",
       "nowOption": "Wählen Sie, ob Sie den Titel direkt abspielen oder zur Warteschlange hinzufügen möchten.",
       "platformOption": "Wählen Sie die Plattform, von der aus Sie suchen möchten.",
-      "fileOption": "Mit dieser Option können Sie eine Datei zur Wiedergabe hochladen. Die Datei muss eine gültige Audiodatei sein."
+      "fileOption": "Lade eine gültige Audiodatei hoch, die abgespielt wird."
     },
     "invalidFile": "Die Datei, die Sie hochgeladen haben, ist keine gültige Audiodatei. Bitte stellen Sie sicher, dass es sich um eine gültige mp3-Datei handelt und versuchen Sie es erneut.",
     "playlistNowError": "Sie können eine Wiedergabeliste nicht direkt abspielen, wenn Sie bereits Titel in der Warteschlange haben.",
@@ -218,7 +218,7 @@
   },
   "searchCommand": {
     "commandData": {
-      "description": "Suchen Sie nach einem Titel und wählen Sie ihn zur Wiedergabe aus oder fügen Sie ihn zur Warteschlange hinzu.",
+      "description": "Suche einen Titel, wähle ihn zur Wiedergabe aus oder füge ihn der Warteschlange hinzu.",
       "queryOption": "Ihre Anfrage zur Suche nach einem Lied.",
       "nowOption": "Wählen Sie, ob Sie den/die Titel direkt abspielen oder zur Warteschlange hinzufügen möchten.",
       "platformOption": "Wählen Sie die Plattform, von der aus Sie suchen möchten."

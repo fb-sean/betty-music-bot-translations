@@ -43,7 +43,7 @@
     "noTidalConnection": "Vous n'avez pas de compte Tidal connecté à {botName}. Utilisez la commande {{command:tidal login}} pour connecter votre compte.",
     "firstPage": "Première page",
     "previousPage": "Page précédente",
-    "nextPage": "Next Page",
+    "nextPage": "Page suivante",
     "lastPage": "Dernière page",
     "selectLikeType": "Où souhaitez-vous ajouter la chanson à votre liste de favoris - Discord, Spotify ou Deezer ?",
     "serverBlacklisted": "Ce serveur est sur liste noire et ne peut pas utiliser {botName}. Si vous pensez qu'il s'agit d'une erreur, veuillez contacter le support.",
@@ -97,7 +97,7 @@
       "manageplaylistsongs": "Gérer / Voir les chansons",
       "renameplaylist": "Renommer",
       "toggleprivateplaylist": "Basculer vers le privé",
-      "playplaylist": "Play Playlist",
+      "playplaylist": "Lire la liste de lecture",
       "deleteplaylist": "Supprimer la liste de lecture",
       "transfareplaylist": "Liste de lecture Transfare",
       "importspotifyplaylist": "Importer des chansons de Spotify",
@@ -111,10 +111,10 @@
     "customBotDashboard": "Tableau de bord personnalisé",
     "loop": "Boucle",
     "remove": "Retirer",
-    "shuffle": "Shuffle queue",
+    "shuffle": "Mélanger la file d'attente",
     "savequeueasplaylist": "Enregistrer la file d'attente comme liste de lecture",
     "savehistoryasplaylist": "Enregistrer l'historique sous forme de liste de lecture",
-    "playhistory": "Historique du jeu",
+    "playhistory": "Historique de lecture",
     "clearhistory": "Effacer l'historique",
     "enableautoplay": "Obtenir une file d'attente sans fin, activer la lecture automatique.",
     "thatsnotmysong": "Ce n'est pas la chanson que j'ai demandée ?",
@@ -146,12 +146,12 @@
       "loopPlayback": "Lecture en boucle",
       "shuffle": "Mélanger la file d'attente"
     },
-    "footer": "Demandé par {username} | Powered by Betty.cx",
+    "footer": "Demandé par {username} | Propulsé par Betty.cx",
     "noSongs": "Il n'y a pas de chansons dans la file d'attente. Ajoutez-en avec {{command:play}} ou en @pingant le bot et en tapant le nom ou l'url dans ce canal.",
     "noSongsPlaying": "Aucune chanson n'est jouée.",
     "nextSongs": "Prochaine {number} Chansons",
     "nextSong": "Chanson suivante",
-    "channelName": "demande de chanson",
+    "channelName": "Demande de chanson",
     "loadingMessage": "Construire le canal de demande de chansons...",
     "emptyQuery": "Veuillez fournir une requête valide. N'oubliez pas que vous devez me mentionner, sinon je ne pourrai pas voir votre message.",
     "lightInterfaceTitle": "{botname} Interface lumineuse",
@@ -175,7 +175,7 @@
       "queryOption": "Votre requête pour rechercher une chanson ou un lien vers une chanson.",
       "nowOption": "Sélectionnez si vous souhaitez lire la chanson directement ou l'ajouter à la file d'attente.",
       "platformOption": "Sélectionnez la plateforme à partir de laquelle vous souhaitez effectuer une recherche.",
-      "fileOption": "Utilisez cette option pour télécharger un fichier à lire. Le fichier doit être un fichier audio valide."
+      "fileOption": "Téléchargez un fichier audio valide pour la lecture."
     },
     "invalidFile": "Le fichier que vous avez téléchargé n'est pas un fichier audio valide. Veuillez vous assurer qu'il s'agit d'un fichier mp3 valide et réessayez.",
     "playlistNowError": "Vous ne pouvez pas lire directement une liste de lecture si vous avez déjà des chansons dans la file d'attente.",
@@ -455,7 +455,7 @@
       "description": "Obtenir des informations sur la file d'attente actuelle."
     },
     "emptyQueue": "La file d'attente est vide.",
-    "queue": "Queue",
+    "queue": "File d'attente",
     "nowPlaying": "En cours de lecture",
     "nextSongs": "Chansons suivantes",
     "footer": "Page {page} de {pages} | Traces dans la file d'attente : {tracks} | Longueur : {length}",
@@ -547,7 +547,7 @@
     },
     "noProfile": "Vous n'avez pas encore de données suivies.",
     "noHistory": "Il n'y a pas d'historique à montrer. Jouez quelques chansons avec {{command:play}} à un.",
-    "history": "l'histoire",
+    "history": "Historique",
     "footer": "Page {page} de {pages} | Les traces dans l'histoire : {tracks}",
     "clearedHistory": "Efface **{tracks}** les chansons de votre historique."
   },
@@ -638,7 +638,7 @@
   },
   "skipSongContextCommand": {
     "commandData": {
-      "name": "Skip Song"
+      "name": "Passer à la musique suivante"
     }
   },
   "addToQueueContextCommand": {
@@ -648,16 +648,16 @@
   },
   "addSongButton": {
     "modal": {
-      "playlistTitle": "Ajouter une chanson à la liste de lecture",
+      "playlistTitle": "Ajouter une chanson à la playlist",
       "title": "Ajouter une chanson",
-      "queryLabel": "La chanson à ajouter",
-      "queryPlaceholder": "Entrez la chanson à ajouter ou le lien de la liste de lecture"
+      "queryLabel": "Chanson à ajouter",
+      "queryPlaceholder": "Entrez la chanson à ajouter ou le lien de la playlist"
     }
   },
   "renamePlaylistButton": {
     "modal": {
-      "title": "Renommer la liste de lecture",
-      "nameLabel": "Le nouveau nom",
+      "title": "Renommer la playlist",
+      "nameLabel": "Nouveau nom",
       "namePlaceholder": "Saisir le nouveau nom"
     }
   }
