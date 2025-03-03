@@ -1,161 +1,161 @@
 {
   "global": {
-    "premiumRequired": "Bu özelliği kullanmak için bu sunucu için {botName} premium'a sahip olmanız gerekmektedir. Buradan satın alabilirsiniz https://betty.cx/premium fiyatı 2.50 $'dan başlayan!",
-    "premiumQueueLimitReached": "Ücretsiz kullanıcılar için sıra sınırına ulaştınız. Sıraya en fazla 1500 şarkı ekleyebilirsiniz. Sınırı 100 şarkıya çıkarmak için https://betty.cx/premium fiyatı 2.50 $'dan başlayan {botName} premium'u satın alabilirsiniz.",
-    "unknownCommand": "Oh hayır! Bu komutu bilmiyorum. Bu hata devam ederse, lütfen destek ile iletişime geçin.",
-    "unknownButton": "Oh hayır! Bu düğmeyi bilmiyorum. Bu hata devam ederse, lütfen destek ile iletişime geçin.",
-    "unknownSelectMenu": "Oh hayır! Bu seçim menüsünü bilmiyorum. Bu hata devam ederse, lütfen destek ile iletişime geçin.",
-    "unknownModal": "Oh hayır! Bu modali bilmiyorum. Bu hata devam ederse, lütfen destek ile iletişime geçin.",
-    "unknownError": "Oh hayır! Bir şeyler yanlış gitti. Bu hata devam ederse, lütfen destek ile iletişime geçin.",
+    "premiumRequired": "Bu özelliği kullanmak için bu sunucu için {botName} premium sahibi olmanız gerekir. Buradan satın alabilirsiniz https://betty.cx/premium 2.50 $ 'dan başlayan fiyatlarla!",
+    "premiumQueueLimitReached": "Ücretsiz kullanıcılar için kuyruk sınırına ulaştınız. Kuyruğa en fazla 1500 şarkı ekleyebilirsiniz. Limiti 100 şarkıya çıkarmak için https://betty.cx/premium adresinden 2,50 dolardan başlayan fiyatlarla {botName} premium satın alabilirsiniz.",
+    "unknownCommand": "Olamaz! Bu komutu bilmiyorum. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
+    "unknownButton": "Olamaz! O düğmeyi bilmiyorum. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
+    "unknownSelectMenu": "Olamaz! Bu seçim menüsünü bilmiyorum. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
+    "unknownModal": "Olamaz! Bu modu bilmiyorum. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
+    "unknownError": "Olamaz! Bir şeyler ters gitti. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
     "serverOnly": "Bu özellik sadece sunucularda kullanılabilir.",
-    "needVoice": "Bu özelliği kullanmak için bir ses kanalında olmanız gerekmektedir.",
+    "needVoice": "Bu özelliği kullanmak için bir ses kanalında olmanız gerekir.",
     "cannotJoin": "Bu ses kanalına katılamıyorum. Lütfen doğru izinlere sahip olduğumdan emin olun ve tekrar deneyin.",
-    "noPlayer": "Bu sunucuda bir player yok. Bir tane oluşturmak için {{command:join}} kullanın!",
-    "emptyQueue": "Sıra boş. Şarkı eklemek için {{command:play}} kullanın!",
-    "notSameVoiceChannel": "Bu özelliği kullanmak için benimle aynı ses kanalında olmanız gerekmektedir.",
-    "notInSongRequestChannelUseAble": "Bu komutu şarkı istek kanalında kullanamazsınız.",
-    "botNoPermission": "Bu işlemi gerçekleştirmek için gerekli izinlere sahip değilim. Bu kanalda {missingPerms} iznine ihtiyacım var. Lütfen doğru izinlere sahip olduğumdan emin olun ve tekrar deneyin.",
-    "userNoPermission": "Bu işlemi gerçekleştirmek için gerekli izinlere sahip değilsiniz. Bu kanalda {missingPerms} iznine ihtiyacınız var.",
-    "djOnly": "Sadece DJ'ler bu özelliği kullanabilir.",
-    "notAllowedToJoinBecauseOfGuildSettings": "Sunucu ayarları nedeniyle bu ses kanalına katılmama izin verilmiyor.",
-    "cooldownMessage": "Bekleme süresindesiniz. Bu özelliği tekrar kullanmak için {time} bekleyin.",
+    "noPlayer": "Bu sunucuda hiç oyuncu yok. Bir tane oluşturmak için {{command:join}} adresini kullanın!",
+    "emptyQueue": "Kuyruk boş. Bazı şarkılar eklemek için {{command:play}} adresini kullanın!",
+    "notSameVoiceChannel": "Bu özelliği kullanabilmeniz için benimle aynı ses kanalında olmanız gerekiyor.",
+    "notInSongRequestChannelUseAble": "Bu komutu şarkı istek kanalı içinde kullanamazsınız.",
+    "botNoPermission": "Bu eylemi gerçekleştirmek için gerekli izinlere sahip değilim. Bu kanalda {missingPerms} iznine ihtiyacım var. Lütfen doğru izinlere sahip olduğumdan emin olun ve tekrar deneyin.",
+    "userNoPermission": "Bu eylemi gerçekleştirmek için gerekli izinlere sahip değilsiniz. Bu kanalda {missingPerms} iznine ihtiyacınız var.",
+    "djOnly": "Bu özelliği sadece DJ'ler kullanabilir.",
+    "notAllowedToJoinBecauseOfGuildSettings": "Sunucu ayarları nedeniyle o ses kanalına katılmama izin verilmiyor.",
+    "cooldownMessage": "Bekleme süresindesiniz. Bu özelliği tekrar kullanmadan önce lütfen {time} adresinde bekleyin.",
     "poweredBy": "Betty.cx tarafından desteklenmektedir",
-    "invite": "Davet Et",
+    "invite": "Davetiye",
     "support": "Destek",
-    "website": "Websitesi",
+    "website": "Web sitesi",
     "subscriptions": "Abonelikleri Yönet",
     "premium": "Premium",
-    "listenHere": "Buradan dinle",
-    "nowPlaying": "Şu Anda Çalıyor **{songName} - {artist}**",
-    "playing": "Çalıyor {songName} - {artist}",
-    "requestedBy": "İsteyen {requester}",
+    "listenHere": "Burayı dinleyin",
+    "nowPlaying": "Şimdi Oynatılıyor **{songName} - {artist}**",
+    "playing": "Oynamak {songName} - {artist}",
+    "requestedBy": "Tarafından talep edildi {requester}",
     "nextSong": "Sıradaki Şarkı **{songName}**",
-    "autoPlayInfo": "Önerilen şarkıları çalmaya başlıyor. Yeni öneriler almak için lütfen sırayı temizleyin.",
-    "autoPlayFooter": "Bu şarkı otomatik oynatma özelliği tarafından otomatik olarak eklendi.",
-    "premiumThankYou": "{botName} için premium satın aldığınız için teşekkür ederiz! Artık {serverName} üzerinde tüm premium özellikleri kullanabilirsiniz!",
-    "premiumThankYouCustomBot": "{botName} için özel bot satın aldığınız için teşekkür ederiz! Panoda kurulum ile hemen başlayabilirsiniz!",
-    "premiumPaymentFailed": "{botName}'deki aboneliklerinizden biri ödeme sorunu nedeniyle başarısız oldu. Lütfen ödeme yöntemlerinizi kontrol edin. Sonuç olarak, premium statünüz kaldırıldı. Bir sonraki ödeme denemesi başarılı olursa, premium statünüz geri yüklenecektir.",
-    "guildJoinDm": "### Merhaba!\n\n{botName}'i sunucunuza eklediğiniz için teşekkür ederiz! 🎉\n\nHadi başlayalım:\n\n- **Customize {botName}:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Müzik Çal:** {{command:play}}\n\n{botName}'den daha fazlasını mı istiyorsunuz? Ekstra özellikler için [{botName}'s Premium](https://betty.cx)'a göz atın!\n\nİyi eğlenceler!",
-    "nothingFound": "Bu sorgu için hiçbir şey bulamadım.",
-    "noPlayerFound": "Bu sunucu için bir player bulamadım veya oluşturamadım. Lütfen daha sonra tekrar deneyin.",
-    "devOnly": "Bu bot şu anda geliştirme modunda ve sadece geliştirici botu kullanabilir. Daha fazla bilgi için destek sunucusuna katılın.",
-    "noSpotifyConnection": "{botName} ile bağlı bir Spotify hesabınız yok. Hesabınızı bağlamak için {{command:spotify login}} komutunu kullanın.",
+    "autoPlayInfo": "Önerilen şarkıları çalmaya başlayın. Yeni öneriler almak için lütfen kuyruğu temizleyin.",
+    "autoPlayFooter": "Bu şarkı otomatik oynatma özelliği tarafından otomatik olarak eklenmiştir.",
+    "premiumThankYou": "{botName} için premium satın aldığınız için teşekkür ederiz! Artık {serverName}'daki tüm premium özellikleri kullanabilirsiniz!",
+    "premiumThankYouCustomBot": "653506413]] için özel bot satın aldığınız için teşekkür ederiz! Doğrudan kontrol panelindeki kurulumla başlayabilirsiniz!",
+    "premiumPaymentFailed": "{botName} adresindeki aboneliklerinizden biri ödeme sorunu nedeniyle başarısız oldu. Lütfen ödeme yöntemlerinizi kontrol edin. Sonuç olarak, prim durumunuz kaldırılmıştır. Bir sonraki ödeme girişimi başarılı olursa, priminiz eski haline getirilecektir.",
+    "guildJoinDm": "### Merhaba!\n\nSunucunuza {botName} eklediğiniz için teşekkür ederiz! 🎉\n\nHadi başlayalım:\n\n- **Customize {botName}:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Müzik Çal:** {{command:play}}\n\n{botName}'dan daha fazlasını mı istiyorsunuz? Ekstra özellikler için [{botName}'s Premium](https://betty.cx)'a göz atın!\n\nİyi eğlenceler!",
+    "nothingFound": "Bu sorgu için bir şey bulamadım.",
+    "noPlayerFound": "Bu sunucu için bir oyuncu bulamadım veya oluşturamadım. Lütfen daha sonra tekrar deneyin.",
+    "devOnly": "Bu bot şu anda geliştirme modundadır ve yalnızca geliştirici botu kullanabilir. Daha fazla bilgi için lütfen destek sunucusuna katılın.",
+    "noSpotifyConnection": "{botName}'a bağlı bir Spotify hesabınız yok. Hesabınızı bağlamak için {{command:spotify login}} komutunu kullanın.",
+    "noTidalConnection": "{botName} adresine bağlı bir Tidal hesabınız yok. Hesabınızı bağlamak için {{command:tidal login}} komutunu kullanın.",
     "firstPage": "İlk Sayfa",
     "previousPage": "Önceki Sayfa",
     "nextPage": "Sonraki Sayfa",
     "lastPage": "Son Sayfa",
-    "selectLikeType": "Şarkıyı favori listenize nereye eklemek istersiniz - Discord, Spotify veya Deezer?",
-    "serverBlacklisted": "Bu sunucu kara listeye alınmış ve {botName}'i kullanamaz. Bunun bir hata olduğunu düşünüyorsanız, lütfen destek ile iletişime geçin.",
-    "unlikedSong": "Parça **{title}** zaten beğenilmiş, bu yüzden kaldırdım.",
-    "likedSong": "Parça **{title}** beğenildi.",
+    "selectLikeType": "Şarkıyı favoriler listenize nereden eklemek istersiniz - Discord, Spotify veya Deezer?",
+    "serverBlacklisted": "Bu sunucu kara listede ve {botName} kullanamaz. Bunun bir hata olduğunu düşünüyorsanız, lütfen destek ekibiyle iletişime geçin.",
+    "unlikedSong": "Zaten **{title}** parçasını beğenmiştiniz, ben de kaldırdım.",
+    "likedSong": "**{title}** parçasını beğendim.",
     "boostPremium": "Sunucunuzu premium ile güçlendirin!",
-    "songAlreadyInQueue": "Şarkı **{title}** zaten sırada ve sunucu ayarları nedeniyle tekrar ekleyemiyorum.",
-    "responseEmptyAfterFilter": "Sonuçlar, yinelenen şarkılar filtresinden sonra boş kaldı. Lütfen farklı bir sorgu ile tekrar deneyin.",
-    "serverNotWhitelisted": "Bu sunucu beyaz listeye alınmamış ve {botName}'nin bu özel botunu kullanamaz. Özel botun sahibiyseniz, sunucuyu beyaz listeye almak için panoyu kullanın.",
-    "autoPlayAlreadyEnabled": "Otomatik oynatma özelliği zaten etkin. Devre dışı bırakmak için lütfen panoyu ziyaret edin.",
-    "autoPlayEnabled": "Otomatik oynatma özelliği etkinleştirildi. Yeniden devre dışı bırakmak için lütfen panoyu ziyaret edin.",
-    "notMySong": "**Bu senin şarkın değil mi?**\nBot tam olarak çalmak istediğiniz şarkıyı bulamadıysa şu yolları deneyin:\n1. Şarkıyı şarkı bağlantısı ile eklemeyi deneyin. (Örn. Spotify'dan)\n2. Şarkıyı başlık - sanatçı ile eklemeyi deneyin. (Örn. Believer - Imagine Dragons)\n3. Şarkıyı {{command:search}} komutu ile aramayı deneyin.",
-    "queueLimitReached": "Bu sunucu için belirlenen **{limit}** sıra sınırına ulaştınız. Yeni şarkı eklemeden önce bazı şarkıların çalınmasını veya sıradan kaldırılmasını bekleyin.",
-    "queueUserLimitReached": "Kendiniz için belirlenen **{limit}** sıra sınırına ulaştınız. Yeni şarkı eklemeden önce bazı şarkıların çalınmasını veya sıradan kaldırılmasını bekleyin.",
+    "songAlreadyInQueue": "Şarkı **{title}** zaten kuyrukta ve sunucu ayarları nedeniyle tekrar ekleyemiyorum.",
+    "responseEmptyAfterFilter": "Yinelenen şarkıları engelle filtresinden sonra sonuçlar boş. Lütfen farklı bir sorgu ile tekrar deneyin.",
+    "serverNotWhitelisted": "Bu sunucu beyaz listede değil ve {botName}'un bu özel botunu kullanamaz. Özel botun sahibiyseniz, lütfen sunucuyu beyaz listeye almak için kontrol panelini kullanın.",
+    "autoPlayAlreadyEnabled": "Otomatik oynatma özelliği zaten etkin. Devre dışı bırakmak için lütfen kontrol panelini ziyaret edin.",
+    "autoPlayEnabled": "Otomatik oynatma özelliği etkinleştirildi. Tekrar devre dışı bırakmak için lütfen kontrol panelini ziyaret edin.",
+    "notMySong": "**Bu sizin şarkınız değil mi?\nBot tam olarak çalmak istediğiniz şarkıyı bulamadıysa aşağıdaki yolları deneyin:\n1. Şarkıyı şarkı bağlantısına göre eklemeyi deneyin. (Örn. Spotify'dan)\n2. Şarkıyı başlığa göre eklemeyi deneyin - sanatçı. (Örn. Believer - Imagine Dragons)\n3. Şarkıyı {{command:search}} komutu ile bulmayı deneyin.",
+    "queueLimitReached": "Bu sunucu için belirlenen **{limit}** kuyruk sınırına ulaştınız. Lütfen yeni şarkı eklemeden önce bazı şarkıların çalınmasını veya kuyruktan kaldırılmasını bekleyin.",
+    "queueUserLimitReached": "Sizin için belirlenen **{limit}** kuyruk sınırına ulaştınız. Lütfen yenilerini eklemeden önce bazı şarkıların çalınmasını veya kuyruktan kaldırılmasını bekleyin.",
     "empty": "Boş",
-    "noLavalink": "{botName}'nin şu anda kullanılabilir bir ses sunucusu yok. Lütfen daha sonra tekrar deneyin. Bu hata devam ederse, lütfen destek ile iletişime geçin.",
-    "restartInfo": "Bot bir güncelleme nedeniyle yeniden başlatıldı. {botName} şimdi mevcut tüm player'ları yeniden bağlar. Botun yeniden hazır hale gelmesi için birkaç saniye bekleyin.",
-    "spotifyWarning": "{botName} henüz Spotify tarafından doğrulanmadığı için, {botName}'nin Spotify entegrasyonu neredeyse her zaman başarısız olur çünkü her kullanıcıyı geliştirici panosunda e-posta ve tam ad ile eklememizi gerektirirler. Gizlilik nedenleriyle bu bizim için mümkün değildir. Bunu düzeltmek için bir çözüm üzerinde çalışıyoruz.",
-    "notAllowedInRadioMode": "Bu özellik bot radyo modundayken izin verilmez.",
-    "nowPlayingRadio": "Bot radyo moduna geçti. Çalıyor **{radio}** tarafından **{hoster}**.",
-    "currentlyPlayingRadio": "Şu anda çalıyor **{radio}** tarafından **{hoster}**.",
-    "noTidalConnection": "{botName}'ye bağlı bir Tidal hesabınız yok. Hesabınızı bağlamak için {{command:tidal login}} komutunu kullanın."
+    "noLavalink": "Şu anda {botName} ses sunucusu mevcut değil. Lütfen daha sonra tekrar deneyin. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
+    "restartInfo": "Bot bir güncelleme nedeniyle yeniden başlatıldı. {botName} şimdi mevcut tüm oyuncuları yeniden bağlıyor. Lütfen bot tekrar hazır olana kadar birkaç saniye bekleyin.",
+    "spotifyWarning": "584716291]] henüz Spotify tarafından doğrulanmadığından, {botName}'in Spotify entegrasyonu neredeyse her zaman başarısız oluyor çünkü geliştirici kontrol panelinde her kullanıcıyı e-posta ve tam adıyla eklememizi istiyorlar. Gizlilik nedeniyle bu bizim için mümkün değil. Bunu düzeltmek için bir çözüm üzerinde çalışıyoruz.",
+    "notAllowedInRadioMode": "Bot radyo modundayken bu özelliğe izin verilmez.",
+    "nowPlayingRadio": "Bot radyo moduna geçti. Ev sahibinin **{radio}** adresini çalıyor **{hoster}**.",
+    "currentlyPlayingRadio": "Şu anda **{hoster}** sunucusunun **{radio}** adresinde oynamaktadır."
   },
   "nonPremiumTips": {
-    "tip1": "{botName} premium ile daha iyi ses kalitesi alabileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
-    "tip2": "{botName}'ye Spotify hesabınızı bağlayarak kolayca çalma listeleri içe aktarabileceğinizi biliyor muydunuz?",
-    "tip3": "{botName} premium ile bir üye ses kanalından ayrıldığında sırayı otomatik olarak temizleyebileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
-    "tip4": "Sunucunuz için başka bir {botName}'ye premium ile sahip olabileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
-    "tip5": "{botName} premium ile sıradaki yinelenen şarkıları önleyebileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
-    "tip6": "Dinleme geçmişinize dayalı öneriler alabileceğinizi biliyor muydunuz? {{command:recommend}} komutunu kullanarak?",
-    "tip7": "{botName}'nin botu sunucunuz için yapılandırabileceğiniz bir paneli olduğunu biliyor muydunuz? <https://betty.cx/dash>",
-    "tip8": "Geçici DJ adlı bir özelliği etkinleştirebileceğinizi biliyor muydunuz? Bu, player'ı oluşturan kişinin DJ rolü olmadan DJ komutlarına erişmesini sağlar. Buradan ayarlayabilirsiniz: <https://betty.cx/dash>!",
-    "tip9": "Geçici ses kanallarında {botName} için hafif bir arayüze sahip olabileceğinizi biliyor muydunuz? Panelde etkinleştirebilirsiniz.",
+    "tip1": "Betty Premium ile daha iyi ses kalitesi elde edebileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
+    "tip2": "Spotify hesabınızı {botName} adresine bağlayarak çalma listelerini kolayca içe aktarabileceğinizi biliyor muydunuz?",
+    "tip3": "Bir üye {botName} premium ile ses kanalından ayrılırsa kuyruğu otomatik olarak temizleyebileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
+    "tip4": "Sunucunuz için premium ile başka bir {botName} alabileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
+    "tip5": "{botName} premium ile kuyrukta yinelenen şarkıları önleyebileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
+    "tip6": "Dinleme geçmişinize göre {{command:recommend}} ile öneriler alabileceğinizi biliyor muydunuz?",
+    "tip7": "Sunucunuz için botu yapılandırabileceğiniz bir kontrol paneli olduğunu {botName} biliyor muydunuz? <https://betty.cx/dash>",
+    "tip8": "Geçici DJ adlı bir özelliği etkinleştirebileceğinizi biliyor muydunuz? Bu, oynatıcı oluşturucunun DJ rolü olmadan DJ komutlarına erişmesini sağlar. Buradan ayarlayın: <https://betty.cx/dash>!",
+    "tip9": "Geçici ses kanallarında {botName} için hafif bir arayüze sahip olabileceğinizi biliyor muydunuz? Kontrol panelinden etkinleştirebilirsiniz.",
     "tip10": "Seste kesilme veya gecikme mi duyuyorsunuz? Premium satın alın ve yüksek kaliteli ses sunucularına erişin."
   },
   "timeUnits": {
     "multiple": {
       "days": "günler",
       "hours": "saatler",
-      "minutes": "dakikalar",
-      "seconds": "saniyeler"
+      "minutes": "dakika",
+      "seconds": "saniye"
     },
     "single": {
       "days": "gün",
       "hours": "saat",
       "minutes": "dakika",
-      "seconds": "saniye"
+      "seconds": "ikinci"
     }
   },
   "buttonLabels": {
-    "support": "Destek sunucusuna katılın",
-    "customBotDashboard": "Özel Bot Panosu",
-    "loop": "Döngü",
-    "remove": "Kaldır",
-    "shuffle": "Sırayı karıştır",
-    "savequeueasplaylist": "Sırayı çalma listesi olarak kaydet",
-    "savehistoryasplaylist": "Geçmişi çalma listesi olarak kaydet",
-    "playhistory": "Geçmişi çal",
-    "clearhistory": "Geçmişi temizle",
-    "enableautoplay": "Sonsuz sıra al, otomatik oynatmayı etkinleştir.",
-    "thatsnotmysong": "Bu benim istediğim şarkı değil mi?",
-    "playerlogs": "Player loglarını gör",
-    "addsong": "Bir şarkı ekle",
-    "stopRadio": "Radyoyu durdur",
-    "searchOnSpotify": "Spotify'da ara",
     "playlist": {
       "manageplaylistsongs": "Şarkıları Yönet / Görüntüle",
       "renameplaylist": "Yeniden Adlandır",
-      "toggleprivateplaylist": "Özel Yap / Aç",
-      "playplaylist": "Çalma Listesini Çal",
+      "toggleprivateplaylist": "Özel'i değiştir",
+      "playplaylist": "Oynatma Listesi",
       "deleteplaylist": "Çalma Listesini Sil",
-      "transfareplaylist": "Çalma Listesini Aktar",
-      "importspotifyplaylist": "Spotify'dan şarkı ithal et",
+      "transfareplaylist": "Transfare Çalma Listesi",
+      "importspotifyplaylist": "Spotify'dan şarkıları içe aktarma",
       "playlistremovesong": "Kaldırmak istediğiniz şarkıları seçin.",
-      "addsongtoplaylist": "Çalma listesine şarkı ekle",
-      "backtoplaylist": "Çalma listesine geri dön",
-      "shareplaylist": "Çalma Listesini Paylaş",
-      "saveplaylist": "Çalma listesi açıklaması"
+      "addsongtoplaylist": "Çalma listesine şarkı ekleme",
+      "backtoplaylist": "Oynatma listesine geri dön",
+      "shareplaylist": "Çalma listesini paylaş",
+      "saveplaylist": "Çalma listesini kaydet"
     },
-    "joinchannel": "Mevcut ses kanalına katıl"
+    "support": "Destek sunucusuna katılın",
+    "customBotDashboard": "Özel Bot Gösterge Tablosu",
+    "loop": "Döngü",
+    "remove": "Kaldırmak",
+    "shuffle": "Karışık kuyruk",
+    "savequeueasplaylist": "Kuyruğu çalma listesi olarak kaydet",
+    "savehistoryasplaylist": "Geçmişi çalma listesi olarak kaydet",
+    "playhistory": "Oyun geçmişi",
+    "clearhistory": "Geçmişi temizle",
+    "enableautoplay": "Sonsuz kuyruk alın, otomatik oynatmayı etkinleştirin.",
+    "thatsnotmysong": "İstediğim şarkı bu değil miydi?",
+    "playerlogs": "Oyuncu günlüklerine bakın",
+    "addsong": "Bir şarkı ekleyin",
+    "stopRadio": "Radyoyu durdur",
+    "searchOnSpotify": "Spotify'da Ara",
+    "joinchannel": "Mevcut ses kanalınıza katılın"
   },
   "destoryReasons": {
-    "inactive": "Player çok uzun süre hareketsiz kaldığı için yok edildi. Yeni bir oturum başlatmak için {{command:play}} kullanın!",
-    "errored": "Player bir hata nedeniyle yok edildi. Son 2 saat içinde bu ilk defa değilse lütfen destek ile iletişime geçin. Yeni bir oturum başlatmak için {{command:play}} kullanın!",
-    "queueEndWarning": "Çalacak başka şarkı yok. Daha fazla eklemek için {{command:play}} kullanın! Yeni parçalar eklenmezse, player 2 dakika içinde yok edilecek.",
-    "queueEnd": "Çalacak başka parça yok, player yok edildi. Yeni bir oturum başlatmak için {{command:play}} kullanın!",
-    "kickedFromVoiceChannel": "Player ses kanalından atıldığım için yok edildi. Yeni bir oturum başlatmak için {{command:play}} kullanın!",
-    "emptyVoiceChannelWarning": "Ses kanalında yalnızım, kimse tekrar katılmazsa player 2 dakika içinde yok edilecek.",
-    "emptyVoiceChannel": "Player ses kanalı boşaldığı için yok edildi. Yeni bir oturum başlatmak için {{command:play}} kullanın!"
+    "inactive": "Oyuncu çok uzun süre aktif olmadığı için yok edildi. Yeni bir oturum başlatmak için {{command:play}} adresini kullanın!",
+    "errored": "Oyuncu bir hata yüzünden yok edildi. Eğer bu son 2 saat içinde ilk kez olmuyorsa lütfen destek ile iletişime geçin. Yeni bir oturum başlatmak için {{command:play}} adresini kullanın!",
+    "queueEndWarning": "Çalacak başka şarkı yok. Daha fazla eklemek için {{command:play}} kullanın! Yeni parça eklenmezse, oynatıcı 2 dakika içinde yok olacaktır.",
+    "queueEnd": "Çalacak parça kalmadı, oynatıcı yok edildi. Yeni bir oturum başlatmak için {{command:play}} adresini kullanın!",
+    "kickedFromVoiceChannel": "Ses kanalından atıldığım için oyuncu yok oldu. Yeni bir oturum başlatmak için {{command:play}} adresini kullanın!",
+    "emptyVoiceChannelWarning": "Ses kanalında yalnızım, kimse tekrar katılmazsa oyuncu 2 dakika içinde yok olacak.",
+    "emptyVoiceChannel": "Ses kanalı boş olduğu için oyuncu yok edildi. Yeni bir oturum başlatmak için {{command:play}} adresini kullanın!"
   },
   "songRequestChannel": {
-    "footer": "{username} tarafından istendi | Betty.cx tarafından desteklenmektedir",
-    "noSongs": "Sırada şarkı yok. {{command:play}} veya bu kanalda botu @mention yaparak adını veya url'sini yazarak bazılarını ekleyin.",
-    "noSongsPlaying": "Çalmakta olan şarkı yok.",
-    "nextSongs": "Sıradaki {number} Şarkı",
-    "nextSong": "Sıradaki Şarkı",
-    "channelName": "şarkı-istek",
-    "loadingMessage": "Şarkı istek kanalı oluşturuluyor...",
-    "emptyQuery": "Geçerli bir sorgu sağlayın. Beni @mention yapmanız gerektiğini unutmayın, aksi takdirde mesajınızı göremem.",
     "topic": {
-      "rewind": "10 saniye geri al",
-      "pauseResume": "Çalmayı duraklat/devam ettir",
-      "stop": "Durdur",
-      "forward": "10 saniye ileri al",
-      "skip": "Mevcut şarkıyı atla",
-      "volumeDown": "Ses -10%",
-      "volumeUp": "Ses +10%",
-      "grabSong": "Mevcut şarkıyı yakala",
-      "loopPlayback": "Çalmayı döngüye al",
-      "shuffle": "Sırayı karıştır"
+      "rewind": "10 saniye geri sar",
+      "pauseResume": "Oynatmayı duraklat/devam ettir",
+      "stop": "Dur",
+      "forward": "10 saniye ileri",
+      "skip": "Geçerli şarkıyı atla",
+      "volumeDown": "Hacim %10 düştü.",
+      "volumeUp": "Hacim +%10.",
+      "grabSong": "Geçerli şarkıyı yakala",
+      "loopPlayback": "Oynatma döngüsü",
+      "shuffle": "Kuyruğu karıştırın"
     },
-    "lightInterfaceTitle": "{botname} Hafif Arayüz",
-    "lightInterfaceFooter": "{botName} bu kanalda gönderilen mesajlarla etkileşime geçmeyecek. Player'ı kontrol etmek için sadece düğmeleri kullanabilirsiniz."
+    "footer": "Tarafından talep edildi {username} | Betty.cx tarafından desteklenmektedir",
+    "noSongs": "Kuyrukta hiç şarkı yok. Bazılarını {{command:play}} ile veya botu @ping yaparak ve bu kanala adı veya url'yi yazarak ekleyin.",
+    "noSongsPlaying": "Hiç şarkı çalmıyor.",
+    "nextSongs": "Sonraki {number} Şarkılar",
+    "nextSong": "Sonraki Şarkı",
+    "channelName": "şarkı-talebi",
+    "loadingMessage": "Şarkı istek kanalı oluşturuluyor...",
+    "emptyQuery": "Lütfen geçerli bir sorgu sağlayın. Benden bahsetmeniz gerektiğini, aksi takdirde mesajınızı göremeyeceğimi unutmayın.",
+    "lightInterfaceTitle": "{botname} Işık Arayüzü",
+    "lightInterfaceFooter": "{botName} bu kanalda gönderilen hiçbir mesajla etkileşime girmeyecektir. Oynatıcıyı kontrol etmek için yalnızca düğmeleri kullanabilirsiniz."
   },
   "supportCommand": {
     "commandData": {
@@ -165,290 +165,301 @@
   },
   "translateCommand": {
     "commandData": {
-      "description": "{botName}'i dilinize çevirmek ister misiniz? Daha fazla bilgi için bu komutu kullanın."
+      "description": "{botName}'u kendi dilinize çevirmemize yardımcı olmak ister misiniz?"
     },
-    "response": "{botName}'i dilinize çevirmemize yardım etmek mi istiyorsunuz? Bunu çeviri github depomuzda yapabilirsiniz: [{botName} Translation Repo](https://github.com/fb-sean/betty-music-bot-translations \"{botName} çeviri deposunu GitHub'da açar\")"
+    "response": "{botName}'u kendi dilinize çevirmemize yardım etmek ister misiniz? Bunu çeviri github depomuzdan yapabilirsiniz: [{botName} Çeviri Reposu](https://github.com/fb-sean/betty-music-bot-translations \"GitHub'da {botName} çeviri reposunu açar\")"
   },
   "playCommand": {
     "commandData": {
-      "description": "Bir şarkı çalın veya adla ya da bağlantıyla sıraya ekleyin.",
-      "queryOption": "Bir şarkı aramak için sorgunuz veya bir şarkı bağlantısı.",
-      "nowOption": "Şarkıyı doğrudan çalmak veya sıraya eklemek istediğinizi seçin.",
+      "description": "Bir şarkıyı çalın veya bağlantıya ya da ada göre sıraya ekleyin.",
+      "queryOption": "Bir şarkıyı veya bir şarkı bağlantısını aramak için sorgunuz.",
+      "nowOption": "Şarkıyı doğrudan çalmak veya kuyruğa eklemek isteyip istemediğinizi seçin.",
       "platformOption": "Arama yapmak istediğiniz platformu seçin.",
-      "fileOption": "Çalmak için bir dosya yüklemek için bu seçeneği kullanın. Dosya geçerli bir ses dosyası olmalıdır."
+      "fileOption": "Oynatılacak bir dosya yüklemek için bu seçeneği kullanın. Dosya geçerli bir ses dosyası olmalıdır."
     },
     "invalidFile": "Yüklediğiniz dosya geçerli bir ses dosyası değil. Lütfen geçerli bir mp3 dosyası olduğundan emin olun ve tekrar deneyin.",
-    "playlistNowError": "Zaten sırada şarkılar varken doğrudan bir çalma listesi çalamazsınız.",
-    "filePlaySuccessfully": "**{title}** adlı dosya sıraya **{position}** konumunda eklendi.",
-    "filePlaySuccessfullyNow": "**{title}** adlı dosya çalmaya başladı.",
-    "trackPlaySuccessfully": "Sıraya {emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") konumunda **{position}** eklendi.",
-    "trackPlaySuccessfullyNow": "Çalmaya başladı {emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\").",
-    "playlistPlaySuccessfully": "Çalma listesi sıraya eklendi [**{title}**]({url} \"Çalma listesini tarayıcınızda açar.\").",
-    "playlistPlaySuccessfullyNow": "Çalma listesi çalmaya başladı [**{title}**]({url} \"Çalma listesini tarayıcınızda açar.\").",
-    "trackPlaySuccessfullyNonPremium": "Kuyruğa **{position}** konumunda {emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") eklendi. Şarkınızın çalmasını beklerken, {botName} için oy vermek ister misiniz? Bu, botu büyütmemize ve geliştirmemize yardımcı olacaktır. [{botName}'ye Oy Ver](https://top.gg/bot/884800931819048980/vote)"
+    "playlistNowError": "Kuyrukta zaten şarkılarınız varken bir çalma listesini doğrudan çalamazsınız.",
+    "filePlaySuccessfully": "Kuyruğa **{title}** adlı dosya **{position}** konumunda eklendi.",
+    "filePlaySuccessfullyNow": "**{title}** dosyasını oynatmaya başladı.",
+    "trackPlaySuccessfully": "{emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") **{position}** konumundaki kuyruğa eklendi.",
+    "trackPlaySuccessfullyNonPremium": "{emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") sıraya **{position}** konumunda eklendi. Şarkınızın çalmasını beklerken, {botName} için oy vermek ister misiniz? Bu, botu büyütmemize ve geliştirmemize yardımcı olacaktır. [Vote for {botName}](https://top.gg/bot/884800931819048980/vote)",
+    "trackPlaySuccessfullyNow": "{emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") çalmaya başladı.",
+    "playlistPlaySuccessfully": "Oynatma listesi [**{title}**]({url} \"Oynatma listesini tarayıcınızda açar.\") kuyruğa eklendi.",
+    "playlistPlaySuccessfullyNow": "Oynatma listesini oynatmaya başladı [**{title}**]({url} \"Oynatma listesini tarayıcınızda açar.\")."
   },
   "joinCommand": {
     "commandData": {
       "description": "Bulunduğunuz ses kanalına katılın."
     },
-    "success": "<#{channel}> kanalına başarıyla katıldı.",
+    "success": "<#{channel}> adresine başarıyla katıldı.",
     "alreadyConnected": "Zaten bir ses kanalına bağlıyım."
   },
   "disconnectCommand": {
     "commandData": {
-      "description": "Ses kanalından çıkın."
+      "description": "Ses kanalıyla bağlantıyı kesin."
     },
-    "success": "Ses kanalından başarıyla ayrıldı.",
+    "success": "Ses kanalıyla bağlantı başarıyla kesildi.",
     "notConnected": "Bir ses kanalına bağlı değilim."
   },
   "stopCommand": {
     "commandData": {
-      "description": "Player'ı durdurun ve sırayı temizleyin."
+      "description": "Oyuncuyu durdurun ve kuyruğu temizleyin."
     },
-    "success": "Player durduruldu ve sıra temizlendi.",
-    "removedVote": "Player'ı durdurma oyunuz kaldırıldı.",
-    "addedVote": "Player'ı durdurma oyunuz eklendi ({votes}/{requiredVotes})."
+    "success": "Oynatıcıyı durdurdu ve kuyruğu temizledi.",
+    "removedVote": "Oyuncuyu durdurmak için oyunuzu kaldırdım.",
+    "addedVote": "Oyuncuyu durdurmak için oyunuzu ekleyin ({votes}/{requiredVotes})."
   },
   "switchCommand": {
     "commandData": {
       "description": "Ses kanalını değiştirin."
     },
-    "success": "<#{oldChannel}> kanalından <#{newChannel}> kanalına başarıyla geçiş yapıldı.",
+    "success": "<#{oldChannel}>'dan <#{newChannel}>'a başarıyla geçildi.",
     "notConnected": "Bir ses kanalına bağlı değilim."
   },
   "searchCommand": {
     "commandData": {
-      "description": "Bir şarkı arayın ve çalmak veya sıraya eklemek için seçin.",
-      "queryOption": "Bir şarkı aramak için sorgunuz.",
-      "nowOption": "Şarkıyı doğrudan çalmak veya sıraya eklemek istediğinizi seçin.",
+      "description": "Bir şarkı arayın ve çalmak için seçin veya kuyruğa ekleyin.",
+      "queryOption": "Bir şarkıyı aramak için sorgunuz.",
+      "nowOption": "Şarkı(lar)ı doğrudan çalmak veya kuyruğa eklemek isteyip istemediğinizi seçin.",
       "platformOption": "Arama yapmak istediğiniz platformu seçin."
     },
-    "results": "İşte **{query}** için arama sonuçları.\n\n*Aşağıdaki açılır menüyü kullanarak çalmak veya sıranıza eklemek için şarkıları seçin.*",
-    "selectPlaceholder": "Şarkıları hemen çalmak veya sıranıza eklemek için seçin.",
-    "emptyQueueWithErrored": "{emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") çalmaya başladı ve sıraya **{added}** şarkı daha eklendi ancak **{errored}** şarkı eklenemedi.",
-    "emptyQueue": "{emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") çalmaya başladı ve sıraya **{added}** şarkı daha eklendi.",
-    "successWithErrored": "Sıraya **{added}** şarkı eklendi ancak **{errored}** şarkı eklenemedi.",
-    "success": "Sıraya **{added}** şarkı eklendi."
+    "results": "İşte **{query}** için arama sonuçları.\n\n*Oynatılacak şarkıları seçmek veya kuyruğunuza eklemek için lütfen aşağıdaki açılır menüyü kullanın.*",
+    "selectPlaceholder": "Hemen çalmak ya da kuyruğunuza eklemek için şarkıları seçin.",
+    "emptyQueueWithErrored": "{emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") çalmaya başladı ve sıraya **{added}** daha fazla şarkı ekledi ancak **{errored}** şarkılarını ekleyemedi.",
+    "emptyQueue": "{emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") çalmaya başladı ve sıraya **{added}** daha fazla şarkı ekledi.",
+    "successWithErrored": "Kuyruğa **{added}** şarkıları eklendi ancak **{errored}** şarkıları eklenemedi.",
+    "success": "Kuyruğa **{added}** şarkıları eklendi."
   },
   "skipCommand": {
     "commandData": {
-      "description": "Mevcut veya daha fazla şarkıyı atla.",
-      "skipToOption": "Atlanacak şarkı sayısı. (Oylama atlaması bu desteği vermez!)"
+      "description": "Geçerli veya daha fazla şarkıyı/şarkıları atlayın.",
+      "skipToOption": "Atlanacak şarkı sayısı. (Vote skip bunu desteklemiyor!)"
     },
-    "noSongPlaying": "Çalan şarkı yok. Bu yüzden hiçbir şeyi atlayamam.",
-    "skippedMultipleSongs": "Başarıyla **{count}** şarkı atlandı.",
-    "skippedCurrentSong": "Başarıyla **[{title}]({url})** atlandı.",
-    "removedVote": "Mevcut şarkıyı atlama oyunuz kaldırıldı.",
-    "addedVote": "Mevcut şarkıyı atlama oyunuz eklendi ({votes}/{requiredVotes}).",
-    "skippingMoreSongsThanQueue": "Sırada olduğundan daha fazla şarkı atlayamazsınız."
+    "noSongPlaying": "Çalan bir şarkı yok. Yani hiçbir şeyi atlayamıyorum.",
+    "skippedMultipleSongs": "Başarıyla atlanan **{count}** şarkıları.",
+    "skippedCurrentSong": "Başarıyla **{title}({url})** atlandı.",
+    "removedVote": "Mevcut şarkıyı atlamak için verdiğiniz oy kaldırıldı.",
+    "addedVote": "Mevcut şarkıyı atlamak için oyunuzu ekleyin ({votes}/{requiredVotes}).",
+    "skippingMoreSongsThanQueue": "Sırada olandan daha fazla şarkı atlayamazsınız."
   },
   "spotifyCommand": {
     "commandData": {
-      "description": "Spotify hesap bağlantınızı {botName}'ye yönetin.",
+      "description": "Spotify hesabınızın {botName} ile bağlantısını yönetin.",
       "loginOption": "Spotify hesabınıza giriş yapın.",
       "logoutOption": "Spotify hesabınızdan çıkış yapın."
     },
-    "loginLink": "[Spotify hesabınızı {botName}'ye bağlamak için buraya tıklayın.]({url} \"Spotify giriş sayfasını OAuth ile {botName}'ye açar\")",
-    "openLinkButton": "Aç",
-    "logoutSuccess": "Spotify hesabınız başarıyla bağlantısı kesildi.",
-    "loginSuccess": "Spotify hesabınız başarıyla bağlandı.",
-    "noSpotifyTrack": "Bu sorgu için Spotify'da bir parça bulamadım.",
-    "failedLike": "Spotify'da parçayı beğenme başarısız oldu. Bu hata devam ederse, lütfen destek ile iletişime geçin.",
-    "likedSong": "Spotify'da **{title}** parçası beğenildi.",
-    "failedRemoveLike": "Spotify'da parça beğenisini kaldırma başarısız oldu. Bu hata devam ederse, lütfen destek ile iletişime geçin.",
-    "alreadyLiked": "Spotify'da **{title}** parçasını zaten beğendiğiniz için kaldırdım."
+    "loginLink": "[Spotify hesabınızı {botName}'a bağlamak için buraya tıklayın.]({url} \"{botName} ile OAuth için spotify giriş sayfasını açar\")",
+    "openLinkButton": "Açık",
+    "logoutSuccess": "Spotify hesabınızın bağlantısı başarıyla kesildi.",
+    "loginSuccess": "Spotify hesabınıza başarıyla bağlandınız.",
+    "noSpotifyTrack": "Spotify'da bu sorgu için bir parça bulamadım.",
+    "failedLike": "Spotify'da parça beğenilemedi. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
+    "likedSong": "Spotify'da **{title}** parçasını beğendim.",
+    "failedRemoveLike": "Spotify'daki parçadan beğeni kaldırılamadı. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
+    "alreadyLiked": "Spotify'da **{title}** parçasını zaten beğenmiştiniz, ben de kaldırdım."
+  },
+  "tidalCommand": {
+    "commandData": {
+      "description": "Tidal hesabınızın {botName} ile bağlantısını yönetin.",
+      "loginOption": "Tidal hesabınıza giriş yapın.",
+      "logoutOption": "Tidal hesabınızdan çıkış yapın."
+    },
+    "loginLink": "[Tidal hesabınızı {botName}'a bağlamak için buraya tıklayın]({url} \"Tidal giriş sayfasını {botName} ile OAuth'a açar\")",
+    "openLinkButton": "Açık",
+    "logoutSuccess": "Tidal hesabınızın bağlantısı başarıyla kesildi.",
+    "loginSuccess": "Tidal hesabınıza başarıyla bağlandınız."
   },
   "fixCommand": {
     "commandData": {
-      "description": "Player düzgün çalışmıyorsa düzeltin."
+      "description": "Doğru çalışmıyorsa oynatıcıyı onarın."
     },
-    "success": "Ses sunucusu bölgesi başarıyla **Rotterdam** olarak güncellendi, bu {botName}'ye en yakın olan."
+    "success": "Ses sunucusu bölgesi başarıyla {botName}'a en yakın olan **Rotterdam** olarak güncellendi."
   },
   "pauseCommand": {
     "commandData": {
-      "description": "Çalmayı duraklat."
+      "description": "Geçerli oynatmayı duraklatır."
     },
-    "alreadyPaused": "Çalma zaten duraklatılmış. Çalmayı sürdürmek için lütfen {{command:resume}} komutunu kullanın.",
-    "paused": "Çalma duraklatıldı."
+    "alreadyPaused": "Oynatma zaten duraklatılmış durumda. Oynatmayı devam ettirmek için lütfen {{command:resume}} komutunu kullanın.",
+    "paused": "Oynatmayı duraklattı."
   },
   "resumeCommand": {
     "commandData": {
-      "description": "Çalmayı sürdür."
+      "description": "Geçerli oynatmaya devam edin."
     },
-    "alreadyResumed": "Çalma duraklatılmamış. Çalmayı duraklatmak için lütfen {{command:pause}} komutunu kullanın.",
-    "resumed": "Çalma sürdürüldü."
+    "alreadyResumed": "Oynatma duraklatılmamıştır. Lütfen önce oynatmayı duraklatmak için {{command:pause}} komutunu kullanın.",
+    "resumed": "Oynatmaya devam edildi."
   },
   "shuffleCommand": {
     "commandData": {
-      "description": "Sırayı karıştır."
+      "description": "Sırayı karıştırın."
     },
-    "shuffled": "Sıra karıştırıldı. Sırayı eski haline getirmek için {{command:unshuffle}} kullanabilirsiniz.",
-    "notEnoughTracks": "Karıştırmak için sırada yeterli parça yok. Daha fazla şarkı eklemek için {{command:play}} kullanın."
+    "shuffled": "Kuyruk karıştırıldı. Kuyruğu geri yüklemek için {{command:unshuffle}} adresini kullanabilirsiniz.",
+    "notEnoughTracks": "Karıştırmak için kuyrukta yeterli parça yok. Daha fazla şarkı eklemek için {{command:play}} adresini kullanın."
   },
   "unshuffleCommand": {
     "commandData": {
-      "description": "Sırayı eski haline getirin."
+      "description": "Sırayı karıştırmayın."
     },
-    "unshuffled": "Sıra orijinal düzenine geri getirildi.",
-    "notShuffled": "Sıra karışık değil."
+    "unshuffled": "Kuyruğu orijinal sırasına geri döndürdü.",
+    "notShuffled": "Kuyruk karıştırılmaz."
   },
   "clearQueueCommand": {
     "commandData": {
-      "description": "Sırayı temizle."
+      "description": "Kuyruğu temizleyin."
     },
-    "notEnoughTracks": "Temizlemek için sırada yeterli parça yok. Daha fazla şarkı eklemek için {{command:play}} kullanın.",
-    "cleared": "Sıra temizlendi. Sırayı eski haline getirmek için {{command:unshuffle}} kullanabilirsiniz."
+    "notEnoughTracks": "Kuyrukta temizlemek için yeterli parça yok. Daha fazla şarkı eklemek için {{command:play}} adresini kullanın.",
+    "cleared": "Kuyruk temizlendi. Kuyruğu geri yüklemek için {{command:unshuffle}} adresini kullanabilirsiniz."
   },
   "previousCommand": {
     "commandData": {
-      "description": "Önceki şarkılardan birini çal.",
-      "nowOption": "Şarkıyı doğrudan çalmak veya sıraya eklemek istediğinizi seçin."
+      "description": "Önceki şarkılardan birini çalın.",
+      "nowOption": "Şarkıyı doğrudan çalmak veya kuyruğa eklemek isteyip istemediğinizi seçin."
     },
-    "noPreviousSong": "Çalınacak önceki şarkı yok.",
-    "trackNotFound": "Önceki şarkılarda istediğiniz şarkıyı bulamadım."
+    "noPreviousSong": "Çalınacak önceki şarkılar yok.",
+    "trackNotFound": "Önceki şarkılarda istediğiniz parçayı bulamadım."
   },
   "removeCommand": {
     "commandData": {
-      "description": "Sıradan bir şarkıyı çıkarın.",
-      "trackOption": "Sıradan çıkarmak istediğiniz şarkı."
+      "description": "Kuyruktan bir şarkıyı kaldırın.",
+      "trackOption": "Kuyruktan kaldırmak istediğiniz şarkı."
     },
-    "removed": "Sıradan **{title}** çıkarıldı.",
-    "notInQueue": "İstediğiniz şarkı sırada değil.",
-    "queueEmpty": "Sıra boş. Çıkarılacak bir şey yok."
+    "removed": "Kuyruktan **{title}** kaldırıldı.",
+    "notInQueue": "İstediğiniz şarkı kuyrukta değil.",
+    "queueEmpty": "Kuyruk boş. Kaldırılacak bir şey yok."
   },
   "volumeCommand": {
     "commandData": {
-      "description": "Player'ın ses seviyesini değiştirin.",
+      "description": "Oynatıcının ses seviyesini değiştirin.",
       "volumeOption": "Ayarlamak istediğiniz ses seviyesi."
     },
-    "invalidVolume": "Lütfen **0** ile **{max}** arasında geçerli bir ses seviyesi sağlayın.",
-    "changedVolume": "Hacim **{volume}%** olarak değiştirildi."
+    "invalidVolume": "Lütfen **0** ile **{max}** arasında geçerli bir hacim girin.",
+    "changedVolume": "Ses seviyesi **{volume}%** olarak değiştirildi."
   },
   "bassboostCommand": {
     "commandData": {
-      "description": "Bas güçlendirme filtresini etkinleştirin veya devre dışı bırakın.",
+      "description": "Bas artırma filtresini etkinleştirin veya devre dışı bırakın.",
       "levelOption": "Bas güçlendirme filtresinin seviyesi.",
       "offLevel": "Kapalı",
       "highLevel": "Yüksek",
       "mediumLevel": "Orta",
       "lowLevel": "Düşük"
     },
-    "levelChanged": "Bas güçlendirme filtresi seviyesi **{level}** olarak değiştirildi.",
-    "cleared": "Bas güçlendirme filtresi temizlendi."
+    "levelChanged": "Bas artırma filtre seviyesini **{level}** olarak değiştirdi.",
+    "cleared": "Bas artırma filtresini temizledim."
   },
   "lowpassCommand": {
     "commandData": {
-      "description": "Düşük geçiş filtresini etkinleştirin veya devre dışı bırakın."
+      "description": "Alçak geçiren filtreyi etkinleştirin veya devre dışı bırakın."
     },
-    "disabled": "Düşük geçiş filtresi devre dışı bırakıldı.",
-    "enabled": "Düşük geçiş filtresi etkinleştirildi."
+    "disabled": "Alçak geçiren filtreyi devre dışı bıraktı.",
+    "enabled": "Alçak geçiren filtreyi etkinleştirdi."
   },
   "nightcoreCommand": {
     "commandData": {
       "description": "Nightcore filtresini etkinleştirin veya devre dışı bırakın."
     },
-    "disabled": "Nightcore filtresi devre dışı bırakıldı.",
-    "enabled": "Nightcore filtresi etkinleştirildi."
+    "disabled": "Nightcore filtresini devre dışı bıraktı.",
+    "enabled": "Nightcore filtresini etkinleştirdi."
   },
   "vaporwaveCommand": {
     "commandData": {
-      "description": "Vaporwave filtresini etkinleştirin veya devre dışı bırakın."
+      "description": "Buhar dalgası filtresini etkinleştirin veya devre dışı bırakın."
     },
-    "disabled": "Vaporwave filtresi devre dışı bırakıldı.",
-    "enabled": "Vaporwave filtresi etkinleştirildi."
+    "disabled": "Buhar dalgası filtresini devre dışı bıraktı.",
+    "enabled": "Buhar dalgası filtresini etkinleştirdi."
   },
   "karaokeCommand": {
     "commandData": {
       "description": "Karaoke filtresini etkinleştirin veya devre dışı bırakın."
     },
-    "disabled": "Karaoke filtresi devre dışı bırakıldı.",
-    "enabled": "Karaoke filtresi etkinleştirildi."
+    "disabled": "Karaoke filtresini devre dışı bıraktı.",
+    "enabled": "Karaoke filtresini etkinleştirdi."
   },
   "rotationCommand": {
     "commandData": {
       "description": "Döndürme filtresini etkinleştirin veya devre dışı bırakın."
     },
-    "disabled": "Döndürme filtresi devre dışı bırakıldı.",
-    "enabled": "Döndürme filtresi etkinleştirildi."
+    "disabled": "Döndürme filtresini devre dışı bıraktı.",
+    "enabled": "Döndürme filtresini etkinleştirdi."
   },
   "tremoloCommand": {
     "commandData": {
       "description": "Tremolo filtresini etkinleştirin veya devre dışı bırakın."
     },
-    "disabled": "Tremolo filtresi devre dışı bırakıldı.",
-    "enabled": "Tremolo filtresi etkinleştirildi."
+    "disabled": "Tremolo filtresini devre dışı bırakır.",
+    "enabled": "Tremolo filtresini etkinleştirir."
   },
   "vibratoCommand": {
     "commandData": {
       "description": "Vibrato filtresini etkinleştirin veya devre dışı bırakın."
     },
-    "disabled": "Vibrato filtresi devre dışı bırakıldı.",
-    "enabled": "Vibrato filtresi etkinleştirildi."
+    "disabled": "Vibrato filtresini devre dışı bırakır.",
+    "enabled": "Vibrato filtresini etkinleştirdi."
   },
   "replayCommand": {
     "commandData": {
-      "description": "Mevcut şarkıyı tekrar çal."
+      "description": "Geçerli şarkıyı tekrar çalın."
     },
-    "replayed": "**{title}** yeniden çalınıyor."
+    "replayed": "Tekrar oynatılıyor **{title}**."
   },
   "nowPlayingCommand": {
     "commandData": {
-      "description": "Mevcut şarkı hakkında bilgi alın."
+      "description": "Geçerli şarkı hakkında bilgi alın."
     },
-    "nowPlaying": "Şu Anda Çalıyor **{title} - {artist}**"
+    "nowPlaying": "Şimdi Oynatılıyor **{title} - {artist}**"
   },
   "seekCommand": {
     "commandData": {
-      "description": "Mevcut şarkıda belirli bir konuma git.",
-      "timeOption": "Gitmek istediğiniz zaman."
+      "description": "Geçerli şarkıda belirli bir konuma arama yapar.",
+      "timeOption": "Aramak istediğiniz zaman."
     },
-    "invalidTime": "Lütfen geçerli bir zaman sağlayın.",
-    "timeTooLong": "Sağladığınız zaman şarkının süresinden daha uzun.",
-    "seeked": "**{time}** konumuna gidildi."
+    "invalidTime": "Lütfen geçerli bir zaman belirtin.",
+    "timeTooLong": "Verdiğiniz süre şarkının süresinden daha uzun.",
+    "seeked": "Aranılan **{time}**."
   },
   "rewindCommand": {
     "commandData": {
-      "description": "Mevcut şarkıyı belirli bir süre geri alın.",
-      "timeOption": "Geri almak istediğiniz zaman."
+      "description": "Geçerli şarkıyı belirli bir süre geri sarın.",
+      "timeOption": "Geri sarmak istediğin zaman."
     },
-    "invalidTime": "Lütfen geçerli bir zaman sağlayın.",
-    "timeTooShort": "Sağladığınız zaman şarkının mevcut konumundan daha kısa.",
-    "rewinded": "**{time}** konumuna geri alındı."
+    "invalidTime": "Lütfen geçerli bir zaman belirtin.",
+    "timeTooShort": "Sağladığınız süre, şarkının geçerli konumundan daha kısadır.",
+    "rewinded": "**{time}** adresine geri gönderildi."
   },
   "loopCommand": {
     "commandData": {
-      "queueDescription": "Tüm sırayı döngüye alın.",
-      "songDescription": "Mevcut şarkıyı döngüye alın.",
+      "queueDescription": "Tüm kuyruğu döngüye alın.",
+      "songDescription": "Geçerli şarkıyı döndürür.",
       "noneDescription": "Döngüyü devre dışı bırakın."
     },
-    "alreadyDisabled": "Döngü zaten devre dışı.",
-    "disabledLoop": "Döngü devre dışı bırakıldı.",
-    "loopSwitchedFromSong": "Mevcut şarkıyı döngüye almaktan tüm sırayı döngüye almaya geçildi.",
-    "loopQueue": "Tüm sıra döngüde.",
-    "loopSwitchedFromQueue": "Tüm sırayı döngüye almaktan mevcut şarkıyı döngüye almaya geçildi.",
-    "loopSong": "Mevcut şarkı döngüde."
+    "alreadyDisabled": "Döngü zaten devre dışı bırakılmıştır.",
+    "disabledLoop": "Devre dışı döngü.",
+    "loopSwitchedFromSong": "Geçerli şarkıyı döngüye almaktan tüm kuyruğu döngüye almaya geçildi.",
+    "loopQueue": "Tüm kuyruğu döngüye alır.",
+    "loopSwitchedFromQueue": "Tüm kuyruğu döngüye almaktan geçerli şarkıyı döngüye almaya geçildi.",
+    "loopSong": "Geçerli şarkıyı döngüye alır."
   },
   "moveCommand": {
     "commandData": {
-      "description": "Tüm sırayı döngüye alın.",
-      "trackOption": "Taşımak istediğiniz şarkı.",
+      "description": "Tüm kuyruğu döngüye alın.",
+      "trackOption": "Hareket ettirmek istediğiniz şarkı.",
       "positionOption": "Şarkıyı taşımak istediğiniz konum."
     },
-    "queueEmpty": "Sıra boş. Taşınacak bir şey yok.",
-    "trackNotFound": "İstediğiniz şarkı sırada değil.",
-    "invalidPosition": "Lütfen geçerli bir konum sağlayın.",
-    "success": "**{title}** şarkısı **{position}** konumuna taşındı."
+    "queueEmpty": "Kuyruk boş. Hareket edecek bir şey yok.",
+    "trackNotFound": "İstediğiniz şarkı kuyrukta değil.",
+    "invalidPosition": "Lütfen geçerli bir pozisyon belirtin.",
+    "success": "**{title}** öğesini **{position}** konumuna taşıdı."
   },
   "queueCommand": {
     "commandData": {
-      "description": "Mevcut sıra hakkında bilgi alın."
+      "description": "Geçerli kuyruk hakkında bilgi alın."
     },
-    "emptyQueue": "Sıra boş.",
-    "queue": "Sıra",
-    "nowPlaying": "Şu Anda Çalıyor",
-    "nextSongs": "Sıradaki Şarkılar",
-    "footer": "Sayfa {page} / {pages} | Sıradaki Parçalar: {tracks} | Süre: {length}",
-    "cacheError": "Bu sıra mesajı çok eski ve önbellek temizlendi. Lütfen {{command:queue}} komutunu tekrar kullanın."
+    "emptyQueue": "Kuyruk boş.",
+    "queue": "Kuyruk",
+    "nowPlaying": "Şimdi Oynatılıyor",
+    "nextSongs": "Sonraki Şarkılar",
+    "footer": "Sayfa {page} of {pages} | Kuyruktaki parçalar: {tracks} | Uzunluk: {length}",
+    "cacheError": "Bu kuyruk mesajı çok eski ve önbellek temizlendi. Lütfen {{command:queue}} komutunu tekrar kullanın."
   },
   "playlistCommand": {
     "commandData": {
@@ -456,109 +467,109 @@
       "descriptionPlayOption": "Bir çalma listesi çalın.",
       "descriptionSearchOption": "Bir çalma listesi arayın.",
       "descriptionCreateOption": "Bir çalma listesi oluşturun.",
-      "queryOption": "Bir çalma listesi aramak için sorgu. (Kimlik veya İsim)",
+      "queryOption": "Bir çalma listesi aramak için sorgu. (Kimlik veya Ad)",
       "nameOption": "Çalma listesinin adı."
     },
     "embed": {
       "creator": "**Oluşturan**: {user}",
-      "songs": "**Şarkılar**: {count}/{max}",
-      "created": "**Oluşturulma Tarihi**: {date}",
-      "duration": "**Toplam çalma listesi süresi**: {duration}"
+      "songs": "**Songs**: {count}/{max}",
+      "created": "**Oluşturulduğu yer**: {date}",
+      "duration": "**Toplam oynatma listesi süresi**: {duration}"
     },
     "songsEmbed": {
       "title": "Çalma listesindeki şarkılar: **{name}**",
-      "footer": "Sayfa {page} / {pages} | Çalma listesindeki şarkılar: {tracks}"
+      "footer": "Sayfa {page} of {pages} | Çalma listesindeki şarkılar: {tracks}"
     },
-    "playlistSaved": "Çalma listesi kitaplığınıza kaydedildi.",
-    "playlistUnsaved": "Çalma listesi kitaplığınızdan kaldırıldı.",
-    "nameTooLong": "Çalma listesinin adı çok uzun. Lütfen en fazla 50 karakter uzunluğunda bir ad sağlayın.",
-    "invalidName": "Lütfen geçerli bir çalma listesi adı sağlayın.",
-    "tooManyPlaylists": "Sahip olabileceğiniz maksimum çalma listesi sayısına ulaştınız. Yeni bir çalma listesi oluşturmak için lütfen bir çalma listesini silin.",
-    "playlistExists": "**{name}** adlı bir çalma listesi zaten var.",
-    "toxicContent": "Çalma listesinin adı zararlı içerik içeriyor. Lütfen farklı bir ad sağlayın.",
-    "playlistNotFound": "**{query}** sorgusu için bir çalma listesi bulamadım.",
-    "noPlaylistsFound": "Çalma listesi bulunamadı.",
-    "deletedPlaylist": "**{name}** adlı çalma listesi silindi.",
-    "selectUserToTransfere": "Çalma listesini aktarmak istediğiniz kullanıcıyı seçin.",
+    "playlistSaved": "Çalma listesini kitaplığınıza kaydedin.",
+    "playlistUnsaved": "Çalma listesini kitaplığınızdan kaldırdı.",
+    "nameTooLong": "Çalma listesinin adı çok uzun. Lütfen en fazla 50 karakterden oluşan bir ad girin.",
+    "invalidName": "Lütfen çalma listesi için geçerli bir ad girin.",
+    "tooManyPlaylists": "Sahip olabileceğiniz maksimum oynatma listesi sayısına ulaştınız. Yeni bir çalma listesi oluşturmak için lütfen bir çalma listesini silin.",
+    "playlistExists": "Adı **{name}** olan bir çalma listesi zaten mevcut.",
+    "toxicContent": "Oynatma listesinin adı zehirli içerik içeriyor. Lütfen farklı bir ad verin.",
+    "playlistNotFound": "Sorgu **{query}** ile bir çalma listesi bulamadım.",
+    "noPlaylistsFound": "Oynatma listesi bulunamadı.",
+    "deletedPlaylist": "Çalma listesini **{name}** sildi.",
+    "selectUserToTransfere": "Lütfen çalma listesini aktarmak istediğiniz kullanıcıyı seçin.",
     "userPlaylistLimit": "Seçtiğiniz kullanıcı çalma listesi sınırına ulaştı.",
-    "noSpotifyPlaylists": "Spotify'da hiçbir çalma listeniz yok.",
-    "selectPlaylistToImport": "İçe aktarmak istediğiniz çalma listesini seçin.",
-    "cannotImportSpotifyPlaylist": "Bu Spotify çalma listesini içe aktaramam çünkü boş.",
-    "songAlreadyExists": "**{title}** şarkısı bu çalma listesinde zaten var.",
-    "songNotExists": "Şarkı **{title}** bu çalma listesinde yok.",
-    "songAddedToPlaylist": "Şarkı **{title}**'ı **{playlist}**'e ekledi.",
-    "songRemoveFromPlaylist": "Şarkı **{title}**'ı **{playlist}**'ten kaldırdı.",
-    "cacheError": "Bu çalma listesi mesajı çok eski ve önbellek temizlendi. Lütfen {{command:playlist manage}} komutunu tekrar kullanın.",
-    "notEnoughTracksInQueue": "Çalma listesi oluşturmak için sırada yeterli parça yok. Daha fazla şarkı eklemek için {{command:play}} kullanın.",
+    "noSpotifyPlaylists": "Hiç Spotify çalma listeniz yok.",
+    "selectPlaylistToImport": "Lütfen içe aktarmak istediğiniz çalma listesini seçin.",
+    "cannotImportSpotifyPlaylist": "Bu spotify çalma listesini içe aktaramıyorum çünkü boş.",
+    "songAlreadyExists": "Şarkı **{title}** zaten bu çalma listesinde yer almaktadır.",
+    "songNotExists": "Şarkı **{title}** bu çalma listesinde yer almamaktadır.",
+    "songAddedToPlaylist": "**{title}** şarkısını **{playlist}** şarkısına ekledi.",
+    "songRemoveFromPlaylist": "**{title}** şarkısı **{playlist}**'dan kaldırıldı.",
+    "cacheError": "Bu oynatma listesi mesajı çok eski ve önbellek temizlendi. Lütfen {{command:playlist manage}} komutunu tekrar kullanın.",
+    "notEnoughTracksInQueue": "Kuyrukta bir çalma listesi oluşturmak için yeterli parça yok. Daha fazla şarkı eklemek için {{command:play}} adresini kullanın.",
     "private": "Özel",
-    "public": "Genel"
+    "public": "Kamu"
   },
   "premiumCommand": {
     "commandData": {
       "description": "{botName} premium hakkında bilgi alın."
     },
-    "response": "{botName} premium ile ilgileniyor musunuz? Web sitemizde daha fazla bilgi bulabilirsiniz: <https://betty.cx/premium>"
+    "response": "{botName} premium ile mi ilgileniyorsunuz? Web sitemizden bu konuda daha fazla bilgi alabilirsiniz: <https://betty.cx/premium>"
   },
   "profileCommand": {
     "commandData": {
-      "description": "{botName}'deki profiliniz hakkında bilgi alın."
+      "description": "Profiliniz hakkında {botName} adresinden bilgi alın."
     },
-    "noProfile": "Henüz izlenen verileriniz yok.",
-    "currently": "Şu Anda Dinliyor",
+    "noProfile": "Henüz izlenen bir veriniz yok.",
+    "currently": "Şu Anda Dinlediklerim",
     "lastUpdate": "Son Güncelleme",
     "commandsUsed": "Kullanılan komutlar",
-    "songsPlayed": "Çalınan şarkılar",
-    "totalPlaytime": "Toplam çalma süresi",
-    "note": "Not: Çalma süresi, çaldığınız parçaların sürelerine göre hesaplanır.",
+    "songsPlayed": "Çalınan Şarkılar",
+    "totalPlaytime": "Toplam oyun süresi",
+    "note": "Not: Çalma Süresi, çaldığınız parçalardan parça süresine göre hesaplanır.",
     "notData": "Gösterecek veri yok.",
     "top5Commands": "En Çok Kullanılan 5 Komut",
     "top5Tracks": "En Çok Çalınan 5 Şarkı",
-    "embedTitle": "{botName} Profiliniz",
-    "embedTitleOther": "{user} Profili",
+    "embedTitle": "Sizin {botName} Profil",
+    "embedTitleOther": "Profile of {user}",
     "noSpotifyAccount": "Spotify bağlı değil",
-    "noSpotifyActivity": "Spotify'da hiçbir şey dinlemiyor"
+    "noSpotifyActivity": "Spotify'da hiçbir şey dinlememek"
   },
   "inviteCommand": {
     "commandData": {
-      "description": "{botName}'nin davet bağlantısını alın."
+      "description": "{botName} için davet bağlantısını alın."
     },
     "response": "Tüm davet linklerini aşağıda bulabilirsiniz!"
   },
   "creditsCommand": {
     "commandData": {
-      "description": "{botName}'nin kredi bilgilerini görün."
+      "description": "{botName}'un jeneriğine bakınız."
     },
     "response": "**Oluşturan**: {creator}\n**Özel teşekkürler**: {special}"
   },
   "historyCommand": {
     "commandData": {
-      "description": "Son çalınan şarkılar hakkında bilgi alın."
+      "description": "Son çaldığınız şarkılar hakkında bilgi alın."
     },
-    "noProfile": "Henüz izlenen verileriniz yok.",
-    "noHistory": "Gösterilecek bir geçmiş yok. {{command:play}} komutunu kullanarak şarkılar çalın.",
-    "history": "geçmiş",
-    "footer": "Sayfa {page} / {pages} | Geçmişteki Parçalar: {tracks}",
-    "clearedHistory": "Geçmişinizdeki **{tracks}** şarkı temizlendi."
+    "noProfile": "Henüz izlenen bir veriniz yok.",
+    "noHistory": "Gösterilecek bir geçmiş yok. Bir tanesine {{command:play}} ile bazı şarkılar çalın.",
+    "history": "TARİH",
+    "footer": "Sayfa {page} of {pages} | Tarihteki izler: {tracks}",
+    "clearedHistory": "Geçmişinizdeki **{tracks}** şarkıları temizlendi."
   },
   "lyricsCommand": {
     "commandData": {
       "description": "Mevcut veya herhangi bir şarkının sözlerini alın.",
       "songOption": "Sözlerini almak istediğiniz şarkı."
     },
-    "queueEmpty": "Sıra boş. Sözleri almak için bir şey yok.",
-    "noSongGiven": "Sözleri almak için bir şarkı çalmanız veya bir şarkı adı sağlamanız gerekiyor.",
-    "noLyrics": "**{title}** adlı şarkı için **{artist}** tarafından herhangi bir söz bulamadım.",
-    "lyrics": "**{title}** adlı şarkının sözleri **{artist}** tarafından",
-    "fullLyrics": "Tam Sözler"
+    "queueEmpty": "Kuyruk boş. Şarkı sözlerini alacak bir şey yok.",
+    "noSongGiven": "Şarkı sözlerini almak için bir şarkı çalmanız veya bir şarkı adı vermeniz gerekir.",
+    "noLyrics": "I couldn't find any lyrics for **{title}** by **{artist}**.",
+    "lyrics": "Lyrics for **{title}** by **{artist}**",
+    "fullLyrics": "Tam Şarkı Sözleri"
   },
   "recommendCommand": {
     "commandData": {
-      "description": "Dinleme geçmişinize dayalı olarak önerilen şarkılar alın."
+      "description": "Dinleme geçmişinize göre önerilen şarkıları alın."
     },
-    "noRecommendations": "Size öneri bulamadım. Daha fazla şarkı dinlemeyi deneyin.",
-    "noProfile": "Henüz izlenen verileriniz yok. Öneri almak için lütfen {{command:play}} komutunu kullanarak şarkılar çalın.",
+    "noRecommendations": "Sizin için herhangi bir öneri bulamadım. Daha fazla şarkı dinlemeye çalış.",
+    "noProfile": "Henüz izlenen bir veriniz yok. Tavsiye almak için lütfen {{command:play}} ile bazı şarkılar çalın.",
     "recommendSongSuccessfullyNow": "Önerilen şarkıyı çalmaya başladı {emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\").",
-    "recommendSongsSuccessfully": "Önerilen şarkı sıraya eklendi {emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") konumunda **{position}**."
+    "recommendSongsSuccessfully": "Önerilen şarkı {emoji}[**{title}**]({url} \"Şarkıyı tarayıcınızda açar.\") **{position}** konumundaki kuyruğa eklendi."
   },
   "seeProfileContextCommand": {
     "commandData": {
@@ -569,73 +580,78 @@
     "commandData": {
       "description": "Yardıma mı ihtiyacınız var? Başlangıç noktanızı başlatmak için bu komutu kullanın."
     },
-    "headline": "Botu Yapılandır",
-    "configurationText": "Botu yapılandırmak için [paneli](https://betty.cx/dash/server/{serverId}/{botId}) ziyaret etmeniz gerekmektedir.",
-    "headlineUse": "Botu Kullan",
-    "useText": "Müzik çalmak için birden fazla yol vardır:",
-    "useText1": "1. {{command:play}} komutunu çok işlevli komut olarak kullanabilirsiniz. Çalma listeleri, parçalar çalmanıza veya arama yapmanıza olanak tanır.",
-    "useText2": "2. Şarkı istek kanalını kullanabilirsiniz. Botu @mention yaparak şarkı adını veya bağlantısını kanalda yazmanız yeterlidir.",
-    "useText3": "3. Bir şarkıyı aramak ve çalmak veya sıraya eklemek için {{command:search}} komutunu kullanabilirsiniz.",
-    "useText4": "4. Sıraya şarkı eklemek için **Sıraya Ekle** bağlam menüsünü kullanın.",
-    "headlinePremium": "Daha fazla özellik mi istiyorsunuz?",
-    "premiumText": "{botName} premium satın alarak daha fazla özellik elde edebilirsiniz. Web sitemizde daha fazla bilgi bulabilirsiniz: [{botName} Premium](https://betty.cx/premium)",
+    "headline": "Botu Yapılandırma",
+    "configurationText": "Botu yapılandırmak için [dashboard](https://betty.cx/dash/server/{serverId}/{botId}) adresini ziyaret etmeniz gerekir.",
+    "headlineUse": "Botu Kullanın",
+    "useText": "Müzik çalmanın birden fazla yolu vardır:",
+    "useText1": "1. Çok işlevli komut olarak {{command:play}} kullanabilirsiniz. Çalma listelerini, parçaları çalmayı veya aramayı mümkün kılar.",
+    "useText2": "2. Şarkı istek kanalını kullanabilirsiniz. Sadece bottan @bahsedin ve şarkı adını veya kanaldaki bağlantıyı yazın.",
+    "useText3": "3. Bir şarkıyı aramak ve çalmak üzere seçmek veya kuyruğa eklemek için {{command:search}} komutunu kullanabilirsiniz.",
+    "useText4": "4. Kuyruğa bir şarkı eklemek için **Kuyruğa Ekle** içerik menüsünü kullanın.",
+    "headlinePremium": "Daha fazla özelliğe sahip olmak ister misiniz?",
+    "premiumText": "Premium {botName} satın alarak daha fazla özellik elde edebilirsiniz. Web sitemizden bu konuda daha fazla bilgi alabilirsiniz: [{botName} Premium](https://betty.cx/premium)",
     "footer": "Sean Sattler tarafından yapılmıştır | sattler.dev"
   },
   "configurationCommand": {
     "commandData": {
       "description": "Botu sunucunuz için yapılandırın."
     },
-    "response": "Botu yapılandırmak için [paneli](https://betty.cx/dash/server/{serverId}/{botId}) ziyaret etmeniz gerekmektedir."
+    "response": "Botu yapılandırmak için [dashboard](https://betty.cx/dash/server/{serverId}/{botId}) adresini ziyaret etmeniz gerekir."
   },
   "valueMyMusicCommand": {
     "commandData": {
-      "description": "Müzik zevkinizi değerlendirin.",
-      "roastOption": "{botName}'nin sizi eleştirmesini isteyip istemediğinizi seçin."
+      "description": "Müzik zevkinize değer verin.",
+      "roastOption": "Bu {botName}'un sizi kızartmasını isteyip istemediğinizi seçin."
     },
-    "noProfile": "Henüz izlenen verileriniz yok. Müzik zevkinizi değerlendirmek için lütfen {{command:play}} komutunu kullanarak şarkılar çalın.",
-    "noHistory": "Müzik zevkinizi değerlendirmek için geçmişinizde 10 şarkı veya daha fazlası yok. Lütfen {{command:play}} komutunu kullanarak şarkılar çalın.",
-    "error": "Müzik zevkinizin değerini hesaplamaya çalışırken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "noProfile": "Henüz izlenen herhangi bir veriniz yok. Müzik zevkinize dair bir değer elde etmek için lütfen {{command:play}} ile birkaç şarkı çalın.",
+    "noHistory": "Müzik zevkinize değer biçmek için geçmişinizde 10 veya daha fazla şarkı yok. Müzik zevkinizin değerini öğrenmek için lütfen {{command:play}} ile bazı şarkılar çalın.",
+    "error": "Müzik zevkinizin değeri hesaplanırken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
     "poweredBy": "Google Gemini Pro tarafından desteklenmektedir"
   },
   "radioCommand": {
     "commandData": {
-      "description": "{botName}'yi radyo moduna alın ve bir online radyo çalın.",
-      "streamOption": "Çalmak istediğiniz radyo akışını seçin."
+      "description": "Radyo modunda {botName} ayarlayın ve çevrimiçi bir radyo çalın.",
+      "streamOption": "Çalınacak radyo akışını seçin."
     },
-    "invalidRadio": "Lütfen geçerli bir radyo akışı seçin.",
-    "fetchError": "Radyo akışını getirirken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
-    "startingRadioFromExistingPlayer": "Mevcut çalmayı durduruyor ve radyo moduna geçiliyor. Çalıyor **{radio}** tarafından **{hoster}**.",
-    "startingRadio": "Radyo modu başlatılıyor. Çalıyor **{radio}** tarafından **{hoster}**.",
-    "stoppedRadio": "Radyo modu durduruldu ve sıra moduna geri dönüldü.",
-    "noRadiosFound": "Radyo akışı bulunamadı.",
-    "radioModeDisabled": "Bu sunucu için radyo modu devre dışı. Bunu bot panelinde etkinleştirebilirsiniz."
+    "invalidRadio": "Lütfen geçerli bir radyo yayını seçin.",
+    "fetchError": "Radyo akışı alınırken bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+    "startingRadioFromExistingPlayer": "Mevcut oynatmayı durdurma ve radyo moduna geçme. Hoster **{hoster}**'in **{radio}** oynatılması.",
+    "startingRadio": "Radyo modunu başlatma. Ev sahibi **{hoster}**'in **{radio}** oynatılması.",
+    "stoppedRadio": "Radyo modunu durdurdu ve kuyruk moduna geri döndü.",
+    "noRadiosFound": "Radyo yayını bulunamadı.",
+    "radioModeDisabled": "Radyo modu bu sunucu için devre dışıdır. Bot kontrol panelinden etkinleştirebilirsiniz."
+  },
+  "debugCommand": {
+    "commandData": {
+      "description": "Bot hakkında bazı hata ayıklama bilgilerini görün. Destek için faydalı olabilir."
+    }
   },
   "addDJContextCommand": {
     "commandData": {
       "name": "DJ Ekle"
     },
-    "removedDJ": "**{user}** DJ kullanıcı olarak kaldırıldı.",
-    "maxDJsForNonPremium": "Ücretsiz kullanıcılar için maksimum DJ kullanıcı sayısına ulaştınız. Bunu 25 DJ kullanıcıya çıkarmak için https://betty.cx/premium adresinden {botName} premium'u satın alabilirsiniz.",
+    "removedDJ": "DJ kullanıcısı olarak **{user}** kaldırıldı.",
+    "maxDJsForNonPremium": "Ücretsiz kullanıcılar için maksimum DJ kullanıcı sayısına ulaştınız. Limiti 25 DJ kullanıcısına çıkarmak için https://betty.cx/premium adresinden {botName} premium satın alabilirsiniz.",
     "maxDJs": "Maksimum DJ kullanıcı sayısına ulaştınız.",
-    "addedDJ": "**{user}** DJ kullanıcı olarak eklendi.",
-    "savedHistoryAsPlaylist": "Geçmiş, **{name}** adıyla çalma listesi olarak kaydedildi."
+    "addedDJ": "DJ kullanıcısı olarak **{user}** eklendi.",
+    "savedHistoryAsPlaylist": "Geçmişi **{name}** adıyla bir oynatma listesi olarak kaydetti."
   },
   "skipSongContextCommand": {
     "commandData": {
-      "name": "Şarkıyı Atla"
+      "name": "Skip Song"
     }
   },
   "addToQueueContextCommand": {
     "commandData": {
-      "name": "Sıraya Ekle"
+      "name": "Kuyruğa Ekle"
     }
   },
   "addSongButton": {
     "modal": {
       "playlistTitle": "Çalma listesine şarkı ekle",
-      "title": "Bir şarkı ekle",
+      "title": "Bir şarkı ekleyin",
       "queryLabel": "Eklenecek şarkı",
-      "queryPlaceholder": "Eklemek istediğiniz şarkıyı veya çalma listesi bağlantısını girin"
+      "queryPlaceholder": "Eklenecek şarkıyı veya çalma listesi bağlantısını girin"
     }
   },
   "renamePlaylistButton": {
@@ -643,22 +659,6 @@
       "title": "Çalma listesini yeniden adlandır",
       "nameLabel": "Yeni isim",
       "namePlaceholder": "Yeni adı girin"
-    }
-  },
-  "tidalCommand": {
-    "commandData": {
-      "description": "Tidal hesabınızın {botName} ile bağlantısını yönetin.",
-      "loginOption": "Tidal hesabınıza giriş yapın.",
-      "logoutOption": "Tidal hesabınızdan çıkış yapın."
-    },
-    "loginLink": "[Tidal hesabınızı {botName}'ye bağlamak için buraya tıklayın]({url} \"{botName} ile OAuth için Tidal giriş sayfasını açar\")",
-    "openLinkButton": "Açık",
-    "logoutSuccess": "Tidal hesabınızın bağlantısı başarıyla kesildi.",
-    "loginSuccess": "Tidal hesabınıza başarıyla bağlandınız."
-  },
-  "debugCommand": {
-    "commandData": {
-      "description": "Bot hakkında bazı hata ayıklama bilgilerini görün. Destek için faydalı olabilir."
     }
   }
 }
