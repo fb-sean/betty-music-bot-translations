@@ -660,5 +660,13 @@
       "nameLabel": "Der neue Name",
       "namePlaceholder": "Geben Sie den neuen Namen ein"
     }
+  },
+  "escSelectMenu": {
+    "votedFor": "Sie haben erfolgreich für {countryflag} **{country}** als den nächsten Gewinner des Eurovision Song Contest.",
+    "noData": "Beim Abrufen der Daten ist ein Fehler aufgetreten. Bitte versuchen Sie es später noch einmal.",
+    "invalidCountry": "Bitte wählen Sie ein gültiges Land aus.",
+    "placeholder": "Stimmen Sie für den nächsten ESC-Gewinner und sichern Sie sich Ihre Chance auf eine kostenlose Prämie!",
+    "votingClosedUserDidVote": "Die Abstimmung über den nächsten Gewinner des Eurovision Song Contest ist abgeschlossen! Verfolgen Sie das Finale auf {date}. Du hast für {countryflag} gestimmt **{country}**.",
+    "votingClosed": "Die Abstimmung über den nächsten Gewinner des Eurovision Song Contest ist abgeschlossen! Verfolgen Sie das Finale auf {date}."
   }
 }

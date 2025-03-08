@@ -660,5 +660,13 @@
       "nameLabel": "Nouveau nom",
       "namePlaceholder": "Saisir le nouveau nom"
     }
+  },
+  "escSelectMenu": {
+    "votedFor": "Vous avez voté avec succès pour {countryflag} **{country}** comme prochain gagnant du Concours Eurovision de la chanson.",
+    "noData": "Un problème s'est produit lors de l'extraction des données. Veuillez réessayer plus tard.",
+    "invalidCountry": "Veuillez sélectionner un pays valide.",
+    "placeholder": "Votez pour le prochain gagnant du CES et gagnez une prime gratuite !",
+    "votingClosedUserDidVote": "Le vote pour le prochain gagnant du Concours Eurovision de la chanson est terminé ! Regardez la finale sur {date}. Vous avez voté pour {countryflag} **{country}**.",
+    "votingClosed": "Le vote pour le prochain gagnant du Concours Eurovision de la chanson est terminé ! Regardez la finale sur {date}."
   }
 }

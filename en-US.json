@@ -660,5 +660,13 @@
       "nameLabel": "The new name",
       "namePlaceholder": "Enter the new name"
     }
+  },
+  "escSelectMenu": {
+    "votedFor": "You successfully voted for {countryflag} **{country}** as the next Eurovision Song Contest winner.",
+    "noData": "Something went wrong while fetching the data. Please try again later.",
+    "invalidCountry": "Please select a valid country.",
+    "placeholder": "Vote for the next ESC winner and save your chance to win free premium!",
+    "votingClosedUserDidVote": "The voting for the next Eurovision Song Contest winner is closed! Watch the finals at {date}. You voted for {countryflag} **{country}**.",
+    "votingClosed": "The voting for the next Eurovision Song Contest winner is closed! Watch the finals at {date}."
   }
 }

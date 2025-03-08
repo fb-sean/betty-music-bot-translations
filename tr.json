@@ -660,5 +660,13 @@
       "nameLabel": "Yeni isim",
       "namePlaceholder": "Yeni adı girin"
     }
+  },
+  "escSelectMenu": {
+    "votedFor": "Başarıyla {countryflag} için oy kullandınız Bir sonraki Eurovision Şarkı Yarışması kazananı olarak **{country}**.",
+    "noData": "Veriler alınırken bir şeyler ters gitti. Lütfen daha sonra tekrar deneyin.",
+    "invalidCountry": "Lütfen geçerli bir ülke seçin.",
+    "placeholder": "Bir sonraki ESC kazananı için oy verin ve ücretsiz premium kazanma şansınızı koruyun!",
+    "votingClosedUserDidVote": "Bir sonraki Eurovision Şarkı Yarışması kazananı için oylama sona erdi! Finalleri {date} adresinden izleyin. {countryflag} için oy kullandınız **{country}**.",
+    "votingClosed": "Bir sonraki Eurovision Şarkı Yarışması kazananı için oylama sona erdi! Finalleri {date} adresinden izleyin."
   }
 }
