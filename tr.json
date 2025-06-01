@@ -1,7 +1,7 @@
 {
   "global": {
-    "premiumRequired": "Bu özelliği kullanmak için bu sunucu için {botName} premium sahibi olmanız gerekir. Buradan satın alabilirsiniz https://betty.cx/premium 2.50 $ 'dan başlayan fiyatlarla!",
-    "premiumQueueLimitReached": "Ücretsiz kullanıcılar için kuyruk sınırına ulaştınız. Kuyruğa en fazla 1500 şarkı ekleyebilirsiniz. Limiti 100 şarkıya çıkarmak için https://betty.cx/premium adresinden 2,50 dolardan başlayan fiyatlarla {botName} premium satın alabilirsiniz.",
+    "premiumRequired": "Bu özelliği kullanmak için bu sunucu için {botName} premium sahibi olmanız gerekir. Buradan satın alabilirsiniz https://betty.bot/premium 2.50 $ 'dan başlayan fiyatlarla!",
+    "premiumQueueLimitReached": "Ücretsiz kullanıcılar için kuyruk sınırına ulaştınız. Kuyruğa en fazla 1500 şarkı ekleyebilirsiniz. Limiti 100 şarkıya çıkarmak için https://betty.bot/premium adresinden 2,50 dolardan başlayan fiyatlarla {botName} premium satın alabilirsiniz.",
     "unknownCommand": "Olamaz! Bu komutu bilmiyorum. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
     "unknownButton": "Olamaz! O düğmeyi bilmiyorum. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
     "unknownSelectMenu": "Olamaz! Bu seçim menüsünü bilmiyorum. Bu hata devam ederse, lütfen destek ekibiyle iletişime geçin.",
@@ -31,11 +31,10 @@
     "requestedBy": "Tarafından talep edildi {requester}",
     "nextSong": "Sıradaki Şarkı **{songName}**",
     "autoPlayInfo": "Önerilen şarkıları çalmaya başlayın. Yeni öneriler almak için lütfen kuyruğu temizleyin.",
-    "autoPlayFooter": "Bu şarkı otomatik oynatma özelliği tarafından otomatik olarak eklenmiştir.",
     "premiumThankYou": "{botName} için premium satın aldığınız için teşekkür ederiz! Artık {serverName}'daki tüm premium özellikleri kullanabilirsiniz!",
     "premiumThankYouCustomBot": "653506413]] için özel bot satın aldığınız için teşekkür ederiz! Doğrudan kontrol panelindeki kurulumla başlayabilirsiniz!",
     "premiumPaymentFailed": "{botName} adresindeki aboneliklerinizden biri ödeme sorunu nedeniyle başarısız oldu. Lütfen ödeme yöntemlerinizi kontrol edin. Sonuç olarak, prim durumunuz kaldırılmıştır. Bir sonraki ödeme girişimi başarılı olursa, priminiz eski haline getirilecektir.",
-    "guildJoinDm": "### Merhaba!\n\nSunucunuza {botName} eklediğiniz için teşekkür ederiz! 🎉\n\nHadi başlayalım:\n\n- **Customize {botName}:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Müzik Çal:** {{command:play}}\n\n{botName}'dan daha fazlasını mı istiyorsunuz? Ekstra özellikler için [{botName}'s Premium](https://betty.cx)'a göz atın!\n\nİyi eğlenceler!",
+    "guildJoinDm": "### Merhaba!\n\nSunucunuza {botName} eklediğiniz için teşekkür ederiz! 🎉\n\nHadi başlayalım:\n\n- **Customize {botName}:** [Dashboard](https://betty.bot/dash/{server}/{bot})\n- **Müzik Çal:** {{command:play}}\n\n{botName}'dan daha fazlasını mı istiyorsunuz? Ekstra özellikler için [{botName}'s Premium](https://betty.bot)'a göz atın!\n\nİyi eğlenceler!",
     "nothingFound": "Bu sorgu için bir şey bulamadım.",
     "noPlayerFound": "Bu sunucu için bir oyuncu bulamadım veya oluşturamadım. Lütfen daha sonra tekrar deneyin.",
     "devOnly": "Bu bot şu anda geliştirme modundadır ve yalnızca geliştirici botu kullanabilir. Daha fazla bilgi için lütfen destek sunucusuna katılın.",
@@ -67,14 +66,14 @@
     "currentlyPlayingRadio": "Şu anda **{hoster}** sunucusunun **{radio}** adresinde oynamaktadır."
   },
   "nonPremiumTips": {
-    "tip1": "Betty Premium ile daha iyi ses kalitesi elde edebileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
+    "tip1": "Betty Premium ile daha iyi ses kalitesi elde edebileceğinizi biliyor muydunuz? <https://betty.bot/premium>",
     "tip2": "Spotify hesabınızı {botName} adresine bağlayarak çalma listelerini kolayca içe aktarabileceğinizi biliyor muydunuz?",
-    "tip3": "Bir üye {botName} premium ile ses kanalından ayrılırsa kuyruğu otomatik olarak temizleyebileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
-    "tip4": "Sunucunuz için premium ile başka bir {botName} alabileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
-    "tip5": "{botName} premium ile kuyrukta yinelenen şarkıları önleyebileceğinizi biliyor muydunuz? <https://betty.cx/premium>",
+    "tip3": "Bir üye {botName} premium ile ses kanalından ayrılırsa kuyruğu otomatik olarak temizleyebileceğinizi biliyor muydunuz? <https://betty.bot/premium>",
+    "tip4": "Sunucunuz için premium ile başka bir {botName} alabileceğinizi biliyor muydunuz? <https://betty.bot/premium>",
+    "tip5": "{botName} premium ile kuyrukta yinelenen şarkıları önleyebileceğinizi biliyor muydunuz? <https://betty.bot/premium>",
     "tip6": "Dinleme geçmişinize göre {{command:recommend}} ile öneriler alabileceğinizi biliyor muydunuz?",
-    "tip7": "Sunucunuz için botu yapılandırabileceğiniz bir kontrol paneli olduğunu {botName} biliyor muydunuz? <https://betty.cx/dash>",
-    "tip8": "Geçici DJ adlı bir özelliği etkinleştirebileceğinizi biliyor muydunuz? Bu, oynatıcı oluşturucunun DJ rolü olmadan DJ komutlarına erişmesini sağlar. Buradan ayarlayın: <https://betty.cx/dash>!",
+    "tip7": "Sunucunuz için botu yapılandırabileceğiniz bir kontrol paneli olduğunu {botName} biliyor muydunuz? <https://betty.bot/dash>",
+    "tip8": "Geçici DJ adlı bir özelliği etkinleştirebileceğinizi biliyor muydunuz? Bu, oynatıcı oluşturucunun DJ rolü olmadan DJ komutlarına erişmesini sağlar. Buradan ayarlayın: <https://betty.bot/dash>!",
     "tip9": "Geçici ses kanallarında {botName} için hafif bir arayüze sahip olabileceğinizi biliyor muydunuz? Kontrol panelinden etkinleştirebilirsiniz.",
     "tip10": "Seste kesilme veya gecikme mi duyuyorsunuz? Premium satın alın ve yüksek kaliteli ses sunucularına erişin."
   },
@@ -508,7 +507,7 @@
     "commandData": {
       "description": "{botName} premium hakkında bilgi alın."
     },
-    "response": "{botName} premium ile mi ilgileniyorsunuz? Web sitemizden bu konuda daha fazla bilgi alabilirsiniz: <https://betty.cx/premium>"
+    "response": "{botName} premium ile mi ilgileniyorsunuz? Web sitemizden bu konuda daha fazla bilgi alabilirsiniz: <https://betty.bot/premium>"
   },
   "profileCommand": {
     "commandData": {
@@ -581,7 +580,7 @@
       "description": "Yardıma mı ihtiyacınız var? Başlangıç noktanızı başlatmak için bu komutu kullanın."
     },
     "headline": "Botu Yapılandırma",
-    "configurationText": "Botu yapılandırmak için [dashboard](https://betty.cx/dash/server/{serverId}/{botId}) adresini ziyaret etmeniz gerekir.",
+    "configurationText": "Botu yapılandırmak için [dashboard](https://betty.bot/dash/server/{serverId}/{botId}) adresini ziyaret etmeniz gerekir.",
     "headlineUse": "Botu Kullanın",
     "useText": "Müzik çalmanın birden fazla yolu vardır:",
     "useText1": "1. Çok işlevli komut olarak {{command:play}} kullanabilirsiniz. Çalma listelerini, parçaları çalmayı veya aramayı mümkün kılar.",
@@ -589,14 +588,14 @@
     "useText3": "3. Bir şarkıyı aramak ve çalmak üzere seçmek veya kuyruğa eklemek için {{command:search}} komutunu kullanabilirsiniz.",
     "useText4": "4. Kuyruğa bir şarkı eklemek için **Kuyruğa Ekle** içerik menüsünü kullanın.",
     "headlinePremium": "Daha fazla özelliğe sahip olmak ister misiniz?",
-    "premiumText": "Premium {botName} satın alarak daha fazla özellik elde edebilirsiniz. Web sitemizden bu konuda daha fazla bilgi alabilirsiniz: [{botName} Premium](https://betty.cx/premium)",
+    "premiumText": "Premium {botName} satın alarak daha fazla özellik elde edebilirsiniz. Web sitemizden bu konuda daha fazla bilgi alabilirsiniz: [{botName} Premium](https://betty.bot/premium)",
     "footer": "Sean Sattler tarafından yapılmıştır | sattler.dev"
   },
   "configurationCommand": {
     "commandData": {
       "description": "Botu sunucunuz için yapılandırın."
     },
-    "response": "Botu yapılandırmak için [dashboard](https://betty.cx/dash/server/{serverId}/{botId}) adresini ziyaret etmeniz gerekir."
+    "response": "Botu yapılandırmak için [dashboard](https://betty.bot/dash/server/{serverId}/{botId}) adresini ziyaret etmeniz gerekir."
   },
   "valueMyMusicCommand": {
     "commandData": {
@@ -631,7 +630,7 @@
       "name": "DJ Ekle"
     },
     "removedDJ": "DJ kullanıcısı olarak **{user}** kaldırıldı.",
-    "maxDJsForNonPremium": "Ücretsiz kullanıcılar için maksimum DJ kullanıcı sayısına ulaştınız. Limiti 25 DJ kullanıcısına çıkarmak için https://betty.cx/premium adresinden {botName} premium satın alabilirsiniz.",
+    "maxDJsForNonPremium": "Ücretsiz kullanıcılar için maksimum DJ kullanıcı sayısına ulaştınız. Limiti 25 DJ kullanıcısına çıkarmak için https://betty.bot/premium adresinden {botName} premium satın alabilirsiniz.",
     "maxDJs": "Maksimum DJ kullanıcı sayısına ulaştınız.",
     "addedDJ": "DJ kullanıcısı olarak **{user}** eklendi.",
     "savedHistoryAsPlaylist": "Geçmişi **{name}** adıyla bir oynatma listesi olarak kaydetti."
