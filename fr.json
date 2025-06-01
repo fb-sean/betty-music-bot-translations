@@ -1,7 +1,7 @@
 {
   "global": {
-    "premiumRequired": "Afin d'utiliser cette fonctionnalité, vous devez posséder la prime {botName} pour ce serveur. Vous pouvez l'acheter ici https://betty.cx/premium à partir de $ 2.50 !",
-    "premiumQueueLimitReached": "Vous avez atteint la limite de la file d'attente pour les utilisateurs gratuits. Vous pouvez ajouter jusqu'à 1500 chansons à la file d'attente. Vous pouvez acheter {botName} premium sur https://betty.cx/premium à partir de 2,50 $ pour augmenter la limite à 100 chansons.",
+    "premiumRequired": "Afin d'utiliser cette fonctionnalité, vous devez posséder la prime {botName} pour ce serveur. Vous pouvez l'acheter ici https://betty.bot/premium à partir de $ 2.50 !",
+    "premiumQueueLimitReached": "Vous avez atteint la limite de la file d'attente pour les utilisateurs gratuits. Vous pouvez ajouter jusqu'à 1500 chansons à la file d'attente. Vous pouvez acheter {botName} premium sur https://betty.bot/premium à partir de 2,50 $ pour augmenter la limite à 100 chansons.",
     "unknownCommand": "Oh non ! Je ne connais pas cette commande. Si cette erreur persiste, veuillez contacter le support.",
     "unknownButton": "Oh non ! Je ne connais pas ce bouton. Si cette erreur persiste, veuillez contacter le support.",
     "unknownSelectMenu": "Oh non ! Je ne connais pas ce menu de sélection. Si cette erreur persiste, veuillez contacter le support.",
@@ -31,11 +31,10 @@
     "requestedBy": "Demandé par {requester}",
     "nextSong": "La prochaine chanson est **{songName}**",
     "autoPlayInfo": "Commencer à jouer les chansons recommandées. Pour obtenir de nouvelles recommandations, veuillez vider la file d'attente.",
-    "autoPlayFooter": "Cette chanson a été ajoutée automatiquement par la fonction de lecture automatique.",
     "premiumThankYou": "Merci d'avoir acheté la version premium de {botName} ! Vous pouvez maintenant utiliser toutes les fonctionnalités premium sur {serverName} !",
     "premiumThankYouCustomBot": "Merci d'avoir acheté un bot personnalisé pour {botName} ! Vous pouvez commencer directement avec l'installation sur le tableau de bord !",
     "premiumPaymentFailed": "L'un de vos abonnements à {botName} a échoué en raison d'un problème de paiement. Veuillez vérifier vos méthodes de paiement. En conséquence, votre statut de prime a été supprimé. Si la prochaine tentative de paiement aboutit, votre prime sera rétablie.",
-    "guildJoinDm": "### Hi !\n\nMerci d'avoir ajouté {botName} à votre serveur ! 🎉\n\nCommençons par le début :\n\n- **Customize {botName}:** [Dashboard](https://betty.cx/dash/{server}/{bot})\n- **Lire de la musique:** {{command:play}}\n\nVous voulez en savoir plus sur {botName} ? Consultez le site Premium de [{botName}(https://betty.cx) pour des fonctionnalités supplémentaires !\n\nBonne lecture !",
+    "guildJoinDm": "### Hi !\n\nMerci d'avoir ajouté {botName} à votre serveur ! 🎉\n\nCommençons par le début :\n\n- **Customize {botName}:** [Dashboard](https://betty.bot/dash/{server}/{bot})\n- **Lire de la musique:** {{command:play}}\n\nVous voulez en savoir plus sur {botName} ? Consultez le site Premium de [{botName}(https://betty.bot) pour des fonctionnalités supplémentaires !\n\nBonne lecture !",
     "nothingFound": "Je n'ai rien trouvé pour cette requête.",
     "noPlayerFound": "Je n'ai pas pu trouver ou créer un joueur pour ce serveur. Veuillez réessayer plus tard.",
     "devOnly": "Ce bot est actuellement en mode développement et seul le développeur peut l'utiliser. Veuillez rejoindre le serveur d'assistance pour plus d'informations.",
@@ -67,14 +66,14 @@
     "currentlyPlayingRadio": "Joue actuellement **{radio}** de l'hébergeur **{hoster}**."
   },
   "nonPremiumTips": {
-    "tip1": "Saviez-vous que vous pouvez obtenir une meilleure qualité audio avec betty premium ? <https://betty.cx/premium>",
+    "tip1": "Saviez-vous que vous pouvez obtenir une meilleure qualité audio avec betty premium ? <https://betty.bot/premium>",
     "tip2": "Saviez-vous que vous pouvez connecter votre compte Spotify à {botName} pour importer facilement des listes de lecture ?",
-    "tip3": "Saviez-vous que vous pouvez automatiquement nettoyer la file d'attente si un membre quitte le canal vocal avec {botName} premium ? <https://betty.cx/premium>",
-    "tip4": "Saviez-vous que vous pouvez obtenir un autre {botName} avec premium pour votre serveur ? <https://betty.cx/premium>",
-    "tip5": "Saviez-vous que vous pouvez empêcher les chansons dupliquées dans la file d'attente avec {botName} premium ? <https://betty.cx/premium>",
+    "tip3": "Saviez-vous que vous pouvez automatiquement nettoyer la file d'attente si un membre quitte le canal vocal avec {botName} premium ? <https://betty.bot/premium>",
+    "tip4": "Saviez-vous que vous pouvez obtenir un autre {botName} avec premium pour votre serveur ? <https://betty.bot/premium>",
+    "tip5": "Saviez-vous que vous pouvez empêcher les chansons dupliquées dans la file d'attente avec {botName} premium ? <https://betty.bot/premium>",
     "tip6": "Saviez-vous que vous pouvez obtenir des recommandations basées sur votre historique d'écoute avec {{command:recommend}} ?",
-    "tip7": "Saviez-vous que {botName} dispose d'un tableau de bord où vous pouvez configurer le bot pour votre serveur ? <https://betty.cx/dash>",
-    "tip8": "Saviez-vous que vous pouviez activer une fonction appelée DJ temporaire ? Cette fonction permet au créateur du lecteur d'accéder aux commandes DJ sans avoir le rôle de DJ. Vous pouvez l'activer ici : <https://betty.cx/dash> !",
+    "tip7": "Saviez-vous que {botName} dispose d'un tableau de bord où vous pouvez configurer le bot pour votre serveur ? <https://betty.bot/dash>",
+    "tip8": "Saviez-vous que vous pouviez activer une fonction appelée DJ temporaire ? Cette fonction permet au créateur du lecteur d'accéder aux commandes DJ sans avoir le rôle de DJ. Vous pouvez l'activer ici : <https://betty.bot/dash> !",
     "tip9": "Saviez-vous que vous pouviez avoir une interface légère pour {botName} sur les canaux vocaux temporaires ? Vous pouvez l'activer dans le tableau de bord.",
     "tip10": "Vous entendez des bruits d'obturation ou de décalage dans l'audio ? Achetez une licence premium et accédez à des serveurs audio de haute qualité."
   },
@@ -508,7 +507,7 @@
     "commandData": {
       "description": "Obtenir des informations sur la prime {botName}."
     },
-    "response": "Vous êtes intéressé par la prime {botName} ? Vous pouvez obtenir plus d'informations à ce sujet sur notre site web : <https://betty.cx/premium>"
+    "response": "Vous êtes intéressé par la prime {botName} ? Vous pouvez obtenir plus d'informations à ce sujet sur notre site web : <https://betty.bot/premium>"
   },
   "profileCommand": {
     "commandData": {
@@ -581,7 +580,7 @@
       "description": "Besoin d'aide ? Utilisez cette commande pour initier votre point de départ."
     },
     "headline": "Configurer le robot",
-    "configurationText": "Pour configurer le robot, vous devez visiter le [tableau de bord] (https://betty.cx/dash/server/{serverId}/{botId}).",
+    "configurationText": "Pour configurer le robot, vous devez visiter le [tableau de bord] (https://betty.bot/dash/server/{serverId}/{botId}).",
     "headlineUse": "Utiliser le robot",
     "useText": "Il existe de multiples façons de jouer de la musique :",
     "useText1": "1. Vous pouvez utiliser {{command:play}} comme commande multifonction. Elle permet de lire des listes de lecture, des pistes ou d'effectuer des recherches.",
@@ -589,14 +588,14 @@
     "useText3": "3. Vous pouvez utiliser la commande {{command:search}} pour rechercher une chanson et la sélectionner pour la lire ou l'ajouter à la file d'attente.",
     "useText4": "4. Utilisez le menu contextuel **Add to Queue** pour ajouter une chanson à la file d'attente.",
     "headlinePremium": "Vous voulez plus de fonctionnalités ?",
-    "premiumText": "Vous pouvez obtenir plus de fonctionnalités en achetant la version premium de {botName}. Vous pouvez obtenir plus d'informations à ce sujet sur notre site web : [{botName} Premium](https://betty.cx/premium)",
+    "premiumText": "Vous pouvez obtenir plus de fonctionnalités en achetant la version premium de {botName}. Vous pouvez obtenir plus d'informations à ce sujet sur notre site web : [{botName} Premium](https://betty.bot/premium)",
     "footer": "Réalisé par Sean Sattler | sattler.dev"
   },
   "configurationCommand": {
     "commandData": {
       "description": "Configurez le bot pour votre serveur."
     },
-    "response": "Pour configurer le robot, vous devez visiter le [tableau de bord] (https://betty.cx/dash/server/{serverId}/{botId})."
+    "response": "Pour configurer le robot, vous devez visiter le [tableau de bord] (https://betty.bot/dash/server/{serverId}/{botId})."
   },
   "valueMyMusicCommand": {
     "commandData": {
@@ -631,7 +630,7 @@
       "name": "Ajouter un DJ"
     },
     "removedDJ": "Suppression de **{user}** en tant qu'utilisateur DJ.",
-    "maxDJsForNonPremium": "Vous avez atteint le nombre maximum d'utilisateurs DJ pour les utilisateurs gratuits. Vous pouvez acheter {botName} premium sur https://betty.cx/premium pour augmenter la limite à 25 utilisateurs DJ.",
+    "maxDJsForNonPremium": "Vous avez atteint le nombre maximum d'utilisateurs DJ pour les utilisateurs gratuits. Vous pouvez acheter {botName} premium sur https://betty.bot/premium pour augmenter la limite à 25 utilisateurs DJ.",
     "maxDJs": "Vous avez atteint le nombre maximum d'utilisateurs DJ.",
     "addedDJ": "Ajout de **{user}** en tant qu'utilisateur DJ.",
     "savedHistoryAsPlaylist": "Enregistrement de l'historique en tant que liste de lecture avec le nom **{name}**."
