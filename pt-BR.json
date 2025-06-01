@@ -512,161 +512,161 @@
 	},
 	"profileCommand": {
 		"commandData": {
-			"description": "Get information about your profile at {botName}."
+			"description": "Obtenha informações sobre seu perfil no {botName}."
 		},
-		"noProfile": "You don't have any data tracked yet.",
-		"currently": "Currently Listening to",
-		"lastUpdate": "Last Update",
-		"commandsUsed": "Commands used",
-		"songsPlayed": "Songs played",
-		"totalPlaytime": "Total playtime",
-		"note": "Note: The Playtime get calculated by the track duration from tracks that you played.",
-		"notData": "There is no data to show.",
-		"top5Commands": "Top 5 Used Commands",
-		"top5Tracks": "Top 5 Played Songs",
-		"embedTitle": "Your {botName} Profile",
-		"embedTitleOther": "Profile of {user}",
-		"noSpotifyAccount": "Spotify not connected",
-		"noSpotifyActivity": "Not listening to anything on Spotify"
+		"noProfile": "Você ainda não possui dados registrados.",
+		"currently": "Ouvindo atualmente",
+		"lastUpdate": "Última atualização",
+		"commandsUsed": "Comandos usados",
+		"songsPlayed": "Músicas tocadas",
+		"totalPlaytime": "Tempo total de reprodução",
+		"note": "Nota: O tempo de reprodução é calculado com base na duração das músicas que você ouviu.",
+		"notData": "Não há dados para mostrar.",
+		"top5Commands": "Top 5 Comandos Usados",
+		"top5Tracks": "Top 5 Músicas Tocadas",
+		"embedTitle": "Seu perfil do {botName}",
+		"embedTitleOther": "Perfil de {user}",
+		"noSpotifyAccount": "Spotify não conectado",
+		"noSpotifyActivity": "Não está ouvindo nada no Spotify"
 	},
 	"inviteCommand": {
 		"commandData": {
-			"description": "Get the invite link for {botName}."
+			"description": "Obtenha o link de convite do {botName}."
 		},
-		"response": "You can find all invite links below!"
+		"response": "Você pode encontrar todos os links de convite abaixo!"
 	},
 	"creditsCommand": {
 		"commandData": {
-			"description": "See the credits of {botName}."
+			"description": "Veja os créditos do {botName}."
 		},
-		"response": "**Created by**: {creator}\n**Special thanks to**: {special}"
+		"response": "**Criado por**: {creator}\n**Agradecimentos especiais a**: {special}"
 	},
 	"historyCommand": {
 		"commandData": {
-			"description": "Get information about your last played songs."
+			"description": "Obtenha informações sobre as últimas músicas tocadas."
 		},
-		"noProfile": "You don't have any data tracked yet.",
-		"noHistory": "There is no history to show. Play some songs with {{command:play}} to one.",
-		"history": "history",
-		"footer": "Page {page} of {pages} | Tracks in history: {tracks}",
-		"clearedHistory": "Cleared **{tracks}** songs of your history."
+		"noProfile": "Você ainda não possui dados registrados.",
+		"noHistory": "Não há histórico para mostrar. Toque algumas músicas com {{command:play}} para gerar um.",
+		"history": "histórico",
+		"footer": "Página {page} de {pages} | Músicas no histórico: {tracks}",
+		"clearedHistory": "Limpou **{tracks}** músicas do seu histórico."
 	},
 	"lyricsCommand": {
 		"commandData": {
-			"description": "Get the lyrics of the current or any song.",
-			"songOption": "The song you want to get the lyrics for."
+			"description": "Obtenha a letra da música atual ou de qualquer outra.",
+			"songOption": "A música da qual você deseja obter a letra."
 		},
-		"queueEmpty": "The queue is empty. Nothing to get the lyrics from.",
-		"noSongGiven": "You need to play a song or provide a song name to get the lyrics.",
-		"noLyrics": "I couldn't find any lyrics for **{title}** by **{artist}**.",
-		"lyrics": "Lyrics for **{title}** by **{artist}**",
-		"fullLyrics": "Full Lyrics"
+		"queueEmpty": "A fila está vazia. Nada para buscar a letra.",
+		"noSongGiven": "Você precisa tocar uma música ou fornecer o nome de uma para obter a letra.",
+		"noLyrics": "Não encontrei nenhuma letra para **{title}** de **{artist}**.",
+		"lyrics": "Letra de **{title}** por **{artist}**",
+		"fullLyrics": "Letra Completa"
 	},
 	"recommendCommand": {
 		"commandData": {
-			"description": "Get recommended songs based on your listening history."
+			"description": "Obtenha recomendações de músicas com base no seu histórico de reprodução."
 		},
-		"noRecommendations": "I couldn't find any recommendations for you. Try to listen to more songs.",
-		"noProfile": "You don't have any data tracked yet. Please play some songs with {{command:play}} to get recommendations.",
-		"recommendSongSuccessfullyNow": "Started playing the recommended song {emoji}[**{title}**]({url} \"Opens the song in your browser.\").",
-		"recommendSongsSuccessfully": "Added recommended song {emoji}[**{title}**]({url} \"Opens the song in your browser.\") to the queue at position **{position}**."
+		"noRecommendations": "Não encontrei recomendações para você. Tente ouvir mais músicas.",
+		"noProfile": "Você ainda não possui dados registrados. Toque algumas músicas com {{command:play}} para receber recomendações.",
+		"recommendSongSuccessfullyNow": "Comecei a tocar a música recomendada {emoji}[**{title}**]({url} \"Abre a música no seu navegador.\").",
+		"recommendSongsSuccessfully": "Adicionei a música recomendada {emoji}[**{title}**]({url} \"Abre a música no seu navegador.\") à fila na posição **{position}**."
 	},
 	"seeProfileContextCommand": {
 		"commandData": {
-			"name": "See Profile"
+			"name": "Ver Perfil"
 		}
 	},
 	"helpCommand": {
 		"commandData": {
-			"description": "Need help? Use this command to initiate your starting point."
+			"description": "Precisa de ajuda? Use este comando para começar."
 		},
-		"headline": "Configure the Bot",
-		"configurationText": "To configure the bot you need to visit the [dashboard](https://betty.cx/dash/server/{serverId}/{botId}).",
-		"headlineUse": "Use the Bot",
-		"useText": "There are multiple ways to play music:",
-		"useText1": "1. You can use {{command:play}} as multifunction command. It makes it possible to play playlists, tracks or search.",
-		"useText2": "2. You can use the song request channel. Just @mention the bot and type the song name or the link in the channel.",
-		"useText3": "3. You can use the {{command:search}} command to search for a song and select it to play or add it to the queue.",
-		"useText4": "4. Use the **Add to Queue** context menu to add a song to the queue.",
-		"headlinePremium": "Want to have more features?",
-		"premiumText": "You can get more features by purchasing {botName} premium. You can get more information about it on our website: [{botName} Premium](https://betty.cx/premium)",
-		"footer": "Made by Sean Sattler | sattler.dev"
+		"headline": "Configure o Bot",
+		"configurationText": "Para configurar o bot, você precisa visitar o [painel](https://betty.cx/dash/server/{serverId}/{botId}).",
+		"headlineUse": "Como usar o Bot",
+		"useText": "Existem várias maneiras de tocar música:",
+		"useText1": "1. Você pode usar o comando {{command:play}} como multifuncional. Ele permite tocar playlists, faixas ou fazer buscas.",
+		"useText2": "2. Você pode usar o canal de pedidos de música. Basta mencionar o bot e digitar o nome da música ou o link no canal.",
+		"useText3": "3. Você pode usar o comando {{command:search}} para procurar uma música e selecioná-la para tocar ou adicioná-la à fila.",
+		"useText4": "4. Use o menu de contexto **Adicionar à Fila** para adicionar uma música à fila.",
+		"headlinePremium": "Quer mais recursos?",
+		"premiumText": "Você pode obter mais recursos adquirindo o {botName} Premium. Mais informações disponíveis em nosso site: [{botName} Premium](https://betty.cx/premium)",
+		"footer": "Feito por Sean Sattler | sattler.dev"
 	},
 	"configurationCommand": {
 		"commandData": {
-			"description": "Configure the bot for your server."
+			"description": "Configure o bot para seu servidor."
 		},
-		"response": "To configure the bot you need to visit the [dashboard](https://betty.cx/dash/server/{serverId}/{botId})."
+		"response": "Para configurar o bot, você precisa visitar o [painel](https://betty.cx/dash/server/{serverId}/{botId})."
 	},
 	"valueMyMusicCommand": {
 		"commandData": {
-			"description": "Value your music taste.",
-			"roastOption": "Select if you want that {botName} roast you or not."
+			"description": "Avalie seu gosto musical.",
+			"roastOption": "Selecione se deseja que o {botName} zombe do seu gosto musical ou não."
 		},
-		"noProfile": "You don't have any data tracked yet. Please play some songs with {{command:play}} to get a value of your music taste.",
-		"noHistory": "You don't have 10 songs or more in your history to value your music taste. Please play some songs with {{command:play}} to get a value of your music taste.",
-		"error": "An error occurred while calculating the value of your music taste. Please try again later.",
-		"poweredBy": "Powered by Google Gemini Pro"
+		"noProfile": "Você ainda não possui dados registrados. Toque algumas músicas com {{command:play}} para avaliar seu gosto musical.",
+		"noHistory": "Você precisa ter pelo menos 10 músicas no histórico para avaliar seu gosto musical. Toque algumas músicas com {{command:play}} para gerar dados suficientes.",
+		"error": "Ocorreu um erro ao calcular o valor do seu gosto musical. Tente novamente mais tarde.",
+		"poweredBy": "Fornecido por Google Gemini Pro"
 	},
 	"radioCommand": {
 		"commandData": {
-			"description": "Set {botName} in radio mode and play a online radio.",
-			"streamOption": "Select the radio stream to play from."
+			"description": "Coloque o {botName} no modo rádio e toque uma rádio online.",
+			"streamOption": "Selecione a rádio que deseja tocar."
 		},
-		"invalidRadio": "Please select a valid radio stream.",
-		"fetchError": "An error occurred while fetching the radio stream. Please try again later.",
-		"startingRadioFromExistingPlayer": "Stopping current playback and switching into radio mode. Playing **{radio}** of the hoster **{hoster}**.",
-		"startingRadio": "Starting radio mode. Playing **{radio}** of the hoster **{hoster}**.",
-		"stoppedRadio": "Stopped the radio mode and switched back to the queue mode.",
-		"noRadiosFound": "No radio streams found.",
-		"radioModeDisabled": "The radio mode is disabled for this server. You can enable it at the bot dashboard."
+		"invalidRadio": "Por favor, selecione uma rádio válida.",
+		"fetchError": "Ocorreu um erro ao buscar a rádio. Tente novamente mais tarde.",
+		"startingRadioFromExistingPlayer": "Parando a reprodução atual e mudando para o modo rádio. Tocando **{radio}** do provedor **{hoster}**.",
+		"startingRadio": "Iniciando o modo rádio. Tocando **{radio}** do provedor **{hoster}**.",
+		"stoppedRadio": "Modo rádio interrompido. Voltando ao modo de fila.",
+		"noRadiosFound": "Nenhuma rádio encontrada.",
+		"radioModeDisabled": "O modo rádio está desativado neste servidor. Você pode ativá-lo no painel do bot."
 	},
 	"debugCommand": {
 		"commandData": {
-			"description": "See some debug information about the bot. Can be useful for the support."
+			"description": "Veja algumas informações de depuração sobre o bot. Pode ser útil para o suporte."
 		}
 	},
 	"addDJContextCommand": {
 		"commandData": {
-			"name": "Add DJ"
+			"name": "Adicionar DJ"
 		},
-		"removedDJ": "Removed **{user}** as a DJ user.",
-		"maxDJsForNonPremium": "You reached the maximum number of DJ users for free users. You can buy {botName} premium at https://betty.cx/premium to increase the limit to 25 DJ users.",
-		"maxDJs": "You reached the maximum number of DJ users.",
-		"addedDJ": "Added **{user}** as a DJ user.",
-		"savedHistoryAsPlaylist": "Saved the history as a playlist with the name **{name}**."
+		"removedDJ": "**{user}** foi removido como DJ.",
+		"maxDJsForNonPremium": "Você atingiu o número máximo de DJs para usuários gratuitos. Compre o {botName} Premium em https://betty.cx/premium para aumentar o limite para 25 DJs.",
+		"maxDJs": "Você atingiu o número máximo de DJs.",
+		"addedDJ": "**{user}** foi adicionado como DJ.",
+		"savedHistoryAsPlaylist": "Histórico salvo como playlist com o nome **{name}**."
 	},
 	"skipSongContextCommand": {
 		"commandData": {
-			"name": "Skip Song"
+			"name": "Pular Música"
 		}
 	},
 	"addToQueueContextCommand": {
 		"commandData": {
-			"name": "Add to Queue"
+			"name": "Adicionar à Fila"
 		}
 	},
 	"addSongButton": {
 		"modal": {
-			"playlistTitle": "Add song to playlist",
-			"title": "Add a song",
-			"queryLabel": "The song to add",
-			"queryPlaceholder": "Enter the song to add or playlist link"
+			"playlistTitle": "Adicionar música à playlist",
+			"title": "Adicionar uma música",
+			"queryLabel": "Música para adicionar",
+			"queryPlaceholder": "Digite a música ou link da playlist"
 		}
 	},
 	"renamePlaylistButton": {
 		"modal": {
-			"title": "Rename playlist",
-			"nameLabel": "The new name",
-			"namePlaceholder": "Enter the new name"
+			"title": "Renomear playlist",
+			"nameLabel": "Novo nome",
+			"namePlaceholder": "Digite o novo nome"
 		}
 	},
 	"escSelectMenu": {
-		"votedFor": "You successfully voted for {countryflag} **{country}** as the next Eurovision Song Contest winner.",
-		"noData": "Something went wrong while fetching the data. Please try again later.",
-		"invalidCountry": "Please select a valid country.",
-		"placeholder": "Vote for the next ESC winner and save your chance to win free premium!",
-		"votingClosedUserDidVote": "The voting for the next Eurovision Song Contest winner is closed! Watch the finals at {date}. You voted for {countryflag} **{country}**.",
-		"votingClosed": "The voting for the next Eurovision Song Contest winner is closed! Watch the finals at {date}."
+		"votedFor": "Você votou com sucesso em {countryflag} **{country}** como o próximo vencedor do Eurovision Song Contest.",
+		"noData": "Algo deu errado ao buscar os dados. Tente novamente mais tarde.",
+		"invalidCountry": "Por favor, selecione um país válido.",
+		"placeholder": "Vote no próximo vencedor do ESC e concorra a um prêmio Premium grátis!",
+		"votingClosedUserDidVote": "A votação para o próximo vencedor do Eurovision Song Contest está encerrada! Assista à final em {date}. Você votou em {countryflag} **{country}**.",
+		"votingClosed": "A votação para o próximo vencedor do Eurovision Song Contest está encerrada! Assista à final em {date}."
 	}
 }
