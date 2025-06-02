@@ -63,7 +63,8 @@
     "spotifyWarning": "584716291]] henüz Spotify tarafından doğrulanmadığından, {botName}'in Spotify entegrasyonu neredeyse her zaman başarısız oluyor çünkü geliştirici kontrol panelinde her kullanıcıyı e-posta ve tam adıyla eklememizi istiyorlar. Gizlilik nedeniyle bu bizim için mümkün değil. Bunu düzeltmek için bir çözüm üzerinde çalışıyoruz.",
     "notAllowedInRadioMode": "Bot radyo modundayken bu özelliğe izin verilmez.",
     "nowPlayingRadio": "Bot radyo moduna geçti. Ev sahibinin **{radio}** adresini çalıyor **{hoster}**.",
-    "currentlyPlayingRadio": "Şu anda **{hoster}** sunucusunun **{radio}** adresinde oynamaktadır."
+    "currentlyPlayingRadio": "Şu anda **{hoster}** sunucusunun **{radio}** adresinde oynamaktadır.",
+    "autoPlayFooter": "Otomatik Oynatma ile"
   },
   "nonPremiumTips": {
     "tip1": "Betty Premium ile daha iyi ses kalitesi elde edebileceğinizi biliyor muydunuz? <https://betty.bot/premium>",
@@ -174,7 +175,8 @@
       "queryOption": "Bir şarkıyı veya bir şarkı bağlantısını aramak için sorgunuz.",
       "nowOption": "Şarkıyı doğrudan çalmak veya kuyruğa eklemek isteyip istemediğinizi seçin.",
       "platformOption": "Arama yapmak istediğiniz platformu seçin.",
-      "fileOption": "Oynatılacak bir dosya yüklemek için bu seçeneği kullanın. Dosya geçerli bir ses dosyası olmalıdır."
+      "fileOption": "Oynatılacak bir dosya yüklemek için bu seçeneği kullanın. Dosya geçerli bir ses dosyası olmalıdır.",
+      "nextOption": "Kuyruktaki bir sonraki şarkı olarak çalmak isteyip istemediğinizi seçin."
     },
     "invalidFile": "Yüklediğiniz dosya geçerli bir ses dosyası değil. Lütfen geçerli bir mp3 dosyası olduğundan emin olun ve tekrar deneyin.",
     "playlistNowError": "Kuyrukta zaten şarkılarınız varken bir çalma listesini doğrudan çalamazsınız.",
@@ -312,7 +314,8 @@
   "previousCommand": {
     "commandData": {
       "description": "Önceki şarkılardan birini çalın.",
-      "nowOption": "Şarkıyı doğrudan çalmak veya kuyruğa eklemek isteyip istemediğinizi seçin."
+      "nowOption": "Şarkıyı doğrudan çalmak veya kuyruğa eklemek isteyip istemediğinizi seçin.",
+      "nextOption": "Kuyruktaki bir sonraki şarkı olarak çalmak isteyip istemediğinizi seçin."
     },
     "noPreviousSong": "Çalınacak önceki şarkılar yok.",
     "trackNotFound": "Önceki şarkılarda istediğiniz parçayı bulamadım."

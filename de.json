@@ -175,7 +175,8 @@
       "queryOption": "Ihre Anfrage zur Suche nach einem Lied oder einem Link zu einem Lied.",
       "nowOption": "Wählen Sie, ob Sie den Titel direkt abspielen oder zur Warteschlange hinzufügen möchten.",
       "platformOption": "Wählen Sie die Plattform, von der aus Sie suchen möchten.",
-      "fileOption": "Lade eine gültige Audiodatei hoch, die abgespielt wird."
+      "fileOption": "Lade eine gültige Audiodatei hoch, die abgespielt wird.",
+      "nextOption": "Wählen Sie, ob Sie den nächsten Titel in der Warteschlange abspielen möchten."
     },
     "invalidFile": "Die Datei, die Sie hochgeladen haben, ist keine gültige Audiodatei. Bitte stellen Sie sicher, dass es sich um eine gültige mp3-Datei handelt und versuchen Sie es erneut.",
     "playlistNowError": "Sie können eine Wiedergabeliste nicht direkt abspielen, wenn Sie bereits Titel in der Warteschlange haben.",
@@ -313,7 +314,8 @@
   "previousCommand": {
     "commandData": {
       "description": "Spielen Sie einen der vorherigen Titel.",
-      "nowOption": "Wählen Sie aus, ob Sie das Lied direkt abspielen oder zur Warteschlange hinzufügen möchten."
+      "nowOption": "Wählen Sie aus, ob Sie das Lied direkt abspielen oder zur Warteschlange hinzufügen möchten.",
+      "nextOption": "Wählen Sie, ob Sie den nächsten Titel in der Warteschlange abspielen möchten."
     },
     "noPreviousSong": "Es gibt keine vorherigen Songs zu spielen.",
     "trackNotFound": "Ich konnte den von Ihnen gewünschten Titel unter den vorherigen Liedern nicht finden."

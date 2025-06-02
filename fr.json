@@ -63,7 +63,8 @@
     "spotifyWarning": "Comme {botName} n'est pas encore vérifié par Spotify, l'intégration de {botName} à Spotify échoue presque toujours parce qu'ils nous demandent d'ajouter chaque utilisateur par email et nom complet dans le tableau de bord du développeur. Cela n'est pas possible pour nous pour des raisons de confidentialité. Nous travaillons sur une solution pour résoudre ce problème.",
     "notAllowedInRadioMode": "Cette fonction n'est pas autorisée lorsque le robot est en mode radio.",
     "nowPlayingRadio": "Le bot est passé en mode radio. Il joue **{radio}** de l'hébergeur **{hoster}**.",
-    "currentlyPlayingRadio": "Joue actuellement **{radio}** de l'hébergeur **{hoster}**."
+    "currentlyPlayingRadio": "Joue actuellement **{radio}** de l'hébergeur **{hoster}**.",
+    "autoPlayFooter": "Par le biais de l'Autoplay"
   },
   "nonPremiumTips": {
     "tip1": "Saviez-vous que vous pouvez obtenir une meilleure qualité audio avec betty premium ? <https://betty.bot/premium>",
@@ -174,7 +175,8 @@
       "queryOption": "Votre requête pour rechercher une chanson ou un lien vers une chanson.",
       "nowOption": "Sélectionnez si vous souhaitez lire la chanson directement ou l'ajouter à la file d'attente.",
       "platformOption": "Sélectionnez la plateforme à partir de laquelle vous souhaitez effectuer une recherche.",
-      "fileOption": "Téléchargez un fichier audio valide pour la lecture."
+      "fileOption": "Téléchargez un fichier audio valide pour la lecture.",
+      "nextOption": "Sélectionnez si vous souhaitez lire la chanson suivante dans la file d'attente."
     },
     "invalidFile": "Le fichier que vous avez téléchargé n'est pas un fichier audio valide. Veuillez vous assurer qu'il s'agit d'un fichier mp3 valide et réessayez.",
     "playlistNowError": "Vous ne pouvez pas lire directement une liste de lecture si vous avez déjà des chansons dans la file d'attente.",
@@ -312,7 +314,8 @@
   "previousCommand": {
     "commandData": {
       "description": "Jouer l'une des chansons précédentes.",
-      "nowOption": "Sélectionnez si vous souhaitez lire la chanson directement ou l'ajouter à la file d'attente."
+      "nowOption": "Sélectionnez si vous souhaitez lire la chanson directement ou l'ajouter à la file d'attente.",
+      "nextOption": "Sélectionnez si vous souhaitez lire la chanson suivante dans la file d'attente."
     },
     "noPreviousSong": "Il n'y a pas de chansons précédentes à jouer.",
     "trackNotFound": "Je n'ai pas trouvé le titre que vous avez demandé dans les chansons précédentes."
