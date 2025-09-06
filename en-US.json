@@ -590,11 +590,10 @@
     "commandData": {
       "description": "Get information about your last played songs."
     },
-    "noProfile": "You don't have any data tracked yet.",
     "noHistory": "There is no history to show. Play some songs with {{command:play}} to one.",
     "history": "history",
-    "footer": "Page {page} of {pages} | Tracks in history: {tracks}",
-    "clearedHistory": "Cleared **{tracks}** songs of your history."
+    "header": "Your Listening History",
+    "footer": "Tracks in history: {tracks} - Tracking since: {timestamp}"
   },
   "lyricsCommand": {
     "commandData": {

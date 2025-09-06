@@ -591,11 +591,10 @@
     "commandData": {
       "description": "Obtenha informações sobre as últimas músicas tocadas."
     },
-    "noProfile": "Você ainda não possui dados registrados.",
     "noHistory": "Não há histórico para mostrar. Toque algumas músicas com {{command:play}} para gerar um.",
     "history": "histórico",
-    "footer": "Página {page} de {pages} | Músicas no histórico: {tracks}",
-    "clearedHistory": "Limpou **{tracks}** músicas do seu histórico."
+    "footer": "Trilhas na história: {tracks} - Rastreamento desde: {timestamp}",
+    "header": "Seu histórico de audição"
   },
   "lyricsCommand": {
     "commandData": {

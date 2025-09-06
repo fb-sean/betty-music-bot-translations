@@ -591,11 +591,10 @@
     "commandData": {
       "description": "Erhalten Sie Informationen über Ihre zuletzt gespielten Titel."
     },
-    "noProfile": "Sie haben noch keine gespeicherten Daten.",
     "noHistory": "Es ist kein Verlauf zu sehen. Spielen Sie einige Lieder mit {{command:play}} zu einem.",
     "history": "Geschichte",
-    "footer": "Seite {page} von {pages} | Tracks in der Geschichte: {tracks}",
-    "clearedHistory": "Gelöschte **{tracks}** Lieder aus deinem Verlauf."
+    "footer": "Spuren in der Geschichte: {tracks} - Verfolgung seit: {timestamp}",
+    "header": "Ihr Hörverlauf"
   },
   "lyricsCommand": {
     "commandData": {

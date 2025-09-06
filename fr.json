@@ -591,11 +591,10 @@
     "commandData": {
       "description": "Obtenez des informations sur les dernières chansons que vous avez écoutées."
     },
-    "noProfile": "Vous n'avez pas encore de données suivies.",
     "noHistory": "Il n'y a pas d'historique à montrer. Jouez quelques chansons avec {{command:play}} à un.",
     "history": "Historique",
-    "footer": "Page {page} de {pages} | Les traces dans l'histoire : {tracks}",
-    "clearedHistory": "Efface **{tracks}** les chansons de votre historique."
+    "footer": "Traces dans l'histoire : {tracks} - Suivi depuis : {timestamp}",
+    "header": "Votre historique d'écoute"
   },
   "lyricsCommand": {
     "commandData": {

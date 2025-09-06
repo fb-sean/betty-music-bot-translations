@@ -591,11 +591,10 @@
     "commandData": {
       "description": "Son çaldığınız şarkılar hakkında bilgi alın."
     },
-    "noProfile": "Henüz izlenen bir veriniz yok.",
     "noHistory": "Gösterilecek bir geçmiş yok. Bir tanesine {{command:play}} ile bazı şarkılar çalın.",
     "history": "TARİH",
-    "footer": "Sayfa {page} of {pages} | Tarihteki izler: {tracks}",
-    "clearedHistory": "Geçmişinizdeki **{tracks}** şarkıları temizlendi."
+    "footer": "Tarihteki izler: {tracks} - Şu tarihten beri izleniyor: {timestamp}",
+    "header": "Dinleme Geçmişiniz"
   },
   "lyricsCommand": {
     "commandData": {
