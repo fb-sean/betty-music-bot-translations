@@ -64,7 +64,8 @@
     "notAllowedInRadioMode": "Cette fonction n'est pas autorisée lorsque le robot est en mode radio.",
     "nowPlayingRadio": "Le bot est passé en mode radio. Il joue **{radio}** de l'hébergeur **{hoster}**.",
     "currentlyPlayingRadio": "Joue actuellement **{radio}** de l'hébergeur **{hoster}**.",
-    "autoPlayFooter": "Par le biais de l'Autoplay"
+    "autoPlayFooter": "Par le biais de l'Autoplay",
+    "autoPlayDisabled": "La fonction de jeu automatique a été désactivée."
   },
   "nonPremiumTips": {
     "tip1": "Saviez-vous que vous pouvez obtenir une meilleure qualité audio avec betty premium ? <https://betty.bot/premium>",
@@ -122,7 +123,8 @@
     "addsong": "Ajouter une chanson",
     "stopRadio": "Arrêter la radio",
     "searchOnSpotify": "Recherche sur Spotify",
-    "joinchannel": "Rejoignez votre canal vocal actuel"
+    "joinchannel": "Rejoignez votre canal vocal actuel",
+    "disableautoplay": "Désactiver la lecture automatique."
   },
   "destoryReasons": {
     "inactive": "Le joueur a été détruit parce qu'il était inactif depuis trop longtemps. Utilisez {{command:play}} pour démarrer une nouvelle session !",
@@ -209,7 +211,7 @@
     },
     "success": "Arrêt du lecteur et effacement de la file d'attente.",
     "removedVote": "Suppression de votre vote pour arrêter le joueur.",
-    "addedVote": "Ajout de votre vote pour arrêter le joueur ({votes}/{requiredVotes})."
+    "addedVote": "Ajouté votre vote pour arrêter le joueur ({votes}/{requiredVotes}). Vous voulez le désactiver ? Visitez https://betty.bot/dash pour configurer le bot comme vous le souhaitez."
   },
   "switchCommand": {
     "commandData": {
@@ -245,8 +247,8 @@
     "skippedMultipleSongs": "A réussi à passer les chansons **{count}**.",
     "skippedCurrentSong": "A réussi à sauter **[{title}]({url})**.",
     "removedVote": "Suppression de votre vote pour passer la chanson en cours.",
-    "addedVote": "Ajout de votre vote pour passer la chanson en cours ({votes}/{requiredVotes}).",
-    "skippingMoreSongsThanQueue": "Vous ne pouvez pas passer plus de chansons qu'il n'y en a dans la file d'attente."
+    "skippingMoreSongsThanQueue": "Vous ne pouvez pas passer plus de chansons qu'il n'y en a dans la file d'attente.",
+    "addedVote": "Ajout de votre vote pour passer la chanson en cours ({votes}/{requiredVotes}). Vous souhaitez désactiver cette fonction ? Visitez https://betty.bot/dash pour configurer le robot comme vous le souhaitez."
   },
   "spotifyCommand": {
     "commandData": {
@@ -713,5 +715,14 @@
     "placeholder": "Votez pour le prochain gagnant du CES et gagnez une prime gratuite !",
     "votingClosedUserDidVote": "Le vote pour le prochain gagnant du Concours Eurovision de la chanson est terminé ! Regardez la finale sur {date}. Vous avez voté pour {countryflag} **{country}**.",
     "votingClosed": "Le vote pour le prochain gagnant du Concours Eurovision de la chanson est terminé ! Regardez la finale sur {date}."
+  },
+  "trackIssue": {
+    "modal": {
+      "label": "Décrire le problème",
+      "placeholder": "Veuillez décrire le plus précisément possible le problème et la manière de le reproduire."
+    },
+    "button": "Questions relatives aux rapports",
+    "reported": "Merci d'avoir signalé le problème ! Report ID : `{debugId}`\n**VEUILLEZ** rejoindre le serveur d'assistance et décrire ce qui s'est passé avec cet identifiant.",
+    "uncachedIssue": "Cette chanson n'est plus dans le cache et ne peut être signalée. Veuillez utiliser à nouveau la commande {{command:play}}."
   }
 }

@@ -55,6 +55,7 @@
     "serverNotWhitelisted": "This server is not whitelisted and can't use this custom bot of {botName}. If you are the owner of the custom bot, please use the dashboard to whitelist the server.",
     "autoPlayAlreadyEnabled": "The autoplay feature is already enabled. To disable it please visit the dashboard.",
     "autoPlayEnabled": "The autoplay feature got enabled. To disable it again please visit the dashboard.",
+    "autoPlayDisabled": "The autoplay feature got disabled.",
     "notMySong": "**This isn't your song?**\nIf the bot didn't found exactly the song you want to play try these ways:\n1. Try adding the song by the song link. (Ex. from Spotify)\n2. Try adding the song by title - artist. (Ex. Believer - Imagine Dragons)\n3. Try finding the song with the {{command:search}} command.",
     "queueLimitReached": "You reached the set queue limit of **{limit}** for this server. Please wait until some songs got played or removed from the queue before you add new ones.",
     "queueUserLimitReached": "You reached the set queue limit of **{limit}** for you. Please wait until some songs got played or removed from the queue before you add new ones.",
@@ -103,6 +104,7 @@
     "playhistory": "Play history",
     "clearhistory": "Clear history",
     "enableautoplay": "Get endless queue, enable autoplay.",
+    "disableautoplay": "Disable autoplay.",
     "thatsnotmysong": "That's not the song I requested?",
     "playerlogs": "See the player logs",
     "addsong": "Add a song",
@@ -209,7 +211,7 @@
     },
     "success": "Stopped the player and cleared the queue.",
     "removedVote": "Removed your vote to stop the player.",
-    "addedVote": "Added your vote to stop the player ({votes}/{requiredVotes})."
+    "addedVote": "Added your vote to stop the player ({votes}/{requiredVotes}). Want to disable this? Visit https://betty.bot/dash to configure the bot as you want."
   },
   "switchCommand": {
     "commandData": {
@@ -245,7 +247,7 @@
     "skippedMultipleSongs": "Successfully skipped **{count}** songs.",
     "skippedCurrentSong": "Successfully skipped **[{title}]({url})**.",
     "removedVote": "Removed your vote to skip the current song.",
-    "addedVote": "Added your vote to skip the current song ({votes}/{requiredVotes}).",
+    "addedVote": "Added your vote to skip the current song ({votes}/{requiredVotes}). Want to disable this? Visit https://betty.bot/dash to configure the bot as you want.",
     "skippingMoreSongsThanQueue": "You cannot skip more songs than there are in the queue."
   },
   "spotifyCommand": {
@@ -712,5 +714,14 @@
     "placeholder": "Vote for the next ESC winner and save your chance to win free premium!",
     "votingClosedUserDidVote": "The voting for the next Eurovision Song Contest winner is closed! Watch the finals at {date}. You voted for {countryflag} **{country}**.",
     "votingClosed": "The voting for the next Eurovision Song Contest winner is closed! Watch the finals at {date}."
+  },
+  "trackIssue": {
+    "button": "Report issues",
+    "modal": {
+      "label": "Describe the issue",
+      "placeholder": "Please describe as much as possible what the issue is and how to reproduce it."
+    },
+    "reported": "Thank you for reporting the issue! Report ID: `{debugId}`\n**PLEASE** join the support server and describe what happened with this ID.",
+    "uncachedIssue": "This song is not in the cache anymore and cant be reported. Please use the {{command:play}} command again."
   }
 }

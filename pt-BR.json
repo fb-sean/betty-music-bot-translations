@@ -64,7 +64,8 @@
     "spotifyWarning": "Uma vez que o {botName} ainda não foi verificado pelo Spotify, a integração do {botName} com o Spotify quase sempre falha porque eles exigem que adicionemos todos os usuários por e-mail e nome completo no painel do desenvolvedor. Isto não é possível para nós devido a razões de privacidade. Estamos a trabalhar numa solução para resolver este problema.",
     "notAllowedInRadioMode": "Esta funcionalidade não é permitida enquanto o bot estiver no modo rádio.",
     "nowPlayingRadio": "O bot mudou para o modo rádio. A reproduzir o **{rádio}** do hoster **{hoster}**.",
-    "currentlyPlayingRadio": "Atualmente a reproduzir **{radio}** do anfitrião **{hoster}**."
+    "currentlyPlayingRadio": "Atualmente a reproduzir **{radio}** do anfitrião **{hoster}**.",
+    "autoPlayDisabled": "O recurso de reprodução automática foi desativado."
   },
   "nonPremiumTips": {
     "tip1": "Sabia que pode obter uma melhor qualidade de áudio com o betty premium? <https://betty.bot/premium>",
@@ -122,7 +123,8 @@
       "shareplaylist": "Partilhar lista de reprodução",
       "saveplaylist": "Guardar lista de reprodução"
     },
-    "joinchannel": "Junte-se ao seu canal de voz atual"
+    "joinchannel": "Junte-se ao seu canal de voz atual",
+    "disableautoplay": "Desativar a reprodução automática."
   },
   "destoryReasons": {
     "inactive": "O jogador foi destruído porque esteve inativo durante muito tempo. Usa {{command:play}} para começar uma nova sessão!",
@@ -209,7 +211,7 @@
     },
     "success": "Player parado e fila limpa.",
     "removedVote": "Seu voto para parar o player foi removido.",
-    "addedVote": "Seu voto para parar o player foi adicionado ({votes}/{requiredVotes})."
+    "addedVote": "Adicionado seu voto para interromper o jogador ({votes}/{requiredVotes}). Deseja desativar isso? Visite https://betty.bot/dash para configurar o bot como você quiser."
   },
   "switchCommand": {
     "commandData": {
@@ -245,8 +247,8 @@
     "skippedMultipleSongs": "Pulei com sucesso **{count}** músicas.",
     "skippedCurrentSong": "Pulei com sucesso **[{title}]({url})**.",
     "removedVote": "Seu voto para pular a música atual foi removido.",
-    "addedVote": "Seu voto para pular a música atual foi adicionado ({votes}/{requiredVotes}).",
-    "skippingMoreSongsThanQueue": "Você não pode pular mais músicas do que há na fila."
+    "skippingMoreSongsThanQueue": "Você não pode pular mais músicas do que há na fila.",
+    "addedVote": "Adicionado seu voto para pular a música atual ({votes}/{requiredVotes}). Deseja desativar isso? Visite https://betty.bot/dash para configurar o bot como você quiser."
   },
   "spotifyCommand": {
     "commandData": {
@@ -713,5 +715,14 @@
     "placeholder": "Vote no próximo vencedor do ESC e concorra a um prêmio Premium grátis!",
     "votingClosedUserDidVote": "A votação para o próximo vencedor do Eurovision Song Contest está encerrada! Assista à final em {date}. Você votou em {countryflag} **{country}**.",
     "votingClosed": "A votação para o próximo vencedor do Eurovision Song Contest está encerrada! Assista à final em {date}."
+  },
+  "trackIssue": {
+    "modal": {
+      "label": "Descreva o problema",
+      "placeholder": "Descreva o máximo possível qual é o problema e como reproduzi-lo."
+    },
+    "button": "Relatar problemas",
+    "reported": "Obrigado por relatar o problema! ID do relatório: `{debugId}`\n**POR FAVOR** entre no servidor de suporte e descreva o que aconteceu com este ID.",
+    "uncachedIssue": "Essa música não está mais no cache e não pode ser relatada. Use o comando {{command:play}} novamente."
   }
 }

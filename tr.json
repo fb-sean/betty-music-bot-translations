@@ -64,7 +64,8 @@
     "notAllowedInRadioMode": "Bot radyo modundayken bu özelliğe izin verilmez.",
     "nowPlayingRadio": "Bot radyo moduna geçti. Ev sahibinin **{radio}** adresini çalıyor **{hoster}**.",
     "currentlyPlayingRadio": "Şu anda **{hoster}** sunucusunun **{radio}** adresinde oynamaktadır.",
-    "autoPlayFooter": "Otomatik Oynatma ile"
+    "autoPlayFooter": "Otomatik Oynatma ile",
+    "autoPlayDisabled": "Otomatik oynatma özelliği devre dışı bırakıldı."
   },
   "nonPremiumTips": {
     "tip1": "Betty Premium ile daha iyi ses kalitesi elde edebileceğinizi biliyor muydunuz? <https://betty.bot/premium>",
@@ -122,7 +123,8 @@
     "addsong": "Bir şarkı ekleyin",
     "stopRadio": "Radyoyu durdur",
     "searchOnSpotify": "Spotify'da Ara",
-    "joinchannel": "Mevcut ses kanalınıza katılın"
+    "joinchannel": "Mevcut ses kanalınıza katılın",
+    "disableautoplay": "Otomatik oynatmayı devre dışı bırakın."
   },
   "destoryReasons": {
     "inactive": "Oyuncu çok uzun süre aktif olmadığı için yok edildi. Yeni bir oturum başlatmak için {{command:play}} adresini kullanın!",
@@ -209,7 +211,7 @@
     },
     "success": "Oynatıcıyı durdurdu ve kuyruğu temizledi.",
     "removedVote": "Oyuncuyu durdurmak için oyunuzu kaldırdım.",
-    "addedVote": "Oyuncuyu durdurmak için oyunuzu ekleyin ({votes}/{requiredVotes})."
+    "addedVote": "Oyuncuyu durdurmak için oyunuzu ekleyin ({votes}/{requiredVotes}). Bunu devre dışı bırakmak ister misiniz? Botu istediğiniz gibi yapılandırmak için https://betty.bot/dash adresini ziyaret edin."
   },
   "switchCommand": {
     "commandData": {
@@ -245,8 +247,8 @@
     "skippedMultipleSongs": "Başarıyla atlanan **{count}** şarkıları.",
     "skippedCurrentSong": "Başarıyla **{title}({url})** atlandı.",
     "removedVote": "Mevcut şarkıyı atlamak için verdiğiniz oy kaldırıldı.",
-    "addedVote": "Mevcut şarkıyı atlamak için oyunuzu ekleyin ({votes}/{requiredVotes}).",
-    "skippingMoreSongsThanQueue": "Sırada olandan daha fazla şarkı atlayamazsınız."
+    "skippingMoreSongsThanQueue": "Sırada olandan daha fazla şarkı atlayamazsınız.",
+    "addedVote": "Geçerli şarkıyı atlamak için oyunuzu ekleyin ({votes}/{requiredVotes}). Bunu devre dışı bırakmak ister misiniz? Botu istediğiniz gibi yapılandırmak için https://betty.bot/dash adresini ziyaret edin."
   },
   "spotifyCommand": {
     "commandData": {
@@ -713,5 +715,14 @@
     "placeholder": "Bir sonraki ESC kazananı için oy verin ve ücretsiz premium kazanma şansınızı koruyun!",
     "votingClosedUserDidVote": "Bir sonraki Eurovision Şarkı Yarışması kazananı için oylama sona erdi! Finalleri {date} adresinden izleyin. {countryflag} için oy kullandınız **{country}**.",
     "votingClosed": "Bir sonraki Eurovision Şarkı Yarışması kazananı için oylama sona erdi! Finalleri {date} adresinden izleyin."
+  },
+  "trackIssue": {
+    "modal": {
+      "label": "Sorunu tanımlayın",
+      "placeholder": "Lütfen sorunun ne olduğunu ve nasıl yeniden üretileceğini mümkün olduğunca açıklayın."
+    },
+    "button": "Rapor sorunları",
+    "reported": "Sorunu bildirdiğiniz için teşekkür ederiz! Rapor Kimliği: `{debugId}`\n**LÜTFEN** destek sunucusuna katılın ve bu kimlik numarasıyla ne olduğunu açıklayın.",
+    "uncachedIssue": "Bu şarkı artık önbellekte değil ve raporlanamıyor. Lütfen {{command:play}} komutunu tekrar kullanın."
   }
 }
