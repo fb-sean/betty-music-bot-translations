@@ -1,0 +1,717 @@
+{
+  "global": {
+    "premiumRequired": "如要使用此功能，您需要為此伺服器購買 {botName} Premium。您可以從這裡購買，起價為 2.50 美元！https://betty.bot/premium",
+    "premiumQueueLimitReached": "您已達到免費使用者的隊列上限。升級至 {botName} Premium (https://betty.bot/premium，起價 2.50 美元) 可將隊列上限提高至 1500 首歌曲。",
+    "unknownCommand": "糟糕！我不知道這個指令。如果此錯誤仍然存在，請聯繫支援團隊。",
+    "unknownButton": "糟糕！我不知道這個按鈕。如果此錯誤仍然存在，請聯繫支援團隊。",
+    "unknownSelectMenu": "糟糕！我不知道這個選擇選單。如果此錯誤仍然存在，請聯繫支援團隊。",
+    "unknownModal": "糟糕！我不知道這個模式。如果此錯誤仍然存在，請聯繫支援團隊。",
+    "unknownError": "糟糕！發生了一些錯誤。如果此錯誤仍然存在，請聯繫支援團隊。",
+    "serverOnly": "此功能只能在伺服器中使用。",
+    "needVoice": "您需要進入語音頻道才能使用此功能。",
+    "cannotJoin": "我無法加入該語音頻道。請確保我擁有正確的權限，然後再試一次。",
+    "noPlayer": "此伺服器中沒有播放器。請使用 {{command:join}} 建立一個！",
+    "emptyQueue": "隊列是空的。請使用 {{command:play}} 新增一些歌曲！",
+    "notSameVoiceChannel": "您需要和我位於同一個語音頻道才能使用此功能。",
+    "notInSongRequestChannelUseAble": "您不能在歌曲請求頻道內使用此指令。",
+    "botNoPermission": "我沒有執行此操作所需的權限。我需要此頻道中的 {missingPerms} 權限。請確保我擁有正確的權限，然後再試一次。",
+    "userNoPermission": "您沒有執行此操作所需的權限。您需要此頻道中的 {missingPerms} 權限。",
+    "djOnly": "只有 DJ 才能使用此功能。",
+    "notAllowedToJoinBecauseOfGuildSettings": "由於伺服器設定，我無法加入該語音頻道。",
+    "cooldownMessage": "您正處於冷卻時間。請等待 {time} 後再使用此功能。",
+    "poweredBy": "由 Betty.bot 提供技術支援",
+    "invite": "邀請",
+    "support": "支援",
+    "website": "網站",
+    "subscriptions": "管理訂閱",
+    "premium": "Premium",
+    "listenHere": "在此收聽",
+    "nowPlaying": "現正播放 **{songName} - {artist}**",
+    "playing": "正在播放 {songName} - {artist}",
+    "requestedBy": "由 {requester} 點播",
+    "nextSong": "下一首歌曲是 **{songName}**",
+    "autoPlayInfo": "開始播放推薦歌曲。如要獲取新的推薦，請清除隊列。",
+    "autoPlayFooter": "透過自動播放",
+    "premiumThankYou": "感謝您為 {botName} 購買 Premium！您現在可以在 {serverName} 上使用所有 Premium 功能了！",
+    "premiumThankYouCustomBot": "感謝您為 {botName} 購買自訂機器人！您可以直接在儀表板上開始設定！",
+    "premiumPaymentFailed": "您在 {botName} 的其中一項訂閱因付款問題而失敗。請檢查您的付款方式。因此，您的 Premium 狀態已被移除。如果下一次付款成功，您的 Premium 將會恢復。",
+    "guildJoinDm": "### 嗨！\n\n感謝您將 {botName} 加入您的伺服器！🎉\n\n讓我們開始吧：\n\n- **自訂 {botName}：** [儀表板](https://betty.bot/dash/{server}/{bot})\n- **播放音樂：** {{command:play}}\n\n想要更多 {botName} 的功能嗎？查看 [{botName} 的 Premium](https://betty.bot) 以獲取額外功能！\n\n祝您使用愉快！",
+    "nothingFound": "我找不到與該查詢相關的任何內容。",
+    "noPlayerFound": "我找不到或無法為此伺服器建立播放器。請稍後再試。",
+    "devOnly": "此機器人目前處於開發模式，只有開發人員才能使用。請加入支援伺服器以獲取更多資訊。",
+    "noSpotifyConnection": "您尚未將 Spotify 帳戶連接至 {botName}。請使用 {{command:spotify login}} 指令連接您的帳戶。",
+    "noTidalConnection": "您尚未將 Tidal 帳戶連接至 {botName}。請使用 {{command:tidal login}} 指令連接您的帳戶。",
+    "firstPage": "第一頁",
+    "previousPage": "上一頁",
+    "nextPage": "下一頁",
+    "lastPage": "最後一頁",
+    "selectLikeType": "您想將歌曲新增至哪個我的最愛清單 - Discord、Spotify 還是 Deezer？",
+    "serverBlacklisted": "此伺服器已被列入黑名單，無法使用 {botName}。如果您認為這是一個錯誤，請聯繫支援團隊。",
+    "unlikedSong": "您已經喜歡 **{title}** 這首歌曲，所以我已將其移除。",
+    "likedSong": "已將 **{title}** 加入喜歡的歌曲。",
+    "boostPremium": "使用 Premium 來提升您的伺服器！",
+    "songAlreadyInQueue": "歌曲 **{title}** 已在隊列中，且由於伺服器設定，我無法再次新增。",
+    "responseEmptyAfterFilter": "在防止重複歌曲篩選後，結果為空。請嘗試使用不同的查詢。",
+    "serverNotWhitelisted": "此伺服器未被列入白名單，無法使用此 {botName} 的自訂機器人。如果您是自訂機器人的擁有者，請使用儀表板將伺服器加入白名單。",
+    "autoPlayAlreadyEnabled": "自動播放功能已啟用。如要停用，請前往儀表板。",
+    "autoPlayEnabled": "自動播放功能已啟用。如要再次停用，請前往儀表板。",
+    "notMySong": "**這不是您點的歌嗎？**\n如果機器人沒有找到您想播放的歌曲，請嘗試以下方法：\n1. 嘗試使用歌曲連結新增歌曲。（例如：來自 Spotify）\n2. 嘗試使用「歌名 - 歌手」的格式新增歌曲。（例如：Believer - Imagine Dragons）\n3. 嘗試使用 {{command:search}} 指令尋找歌曲。",
+    "queueLimitReached": "您已達到此伺服器設定的 **{limit}** 隊列上限。請等待部分歌曲播放完畢或從隊列中移除後，再新增歌曲。",
+    "queueUserLimitReached": "您已達到為您設定的 **{limit}** 隊列上限。請等待部分歌曲播放完畢或從隊列中移除後，再新增歌曲。",
+    "empty": "空的",
+    "noLavalink": "目前沒有可用的 {botName} 音訊伺服器。請稍後再試。如果此錯誤仍然存在，請聯繫支援團隊。",
+    "restartInfo": "由於更新，機器人已重新啟動。{botName} 現在將重新連接所有現有的播放器。請稍候幾秒鐘，直到機器人再次準備就緒。",
+    "spotifyWarning": "由於 {botName} 尚未經過 Spotify 驗證，{botName} 的 Spotify 整合功能幾乎總是會失敗，因為他們要求我們在開發者儀表板中透過電子郵件和全名新增每位使用者。出於隱私原因，我們無法做到這一點。我們正在努力尋找解決方案。",
+    "notAllowedInRadioMode": "在電台模式下不允許使用此功能。",
+    "nowPlayingRadio": "機器人已切換至電台模式。正在播放主持人 **{hoster}** 的 **{radio}**。",
+    "currentlyPlayingRadio": "目前正在播放主持人 **{hoster}** 的 **{radio}**。"
+  },
+  "nonPremiumTips": {
+    "tip1": "您知道嗎？使用 betty premium 可以獲得更好的音質？<https://betty.bot/premium>",
+    "tip2": "您知道嗎？您可以將您的 Spotify 帳戶連接到 {botName} 以輕鬆匯入播放清單？",
+    "tip3": "您知道嗎？使用 {botName} premium，當成員離開語音頻道時，您可以自動清理隊列？<https://betty.bot/premium>",
+    "tip4": "您知道嗎？您可以為您的伺服器購買另一個具有 premium 功能的 {botName}？<https://betty.bot/premium>",
+    "tip5": "您知道嗎？使用 {botName} premium 可以防止隊列中出現重複的歌曲？<https://betty.bot/premium>",
+    "tip6": "您知道嗎？您可以使用 {{command:recommend}} 根據您的收聽歷史獲取推薦？",
+    "tip7": "您知道嗎？{botName} 有一個儀表板，您可以在其中為您的伺服器設定機器人？<https://betty.bot/dash>",
+    "tip8": "您知道嗎？您可以啟用一個名為「臨時 DJ」的功能嗎？這讓播放器建立者可以在沒有 DJ 角色的情況下使用 DJ 指令。在此處設定：<https://betty.bot/dash>！",
+    "tip9": "您知道嗎？您可以在臨時語音頻道為 {botName} 設定一個輕量級介面嗎？您可以在儀表板上啟用它。",
+    "tip10": "您聽到音訊斷斷續續或延遲嗎？購買 premium 即可存取高品質的音訊伺服器。"
+  },
+  "timeUnits": {
+    "multiple": {
+      "days": "天",
+      "hours": "小時",
+      "minutes": "分鐘",
+      "seconds": "秒"
+    },
+    "single": {
+      "days": "天",
+      "hours": "小時",
+      "minutes": "分鐘",
+      "seconds": "秒"
+    }
+  },
+  "buttonLabels": {
+    "support": "加入支援伺服器",
+    "customBotDashboard": "自訂機器人儀表板",
+    "loop": "循環",
+    "remove": "移除",
+    "shuffle": "隨機播放隊列",
+    "savequeueasplaylist": "將隊列儲存為播放清單",
+    "savehistoryasplaylist": "將歷史紀錄儲存為播放清單",
+    "playhistory": "播放歷史紀錄",
+    "clearhistory": "清除歷史紀錄",
+    "enableautoplay": "啟用自動播放，讓隊列永不間斷。",
+    "thatsnotmysong": "這不是我點播的歌曲？",
+    "playerlogs": "查看播放器日誌",
+    "addsong": "新增歌曲",
+    "stopRadio": "停止電台",
+    "searchOnSpotify": "在 Spotify 上搜尋",
+    "playlist": {
+      "manageplaylistsongs": "管理 / 查看歌曲",
+      "renameplaylist": "重新命名",
+      "toggleprivateplaylist": "切換私人狀態",
+      "playplaylist": "播放播放清單",
+      "deleteplaylist": "刪除播放清單",
+      "transfareplaylist": "轉移播放清單",
+      "importspotifyplaylist": "從 Spotify 匯入歌曲",
+      "playlistremovesong": "選擇您想移除的歌曲。",
+      "addsongtoplaylist": "將歌曲新增至播放清單",
+      "backtoplaylist": "返回播放清單",
+      "shareplaylist": "分享播放清單",
+      "saveplaylist": "儲存播放清單"
+    },
+    "joinchannel": "加入您目前的語音頻道"
+  },
+  "destoryReasons": {
+    "inactive": "由於長時間不活動，播放器已被銷毀。請使用 {{command:play}} 開始新的會話！",
+    "errored": "由於發生錯誤，播放器已被銷毀。如果這在過去 2 小時內不是第一次發生，請聯繫支援團隊。請使用 {{command:play}} 開始新的會話！",
+    "queueEndWarning": "沒有更多歌曲可以播放。請使用 {{command:play}} 新增更多歌曲！如果 2 分鐘內沒有新增歌曲，播放器將被銷毀。",
+    "queueEnd": "沒有更多曲目可以播放，播放器已被銷毀。請使用 {{command:play}} 開始新的會話！",
+    "kickedFromVoiceChannel": "由於我被踢出語音頻道，播放器已被銷毀。請使用 {{command:play}} 開始新的會話！",
+    "emptyVoiceChannelWarning": "我一個人在語音頻道裡，如果 2 分鐘內沒有人加入，播放器將被銷毀。",
+    "emptyVoiceChannel": "由於語音頻道已空，播放器已被銷毀。請使用 {{command:play}} 開始新的會話！",
+    "notConnected": "發生了一些非常奇怪的事情。當我沒有連接到語音頻道時，我卻有一個播放器。這是不應該發生的。播放器已被銷毀。請使用 {{command:play}} 開始新的會話！"
+  },
+  "songRequestChannel": {
+    "footer": "由 {username} 點播 | 由 Betty.bot 提供技術支援",
+    "noSongs": "隊列中沒有歌曲。請使用 {{command:play}} 或在此頻道中 @ping 機器人並輸入歌曲名稱或網址來新增歌曲。",
+    "noSongsPlaying": "沒有正在播放的歌曲。",
+    "nextSongs": "接下來的 {number} 首歌曲",
+    "nextSong": "下一首歌曲",
+    "channelName": "歌曲點播",
+    "loadingMessage": "正在建立歌曲請求頻道...",
+    "emptyQuery": "請提供有效的查詢。請記住，您需要提及我，否則我看不到您的訊息。",
+    "topic": {
+      "rewind": "倒退 10 秒",
+      "pauseResume": "暫停/繼續播放",
+      "stop": "停止",
+      "forward": "快轉 10 秒",
+      "skip": "跳過目前歌曲",
+      "volumeDown": "音量 -10%",
+      "volumeUp": "音量 +10%",
+      "grabSong": "抓取目前歌曲",
+      "loopPlayback": "循環播放",
+      "shuffle": "隨機播放隊列"
+    },
+    "lightInterfaceTitle": "{botname} 輕量介面",
+    "lightInterfaceFooter": "{botName} 不會與此頻道中傳送的任何訊息互動。您只能使用按鈕來控制播放器。"
+  },
+  "supportCommand": {
+    "commandData": {
+      "description": "獲取支援伺服器的連結。"
+    },
+    "response": "您可以在這裡加入支援伺服器：{url}"
+  },
+  "translateCommand": {
+    "commandData": {
+      "description": "想幫助我們將 {botName} 翻譯成您的語言嗎？"
+    },
+    "response": "您想幫助我們將 {botName} 翻譯成您的語言嗎？您可以在我們的翻譯 GitHub 儲存庫中進行：[{botName} 翻譯儲存庫](https://github.com/fb-sean/betty-music-bot-translations \"在 GitHub 上開啟 {botName} 翻譯儲存庫\")"
+  },
+  "playCommand": {
+    "commandData": {
+      "description": "透過連結或名稱播放歌曲或將其新增至隊列。",
+      "queryOption": "您要搜尋歌曲的查詢或歌曲的連結。",
+      "nowOption": "選擇您要直接播放歌曲還是將其新增至隊列。",
+      "nextOption": "選擇您是否要將歌曲作為隊列中的下一首播放。",
+      "platformOption": "選擇您要從哪個平台搜尋。",
+      "fileOption": "使用此選項上傳檔案進行播放。檔案必須是有效的音訊檔案。"
+    },
+    "invalidFile": "您上傳的檔案不是有效的音訊檔案。請確保它是有效的 mp3 檔案，然後再試一次。",
+    "playlistNowError": "當隊列中已有歌曲時，您無法直接播放播放清單。",
+    "filePlaySuccessfully": "已將名為 **{title}** 的檔案新增至隊列中的第 **{position}** 位置。",
+    "filePlaySuccessfullyNow": "已開始播放檔案 **{title}**。",
+    "trackPlaySuccessfully": "已將 {emoji}[**{title}**]({url} \"在您的瀏覽器中開啟歌曲。\") 新增至隊列中的第 **{position}** 位置。",
+    "trackPlaySuccessfullyNonPremium": "已將 {emoji}[**{title}**]({url} \"在您的瀏覽器中開啟歌曲。\") 新增至隊列中的第 **{position}** 位置。在等待您的歌曲播放時，您想為 {botName} 投票嗎？這將幫助我們成長和改進機器人。[為 {botName} 投票](https://top.gg/bot/884800931819048980/vote)",
+    "trackPlaySuccessfullyNow": "已開始播放 {emoji}[**{title}**]({url} \"在您的瀏覽器中開啟歌曲。\")。",
+    "playlistPlaySuccessfully": "已將播放清單 [**{title}**]({url} \"在您的瀏覽器中開啟播放清單。\") 新增至隊列。",
+    "playlistPlaySuccessfullyNow": "已開始播放播放清單 [**{title}**]({url} \"在您的瀏覽器中開啟播放清單。\")。"
+  },
+  "joinCommand": {
+    "commandData": {
+      "description": "加入您所在的語音頻道。"
+    },
+    "success": "已成功加入 <#{channel}>。",
+    "alreadyConnected": "我已經連接到一個語音頻道了。"
+  },
+  "disconnectCommand": {
+    "commandData": {
+      "description": "從語音頻道中斷連線。"
+    },
+    "success": "已成功從語音頻道中斷連線。",
+    "notConnected": "我沒有連接到語音頻道。"
+  },
+  "stopCommand": {
+    "commandData": {
+      "description": "停止播放器並清除隊列。"
+    },
+    "success": "已停止播放器並清除隊列。",
+    "removedVote": "已移除您停止播放器的投票。",
+    "addedVote": "已新增您停止播放器的投票 ({votes}/{requiredVotes})。"
+  },
+  "switchCommand": {
+    "commandData": {
+      "description": "切換語音頻道。"
+    },
+    "success": "已成功從 <#{oldChannel}> 切換至 <#{newChannel}>。",
+    "notConnected": "我沒有連接到語音頻道。",
+    "alreadyInChannel": "我已經連接到這個頻道了。"
+  },
+  "searchCommand": {
+    "commandData": {
+      "description": "搜尋歌曲並選擇播放或新增至隊列。",
+      "queryOption": "您要搜尋歌曲的查詢。",
+      "platformOption": "選擇您要從哪個平台搜尋。"
+    },
+    "cacheError": "此搜尋訊息太舊，快取已被清除。請再次使用 {{command:search}} 指令。",
+    "resultCount": "{count} 個結果",
+    "queueAll": "全部加入隊列",
+    "allResults": "所有結果",
+    "results": "以下是 **{query}** 的搜尋結果。\n\n*請使用下方的下拉式選單選擇要播放或新增至隊列的歌曲。*",
+    "selectPlaceholder": "選擇要立即播放或新增至隊列的歌曲。",
+    "emptyQueueWithErrored": "已開始播放 {emoji}[**{title}**]({url} \"在您的瀏覽器中開啟歌曲。\") 並已將 **{added}** 首歌曲新增至隊列，但無法新增 **{errored}** 首歌曲。",
+    "emptyQueue": "已開始播放 {emoji}[**{title}**]({url} \"在您的瀏覽器中開啟歌曲。\") 並已將 **{added}** 首歌曲新增至隊列。",
+    "successWithErrored": "已將 **{added}** 首歌曲新增至隊列，但無法新增 **{errored}** 首歌曲。",
+    "success": "已將 **{added}** 首歌曲新增至隊列。"
+  },
+  "skipCommand": {
+    "commandData": {
+      "description": "跳過目前或更多歌曲。",
+      "skipToOption": "要跳過的歌曲數量。（投票跳過不支援此功能！）"
+    },
+    "noSongPlaying": "沒有正在播放的歌曲。所以我無法跳過任何歌曲。",
+    "skippedMultipleSongs": "已成功跳過 **{count}** 首歌曲。",
+    "skippedCurrentSong": "已成功跳過 **[{title}]({url})**。",
+    "removedVote": "已移除您跳過目前歌曲的投票。",
+    "addedVote": "已新增您跳過目前歌曲的投票 ({votes}/{requiredVotes})。",
+    "skippingMoreSongsThanQueue": "您不能跳過比隊列中歌曲數量還多的歌曲。"
+  },
+  "spotifyCommand": {
+    "commandData": {
+      "description": "管理您與 {botName} 的 Spotify 帳戶連接。",
+      "loginOption": "登入您的 Spotify 帳戶。",
+      "logoutOption": "登出您的 Spotify 帳戶。"
+    },
+    "loginLink": "[點擊這裡將您的 Spotify 帳戶連接至 {botName}。]({url} \"開啟 Spotify 登入頁面以與 {botName} 進行 OAuth 認證\")",
+    "openLinkButton": "開啟",
+    "logoutSuccess": "已成功中斷您的 Spotify 帳戶連線。",
+    "loginSuccess": "已成功連接您的 Spotify 帳戶。",
+    "noSpotifyTrack": "我在 Spotify 上找不到該查詢的曲目。",
+    "failedLike": "無法在 Spotify 上喜歡該曲目。如果此錯誤仍然存在，請聯繫支援團隊。",
+    "likedSong": "已在 Spotify 上喜歡曲目 **{title}**。",
+    "failedRemoveLike": "無法從 Spotify 上的曲目移除喜歡。如果此錯誤仍然存在，請聯繫支援團隊。",
+    "alreadyLiked": "您已經在 Spotify 上喜歡曲目 **{title}**，所以我已將其移除。"
+  },
+  "tidalCommand": {
+    "commandData": {
+      "description": "管理您與 {botName} 的 Tidal 帳戶連接。",
+      "loginOption": "登入您的 Tidal 帳戶。",
+      "logoutOption": "登出您的 Tidal 帳戶。"
+    },
+    "loginLink": "[點擊這裡將您的 Tidal 帳戶連接至 {botName}。]({url} \"開啟 Tidal 登入頁面以與 {botName} 進行 OAuth 認證\")",
+    "openLinkButton": "開啟",
+    "logoutSuccess": "已成功中斷您的 Tidal 帳戶連線。",
+    "loginSuccess": "已成功連接您的 Tidal 帳戶。"
+  },
+  "fixCommand": {
+    "commandData": {
+      "description": "如果播放器運作不正常，請修復它。"
+    },
+    "success": "語音伺服器區域已成功更新為 **鹿特丹**，這是離 {botName} 最近的地區。"
+  },
+  "pauseCommand": {
+    "commandData": {
+      "description": "暫停目前播放。"
+    },
+    "alreadyPaused": "播放已暫停。請使用 {{command:resume}} 指令繼續播放。",
+    "paused": "已暫停播放。"
+  },
+  "resumeCommand": {
+    "commandData": {
+      "description": "繼續目前播放。"
+    },
+    "alreadyResumed": "播放未暫停。請先使用 {{command:pause}} 指令暫停播放。",
+    "resumed": "已繼續播放。"
+  },
+  "shuffleCommand": {
+    "commandData": {
+      "description": "隨機播放隊列。"
+    },
+    "shuffled": "已隨機播放隊列。您可以使用 {{command:unshuffle}} 恢復隊列。",
+    "notEnoughTracks": "隊列中沒有足夠的曲目可以隨機播放。請使用 {{command:play}} 新增更多歌曲。"
+  },
+  "unshuffleCommand": {
+    "commandData": {
+      "description": "取消隨機播放隊列。"
+    },
+    "unshuffled": "已將隊列恢復至原始順序。",
+    "notShuffled": "隊列未被隨機播放。"
+  },
+  "clearQueueCommand": {
+    "commandData": {
+      "description": "清除隊列。"
+    },
+    "notEnoughTracks": "隊列中沒有足夠的曲目可以清除。請使用 {{command:play}} 新增更多歌曲。",
+    "cleared": "已清除隊列。您可以使用 {{command:unshuffle}} 恢復隊列。"
+  },
+  "previousCommand": {
+    "commandData": {
+      "description": "播放先前的其中一首歌曲。",
+      "nowOption": "選擇您要直接播放歌曲還是將其新增至隊列。",
+      "nextOption": "選擇您是否要將歌曲作為隊列中的下一首播放。"
+    },
+    "noPreviousSong": "沒有先前的歌曲可以播放。",
+    "trackNotFound": "我在先前的歌曲中找不到您請求的曲目。"
+  },
+  "removeCommand": {
+    "commandData": {
+      "description": "從隊列中移除一首歌曲。",
+      "trackOption": "您想從隊列中移除的歌曲。"
+    },
+    "removed": "已從隊列中移除 **{title}**。",
+    "notInQueue": "您請求的歌曲不在隊列中。",
+    "queueEmpty": "隊列是空的。沒有可移除的內容。"
+  },
+  "volumeCommand": {
+    "commandData": {
+      "description": "變更播放器的音量。",
+      "volumeOption": "您想設定的音量。"
+    },
+    "invalidVolume": "請提供一個介於 **0** 和 **{max}** 之間的有效音量。",
+    "changedVolume": "已將音量變更為 **{volume}%**。"
+  },
+  "bassboostCommand": {
+    "commandData": {
+      "description": "啟用或停用低音增強濾鏡。",
+      "levelOption": "低音增強濾鏡的等級。",
+      "offLevel": "關閉",
+      "highLevel": "高",
+      "mediumLevel": "中",
+      "lowLevel": "低"
+    },
+    "levelChanged": "已將低音增強濾鏡等級變更為 **{level}**。",
+    "cleared": "已清除低音增強濾鏡。"
+  },
+  "lowpassCommand": {
+    "commandData": {
+      "description": "啟用或停用低通濾鏡。"
+    },
+    "disabled": "已停用低通濾鏡。",
+    "enabled": "已啟用低通濾鏡。"
+  },
+  "nightcoreCommand": {
+    "commandData": {
+      "description": "啟用或停用 nightcore 濾鏡。"
+    },
+    "disabled": "已停用 nightcore 濾鏡。",
+    "enabled": "已啟用 nightcore 濾鏡。"
+  },
+  "vaporwaveCommand": {
+    "commandData": {
+      "description": "啟用或停用 vaporwave 濾鏡。"
+    },
+    "disabled": "已停用 vaporwave 濾鏡。",
+    "enabled": "已啟用 vaporwave 濾鏡。"
+  },
+  "karaokeCommand": {
+    "commandData": {
+      "description": "啟用或停用卡拉 OK 濾鏡。"
+    },
+    "disabled": "已停用卡拉 OK 濾鏡。",
+    "enabled": "已啟用卡拉 OK 濾鏡。"
+  },
+  "rotationCommand": {
+    "commandData": {
+      "description": "啟用或停用旋轉濾鏡。"
+    },
+    "disabled": "已停用旋轉濾鏡。",
+    "enabled": "已啟用旋轉濾鏡。"
+  },
+  "tremoloCommand": {
+    "commandData": {
+      "description": "啟用或停用顫音濾鏡。"
+    },
+    "disabled": "已停用顫音濾鏡。",
+    "enabled": "已啟用顫音濾鏡。"
+  },
+  "vibratoCommand": {
+    "commandData": {
+      "description": "啟用或停用抖音濾鏡。"
+    },
+    "disabled": "已停用抖音濾鏡。",
+    "enabled": "已啟用抖音濾鏡。"
+  },
+  "replayCommand": {
+    "commandData": {
+      "description": "再次播放目前歌曲。"
+    },
+    "replayed": "正在重播 **{title}**。"
+  },
+  "nowPlayingCommand": {
+    "commandData": {
+      "description": "獲取目前歌曲的資訊。"
+    },
+    "nowPlaying": "現正播放 **{title} - {artist}**"
+  },
+  "seekCommand": {
+    "commandData": {
+      "description": "跳至目前歌曲的特定位置。",
+      "timeOption": "您想跳至的時間。"
+    },
+    "invalidTime": "請提供有效的時間。",
+    "timeTooLong": "您提供的時間超過了歌曲的長度。",
+    "seeked": "已跳至 **{time}**。"
+  },
+  "rewindCommand": {
+    "commandData": {
+      "description": "將目前歌曲倒退特定時間。",
+      "timeOption": "您想倒退的時間。"
+    },
+    "invalidTime": "請提供有效的時間。",
+    "timeTooShort": "您提供的時間比歌曲目前的位置還短。",
+    "rewinded": "已倒退至 **{time}**。"
+  },
+  "loopCommand": {
+    "commandData": {
+      "queueDescription": "循環播放整個隊列。",
+      "songDescription": "循環播放目前歌曲。",
+      "noneDescription": "停用循環。"
+    },
+    "alreadyDisabled": "循環已停用。",
+    "disabledLoop": "已停用循環。",
+    "loopSwitchedFromSong": "已從循環播放目前歌曲切換為循環播放整個隊列。",
+    "loopQueue": "正在循環播放整個隊列。",
+    "loopSwitchedFromQueue": "已從循環播放整個隊列切換為循環播放目前歌曲。",
+    "loopSong": "正在循環播放目前歌曲。"
+  },
+  "moveCommand": {
+    "commandData": {
+      "description": "循環播放整個隊列。",
+      "trackOption": "您想移動的歌曲。",
+      "positionOption": "您想將歌曲移動到的位置。"
+    },
+    "queueEmpty": "隊列是空的。沒有可移動的內容。",
+    "trackNotFound": "您請求的歌曲不在隊列中。",
+    "invalidPosition": "請提供有效的位置。",
+    "success": "已將 **{title}** 移動至第 **{position}** 位置。"
+  },
+  "queueCommand": {
+    "commandData": {
+      "description": "獲取目前隊列的資訊。"
+    },
+    "emptyQueue": "隊列是空的。",
+    "queue": "隊列",
+    "previous": "先前的歌曲",
+    "nowPlaying": "現正播放",
+    "nextSongs": "接下來的歌曲",
+    "footer": "隊列中的曲目：{tracks} | 長度：{length}",
+    "cacheError": "此隊列訊息太舊，快取已被清除。請再次使用 {{command:queue}} 指令。"
+  },
+  "playlistCommand": {
+    "commandData": {
+      "descriptionManageOption": "管理您的播放清單。",
+      "descriptionPlayOption": "播放一個播放清單。",
+      "descriptionSearchOption": "搜尋一個播放清單。",
+      "descriptionCreateOption": "建立一個播放清單。",
+      "queryOption": "搜尋播放清單的查詢。（ID 或名稱）",
+      "nameOption": "播放清單的名稱。"
+    },
+    "new": {
+      "songsTitle": "歌曲",
+      "dangerZoneTitle": "危險區域",
+      "share": "分享",
+      "songsInPlaylist": "播放清單中的歌曲：{trackCount}/{maxTracks}",
+      "overview": {
+        "createdBy": "建立者",
+        "play": "播放",
+        "playDescription": "將播放清單 {playlistName} 中的所有歌曲新增至隊列。",
+        "markPrivate": "標記為私人",
+        "markPrivateDescription": "將播放清單標記為私人。只有您能看到和使用它。",
+        "markPublic": "標記為公開",
+        "markPublicDescription": "將播放清單標記為公開。任何人都能看到和使用它。",
+        "savePlaylist": "儲存播放清單",
+        "savePlaylistDescription": "將播放清單儲存到您的媒體庫中，以便隨時播放。",
+        "unsavePlaylist": "取消儲存播放清單",
+        "unsavePlaylistDescription": "從您的媒體庫中移除播放清單。",
+        "rename": "重新命名",
+        "renameDescription": "為播放清單重新命名。（請記住，名稱必須是唯一的）",
+        "sharePlaylist": "分享播放清單",
+        "sharePlaylistDescription": "使用此連結與 Betty 的其他使用者分享播放清單！"
+      },
+      "dangerZone": {
+        "loseSongs": "您將會失去 {trackCount} 首歌曲！",
+        "deletePlaylist": "刪除播放清單",
+        "deletePlaylistDescription": "這將永久刪除播放清單，請小心操作。",
+        "transferPlaylist": "轉移播放清單",
+        "transferPlaylistDescription": "將播放清單轉移給其他使用者，此操作無法復原，請小心操作。"
+      },
+      "songs": {
+        "emptyPlaylist": "此播放清單是空的。您可以使用下方的按鈕新增一些歌曲。",
+        "songsLength": "長度：{length}",
+        "clearPlaylist": "清除播放清單",
+        "importSpotify": "從 Spotify 匯入",
+        "addSongs": "新增歌曲"
+      }
+    },
+    "embed": {
+      "creator": "**建立者**：{user}",
+      "songs": "**歌曲**：{count}/{max}",
+      "created": "**建立於**：{date}",
+      "duration": "**播放清單總長度**：{duration}"
+    },
+    "songsEmbed": {
+      "title": "播放清單中的歌曲：**{name}**",
+      "footer": "第 {page} 頁，共 {pages} 頁 | 播放清單中的歌曲：{tracks}"
+    },
+    "playlistSaved": "已將播放清單儲存至您的媒體庫。",
+    "playlistUnsaved": "已從您的媒體庫中移除播放清單。",
+    "nameTooLong": "播放清單名稱太長。請提供一個最多 50 個字元的名稱。",
+    "invalidName": "請為播放清單提供一個有效的名稱。",
+    "tooManyPlaylists": "您已達到可擁有播放清單的數量上限。請刪除一個播放清單以建立新的。",
+    "playlistExists": "名為 **{name}** 的播放清單已存在。",
+    "toxicContent": "播放清單名稱包含不當內容。請提供一個不同的名稱。",
+    "playlistNotFound": "我找不到查詢為 **{query}** 的播放清單。",
+    "noPlaylistsFound": "找不到播放清單。",
+    "deletedPlaylist": "已刪除播放清單 **{name}**。",
+    "selectUserToTransfere": "請選擇您想將播放清單轉移給的使用者。",
+    "userPlaylistLimit": "您選擇的使用者已達到播放清單上限。",
+    "noSpotifyPlaylists": "您沒有任何 Spotify 播放清單。",
+    "selectPlaylistToImport": "請選擇您想匯入的播放清單。",
+    "cannotImportSpotifyPlaylist": "我無法匯入此 Spotify 播放清單，因為它是空的。",
+    "songAlreadyExists": "歌曲 **{title}** 已在此播放清單中。",
+    "songNotExists": "歌曲 **{title}** 不在此播放清單中。",
+    "songAddedToPlaylist": "已將歌曲 **{title}** 新增至 **{playlist}**。",
+    "songRemoveFromPlaylist": "已從 **{playlist}** 移除歌曲 **{title}**。",
+    "cacheError": "此播放清單訊息太舊，快取已被清除。請再次使用 {{command:playlist manage}} 指令。",
+    "notEnoughTracksInQueue": "隊列中沒有足夠的曲目來建立播放清單。請使用 {{command:play}} 新增更多歌曲。",
+    "private": "私人",
+    "public": "公開"
+  },
+  "premiumCommand": {
+    "commandData": {
+      "description": "獲取有關 {botName} Premium 的資訊。"
+    },
+    "response": "您對 {botName} Premium 感興趣嗎？您可以在我們的網站上獲取更多資訊：<https://betty.bot/premium>"
+  },
+  "profileCommand": {
+    "commandData": {
+      "description": "獲取您在 {botName} 的個人資料資訊。"
+    },
+    "noProfile": "您尚未有任何追蹤的資料。",
+    "currently": "目前正在收聽",
+    "lastUpdate": "最後更新",
+    "commandsUsed": "已使用的指令",
+    "songsPlayed": "已播放的歌曲",
+    "totalPlaytime": "總播放時間",
+    "note": "注意：播放時間是根據您播放的曲目時長計算的。",
+    "notData": "沒有可顯示的資料。",
+    "top5Commands": "前 5 個已使用的指令",
+    "top5Tracks": "前 5 首已播放的歌曲",
+    "embedTitle": "您的 {botName} 個人資料",
+    "embedTitleOther": "{user} 的個人資料",
+    "noSpotifyAccount": "未連接 Spotify",
+    "noSpotifyActivity": "沒有在 Spotify 上收聽任何內容"
+  },
+  "inviteCommand": {
+    "commandData": {
+      "description": "獲取 {botName} 的邀請連結。"
+    },
+    "response": "您可以在下方找到所有邀請連結！"
+  },
+  "creditsCommand": {
+    "commandData": {
+      "description": "查看 {botName} 的製作人員名單。"
+    },
+    "response": "**建立者**：{creator}\n**特別感謝**：{special}"
+  },
+  "historyCommand": {
+    "commandData": {
+      "description": "獲取您最近播放歌曲的資訊。"
+    },
+    "noProfile": "您尚未有任何追蹤的資料。",
+    "noHistory": "沒有可顯示的歷史紀錄。請使用 {{command:play}} 播放一些歌曲以建立紀錄。",
+    "history": "歷史紀錄",
+    "footer": "第 {page} 頁，共 {pages} 頁 | 歷史紀錄中的曲目：{tracks}",
+    "clearedHistory": "已清除您歷史紀錄中的 **{tracks}** 首歌曲。"
+  },
+  "lyricsCommand": {
+    "commandData": {
+      "description": "獲取目前或任何歌曲的歌詞。",
+      "songOption": "您想獲取歌詞的歌曲。"
+    },
+    "queueEmpty": "隊列是空的。無法從中獲取歌詞。",
+    "noSongGiven": "您需要播放一首歌曲或提供歌曲名稱才能獲取歌詞。",
+    "noLyrics": "我找不到 **{artist}** 的 **{title}** 的任何歌詞。",
+    "lyrics": "**{artist}** 的 **{title}** 的歌詞",
+    "fullLyrics": "完整歌詞"
+  },
+  "recommendCommand": {
+    "commandData": {
+      "description": "根據您的收聽歷史獲取推薦歌曲。"
+    },
+    "noRecommendations": "我找不到給您的任何推薦。請嘗試聽更多歌曲。",
+    "noProfile": "您尚未有任何追蹤的資料。請使用 {{command:play}} 播放一些歌曲以獲取推薦。",
+    "recommendSongSuccessfullyNow": "已開始播放推薦歌曲 {emoji}[**{title}**]({url} \"在您的瀏覽器中開啟歌曲。\")。",
+    "recommendSongsSuccessfully": "已將推薦歌曲 {emoji}[**{title}**]({url} \"在您的瀏覽器中開啟歌曲。\") 新增至隊列中的第 **{position}** 位置。"
+  },
+  "seeProfileContextCommand": {
+    "commandData": {
+      "name": "查看個人資料"
+    }
+  },
+  "helpCommand": {
+    "commandData": {
+      "description": "需要幫助嗎？使用此指令作為您的起點。"
+    },
+    "headline": "設定機器人",
+    "configurationText": "要設定機器人，您需要造訪[儀表板](https://betty.bot/dash/server/{serverId}/{botId})。",
+    "headlineUse": "使用機器人",
+    "useText": "有多種方式可以播放音樂：",
+    "useText1": "1. 您可以使用 {{command:play}} 作為多功能指令。它可以用於播放播放清單、曲目或進行搜尋。",
+    "useText2": "2. 您可以使用歌曲請求頻道。只需 @提及機器人並在頻道中輸入歌曲名稱或連結。",
+    "useText3": "3. 您可以使用 {{command:search}} 指令搜尋歌曲並選擇播放或新增至隊列。",
+    "useText4": "4. 使用「新增至隊列」上下文選單將歌曲新增至隊列。",
+    "headlinePremium": "想要更多功能嗎？",
+    "premiumText": "您可以透過購買 {botName} Premium 獲取更多功能。您可以在我們的網站上獲取更多資訊：[{botName} Premium](https://betty.bot/premium)",
+    "footer": "由 Sean Sattler 製作 | sattler.dev"
+  },
+  "configurationCommand": {
+    "commandData": {
+      "description": "為您的伺服器設定機器人。"
+    },
+    "response": "要設定機器人，您需要造訪[儀表板](https://betty.bot/dash/server/{serverId}/{botId})。"
+  },
+  "valueMyMusicCommand": {
+    "commandData": {
+      "description": "評價您的音樂品味。",
+      "roastOption": "選擇您是否希望 {botName} 吐槽您。"
+    },
+    "noProfile": "您尚未有任何追蹤的資料。請使用 {{command:play}} 播放一些歌曲以評價您的音樂品味。",
+    "noHistory": "您的歷史紀錄中沒有 10 首或更多歌曲來評價您的音樂品味。請使用 {{command:play}} 播放一些歌曲以評價您的音樂品味。",
+    "error": "在計算您的音樂品味價值時發生錯誤。請稍後再試。",
+    "poweredBy": "由 Google Gemini Pro 提供技術支援"
+  },
+  "radioCommand": {
+    "commandData": {
+      "description": "將 {botName} 設定為電台模式並播放在線電台。",
+      "streamOption": "選擇要播放的電台串流。"
+    },
+    "invalidRadio": "請選擇有效的電台串流。",
+    "fetchError": "獲取電台串流時發生錯誤。請稍後再試。",
+    "startingRadioFromExistingPlayer": "正在停止目前播放並切換至電台模式。正在播放主持人 **{hoster}** 的 **{radio}**。",
+    "startingRadio": "正在啟動電台模式。正在播放主持人 **{hoster}** 的 **{radio}**。",
+    "stoppedRadio": "已停止電台模式並切換回隊列模式。",
+    "noRadiosFound": "找不到電台串流。",
+    "radioModeDisabled": "此伺服器已停用電台模式。您可以在機器人儀表板上啟用它。"
+  },
+  "debugCommand": {
+    "commandData": {
+      "description": "查看有關機器人的一些偵錯資訊。這對支援團隊可能很有用。"
+    }
+  },
+  "addDJContextCommand": {
+    "commandData": {
+      "name": "新增 DJ"
+    },
+    "removedDJ": "已將 **{user}** 從 DJ 使用者中移除。",
+    "maxDJsForNonPremium": "您已達到免費使用者的 DJ 使用者數量上限。您可以從 https://betty.bot/premium 購買 {botName} Premium 將上限提高至 25 位 DJ 使用者。",
+    "maxDJs": "您已達到 DJ 使用者數量上限。",
+    "addedDJ": "已將 **{user}** 新增為 DJ 使用者。",
+    "savedHistoryAsPlaylist": "已將歷史紀錄儲存為名為 **{name}** 的播放清單。"
+  },
+  "skipSongContextCommand": {
+    "commandData": {
+      "name": "跳過歌曲"
+    }
+  },
+  "addToQueueContextCommand": {
+    "commandData": {
+      "name": "新增至隊列"
+    }
+  },
+  "addSongButton": {
+    "modal": {
+      "playlistTitle": "將歌曲新增至播放清單",
+      "title": "新增歌曲",
+      "queryLabel": "要新增的歌曲",
+      "queryPlaceholder": "輸入要新增的歌曲或播放清單連結"
+    }
+  },
+  "renamePlaylistButton": {
+    "modal": {
+      "title": "重新命名播放清單",
+      "nameLabel": "新名稱",
+      "namePlaceholder": "輸入新名稱"
+    }
+  },
+  "escSelectMenu": {
+    "votedFor": "您已成功投票給 {countryflag} **{country}** 作為下一屆歐洲歌唱大賽的冠軍。",
+    "noData": "獲取資料時發生錯誤。請稍後再試。",
+    "invalidCountry": "請選擇有效的國家。",
+    "placeholder": "為下一屆 ESC 冠軍投票，就有機會贏得免費 Premium！",
+    "votingClosedUserDidVote": "下一屆歐洲歌唱大賽冠軍的投票已結束！請於 {date} 觀看決賽。您投票給了 {countryflag} **{country}**。",
+    "votingClosed": "下一屆歐洲歌唱大賽冠軍的投票已結束！請於 {date} 觀看決賽。"
+  }
+}
